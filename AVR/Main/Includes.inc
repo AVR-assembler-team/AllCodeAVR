@@ -1,0 +1,25 @@
+.include "Main/Constants.inc"
+.include "Config.inc"
+.include "Main/Relative.inc"
+
+
+.dseg ;сегмент данных
+
+
+
+.eseg ;сегмент EEPROM
+
+
+
+.cseg ;програмный сегмен
+.include "Main/Interrupts/Vectors.inc"
+
+.include "Main/Macros.inc"
+.include "Main/Time_Cycles.inc"
+
+; добавляем модули сюда
+
+
+
+.include "Interrupts.inc"
+	
