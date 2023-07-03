@@ -14,6 +14,10 @@
 	.include "Modules/ADC/ADC_Includes.inc"
 #endif
 
+#ifdef ExternalInterrupts_Module
+	.include "Modules/ExternalInterrupts/ExtInt_Includes.inc"
+#endif
+
 #ifdef RotaryEncoder_Module
 	.include "Modules/RotaryEncoder/RotEnc_Includes.inc"
 #endif

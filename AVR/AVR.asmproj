@@ -194,6 +194,9 @@
     <Compile Include="Modules\Configs\ADC_Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\Configs\ExtInt_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\Configs\HD44780U_Config.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -204,6 +207,54 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\Configs\USART_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_INTdisable.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_INTenable.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Pins.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_162.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_164_324_644_1284.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_165_169.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_16_32_8515_8535.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_325_3250_645_6450.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_328.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_329_3290_649_6490.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_48_88_168.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_640_1280_1281_2560_2561.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_64_128.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_8.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\HD44780U\HD44780U_BFCheck.inc">
@@ -276,6 +327,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\README\ADC_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\README\ExtInt_README.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\README\HD44780U_README.inc">
@@ -409,6 +463,7 @@
     <Folder Include="Modules\HD44780U" />
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
+    <Folder Include="Modules\ExternalInterrupts" />
     <Folder Include="Modules\RotaryEncoder" />
     <Folder Include="Modules\README" />
     <Folder Include="Modules\TWSI" />
