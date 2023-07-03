@@ -1,0 +1,199 @@
+/*
+* В данном файле лежать макросы, работающие на файл HD44780U_config, для первоначальных настроек 
+* работы дисплея
+*/
+;------------------------------------
+.macro Encoder_CLK
+	.if @0 == 'A'
+		//.equ Encoder_CLK_DDR	= DDRA	
+		//.equ Encoder_CLK_PORT	= PORTA
+		.equ Encoder_CLK_PIN	= PINA
+	.elif @0 == 'B'	   
+		//.equ Encoder_CLK_DDR	= DDRB	
+		//.equ Encoder_CLK_PORT	= PORTB
+		.equ Encoder_CLK_PIN	= PINB
+	.elif @0 == 'C'	   
+		//.equ Encoder_CLK_DDR	= DDRC	
+		//.equ Encoder_CLK_PORT	= PORTC
+		.equ Encoder_CLK_PIN	= PINC
+	.elif @0 == 'D'	   
+		//.equ Encoder_CLK_DDR	= DDRD	
+		//.equ Encoder_CLK_PORT	= PORTD
+		.equ Encoder_CLK_PIN	= PIND
+	.elif @0 == 'E'	   
+		//.equ Encoder_CLK_DDR	= DDRE	
+		//.equ Encoder_CLK_PORT	= PORTE
+		.equ Encoder_CLK_PIN	= PINE
+	.elif @0 == 'F'	   
+		//.equ Encoder_CLK_DDR	= DDRF	
+		//.equ Encoder_CLK_PORT	= PORTF
+		.equ Encoder_CLK_PIN	= PINF
+	.elif @0 == 'G'	   
+		//.equ Encoder_CLK_DDR	= DDRG	
+		//.equ Encoder_CLK_PORT	= PORTG
+		.equ Encoder_CLK_PIN	= PING
+	.elif @0 == 'H'	   
+		//.equ Encoder_CLK_DDR	= DDRH	
+		//.equ Encoder_CLK_PORT	= PORTH
+		.equ Encoder_CLK_PIN	= PINH
+	.elif @0 == 'J'	   
+		//.equ Encoder_CLK_DDR	= DDRJ	
+		//.equ Encoder_CLK_PORT	= PORTJ
+		.equ Encoder_CLK_PIN	= PINJ
+	.elif @0 == 'K'	   
+		//.equ Encoder_CLK_DDR	= DDRK	
+		//.equ Encoder_CLK_PORT	= PORTK
+		.equ Encoder_CLK_PIN	= PINK
+	.elif @0 == 'L'	   
+		//.equ Encoder_CLK_DDR	= DDRL	
+		//.equ Encoder_CLK_PORT	= PORTL
+		.equ Encoder_CLK_PIN	= PINL
+	.endif
+	.if @1 == 0
+		.equ Encoder_CLK_bit = 0
+	.elif @1 == 1	   
+		.equ Encoder_CLK_bit = 1
+	.elif @1 == 2	   
+		.equ Encoder_CLK_bit = 2
+	.elif @1 == 3	   
+		.equ Encoder_CLK_bit = 3
+	.elif @1 == 4	   
+		.equ Encoder_CLK_bit = 4
+	.elif @1 == 5	   
+		.equ Encoder_CLK_bit = 5
+	.elif @1 == 6	   
+		.equ Encoder_CLK_bit = 6
+	.elif @1 == 7	   
+		.equ Encoder_CLK_bit = 7
+	.endif
+.endm
+;------------------------------------
+.macro Encoder_DT
+	.if @0 == 'A'
+		.equ Encoder_DT_DDR		= DDRA	
+		//.equ Encoder_DT_PORT	= PORTA
+		.equ Encoder_DT_PIN		= PINA
+	.elif @0 == 'B'	   
+		.equ Encoder_DT_DDR		= DDRB	
+		//.equ Encoder_DT_PORT	= PORTB
+		.equ Encoder_DT_PIN		= PINB
+	.elif @0 == 'C'	   
+		.equ Encoder_DT_DDR		= DDRC	
+		//.equ Encoder_DT_PORT	= PORTC
+		.equ Encoder_DT_PIN		= PINC
+	.elif @0 == 'D'	   
+		.equ Encoder_DT_DDR		= DDRD	
+		//.equ Encoder_DT_PORT	= PORTD
+		.equ Encoder_DT_PIN		= PIND
+	.elif @0 == 'E'	   
+		.equ Encoder_DT_DDR		= DDRE	
+		//.equ Encoder_DT_PORT	= PORTE
+		.equ Encoder_DT_PIN		= PINE
+	.elif @0 == 'F'	   
+		.equ Encoder_DT_DDR		= DDRF	
+		//.equ Encoder_DT_PORT	= PORTF
+		.equ Encoder_DT_PIN		= PINF
+	.elif @0 == 'G'	   
+		.equ Encoder_DT_DDR		= DDRG	
+		//.equ Encoder_DT_PORT	= PORTG
+		.equ Encoder_DT_PIN		= PING
+	.elif @0 == 'H'	   
+		.equ Encoder_DT_DDR		= DDRH	
+		//.equ Encoder_DT_PORT	= PORTH
+		.equ Encoder_DT_PIN		= PINH
+	.elif @0 == 'J'	   
+		.equ Encoder_DT_DDR		= DDRJ	
+		//.equ Encoder_DT_PORT	= PORTJ
+		.equ Encoder_DT_PIN		= PINJ
+	.elif @0 == 'K'	   
+		.equ Encoder_DT_DDR		= DDRK	
+		//.equ Encoder_DT_PORT	= PORTK
+		.equ Encoder_DT_PIN		= PINK
+	.elif @0 == 'L'	   
+		.equ Encoder_DT_DDR		= DDRL	
+		//.equ Encoder_DT_PORT	= PORTL
+		.equ Encoder_DT_PIN		= PINL
+	.endif
+	.if @1 == 0
+		.equ Encoder_DT_bit = 0
+	.elif @1 == 1	   
+		.equ Encoder_DT_bit = 1
+	.elif @1 == 2	   
+		.equ Encoder_DT_bit = 2
+	.elif @1 == 3	   
+		.equ Encoder_DT_bit = 3
+	.elif @1 == 4	   
+		.equ Encoder_DT_bit = 4
+	.elif @1 == 5	   
+		.equ Encoder_DT_bit = 5
+	.elif @1 == 6	   
+		.equ Encoder_DT_bit = 6
+	.elif @1 == 7	   
+		.equ Encoder_DT_bit = 7
+	.endif
+.endm
+;------------------------------------
+.macro Encoder_SW
+	.if @0 == 'A'
+		.equ Encoder_SW_DDR		= DDRA	
+		.equ Encoder_SW_PORT	= PORTA
+		.equ Encoder_SW_PIN		= PINA
+	.elif @0 == 'B'	   
+		.equ Encoder_SW_DDR		= DDRB	
+		.equ Encoder_SW_PORT	= PORTB
+		.equ Encoder_SW_PIN		= PINB
+	.elif @0 == 'C'	   
+		.equ Encoder_SW_DDR		= DDRC	
+		.equ Encoder_SW_PORT	= PORTC
+		.equ Encoder_SW_PIN		= PINC
+	.elif @0 == 'D'	   
+		.equ Encoder_SW_DDR		= DDRD	
+		.equ Encoder_SW_PORT	= PORTD
+		.equ Encoder_SW_PIN		= PIND
+	.elif @0 == 'E'	   
+		.equ Encoder_SW_DDR		= DDRE	
+		.equ Encoder_SW_PORT	= PORTE
+		.equ Encoder_SW_PIN		= PINE
+	.elif @0 == 'F'	   
+		.equ Encoder_SW_DDR		= DDRF	
+		.equ Encoder_SW_PORT	= PORTF
+		.equ Encoder_SW_PIN		= PINF
+	.elif @0 == 'G'	   
+		.equ Encoder_SW_DDR		= DDRG	
+		.equ Encoder_SW_PORT	= PORTG
+		.equ Encoder_SW_PIN		= PING
+	.elif @0 == 'H'	   
+		.equ Encoder_SW_DDR		= DDRH	
+		.equ Encoder_SW_PORT	= PORTH
+		.equ Encoder_SW_PIN		= PINH
+	.elif @0 == 'J'	   
+		.equ Encoder_SW_DDR		= DDRJ	
+		.equ Encoder_SW_PORT	= PORTJ
+		.equ Encoder_SW_PIN		= PINJ
+	.elif @0 == 'K'	   
+		.equ Encoder_SW_DDR		= DDRK	
+		.equ Encoder_SW_PORT	= PORTK
+		.equ Encoder_SW_PIN		= PINK
+	.elif @0 == 'L'	   
+		.equ Encoder_SW_DDR		= DDRL	
+		.equ Encoder_SW_PORT	= PORTL
+		.equ Encoder_SW_PIN		= PINL
+	.endif
+	.if @1 == 0
+		.equ Encoder_SW_bit = 0
+	.elif @1 == 1	   
+		.equ Encoder_SW_bit = 1
+	.elif @1 == 2	   
+		.equ Encoder_SW_bit = 2
+	.elif @1 == 3	   
+		.equ Encoder_SW_bit = 3
+	.elif @1 == 4	   
+		.equ Encoder_SW_bit = 4
+	.elif @1 == 5	   
+		.equ Encoder_SW_bit = 5
+	.elif @1 == 6	   
+		.equ Encoder_SW_bit = 6
+	.elif @1 == 7	   
+		.equ Encoder_SW_bit = 7
+	.endif
+.endm

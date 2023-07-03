@@ -126,4 +126,5 @@
 //#define TWSI_Module
 //#define HD44780U_Module
 //#define USART_Module
-#define ADC_Module
+//#define ADC_Module
+#define RotaryEncoder_Module

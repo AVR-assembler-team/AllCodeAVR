@@ -197,6 +197,9 @@
     <Compile Include="Modules\Configs\HD44780U_Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\Configs\RotEnc_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\Configs\TWSI_Config.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -278,10 +281,25 @@
     <Compile Include="Modules\README\HD44780U_README.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\README\RotEnc_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\README\TWSI_README.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\README\USART_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\RotaryEncoder\RotEnc_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\RotaryEncoder\RotEnc_Count.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\RotaryEncoder\RotEnc_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\RotaryEncoder\RotEnc_SetMacs.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\TWSI\TWSI_Const.inc">
@@ -391,6 +409,7 @@
     <Folder Include="Modules\HD44780U" />
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
+    <Folder Include="Modules\RotaryEncoder" />
     <Folder Include="Modules\README" />
     <Folder Include="Modules\TWSI" />
     <Folder Include="Modules\USART" />
