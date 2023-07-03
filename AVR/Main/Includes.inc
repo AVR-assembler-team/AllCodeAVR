@@ -20,9 +20,6 @@
 
 ; добавляем модули сюда
 .include "Main/Modules.inc"
-//.include "Modules/TWSI/TWSI_Includes.inc"
-
-//.include "Modules/USART/USART_Includes.inc"
 
 
 .include "Interrupts.inc"

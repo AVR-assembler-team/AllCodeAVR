@@ -10,4 +10,6 @@
 	.include "Modules/USART/USART_Includes.inc"
 #endif
 
-
+#ifdef ADC_Module
+	.include "Modules/ADC/ADC_Includes.inc"
+#endif
