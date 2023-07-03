@@ -1,9 +1,9 @@
 ; Укажите на какой частоте будет работать микроконтроллер
-.equ ATmegaFREQ = 8000000		;частота работы чипа в Гц
+.equ ATmegaFREQ = 16000000		;частота работы чипа в Гц
 
 ; Выберите микроконтроллер
 //.include	"m8Adef.inc"
-.include	"m8def.inc"
+//.include	"m8def.inc"
 //.include	"m8HVAdef.inc"
 //.include	"m8U2def.inc"
 //.include	"m16Adef.inc"
@@ -95,7 +95,7 @@
 //.include	"m1284RFR2def.inc"
 //.include	"m1608def.inc"
 //.include	"m1609def.inc"
-//.include	"m2560def.inc"
+.include	"m2560def.inc"
 //.include	"m2561def.inc"
 //.include	"m2564RFR2def.inc"
 //.include	"m3208def.inc"
@@ -123,13 +123,6 @@
 // Выберите те модули, которые вам нужны для вашего проекта
 // остальные закоментируйте
 
-; Settings
-//#define TWSI
-//#define ADCMode
-//#define USARTMode
-//#define ExtInterruptsMode
-
-; Gadgets
-//#define HD44780U
-//#define OneWire
-//#define RotaryEncoder
+#define TWSI_Module
+#define HD44780U_Module
+#define USART_Module

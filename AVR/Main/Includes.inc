@@ -17,9 +17,14 @@
 .include "Main/Macros.inc"
 .include "Main/Time_Cycles.inc"
 
-; добавляем модули сюда
 
+; добавляем модули сюда
+.include "Main/Modules.inc"
+//.include "Modules/TWSI/TWSI_Includes.inc"
+
+//.include "Modules/USART/USART_Includes.inc"
 
 
 .include "Interrupts.inc"
+.include "Main/Modules_Inits.inc"
 	
