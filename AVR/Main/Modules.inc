@@ -25,3 +25,7 @@
 #ifdef OneWire_Module
 	.include "Modules/OneWire/OneWire_Includes.inc"
 #endif
+
+#ifdef NTC3950_100K_Module
+	.include "Modules/NTC3950_100K/NTC3950_100K_Includes.inc"
+#endif

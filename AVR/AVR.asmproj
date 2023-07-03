@@ -329,6 +329,24 @@
     <Compile Include="Modules\HD44780U\HD44780U_WriteSymbol.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Result.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_TemperatureToMemory.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_TempTable.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\OneWire\OneWire_AlarmSearch.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -557,6 +575,7 @@
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
     <Folder Include="Modules\ExternalInterrupts" />
+    <Folder Include="Modules\NTC3950_100K" />
     <Folder Include="Modules\OneWire" />
     <Folder Include="Modules\RotaryEncoder" />
     <Folder Include="Modules\README" />

@@ -130,3 +130,4 @@
 //#define ExternalInterrupts_Module
 //#define RotaryEncoder_Module
 //#define OneWire_Module
+//#define NTC3950_100K_Module
