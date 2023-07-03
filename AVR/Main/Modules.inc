@@ -21,3 +21,7 @@
 #ifdef RotaryEncoder_Module
 	.include "Modules/RotaryEncoder/RotEnc_Includes.inc"
 #endif
+
+#ifdef OneWire_Module
+	.include "Modules/OneWire/OneWire_Includes.inc"
+#endif

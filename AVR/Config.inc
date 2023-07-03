@@ -129,3 +129,4 @@
 //#define ADC_Module
 //#define ExternalInterrupts_Module
 //#define RotaryEncoder_Module
+//#define OneWire_Module

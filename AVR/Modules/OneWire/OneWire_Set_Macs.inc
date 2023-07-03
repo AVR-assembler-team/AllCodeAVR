@@ -1,0 +1,133 @@
+.macro One_Wire_Pin
+	.if @0 == 'A'
+		.equ OneWire_DDR	= DDRA	
+		.equ OneWire_PORT	= PORTA
+		.equ OneWire_PIN	= PINA
+	.elif @0 == 'B'	   
+		.equ OneWire_DDR	= DDRB	
+		.equ OneWire_PORT	= PORTB
+		.equ OneWire_PIN	= PINB
+	.elif @0 == 'C'	   
+		.equ OneWire_DDR	= DDRC	
+		.equ OneWire_PORT	= PORTC
+		.equ OneWire_PIN	= PINC
+	.elif @0 == 'D'	   
+		.equ OneWire_DDR	= DDRD	
+		.equ OneWire_PORT	= PORTD
+		.equ OneWire_PIN	= PIND
+	.elif @0 == 'E'	   
+		.equ OneWire_DDR	= DDRE	
+		.equ OneWire_PORT	= PORTE
+		.equ OneWire_PIN	= PINE
+	.elif @0 == 'F'	   
+		.equ OneWire_DDR	= DDRF	
+		.equ OneWire_PORT	= PORTF
+		.equ OneWire_PIN	= PINF
+	.elif @0 == 'G'
+		.equ OneWire_DDR	= DDRG	
+		.equ OneWire_PORT	= PORTG
+		.equ OneWire_PIN	= PING
+	.elif @0 == 'H'   
+		.equ OneWire_DDR	= DDRH	
+		.equ OneWire_PORT	= PORTH
+		.equ OneWire_PIN	= PINH
+	.elif @0 == 'J'	   
+		.equ OneWire_DDR	= DDRJ	
+		.equ OneWire_PORT	= PORTJ
+		.equ OneWire_PIN	= PINJ
+	.elif @0 == 'K'	   
+		.equ OneWire_DDR	= DDRK	
+		.equ OneWire_PORT	= PORTK
+		.equ OneWire_PIN	= PINK
+	.elif @0 == 'L'	   
+		.equ OneWire_DDR	= DDRL	
+		.equ OneWire_PORT	= PORTL
+		.equ OneWire_PIN	= PINL
+	.endif
+	.if @1 == 0
+		.equ OneWire_bit = 0
+	.elif @1 == 1     
+		.equ OneWire_bit = 1
+	.elif @1 == 2     
+		.equ OneWire_bit = 2
+	.elif @1 == 3     
+		.equ OneWire_bit = 3
+	.elif @1 == 4     
+		.equ OneWire_bit = 4
+	.elif @1 == 5     
+		.equ OneWire_bit = 5
+	.elif @1 == 6     
+		.equ OneWire_bit = 6
+	.elif @1 == 7     
+		.equ OneWire_bit = 7
+	.endif
+.endm
+;------------------------------
+.macro NumberOfSlaves
+	.equ NumberOfSlavesD = @0
+.endm
+;------------------------------
+.macro One_Wire_MOSFET_Pin
+	.if @0 == 'A'
+		.equ OneWireMOSFET_DDR	= DDRA	
+		.equ OneWireMOSFET_PORT	= PORTA
+		.equ OneWireMOSFET_PIN	= PINA
+	.elif @0 == 'B'	   
+		.equ OneWireMOSFET_DDR	= DDRB	
+		.equ OneWireMOSFET_PORT	= PORTB
+		.equ OneWireMOSFET_PIN	= PINB
+	.elif @0 == 'C'	   
+		.equ OneWireMOSFET_DDR	= DDRC	
+		.equ OneWireMOSFET_PORT	= PORTC
+		.equ OneWireMOSFET_PIN	= PINC
+	.elif @0 == 'D'	   
+		.equ OneWireMOSFET_DDR	= DDRD	
+		.equ OneWireMOSFET_PORT	= PORTD
+		.equ OneWireMOSFET_PIN	= PIND
+	.elif @0 == 'E'	   
+		.equ OneWireMOSFET_DDR	= DDRE	
+		.equ OneWireMOSFET_PORT	= PORTE
+		.equ OneWireMOSFET_PIN	= PINE
+	.elif @0 == 'F'	   
+		.equ OneWireMOSFET_DDR	= DDRF	
+		.equ OneWireMOSFET_PORT	= PORTF
+		.equ OneWireMOSFET_PIN	= PINF
+	.elif @0 == 'G'
+		.equ OneWireMOSFET_DDR	= DDRG	
+		.equ OneWireMOSFET_PORT	= PORTG
+		.equ OneWireMOSFET_PIN	= PING
+	.elif @0 == 'H'   
+		.equ OneWireMOSFET_DDR	= DDRH	
+		.equ OneWireMOSFET_PORT	= PORTH
+		.equ OneWireMOSFET_PIN	= PINH
+	.elif @0 == 'J'	   
+		.equ OneWireMOSFET_DDR	= DDRJ	
+		.equ OneWireMOSFET_PORT	= PORTJ
+		.equ OneWireMOSFET_PIN	= PINJ
+	.elif @0 == 'K'	   
+		.equ OneWireMOSFET_DDR	= DDRK	
+		.equ OneWireMOSFET_PORT	= PORTK
+		.equ OneWireMOSFET_PIN	= PINK
+	.elif @0 == 'L'	   
+		.equ OneWireMOSFET_DDR	= DDRL	
+		.equ OneWireMOSFET_PORT	= PORTL
+		.equ OneWireMOSFET_PIN	= PINL
+	.endif
+	.if @1 == 0
+		.equ OneWireMOSFET_bit = 0
+	.elif @1 == 1     
+		.equ OneWireMOSFET_bit = 1
+	.elif @1 == 2     
+		.equ OneWireMOSFET_bit = 2
+	.elif @1 == 3     
+		.equ OneWireMOSFET_bit = 3
+	.elif @1 == 4     
+		.equ OneWireMOSFET_bit = 4
+	.elif @1 == 5     
+		.equ OneWireMOSFET_bit = 5
+	.elif @1 == 6     
+		.equ OneWireMOSFET_bit = 6
+	.elif @1 == 7     
+		.equ OneWireMOSFET_bit = 7
+	.endif	
+.endm

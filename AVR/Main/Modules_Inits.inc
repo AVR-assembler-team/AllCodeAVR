@@ -18,4 +18,8 @@
 	#ifdef ADC_Module
 		ADC_init
 	#endif
+
+	#ifdef OneWire_Module
+		OneWire_init
+	#endif
 .endm
