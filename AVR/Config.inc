@@ -123,11 +123,12 @@
 // ¬ыберите те модули, которые вам нужны дл€ вашего проекта
 // остальные закоментируйте
 
-//#define TWSI_Module
+#define TWSI_Module
 //#define HD44780U_Module
 //#define USART_Module
 //#define ADC_Module
-//#define ExternalInterrupts_Module
+#define ExternalInterrupts_Module
 //#define RotaryEncoder_Module
 //#define OneWire_Module
 //#define NTC3950_100K_Module
+#define PCF8575_Module

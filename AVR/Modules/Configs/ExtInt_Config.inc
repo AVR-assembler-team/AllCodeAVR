@@ -1,8 +1,8 @@
 
 ; INT0
-#define _INT0_
+//#define _INT0_
 ; INT0 Sense Control (The low level of INT0 generates an interrupt request as default)
-#define _AnyEdge_INT0_
+//#define _AnyEdge_INT0_
 //define _FallingEdge_INT0_
 //#define _RisingEdge_INT0_
 
@@ -34,9 +34,9 @@
 //#define _RisingEdge_INT4_
 
 ; INT5
-//#define _INT5_
+#define _INT5_
 ; INT5 (The low level of INT5 generates an interrupt request as default)
-//#define _AnyEdge_INT5_
+#define _AnyEdge_INT5_
 //#define _FallingEdge_INT5_
 //#define _RisingEdge_INT5_
 

@@ -29,3 +29,7 @@
 #ifdef NTC3950_100K_Module
 	.include "Modules/NTC3950_100K/NTC3950_100K_Includes.inc"
 #endif
+
+#ifdef PCF8575_Module
+	.include "Modules/PCF8575/PCF8575_Includes.inc"
+#endif
