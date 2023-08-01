@@ -11,5 +11,6 @@ TWSI_STOP_act:											; метка
 	ldi		r16, (1<<TWINT) | (1<<TWSTO) | (1<<TWEN)	; формируем сигнал STOP
 	WRITE_REG TWCR, r16									; отправляем по шине
 	TWSI_Delay_4_1ms
+	//TWSI_TWINT_Flag
 	pop r16
 ret	

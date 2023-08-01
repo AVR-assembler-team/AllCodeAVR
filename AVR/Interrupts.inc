@@ -48,7 +48,7 @@ reti
 EXT_INT5:
 	cli
 	// Ваш код
-	PCF8575Read $40
+	PCF8575_Read $40
 	sei
 reti
 EXT_INT6:
