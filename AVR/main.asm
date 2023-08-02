@@ -10,5 +10,6 @@ Reset:
 Proga:
 // Читайте README файл
 // Ваша программа
-PCF8575_Read $40
+//PCF8575_Read $40
+	
 rjmp Proga

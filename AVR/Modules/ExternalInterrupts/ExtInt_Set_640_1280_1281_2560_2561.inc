@@ -1,6 +1,6 @@
 
 .macro SetINT
-	
+
 	clr r16
 	clr r17
 	clr r18
@@ -187,5 +187,4 @@
 	#endif	
 		
 	WRITE_REG PCICR, r16
- 
-.endm
+ .endm

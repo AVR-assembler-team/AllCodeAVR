@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm Tue Aug 01 21:14:54 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm Thu Aug 03 00:22:54 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Main/Includes.inc'
@@ -22,9 +22,15 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWS
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_ACK_Transmit.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Start.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Byte_Reading.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Sla.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Main/Modules.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/Configs/ExtInt_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Set_640_1280_1281_2560_2561.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_INTenable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_INTdisable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Pins.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Main/Modules.inc(34): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Constants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Labels.inc'
@@ -54,9 +60,15 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWS
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_ACK_Transmit.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Start.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Byte_Reading.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Sla.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Main/Modules.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/Configs/ExtInt_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Set_640_1280_1281_2560_2561.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_INTenable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_INTdisable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Pins.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Includes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/ExternalInterrupts/ExtInt_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Main/Modules.inc(34): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Constants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/PCF8575/PCF8575_Labels.inc'
@@ -2102,7 +2114,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  //#define HD44780U_Module
                                  //#define USART_Module
                                  //#define ADC_Module
-                                 //#define ExternalInterrupts_Module
+                                 #define ExternalInterrupts_Module
                                  //#define RotaryEncoder_Module
                                  //#define OneWire_Module
                                  //#define NTC3950_100K_Module
@@ -2186,68 +2198,68 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  .elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 01f5                 	.org 0x0000	 jmp RESET ; Reset Handler
-000002 940c 013f                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 0142                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 0145                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
-000008 940c 0148                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
-00000a 940c 014b                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
-00000c 940c 014e                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
-00000e 940c 0156                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
-000010 940c 0159                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
-000012 940c 015c                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 015f                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 0162                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 01f2                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 018f                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 0192                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 0195                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 017d                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 0180                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 0183                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 0186                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 0189                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 0174                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 0177                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 017a                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 016b                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 01c8                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 01cb                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 01ce                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
-000038 940c 0136                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
-00003a 940c 0139                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
-00003c 940c 013c                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 0198                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 019b                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 019e                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 01a1                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 01a4                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 01d1                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 01d4                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 01d7                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 01c5                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 016e                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+000000 940c 01ec                 	.org 0x0000	 jmp RESET ; Reset Handler
+000002 940c 0135                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 0138                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 013b                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
+000008 940c 013e                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
+00000a 940c 0141                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
+00000c 940c 0144                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
+00000e 940c 014d                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
+000010 940c 0150                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
+000012 940c 0153                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
+000014 940c 0156                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 0159                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 01e9                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 0186                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 0189                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 018c                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 0174                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 0177                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 017a                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 017d                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 0180                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 016b                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 016e                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 0171                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 0162                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 01bf                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 01c2                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 01c5                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000038 940c 012c                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
+00003a 940c 012f                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
+00003c 940c 0132                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
+00003e 940c 018f                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 0192                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 0195                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 0198                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 019b                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 01c8                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 01cb                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 01ce                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 01bc                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 0165                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
-000052 940c 01a7                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 019e                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 01aa                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 01ad                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 01b0                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 01b3                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 01a1                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 01a4                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 01a7                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 01aa                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
-00005c 940c 01b6                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 01ad                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 01b9                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 01bc                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 01bf                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 01c2                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 01b0                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 01b3                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 01b6                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 01b9                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
-000066 940c 01da                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 01dd                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 01e0                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 01e3                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 01e6                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 01e9                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 01d1                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 01d4                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 01d7                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 01da                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 01dd                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 01e0                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctlr == 1284
                                  .elif ctlr == 8515
@@ -2658,15 +2670,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
 00009d 9508                      ret
                                  .include "Modules/TWSI/TWSI_ACK_Transmit.inc"
                                  
-                                 * Ответ
+                                 * Чтение байта из модуля I2C
+                                 * Принимает один аргумент - регистр в который производим запись прочитанного TWDR
                                  */
-                                 .macro TWSI_ACK_Transmit 
-                                 	push r16
-                                 	ldi r16, @0
-                                 	WRITE_REG TWSR, r16
-                                 	pop r16
-                                 .endm
-                                 
+                                 .macro TWSI_ACK_Transmit
+                                 	ldi		r16, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
+                                 	WRITE_REG TWCR, r16						; отправляем по шине
+                                 	TWSI_TWINT_Flag
+                                 .endm						; выход из подпрограммы
                                  .include "Modules/TWSI/TWSI_Start.inc"
                                  
                                  * Запускает модуль TWSI
@@ -2703,16 +2714,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
 0000aa 940e 0097                 	TWSI_TWINT_Flag
 0000ac 910f                      	pop r16
 0000ad 9508                      ret											; выход из подпрограммы
-                                 .include "Modules/TWSI/TWSI_Byte_Reading.inc"
-                                 
-                                 * Чтение байта из модуля I2C
-                                 * Принимает один аргумент - регистр в который производим запись прочитанного TWDR
-                                 */
-                                 .macro TWSI_Byte_Reading
-                                 	ldi		r16, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
-                                 	WRITE_REG TWCR, r16						; отправляем по шине
-                                 	TWSI_TWINT_Flag
-                                 .endm						; выход из подпрограммы
                                  .include "Modules/TWSI/TWSI_Sla.inc"
                                  
                                  * Передаем модулю TWSI адрес чипа, читать или записывать
@@ -2775,6 +2776,999 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  #endif
                                  
                                  #ifdef ExternalInterrupts_Module
+                                 	.include "Modules/ExternalInterrupts/ExtInt_Includes.inc"
+                                 
+                                 .include "Modules/Configs/ExtInt_Config.inc"
+                                 
+                                 ; INT0
+                                 //#define _INT0_
+                                 ; INT0 Sense Control (The low level of INT0 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT0_
+                                 //define _FallingEdge_INT0_
+                                 //#define _RisingEdge_INT0_
+                                 
+                                 ; INT1
+                                 //#define _INT1_
+                                 ; #define _AnyEdge_INT1_
+                                 //#define _FallingEdge_INT1_
+                                 //#define _RisingEdge_INT1_
+                                 
+                                 ; INT2
+                                 //#define _INT2_
+                                 ; INT2 (The low level of INT2 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT2_
+                                 //#define _FallingEdge_INT2_
+                                 //#define _RisingEdge_INT2_
+                                 
+                                 ; INT3
+                                 //#define _INT3_
+                                 ; INT3 (The low level of INT3 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT3_
+                                 //#define _FallingEdge_INT3_
+                                 //#define _RisingEdge_INT3_
+                                 
+                                 ; INT4
+                                 //#define _INT4_
+                                 ; INT4 (The low level of INT4 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT4_
+                                 //#define _FallingEdge_INT4_
+                                 //#define _RisingEdge_INT4_
+                                 
+                                 ; INT5
+                                 #define _INT5_
+                                 ; INT5 (The low level of INT5 generates an interrupt request as default)
+                                 #define _AnyEdge_INT5_
+                                 //#define _FallingEdge_INT5_
+                                 //#define _RisingEdge_INT5_
+                                 
+                                 ; INT6
+                                 //#define _INT6_
+                                 ; INT6 (The low level of INT6 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT6_
+                                 //#define _FallingEdge_INT6_
+                                 //#define _RisingEdge_INT6_
+                                 
+                                 ; INT7
+                                 //#define _INT7_
+                                 ; INT7 (The low level of INT7 generates an interrupt request as default)
+                                 //#define _AnyEdge_INT7_
+                                 //#define _FallingEdge_INT7_
+                                 //#define _RisingEdge_INT7_
+                                 
+                                 ; Pins
+                                 //#define EnablePCINT0
+                                 //#define EnablePCINT1
+                                 //#define EnablePCINT2
+                                 //#define EnablePCINT3
+                                 //#define EnablePCINT4
+                                 //#define EnablePCINT5
+                                 //#define EnablePCINT6
+                                 //#define EnablePCINT7
+                                 //#define EnablePCINT8
+                                 //#define EnablePCINT9
+                                 //#define EnablePCINT10
+                                 //#define EnablePCINT11
+                                 //#define EnablePCINT12
+                                 //#define EnablePCINT13
+                                 //#define EnablePCINT14
+                                 //#define EnablePCINT15
+                                 //#define EnablePCINT16
+                                 //#define EnablePCINT17
+                                 //#define EnablePCINT18
+                                 //#define EnablePCINT19
+                                 //#define EnablePCINT20
+                                 //#define EnablePCINT21
+                                 //#define EnablePCINT22
+                                 //#define EnablePCINT23
+                                 //#define EnablePCINT24
+                                 //#define EnablePCINT25
+                                 //#define EnablePCINT26
+                                 //#define EnablePCINT27
+                                 //#define EnablePCINT28
+                                 //#define EnablePCINT29
+                                 //#define EnablePCINT30
+                                 //#define EnablePCINT31
+                                 
+                                 .if ctlr == 8
+                                 .elif ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 .elif ctlr == 48 || ctlr == 88 || ctlr == 168
+                                 .elif ctlr == 64 || ctlr == 128
+                                 .elif ctlr == 162
+                                 .elif ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 .elif ctlr == 165 || ctlr == 169
+                                 .elif ctlr == 325 || ctlr == 3250 || ctlr == 645 || ctlr == 6450
+                                 .elif ctlr == 328
+                                 .elif ctlr == 329 || ctlr == 3290 || ctlr == 649 || ctlr == 6490
+                                 .elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 	.include "Modules/ExternalInterrupts/ExtInt_Set_640_1280_1281_2560_2561.inc"
+                                 
+                                 .macro SetINT
+                                 
+                                 	clr r16
+                                 	clr r17
+                                 	clr r18
+                                 
+                                 	#ifdef _INT0_
+                                 		#ifdef _AnyEdge_INT0_
+                                 		#elif defined _FallingEdge_INT0_
+                                 		#elif defined _RisingEdge_INT0_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT1_
+                                 		#ifdef _AnyEdge_INT1_
+                                 		#elif defined _FallingEdge_INT1_
+                                 		#elif defined _RisingEdge_INT1_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT2_
+                                 		#ifdef _AnyEdge_INT2_
+                                 		#elif defined _FallingEdge_INT2_
+                                 		#elif defined _RisingEdge_INT2_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT3_
+                                 		#ifdef _AnyEdge_INT3_
+                                 		#elif defined _FallingEdge_INT3_
+                                 		#elif defined _RisingEdge_INT3_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT4_
+                                 		#ifdef _AnyEdge_INT4_
+                                 		#elif defined _FallingEdge_INT4_
+                                 		#elif defined _RisingEdge_INT4_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT5_
+                                 		sbr r16, (1<<INT5)
+                                 		#ifdef _AnyEdge_INT5_
+                                 			sbr r18, (1<<ISC50)
+                                 		#elif defined _FallingEdge_INT5_
+                                 		#elif defined _RisingEdge_INT5_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT6_
+                                 		#ifdef _AnyEdge_INT6_
+                                 		#elif defined _FallingEdge_INT6_
+                                 		#elif defined _RisingEdge_INT6_
+                                 		#endif 
+                                 	#endif
+                                 	#ifdef _INT7_
+                                 		#ifdef _AnyEdge_INT7_
+                                 		#elif defined _FallingEdge_INT7_
+                                 		#elif defined _RisingEdge_INT7_
+                                 		#endif 
+                                 	#endif
+                                 
+                                 	WRITE_REG EICRA, r17
+                                 	WRITE_REG EICRB, r18
+                                 	WRITE_REG EIMSK, r16
+                                 
+                                 	#if defined EnablePCINT0 || EnablePCINT1 || EnablePCINT2 || EnablePCINT3 || EnablePCINT4 || EnablePCINT5 || EnablePCINT6 || EnablePCINT7
+                                 		#ifdef EnablePCINT0
+                                 		#endif
+                                 		#ifdef EnablePCINT1
+                                 		#endif
+                                 		#ifdef EnablePCINT2
+                                 		#endif
+                                 		#ifdef EnablePCINT3
+                                 		#endif
+                                 		#ifdef EnablePCINT4
+                                 		#endif
+                                 		#ifdef EnablePCINT5
+                                 		#endif
+                                 		#ifdef EnablePCINT6
+                                 		#endif
+                                 		#ifdef EnablePCINT7
+                                 		#endif
+                                 	#endif
+                                 	#if defined EnablePCINT8 || EnablePCINT9 || EnablePCINT10 || EnablePCINT11 || EnablePCINT12 || EnablePCINT13 || EnablePCINT14 || EnablePCINT15
+                                 		#ifdef EnablePCINT8
+                                 		#endif
+                                 		#ifdef EnablePCINT9
+                                 		#endif
+                                 		#ifdef EnablePCINT10
+                                 		#endif
+                                 		#ifdef EnablePCINT11
+                                 		#endif
+                                 		#ifdef EnablePCINT12
+                                 		#endif
+                                 		#ifdef EnablePCINT13
+                                 		#endif
+                                 		#ifdef EnablePCINT14
+                                 		#endif
+                                 		#ifdef EnablePCINT15
+                                 		#endif
+                                 	#endif
+                                 	#if defined EnablePCINT16 || EnablePCINT17 || EnablePCINT18 || EnablePCINT19 || EnablePCINT20 || EnablePCINT21 || EnablePCINT22 || EnablePCINT23
+                                 		#ifdef EnablePCINT16
+                                 		#endif
+                                 		#ifdef EnablePCINT17
+                                 		#endif
+                                 		#ifdef EnablePCINT18
+                                 		#endif
+                                 		#ifdef EnablePCINT19
+                                 		#endif
+                                 		#ifdef EnablePCINT20
+                                 		#endif
+                                 		#ifdef EnablePCINT21
+                                 		#endif
+                                 		#ifdef EnablePCINT22
+                                 		#endif
+                                 		#ifdef EnablePCINT23
+                                 		#endif
+                                 	#endif		
+                                 	#if defined EnablePCINT24 || EnablePCINT25 || EnablePCINT26 || EnablePCINT27 || EnablePCINT28 || EnablePCINT29 || EnablePCINT30 || EnablePCINT31
+                                 	#endif	
+                                 		
+                                 	WRITE_REG PCICR, r16
+                                  .endm
+                                 .endif
+                                 
+                                 
+                                 .include "Modules/ExternalInterrupts/ExtInt_INTenable.inc"
+                                 
+                                 	.if @0 == LowLevel
+                                 		CLRB @3, @4
+                                 		CLRB @3, @5
+                                 	.elif @0 == AnyEdge
+                                 		SETB @3, @4
+                                 		CLRB @3, @5
+                                 	.elif @0 == FallingEdge
+                                 		CLRB @3, @4
+                                 		SETB @3, @5
+                                 	.elif @0 == RisingEdge
+                                 		SETB @3, @4
+                                 		SETB @3, @5
+                                 	.endif
+                                 	SETB @1, @2
+                                 .endm
+                                 
+                                 .macro ExtInterINTEnable
+                                 	.if ctlr == 8
+                                 		.if @0 == INT0
+                                 			INTSet @1, GICR, INT0, MCUCR, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, GICR, INT1, MCUCR, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == INT0
+                                 			INTSet @1, GICR, INT0, MCUCR, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, GICR, INT1, MCUCR, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			SETB GICR, INT2
+                                 			.if @1 == LowLevel
+                                 				.error "INT2 Sense Control not available!"
+                                 			.elif @1 == AnyEdge
+                                 				.error "INT2 Sense Control not available!"
+                                 			.elif @1 == FallingEdge
+                                 				CLRB MCUCSR, ISC2
+                                 			.elif @1 == RisingEdge
+                                 				SETB MCUCSR, ISC2
+                                 			.endif
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 168 || ctlr == 328
+                                 		.if @0 == INT0
+                                 			INTSet @1, EIMSK, INT0, EICRA, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, EIMSK, INT1, EICRA, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == INT0
+                                 			INTSet @1, EIMSK, INT0, EICRA, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, EIMSK, INT1, EICRA, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			INTSet @1, EIMSK, INT2, EICRA, ISC20, ISC21
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			INTSet @1, EIMSK, INT3, EICRA, ISC30, ISC31
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			INTSet @1, EIMSK, INT4, EICRB, ISC40, ISC41
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			INTSet @1, EIMSK, INT5, EICRB, ISC50, ISC51
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			INTSet @1, EIMSK, INT6, EICRB, ISC60, ISC61
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			INTSet @1, EIMSK, INT7, EICRB, ISC70, ISC71
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == INT0
+                                 			INTSet @1, GICR, INT0, MCUCR, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, GICR, INT1, MCUCR, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			SETB GICR, INT2
+                                 			.if @1 == LowLevel
+                                 				.error "INT2 Sense Control not available!"
+                                 			.elif @1 == AnyEdge
+                                 				.error "INT2 Sense Control not available!"
+                                 			.elif @1 == FallingEdge
+                                 				CLRB EMCUCR, ISC2
+                                 			.elif @1 == RisingEdge
+                                 				SETB EMCUCR, ISC2
+                                 			.else
+                                 				.error "INT2 Sense Control not recognized!"
+                                 			.endif
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == INT0
+                                 			INTSet @1, EIMSK, INT0, EICRA, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			INTSet @1, EIMSK, INT1, EICRA, ISC10, ISC11
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			INTSet @1, EIMSK, INT2, EICRA, ISC20, ISC21
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 165 || ctlr == 169 || ctlr == 325 || ctlr == 3250 || ctlr == 645 || ctlr == 6450 || ctlr == 329 || ctlr == 3290 || ctlr == 649 || ctlr == 6490
+                                 		.if @0 == INT0
+                                 			INTSet @1, EIMSK, INT0, EICRA, ISC00, ISC01
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			.error "INT1 not axist!"
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "Modules/ExternalInterrupts/ExtInt_INTdisable.inc"
+                                 
+                                 .macro ExtInterINTDisable
+                                 	.if ctlr == 8
+                                 		.if @0 == INT0
+                                 			CLRB GICR, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB GICR, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == INT0
+                                 			CLRB GICR, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB GICR, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			CLRB GICR, INT2
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 168 || ctlr == 328
+                                 		.if @0 == INT0
+                                 			CLRB EIMSK, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB EIMSK, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == INT0
+                                 			CLRB EIMSK, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB EIMSK, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			CLRB EIMSK, INT2
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			CLRB EIMSK, INT3
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			CLRB EIMSK, INT4
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			CLRB EIMSK, INT5
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			CLRB EIMSK, INT6
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			CLRB EIMSK, INT7
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == INT0
+                                 			CLRB GICR, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB GICR, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			CLRB GICR, INT2
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == INT0
+                                 			CLRB EIMSK, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			CLRB EIMSK, INT1
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			CLRB EIMSK, INT2
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.elif ctlr == 165 || ctlr == 169 || ctlr == 325 || ctlr == 3250 || ctlr == 645 || ctlr == 6450 || ctlr == 329 || ctlr == 3290 || ctlr == 649 || ctlr == 6490
+                                 		.if @0 == INT0
+                                 			CLRB EIMSK, INT0
+                                 		.endif
+                                 		.if @0 == INT1
+                                 			.error "INT1 not axist!"
+                                 		.endif
+                                 		.if @0 == INT2
+                                 			.error "INT2 not axist!"
+                                 		.endif
+                                 		.if @0 == INT3
+                                 			.error "INT3 not axist!"
+                                 		.endif
+                                 		.if @0 == INT4
+                                 			.error "INT4 not axist!"
+                                 		.endif
+                                 		.if @0 == INT5
+                                 			.error "INT5 not axist!"
+                                 		.endif
+                                 		.if @0 == INT6
+                                 			.error "INT6 not axist!"
+                                 		.endif
+                                 		.if @0 == INT7
+                                 			.error "INT7 not axist!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "Modules/ExternalInterrupts/ExtInt_Pins.inc"
+                                 
+                                 .macro PinsSet
+                                 	.if @0 == enabled
+                                 		SETB @1, @2
+                                 		SETB @3, @4
+                                 	.elif @0 == disabled
+                                 		CLRB @1, @2
+                                 		CLRB @3, @4
+                                 	.else
+                                 		.error "You have to choose 'enabled' or 'disabled'"
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro ExtInterPins
+                                 	.if ctlr == 8 ||ctlr == 16 || ctlr == 32 || ctlr == 64 || ctlr == 128 || ctlr == 8515 || ctlr == 8535
+                                 		.error "Any External Interrupt pins are not available!"
+                                 	.elif ctlr == 162
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, GICR, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, GICR, PCIE1
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT16
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT17
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT18
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT19
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT20
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT21
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT22
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT23
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT24
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT25
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT26
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT27
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT28
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT29
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT30
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.elif @0 == PCINT31
+                                 			PinsSet @1, PCMSK3, @0, PCICR, PCIE3
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 165 || ctlr == 169
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 325 || ctlr == 645 || ctlr == 329 || ctlr == 649
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 3250 || ctlr == 6450 || ctlr == 3290 || ctlr == 6490
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, EIMSK, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, EIMSK, PCIE1
+                                 		.elif @0 == PCINT16
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT17
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT18
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT19
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT20
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT21
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT22
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT23
+                                 			PinsSet @1, PCMSK2, @0, EIMSK, PCIE2
+                                 		.elif @0 == PCINT24
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT25
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT26
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT27
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT28
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT29
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT30
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.elif @0 == PCINT31
+                                 			PinsSet @1, PCMSK3, @0, EIMSK, PCIE3
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 328 || ctlr == 48 || ctlr == 88 || ctlr == 168
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT16
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT17
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT18
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT19
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT20
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT21
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT22
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT23
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == PCINT0
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT1
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT2
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT3
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT4
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT5
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT6
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT7
+                                 			PinsSet @1, PCMSK0, @0, PCICR, PCIE0
+                                 		.elif @0 == PCINT8
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT9
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT10
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT11
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT12
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT13
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT14
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT15
+                                 			PinsSet @1, PCMSK1, @0, PCICR, PCIE1
+                                 		.elif @0 == PCINT16
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT17
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT18
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT19
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT20
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT21
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT22
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.elif @0 == PCINT23
+                                 			PinsSet @1, PCMSK2, @0, PCICR, PCIE2
+                                 		.else
+                                 			.error "External Interrupt pin not available!"
+                                 		.endif
+                                 	.endif
+                                 .include "Modules/ExternalInterrupts/ExtInt_Init.inc"
+                                 
+                                 	SetINT	// ExternalInterrupts/Sets/SetINT.inc
+                                 .endm
                                  #endif
                                  
                                  #ifdef RotaryEncoder_Module
@@ -2835,6 +3829,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  
 0000cd 9120 0201                 	READ_REG PCF8575_Data, r18
 0000cf 9320 00bb                 	WRITE_REG TWDR, r18								; Вталкиваем в дата регистр
+                                 
 0000d1 940e 00a6                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 0000d3 931f
 0000d4 932f
@@ -2850,6 +3845,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  
 0000e0 9120 0202                 	READ_REG PCF8575_Data + 1, r18
 0000e2 9320 00bb                 	WRITE_REG TWDR, r18								; вталкиваем в дата регистр
+                                 
 0000e4 940e 00a6                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 0000e6 931f
 0000e7 932f
@@ -2896,42 +3892,34 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
 000109 940e 007e
 00010b 912f
 00010c 911f
-00010d 910f                      	TWSI_SLA r18, 'R'							; Отправляем адрес и режим работы
+00010d 910f                      	TWSI_SLA r18, 'R'							; Отправляем адрес и режим работы 
                                  
 00010e 9120 0200                 	READ_REG TWSI_Flags, r18					; Считываем регистр флагов
 000110 fd20                      	sbrc r18, No_ACK							; Проверяем бит 
-000111 940c 0133                 	_jump gotoReadLabels						; Если поднят, то переходим
+000111 940c 0129                 	_jump gotoReadLabels						; Если поднят, то переходим
                                  
 000113 ec04
 000114 9300 00bc
-000116 940e 0097                 	TWSI_Byte_Reading
+000116 940e 0097                 	TWSI_ACK_Transmit							; отправляем ACK
                                  
-000118 930f
-000119 e500
-00011a 9300 00b9
-00011c 910f                      	TWSI_ACK_Transmit MR_DATA_ACK
-00011d 9120 00bb                 	READ_REG TWDR, r18
-00011f 9320 0201                 	WRITE_REG PCF8575_Data, r18
+000118 9120 00bb                 	READ_REG TWDR, r18							; читаем данные с TWDR
+00011a 9320 0201                 	WRITE_REG PCF8575_Data, r18					; записываем в память
                                  	
-000121 ec04
-000122 9300 00bc
-000124 940e 0097                 	TWSI_Byte_Reading
+00011c ec04
+00011d 9300 00bc
+00011f 940e 0097                 	TWSI_ACK_Transmit							; отправляем ACK
                                  
-000126 930f
-000127 e508
-000128 9300 00b9
-00012a 910f                      	TWSI_ACK_Transmit MT_NACK
-00012b 9120 00bb                 	READ_REG TWDR, r18
-00012d 9320 0202                 	WRITE_REG PCF8575_Data + 1, r18
+000121 9120 00bb                 	READ_REG TWDR, r18							; читаем данные с TWDR
+000123 9320 0202                 	WRITE_REG PCF8575_Data + 1, r18				; записываем в память
                                  	
-00012f 940e 00ae                 	TWSI_STOP
-000131 940c 0135                 	_jump PCF8575_Read_end
+000125 940e 00ae                 	TWSI_STOP
+000127 940c 012b                 	_jump PCF8575_Read_end
                                  
                                  	gotoReadLabels:
-000133 940e 00b6                 		_call PCF8575_NoAck
+000129 940e 00b6                 		_call PCF8575_NoAck
                                  
                                  	PCF8575_Read_end:
-000135 9508                       ret
+00012b 9508                       ret
                                  
                                  #endif
                                  
@@ -2939,353 +3927,358 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  .include "Interrupts.inc"
                                  
                                  ANA_COMP:
-000136 94f8                      	cli
+00012c 94f8                      	cli
                                  	// Ваш код
-000137 9478                      	sei
-000138 9518                      reti
+00012d 9478                      	sei
+00012e 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // ADC Conversion Complete Handler
                                  ADC_Conv_Comp:
-000139 94f8                      	cli
+00012f 94f8                      	cli
                                  	// Ваш код
-00013a 9478                      	sei
-00013b 9518                      reti
+000130 9478                      	sei
+000131 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //EEPROM Ready Handler
                                  EE_RDY:
-00013c 94f8                      	cli
+000132 94f8                      	cli
                                  	// Ваш код
-00013d 9478                      	sei
-00013e 9518                      reti
+000133 9478                      	sei
+000134 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // External Interrupts
                                  EXT_INT0:
-00013f 94f8                      	cli
+000135 94f8                      	cli
                                  	// Ваш код
-000140 9478                      	sei
-000141 9518                      reti
+000136 9478                      	sei
+000137 9518                      reti
                                  EXT_INT1:
-000142 94f8                      	cli
+000138 94f8                      	cli
                                  	// Ваш код
-000143 9478                      	sei
-000144 9518                      reti
+000139 9478                      	sei
+00013a 9518                      reti
                                  EXT_INT2:
-000145 94f8                      	cli
+00013b 94f8                      	cli
                                  	// Ваш код
-000146 9478                      	sei
-000147 9518                      reti
+00013c 9478                      	sei
+00013d 9518                      reti
                                  EXT_INT3:
-000148 94f8                      	cli
+00013e 94f8                      	cli
                                  	// Ваш код
-000149 9478                      	sei
-00014a 9518                      reti
+00013f 9478                      	sei
+000140 9518                      reti
                                  EXT_INT4:
-00014b 94f8                      	cli
+000141 94f8                      	cli
                                  	// Ваш код
-00014c 9478                      	sei
-00014d 9518                      reti
+000142 9478                      	sei
+000143 9518                      reti
                                  EXT_INT5:
-00014e 94f8                      	cli
+000144 94f8                      	cli
                                  	// Ваш код
-00014f 932f
-000150 e420
-000151 940e 00fc
-000153 912f                      	PCF8575_Read $40
+                                 	//PCF8575_Read $40
+000145 ff46                      	sbrs r20, 6
+000146 c003                      	rjmp ddd
+                                 
+000147 2744                      	clr r20
+000148 9478                      	sei
+000149 9518                      reti
+                                 ddd:
+00014a e440                      	ldi r20, $40
+00014b 9478                      	sei
+00014c 9518                      reti
+                                 EXT_INT6:
+00014d 94f8                      	cli
+                                 	// Ваш код
+00014e 9478                      	sei
+00014f 9518                      reti
+                                 EXT_INT7:
+000150 94f8                      	cli
+                                 	// Ваш код
+000151 9478                      	sei
+000152 9518                      reti
+                                 EXT_PCINT0:
+000153 94f8                      	cli
+                                 	// Ваш код
 000154 9478                      	sei
 000155 9518                      reti
-                                 EXT_INT6:
+                                 EXT_PCINT1:
 000156 94f8                      	cli
                                  	// Ваш код
 000157 9478                      	sei
 000158 9518                      reti
-                                 EXT_INT7:
+                                 EXT_PCINT2:
 000159 94f8                      	cli
                                  	// Ваш код
 00015a 9478                      	sei
-00015b 9518                      reti
-                                 EXT_PCINT0:
+00015b 9508                      ret
+                                 EXT_PCINT3:
 00015c 94f8                      	cli
                                  	// Ваш код
 00015d 9478                      	sei
 00015e 9518                      reti
-                                 EXT_PCINT1:
+                                 ////////////////////////////////////////////////////////////
+                                 // LCD_SOF
+                                 LCD_SOF:
 00015f 94f8                      	cli
                                  	// Ваш код
 000160 9478                      	sei
 000161 9518                      reti
-                                 EXT_PCINT2:
+                                 ////////////////////////////////////////////////////////////
+                                 // SPI
+                                 SPI_STC:
 000162 94f8                      	cli
                                  	// Ваш код
 000163 9478                      	sei
-000164 9508                      ret
-                                 EXT_PCINT3:
+000164 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // SPM_RDY
+                                 SPM_RDY:
 000165 94f8                      	cli
                                  	// Ваш код
 000166 9478                      	sei
 000167 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 // LCD_SOF
-                                 LCD_SOF:
+                                 // Timer 0
+                                 TIM0_COMP:
 000168 94f8                      	cli
                                  	// Ваш код
 000169 9478                      	sei
 00016a 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPI
-                                 SPI_STC:
+                                 TIM0_COMPA:
 00016b 94f8                      	cli
                                  	// Ваш код
 00016c 9478                      	sei
 00016d 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPM_RDY
-                                 SPM_RDY:
+                                 TIM0_COMPB:
 00016e 94f8                      	cli
                                  	// Ваш код
 00016f 9478                      	sei
 000170 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 0
-                                 TIM0_COMP:
+                                 TIM0_OVF:
 000171 94f8                      	cli
                                  	// Ваш код
 000172 9478                      	sei
 000173 9518                      reti
-                                 TIM0_COMPA:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 1
+                                 TIM1_CAPT:
 000174 94f8                      	cli
                                  	// Ваш код
 000175 9478                      	sei
 000176 9518                      reti
-                                 TIM0_COMPB:
+                                 TIM1_COMPA:
 000177 94f8                      	cli
                                  	// Ваш код
 000178 9478                      	sei
 000179 9518                      reti
-                                 TIM0_OVF:
+                                 TIM1_COMPB:
 00017a 94f8                      	cli
                                  	// Ваш код
 00017b 9478                      	sei
 00017c 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 1
-                                 TIM1_CAPT:
+                                 TIM1_COMPC:
 00017d 94f8                      	cli
                                  	// Ваш код
 00017e 9478                      	sei
 00017f 9518                      reti
-                                 TIM1_COMPA:
+                                 TIM1_OVF:
 000180 94f8                      	cli
                                  	// Ваш код
 000181 9478                      	sei
 000182 9518                      reti
-                                 TIM1_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 2
+                                 TIM2_COMP:
 000183 94f8                      	cli
                                  	// Ваш код
 000184 9478                      	sei
 000185 9518                      reti
-                                 TIM1_COMPC:
+                                 TIM2_COMPA:
 000186 94f8                      	cli
                                  	// Ваш код
 000187 9478                      	sei
 000188 9518                      reti
-                                 TIM1_OVF:
+                                 TIM2_COMPB:
 000189 94f8                      	cli
                                  	// Ваш код
 00018a 9478                      	sei
 00018b 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 2
-                                 TIM2_COMP:
+                                 TIM2_OVF:
 00018c 94f8                      	cli
                                  	// Ваш код
 00018d 9478                      	sei
 00018e 9518                      reti
-                                 TIM2_COMPA:
+                                 ////////////////////////////////////////////////////////////
+                                 //Timer 3
+                                 TIM3_CAPT:
 00018f 94f8                      	cli
                                  	// Ваш код
 000190 9478                      	sei
 000191 9518                      reti
-                                 TIM2_COMPB:
+                                 TIM3_COMPA:
 000192 94f8                      	cli
                                  	// Ваш код
 000193 9478                      	sei
 000194 9518                      reti
-                                 TIM2_OVF:
+                                 TIM3_COMPB:
 000195 94f8                      	cli
                                  	// Ваш код
 000196 9478                      	sei
 000197 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 //Timer 3
-                                 TIM3_CAPT:
+                                 TIM3_COMPC:
 000198 94f8                      	cli
                                  	// Ваш код
 000199 9478                      	sei
 00019a 9518                      reti
-                                 TIM3_COMPA:
+                                 TIM3_OVF:
 00019b 94f8                      	cli
                                  	// Ваш код
 00019c 9478                      	sei
 00019d 9518                      reti
-                                 TIM3_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 4
+                                 TIM4_CAPT:
 00019e 94f8                      	cli
                                  	// Ваш код
 00019f 9478                      	sei
 0001a0 9518                      reti
-                                 TIM3_COMPC:
+                                 TIM4_COMPA:
 0001a1 94f8                      	cli
                                  	// Ваш код
 0001a2 9478                      	sei
 0001a3 9518                      reti
-                                 TIM3_OVF:
+                                 TIM4_COMPB:
 0001a4 94f8                      	cli
                                  	// Ваш код
 0001a5 9478                      	sei
 0001a6 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 4
-                                 TIM4_CAPT:
+                                 TIM4_COMPC:
 0001a7 94f8                      	cli
                                  	// Ваш код
 0001a8 9478                      	sei
 0001a9 9518                      reti
-                                 TIM4_COMPA:
+                                 TIM4_OVF:
 0001aa 94f8                      	cli
                                  	// Ваш код
 0001ab 9478                      	sei
 0001ac 9518                      reti
-                                 TIM4_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 5
+                                 TIM5_CAPT:
 0001ad 94f8                      	cli
                                  	// Ваш код
 0001ae 9478                      	sei
 0001af 9518                      reti
-                                 TIM4_COMPC:
+                                 TIM5_COMPA:
 0001b0 94f8                      	cli
                                  	// Ваш код
 0001b1 9478                      	sei
 0001b2 9518                      reti
-                                 TIM4_OVF:
+                                 TIM5_COMPB:
 0001b3 94f8                      	cli
                                  	// Ваш код
 0001b4 9478                      	sei
 0001b5 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 5
-                                 TIM5_CAPT:
+                                 TIM5_COMPC:
 0001b6 94f8                      	cli
                                  	// Ваш код
 0001b7 9478                      	sei
 0001b8 9518                      reti
-                                 TIM5_COMPA:
+                                 TIM5_OVF:
 0001b9 94f8                      	cli
                                  	// Ваш код
 0001ba 9478                      	sei
 0001bb 9518                      reti
-                                 TIM5_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // TWSI
+                                 TWSI:
 0001bc 94f8                      	cli
                                  	// Ваш код
 0001bd 9478                      	sei
 0001be 9518                      reti
-                                 TIM5_COMPC:
+                                 ////////////////////////////////////////////////////////////
+                                 // USART
+                                 USART0_RXC:
 0001bf 94f8                      	cli
                                  	// Ваш код
 0001c0 9478                      	sei
 0001c1 9518                      reti
-                                 TIM5_OVF:
+                                 USART0_UDRE:
 0001c2 94f8                      	cli
                                  	// Ваш код
 0001c3 9478                      	sei
 0001c4 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // TWSI
-                                 TWSI:
+                                 USART0_TXC:
 0001c5 94f8                      	cli
                                  	// Ваш код
 0001c6 9478                      	sei
 0001c7 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // USART
-                                 USART0_RXC:
+                                 USART1_RXC:
 0001c8 94f8                      	cli
                                  	// Ваш код
 0001c9 9478                      	sei
 0001ca 9518                      reti
-                                 USART0_UDRE:
+                                 USART1_UDRE:
 0001cb 94f8                      	cli
                                  	// Ваш код
 0001cc 9478                      	sei
 0001cd 9518                      reti
-                                 USART0_TXC:
+                                 USART1_TXC:
 0001ce 94f8                      	cli
                                  	// Ваш код
 0001cf 9478                      	sei
 0001d0 9518                      reti
-                                 USART1_RXC:
+                                 USART2_RXC:
 0001d1 94f8                      	cli
                                  	// Ваш код
 0001d2 9478                      	sei
 0001d3 9518                      reti
-                                 USART1_UDRE:
+                                 USART2_UDRE:
 0001d4 94f8                      	cli
                                  	// Ваш код
 0001d5 9478                      	sei
 0001d6 9518                      reti
-                                 USART1_TXC:
+                                 USART2_TXC:
 0001d7 94f8                      	cli
                                  	// Ваш код
 0001d8 9478                      	sei
 0001d9 9518                      reti
-                                 USART2_RXC:
+                                 
+                                 USART3_RXC:
 0001da 94f8                      	cli
                                  	// Ваш код
 0001db 9478                      	sei
 0001dc 9518                      reti
-                                 USART2_UDRE:
+                                 USART3_UDRE:
 0001dd 94f8                      	cli
                                  	// Ваш код
 0001de 9478                      	sei
 0001df 9518                      reti
-                                 USART2_TXC:
+                                 USART3_TXC:
 0001e0 94f8                      	cli
                                  	// Ваш код
 0001e1 9478                      	sei
 0001e2 9518                      reti
-                                 
-                                 USART3_RXC:
+                                 ////////////////////////////////////////////////////////////
+                                 //USI
+                                 USI_STRT:
 0001e3 94f8                      	cli
                                  	// Ваш код
 0001e4 9478                      	sei
 0001e5 9518                      reti
-                                 USART3_UDRE:
+                                 USI_OVFL:
 0001e6 94f8                      	cli
                                  	// Ваш код
 0001e7 9478                      	sei
 0001e8 9518                      reti
-                                 USART3_TXC:
-0001e9 94f8                      	cli
-                                 	// Ваш код
-0001ea 9478                      	sei
-0001eb 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 //USI
-                                 USI_STRT:
-0001ec 94f8                      	cli
-                                 	// Ваш код
-0001ed 9478                      	sei
-0001ee 9518                      reti
-                                 USI_OVFL:
-0001ef 94f8                      	cli
-                                 	// Ваш код
-0001f0 9478                      	sei
-0001f1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // WDT
                                  WDT:
-0001f2 94f8                      	cli
+0001e9 94f8                      	cli
                                  	// Ваш код
-0001f3 9478                      	sei
+0001ea 9478                      	sei
                                  .include "Main/Modules_Inits.inc"
-0001f4 9518                      
+0001eb 9518                      
                                  	#ifdef TWSI_Module
                                  		TWSI_init
                                  	#endif
@@ -3297,6 +4290,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  	#endif
                                  
                                  	#ifdef ExternalInterrupts_Module
+                                 		ExtInt_init
                                  	#endif		
                                  
                                  	#ifdef ADC_Module
@@ -3309,13 +4303,22 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-0001f5 ef0f
-0001f6 bf0d
-0001f7 e201
-0001f8 bf0e                      
-0001f9 e30e
-0001fa 9300 00b8                 Modules_Inits
-0001fc 9478                      sei
+0001ec ef0f
+0001ed bf0d
+0001ee e201
+0001ef bf0e                      
+0001f0 e30e
+0001f1 9300 00b8
+0001f3 2700
+0001f4 2711
+0001f5 2722
+0001f6 6200
+0001f7 6024
+0001f8 9310 0069
+0001fa 9320 006a
+0001fc bb0d
+0001fd 9300 0068                 Modules_Inits
+0001ff 9478                      sei
                                  
                                  
                                  
@@ -3325,25 +4328,19 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\main.asm(8)
                                  WRITE_REG PCF8575_Data + 1, r16
                                  
                                  PCF8575_Write $42*/
+000200 e008                      ldi r16, $08
+000201 9300 0201                 WRITE_REG PCF8575_Data, r16
+000203 9503                      inc r16
+000204 9300 0202                 WRITE_REG PCF8575_Data + 1, r16
                                  
-0001fd e008                      ldi r16, $08
-0001fe 9300 0201                 WRITE_REG PCF8575_Data, r16
-000200 9503                      inc r16
-000201 9300 0202                 WRITE_REG PCF8575_Data + 1, r16
-                                 
-000203 932f
-000204 e420
-000205 940e 00b7
-000207 912f                      PCF8575_Write $40
+                                 //PCF8575_Write $40
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
-000208 932f
-000209 e420
-00020a 940e 00fc
-00020c 912f                      PCF8575_Read $40
-00020d cffa                      rjmp Proga
+                                 //PCF8575_Read $40
+                                 	
+000206 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -3363,10 +4360,10 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  63 r17:  13 r18:  40 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  59 r17:  15 r18:  34 r19:   0 r20:   3 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   3 r27:   3 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 5 out of 35 (14.3%)
+Registers used: 6 out of 35 (17.1%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
@@ -3374,27 +4371,27 @@ andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :  25 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :  22 cbi   :   0 cbr   :   0 
+clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   4 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   1 jmp   :  63 ld    :   0 ldd   :   0 ldi   :  26 
+in    :   0 inc   :   1 jmp   :  63 ld    :   0 ldd   :   0 ldi   :  22 
 lds   :  12 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   2 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   1 out   :   2 pop   :  22 push  :  22 rcall :   0 ret   :  11 
-reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
-sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   1 sbrc  :   4 
-sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
+ori   :   1 out   :   3 pop   :  17 push  :  17 rcall :   0 ret   :  11 
+reti  :  62 rjmp  :   6 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   3 sbrc  :   4 
+sbrs  :   2 sec   :   0 seh   :   0 sei   :  64 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  18 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  19 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 23 out of 116 (19.8%)
+Instructions used: 24 out of 116 (20.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x00041c   1052      0   1052  262144   0.4%
+[.cseg] 0x000000 0x00040e   1038      0   1038  262144   0.4%
 [.dseg] 0x000200 0x000203      0      3      3    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 

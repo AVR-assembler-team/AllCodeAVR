@@ -10,6 +10,5 @@
 .include "Modules/TWSI/TWSI_ACK_Transmit.inc"
 .include "Modules/TWSI/TWSI_Start.inc"
 .include "Modules/TWSI/TWSI_Byte_Transmit.inc"
-.include "Modules/TWSI/TWSI_Byte_Reading.inc"
 .include "Modules/TWSI/TWSI_Sla.inc"
 .include "Modules/TWSI/TWSI_Stop.inc"

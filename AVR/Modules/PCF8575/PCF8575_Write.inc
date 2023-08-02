@@ -20,6 +20,7 @@ PCF8575_Write_act:
 
 	READ_REG PCF8575_Data, r18
 	WRITE_REG TWDR, r18								; Вталкиваем в дата регистр
+
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
 
@@ -29,6 +30,7 @@ PCF8575_Write_act:
 
 	READ_REG PCF8575_Data + 1, r18
 	WRITE_REG TWDR, r18								; вталкиваем в дата регистр
+
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
 

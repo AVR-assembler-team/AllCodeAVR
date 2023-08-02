@@ -494,9 +494,6 @@
     <Compile Include="Modules\TWSI\TWSI_ACK_Transmit.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Byte_Reading.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Modules\TWSI\TWSI_Byte_Transmit.inc">
       <SubType>Code</SubType>
     </Compile>

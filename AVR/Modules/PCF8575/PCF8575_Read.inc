@@ -9,23 +9,21 @@
  PCF8575_Read_act:
 
 	TWSI_START									; Стартуем работу
-	TWSI_SLA r18, 'R'							; Отправляем адрес и режим работы
+	TWSI_SLA r18, 'R'							; Отправляем адрес и режим работы 
 
 	READ_REG TWSI_Flags, r18					; Считываем регистр флагов
 	sbrc r18, No_ACK							; Проверяем бит 
 	_jump gotoReadLabels						; Если поднят, то переходим
 
-	TWSI_Byte_Reading
+	TWSI_ACK_Transmit							; отправляем ACK
 
-	TWSI_ACK_Transmit MR_DATA_ACK
-	READ_REG TWDR, r18
-	WRITE_REG PCF8575_Data, r18
+	READ_REG TWDR, r18							; читаем данные с TWDR
+	WRITE_REG PCF8575_Data, r18					; записываем в память
 	
-	TWSI_Byte_Reading
+	TWSI_ACK_Transmit							; отправляем ACK
 
-	TWSI_ACK_Transmit MT_NACK
-	READ_REG TWDR, r18
-	WRITE_REG PCF8575_Data + 1, r18
+	READ_REG TWDR, r18							; читаем данные с TWDR
+	WRITE_REG PCF8575_Data + 1, r18				; записываем в память
 	
 	TWSI_STOP
 	_jump PCF8575_Read_end

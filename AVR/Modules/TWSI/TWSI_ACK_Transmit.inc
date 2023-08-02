@@ -1,10 +1,9 @@
 /*
-* Ответ
+* Чтение байта из модуля I2C
+* Принимает один аргумент - регистр в который производим запись прочитанного TWDR
 */
-.macro TWSI_ACK_Transmit 
-	push r16
-	ldi r16, @0
-	WRITE_REG TWSR, r16
-	pop r16
-.endm
-
+.macro TWSI_ACK_Transmit
+	ldi		r16, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
+	WRITE_REG TWCR, r16						; отправляем по шине
+	TWSI_TWINT_Flag
+.endm						; выход из подпрограммы
