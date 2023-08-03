@@ -1,68 +1,55 @@
-
-
-.macro SetINT
-	
-	clr r16
-	clr r17
-	clr r18
-
-	#ifdef _INT0_
-		sbr r16, (1<<INT0)
-		#ifdef _AnyEdge_INT0_
-			sbr r17, (1<<ISC00)
-		#elif defined _FallingEdge_INT0_
-			sbr r17, (1<<ISC01)
-		#elif defined _RisingEdge_INT0_
-			sbr r17, (1<<ISC00)
-			sbr r17, (1<<ISC01)
-		#endif
-	#endif
-
-		#endif
-	#ifdef _INT1_
-		#ifdef _AnyEdge_INT1_
-			sbr r17, (1<<ISC10)
-		#elif defined _FallingEdge_INT1_
-			sbr r17, (1<<ISC11)
-		#elif defined _RisingEdge_INT1_
-			sbr r17, (1<<ISC10)
-			sbr r17, (1<<ISC11)
-		sbr r16, (1<<INT1)
-	#endif
-
-	#ifdef _INT2_
-		sbr r16, (1<<INT2)
-		#ifdef _AnyEdge_INT2_
-			.error "Данный режим не поддерживается"
-		#elif defined _RisingEdge_INT2_
-			sbr r18, (1<<ISC2)
-		#endif
-	#endif
-
-	#if defined _INT3_ || _INT4_ || _INT5_ || _INT6_ || _INT7_
-		.error "Only INT0, INT1 and INT2" 
-	#endif
-
-	WRITE_REG MCUCR, r17
-	WRITE_REG MCUCSR, r18
-	WRITE_REG GICR, r16
-
-		
-	#if defined EnablePCINT0 || EnablePCINT1 || EnablePCINT2 || EnablePCINT3
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT4 || EnablePCINT5 || EnablePCINT6 || EnablePCINT7 || EnablePCINT8
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT9 || EnablePCINT10 || EnablePCINT11 || EnablePCINT12 || EnablePCINT13
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT14 || EnablePCINT15 || EnablePCINT16 || EnablePCINT17 || EnablePCINT18
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT19 || EnablePCINT20 || EnablePCINT21 || EnablePCINT22 || EnablePCINT23
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT24 || EnablePCINT25 || EnablePCINT26 || EnablePCINT27 || EnablePCINT28
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT29 || EnablePCINT30 || EnablePCINT31
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#endif
-
+.macro Enable_INT_Interrupt
+	.if @0 == INT0
+		.if @1 == AnyEdge
+			SETB MCUCR, ISC00
+			CLRB MCUCR, ISC01
+		.elif @1 == FallingEdge
+			CLRB MCUCR, ISC00
+			SETB MCUCR, ISC01
+		.elif @1 == RisingEdge
+			SETB MCUCR, ISC00
+			SETB MCUCR, ISC01
+		.endif 
+	.elif @0 == INT1
+		.if @1 == AnyEdge
+			SETB MCUCR, ISC10
+			CLRB MCUCR, ISC11
+		.elif @1 == FallingEdge
+			CLRB MCUCR, ISC10
+			SETB MCUCR, ISC11
+		.elif @1 == RisingEdge
+			SETB MCUCR, ISC10
+			SETB MCUCR, ISC11
+		.endif 
+	.elif @0 == INT2
+		.if @1 == AnyEdge
+			.error "Edge not supported!"
+		.elif @1 == FallingEdge
+			CLRB MCUCSR, ISC2
+		.elif @1 == RisingEdge
+			SETB MCUCSR, ISC2
+		.endif 
+	.endif
+	SETB GICR, @0
 .endm
-	
+//---------------------------------------------
+.macro Disable_INT_Interrupt
+	CLRB GICR, @0
+	.if @0 == INT0
+		CLRB MCUCR, ISC00
+		CLRB MCUCR, ISC01
+	.elif @0 == INT1
+		CLRB MCUCR, ISC10
+		CLRB MCUCR, ISC11
+	.elif @0 == INT2
+		CLRB MCUCSR, ISC2
+	.endif
+.endm
+//---------------------------------------------------
+.macro Enable_PCINT
+	.error "Any PCINT pins are not supported."
+.endm
+//---------------------------------------------------
+.macro Disable_PCINT
+	.error "Any PCINT pins are not supported."
+.endm

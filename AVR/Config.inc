@@ -68,7 +68,7 @@
 //.include	"m325Pdef.inc"
 //.include	"m328def.inc"
 //.include	"m328PBdef.inc"
-//.include	"m328Pdef.inc"
+.include	"m328Pdef.inc"
 //.include	"m329Adef.inc"
 //.include	"m329def.inc"
 //.include	"m329PAdef.inc"
@@ -95,7 +95,7 @@
 //.include	"m1284RFR2def.inc"
 //.include	"m1608def.inc"
 //.include	"m1609def.inc"
-.include	"m2560def.inc"
+//.include	"m2560def.inc"
 //.include	"m2561def.inc"
 //.include	"m2564RFR2def.inc"
 //.include	"m3208def.inc"
@@ -123,7 +123,7 @@
 // ¬ыберите те модули, которые вам нужны дл€ вашего проекта
 // остальные закоментируйте
 
-#define TWSI_Module
+//#define TWSI_Module
 //#define HD44780U_Module
 //#define USART_Module
 //#define ADC_Module
@@ -131,4 +131,4 @@
 //#define RotaryEncoder_Module
 //#define OneWire_Module
 //#define NTC3950_100K_Module
-#define PCF8575_Module
+//#define PCF8575_Module

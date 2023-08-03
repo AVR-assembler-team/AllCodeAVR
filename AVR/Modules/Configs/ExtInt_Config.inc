@@ -34,9 +34,9 @@
 //#define _RisingEdge_INT4_
 
 ; INT5
-#define _INT5_
+//#define _INT5_
 ; INT5 (The low level of INT5 generates an interrupt request as default)
-#define _AnyEdge_INT5_
+//#define _AnyEdge_INT5_
 //#define _FallingEdge_INT5_
 //#define _RisingEdge_INT5_
 

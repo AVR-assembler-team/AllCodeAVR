@@ -48,15 +48,10 @@ reti
 EXT_INT5:
 	cli
 	// Ваш код
+	//Clear_INT_Interrupt INT5
 	//PCF8575_Read $40
-	sbrs r20, 6
-	rjmp ddd
 
-	clr r20
-	sei
-reti
-ddd:
-	ldi r20, $40
+	//Set_INT_Interrupt INT5, FallingEdge
 	sei
 reti
 EXT_INT6:

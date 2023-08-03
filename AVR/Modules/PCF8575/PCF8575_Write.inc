@@ -11,6 +11,7 @@
 
 PCF8575_Write_act:
 
+
 	TWSI_START										; Стартуем работу
 	TWSI_SLA r18, 'W'								; Отправляем адрес и режим работы
 	
@@ -46,4 +47,5 @@ PCF8575_Write_act:
 		_call PCF8575_NoAck
 
 	PCF8575_Write_end:
+
 ret

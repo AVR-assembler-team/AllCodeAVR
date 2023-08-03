@@ -1,109 +1,185 @@
+.macro Enable_INT_Interrupt
+	.if @0 == INT0
+		.if @1 == LowLevel
+			CLRB MCUCR, ISC00
+			CLRB MCUCR, ISC01
+		.elif @1 == AnyEdge
+			SETB MCUCR, ISC00
+			CLRB MCUCR, ISC01
+		.elif @1 == FallingEdge
+			CLRB MCUCR, ISC00
+			SETB MCUCR, ISC01
+		.elif @1 == RisingEdge
+			SETB MCUCR, ISC00
+			SETB MCUCR, ISC01
+		.endif 
+	.elif @0 == INT1
+		.if @1 == LowLevel
+			CLRB MCUCR, ISC10
+			CLRB MCUCR, ISC11
+		.elif @1 == AnyEdge
+			SETB MCUCR, ISC10
+			CLRB MCUCR, ISC11
+		.elif @1 == FallingEdge
+			CLRB MCUCR, ISC10
+			SETB MCUCR, ISC11
+		.elif @1 == RisingEdge
+			SETB MCUCR, ISC10
+			SETB MCUCR, ISC11
+		.endif 
+	.elif @0 == INT2
+		.if @1 == AnyEdge
+			.error "Edge not supported!"
+		.elif @1 == FallingEdge
+			CLRB MCUCSR, ISC2
+		.elif @1 == RisingEdge
+			SETB MCUCSR, ISC2
+		.endif 
+	.endif
+	SETB GICR, @0
+.endm
+//---------------------------------------------
+.macro Disable_INT_Interrupt
+	CLRB GICR, @0
+	.if @0 == INT0
+		CLRB MCUCR, ISC00
+		CLRB MCUCR, ISC01
+	.elif @0 == INT1
+		CLRB MCUCR, ISC10
+		CLRB MCUCR, ISC11
+	.elif @0 == INT2
+		CLRB MCUCSR, ISC2
+	.endif
+.endm
+//---------------------------------------------------
+.macro Enable_PCINT
+	.if @0 == 0
+		SETB PCMSK0, PCINT0
+		SETB GICR, PCIE0
+	.elif @0 == 1
+		SETB PCMSK0, PCINT1
+		SETB GICR, PCIE0
+	.elif @0 == 2
+		SETB PCMSK0, PCINT2
+		SETB GICR, PCIE0
+	.elif @0 == 3
+		SETB PCMSK0, PCINT3
+		SETB GICR, PCIE0
+	.elif @0 == 4
+		SETB PCMSK0, PCINT4
+		SETB GICR, PCIE0
+	.elif @0 == 5
+		SETB PCMSK0, PCINT5
+		SETB GICR, PCIE0
+	.elif @0 == 6
+		SETB PCMSK0, PCINT6
+		SETB GICR, PCIE0
+	.elif @0 == 7
+		SETB PCMSK0, PCINT7
+		SETB GICR, PCIE0
+	.elif @0 == 8
+		SETB PCMSK1, PCINT8
+		SETB GICR, PCIE1
+	.elif @0 == 9
+		SETB PCMSK1, PCINT9
+		SETB GICR, PCIE1
+	.elif @0 == 10
+		SETB PCMSK1, PCINT10
+		SETB GICR, PCIE1
+	.elif @0 == 11
+		SETB PCMSK1, PCINT11
+		SETB GICR, PCIE1
+	.elif @0 == 12
+		SETB PCMSK1, PCINT12
+		SETB GICR, PCIE1
+	.elif @0 == 13
+		SETB PCMSK1, PCINT13
+		SETB GICR, PCIE1
+	.elif @0 == 14
+		SETB PCMSK1, PCINT14
+		SETB GICR, PCIE1
+	.elif @0 == 15
+		SETB PCMSK1, PCINT15
+		SETB GICR, PCIE1
+	.else
+		.error "PCINT pin not supported."
+	.endif
+.endm
+//---------------------------------------------------
+.macro Disable_PCIE
+	push r20
+	push r21
+	clr r21
 
-.macro SetINT
-	
-	clr r16
-	clr r17
+	.if @0 == PCIE0
+		READ_REG PCMSK0, r20
+		CLRRB r20, @1
+		cpse r20, r21
+		rjmp PCMSK0_
+		CLRB GICR, PCIE0
+		PCMSK0_:
+	.elif @0 == PCIE1
+		READ_REG PCMSK1, r20
+		CLRRB r20, @1
+		cpse r20, r21
+		rjmp PCMSK1_
+		CLRB GICR, PCIE1
+		PCMSK1_:
+	.endif
 
-	#ifdef _INT0_
-		sbr r16, (1<<INT0)
-		#ifdef _AnyEdge_INT0_
-			sbr r17, (1<<ISC00)
-		#elif defined _FallingEdge_INT0_
-			sbr r17, (1<<ISC01)
-		#elif defined _RisingEdge_INT0_
-			sbr r17, (1<<ISC00)
-			sbr r17, (1<<ISC01)
-		#endif 
-	#endif
-	#ifdef _INT1_
-		sbr r16, (1<<INT1)
-		#ifdef _AnyEdge_INT1_
-			sbr r17, (1<<ISC10)
-		#elif defined _FallingEdge_INT1_
-			sbr r17, (1<<ISC11)
-		#elif defined _RisingEdge_INT1_
-			sbr r17, (1<<ISC10)
-			sbr r17, (1<<ISC11)
-		#endif 
-	#endif
-	#ifdef _INT2_
-		sbr r16, (1<<INT2)
-		#ifdef _AnyEdge_INT2_
-			.error "AnyEdge not supported."
-		#elif defined _RisingEdge_INT2_
-			sbr r18, (1<<ISC2)
-		#endif
-	#endif
-	#if defined _INT3_ || _INT4_ || _INT5_ || _INT6_ || _INT7_
-		.error "Only INT0, INT1 and INT2" 
-	#endif
-	WRITE_REG MCUCR, r17
-	WRITE_REG EMCUCR, r18
-
-	#if defined EnablePCINT0 || EnablePCINT1 || EnablePCINT2 || EnablePCINT3 || EnablePCINT4 || EnablePCINT5 || EnablePCINT6 || EnablePCINT7
-		sbr r16, (1<<PCIE0)
-		#ifdef EnablePCINT0
-			sbr r17, (1<<PCINT0)
-		#endif
-		#ifdef EnablePCINT1
-			sbr r17, (1<<PCINT1)
-		#endif
-		#ifdef EnablePCINT2
-			sbr r17, (1<<PCINT2)
-		#endif
-		#ifdef EnablePCINT3
-			sbr r17, (1<<PCINT3)
-		#endif
-		#ifdef EnablePCINT4
-			sbr r17, (1<<PCINT4)
-		#endif
-		#ifdef EnablePCINT5
-			sbr r17, (1<<PCINT5)
-		#endif
-		#ifdef EnablePCINT6
-			sbr r17, (1<<PCINT6)
-		#endif
-		#ifdef EnablePCINT7
-			sbr r17, (1<<PCINT7)
-		#endif
-		WRITE_REG PCMSK0, r17
-	#endif
-	#if defined EnablePCINT8 || EnablePCINT9 || EnablePCINT10 || EnablePCINT11 || EnablePCINT12 || EnablePCINT13 || EnablePCINT14 || EnablePCINT15
-		sbr r16, (1<<PCIE1)
-		#ifdef EnablePCINT8
-			sbr r17, (1<<PCINT8)
-		#endif
-		#ifdef EnablePCINT9
-			sbr r17, (1<<PCINT9)
-		#endif
-		#ifdef EnablePCINT10
-			sbr r17, (1<<PCINT10)
-		#endif
-		#ifdef EnablePCINT11
-			sbr r17, (1<<PCINT11)
-		#endif
-		#ifdef EnablePCINT12
-			sbr r17, (1<<PCINT12)
-		#endif
-		#ifdef EnablePCINT13
-			sbr r17, (1<<PCINT13)
-		#endif
-		#ifdef EnablePCINT14
-			sbr r17, (1<<PCINT14)
-		#endif
-		#ifdef EnablePCINT15
-			sbr r17, (1<<PCINT15)
-		#endif
-		WRITE_REG PCMSK1, r17
-	#endif
-	#if defined EnablePCINT16 || EnablePCINT17 || EnablePCINT18 || EnablePCINT19 || EnablePCINT20
-		.error "Pins PCINT16 - PCINT31 are not supported."
-	#elif defined EnablePCINT21 || EnablePCINT22 || EnablePCINT23 || EnablePCINT24 || EnablePCINT25
-		.error "Pins PCINT16 - PCINT31 are not supported."
-	#elif defined EnablePCINT26 || EnablePCINT27 || EnablePCINT28 || EnablePCINT29 || EnablePCINT30 || EnablePCINT31
-		.error "Pins PCINT16 - PCINT31 are not supported."
-	#endif
-		
-	WRITE_REG GICR, r16
-
+	pop r21
+	pop r20
+.endm
+.macro Disable_PCINT
+	.if @0 == 0
+		Disable_PCIE PCIE0, PCINT0
+		CLRB PCMSK0, PCINT0
+	.elif @0 == 1
+		Disable_PCIE PCIE0, PCINT1
+		CLRB PCMSK0, PCINT1
+	.elif @0 == 2
+		Disable_PCIE PCIE0, PCINT2
+		CLRB PCMSK0, PCINT2
+	.elif @0 == 3
+		Disable_PCIE PCIE0, PCINT3
+		CLRB PCMSK0, PCINT3
+	.elif @0 == 4
+		Disable_PCIE PCIE0, PCINT4
+		CLRB PCMSK0, PCINT4
+	.elif @0 == 5
+		Disable_PCIE PCIE0, PCINT5
+		CLRB PCMSK0, PCINT5
+	.elif @0 == 6
+		Disable_PCIE PCIE0, PCINT6
+		CLRB PCMSK0, PCINT6
+	.elif @0 == 7
+		Disable_PCIE PCIE0, PCINT7
+		CLRB PCMSK0, PCINT7
+	.elif @0 == 8
+		Disable_PCIE PCIE1, PCINT8
+		CLRB PCMSK1, PCINT8
+	.elif @0 == 9
+		Disable_PCIE PCIE1, PCINT9
+		CLRB PCMSK1, PCINT9
+	.elif @0 == 10
+		Disable_PCIE PCIE1, PCINT10
+		CLRB PCMSK1, PCINT10
+	.elif @0 == 11
+		Disable_PCIE PCIE1, PCINT11
+		CLRB PCMSK1, PCINT11
+	.elif @0 == 12
+		Disable_PCIE PCIE1, PCINT12
+		CLRB PCMSK1, PCINT12
+	.elif @0 == 13
+		Disable_PCIE PCIE1, PCINT13
+		CLRB PCMSK1, PCINT13
+	.elif @0 == 14
+		Disable_PCIE PCIE1, PCINT14
+		CLRB PCMSK1, PCINT14
+	.elif @0 == 15
+		Disable_PCIE PCIE1, PCINT15
+		CLRB PCMSK1, PCINT15
+	.else
+		.error "PCINT pin not supported."
+	.endif
 .endm
