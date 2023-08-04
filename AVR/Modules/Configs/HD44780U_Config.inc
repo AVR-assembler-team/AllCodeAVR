@@ -14,12 +14,12 @@
 //#define HD44780U_Display_Off
 ;------------------------------------------------------------
 ; Настройка (C) - курсор виден или нет
-//#define HD44780U_Cursor_On
-#define HD44780U_Cursor_Off
+#define HD44780U_Cursor_On
+//#define HD44780U_Cursor_Off
 ;------------------------------------------------------------
 ; Настройка (B) - курсор мигает или нет
-//#define HD44780U_Cursor_Blinking_On
-#define HD44780U_Cursor_Blinking_Off
+#define HD44780U_Cursor_Blinking_On
+//#define HD44780U_Cursor_Blinking_Off
 ;------------------------------------------------------------
 ; Настройка (S/C) - Display Shift или Cursor Move
 //#define HD44780U_Display_Shift

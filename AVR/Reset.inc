@@ -2,9 +2,12 @@ STACKINIT		// Инициализация стэка
 Modules_Inits
 sei
 
-
-//HD44780U_Write_Symbol 'W'
-
+	;TWSI_START										; отсылаем START (рестартуем для записи)
+	;ldi r16, TWSI_Address
+	;TWSI_SLA r16, 'W'
+	;HD44780U_Set_Cursor 3, 6
+	;HD44780U_Write_Symbol 'W'
+	;TWSI_STOP
 //SETB EIMSK, INT6
 //SETB EIMSK, INT7
 /*ldi r16, $02

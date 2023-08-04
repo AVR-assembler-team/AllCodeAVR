@@ -115,30 +115,30 @@
 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
 		HD44780U_BF_Check											; проверка занятости LCD
 
-		;lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
-		;HD44780U_Send_instruction r16					; скармливаем инструкцию
-		;HD44780U_BF_Check								; проверка занятости LCD
+		lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
+		HD44780U_Send_instruction r16					; скармливаем инструкцию
+		HD44780U_BF_Check								; проверка занятости LCD
 
-		;lds r16, HD44780U_Display_On_Off_Control_byte	; Читаем Display On/Off Control в r16
+		lds r16, HD44780U_Display_On_Off_Control_byte	; Читаем Display On/Off Control в r16
 		
-		;HD44780U_Delay_100mks							; ждем больше 100 mks
-		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
-		;HD44780U_BF_Check								; проверка занятости LCD
+		HD44780U_Delay_100mks							; ждем больше 100 mks
+		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		HD44780U_BF_Check								; проверка занятости LCD
 
-		;ldi	r16, HD44780U_LCDClear						; LCD_Clear
-		;HD44780U_Delay_100mks							; ждем больше 100 mks
-		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
-		;HD44780U_BF_Check								; проверка занятости LCD
+		ldi	r16, HD44780U_LCDClear						; LCD_Clear
+		HD44780U_Delay_100mks							; ждем больше 100 mks
+		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		HD44780U_BF_Check								; проверка занятости LCD
 
-		;lds r16, HD44780U_Entry_Mode_Set_byte			; Читаем Entry Mode Set в r16
+		lds r16, HD44780U_Entry_Mode_Set_byte			; Читаем Entry Mode Set в r16
 		
-		;HD44780U_Delay_100mks							; ждем больше 100 mks
-		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		HD44780U_Delay_100mks							; ждем больше 100 mks
+		HD44780U_Send_instruction r16					; отсылаем байт инструкции
 
-		;lds r16, HD44780U_Cursor_or_display_shift		; Читаем Cursor or display shift в r16
-		;HD44780U_Send_instruction r16					; скармливаем инструкцию
+		lds r16, HD44780U_Cursor_or_display_shift		; Читаем Cursor or display shift в r16
+		HD44780U_Send_instruction r16					; скармливаем инструкцию
 
-		;TWSI_STOP										; отсылаем команду STOP
+		TWSI_STOP										; отсылаем команду STOP
 	ret													; выход из подпрограммы
 #endif
 

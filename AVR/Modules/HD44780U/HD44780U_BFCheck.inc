@@ -106,16 +106,14 @@
 
 		HD44780U_Delay_5mks								; задержка
 		
-		//TWSI_STOP										; больше не принимаем байты
+		TWSI_STOP										; больше не принимаем байты
 		TWSI_START 										; отсылаем START (рестартуем для чтения)
 		ldi r16, TWSI_Address
 		TWSI_SLA r16, 'R'
 
-		TWSI_ACK_Transmit								; отправляем ACK
-
+		TWSI_Byte_Transmit								; больше не принимаем байты
 		READ_REG TWDR, r17								; читаем байт из I2C в r17
 
-		//TWSI_STOP										; больше не принимаем байты
 		TWSI_START										; отсылаем START (рестартуем для записи)
 		ldi r16, TWSI_Address
 		TWSI_SLA r16, 'W'
