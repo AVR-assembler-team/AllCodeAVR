@@ -1,116 +1,154 @@
-
-.macro SetINT
-	
-	clr r16
-	clr r17
-
-	#ifdef _INT0_
-		sbr r16, (1<<INT0)
-		#ifdef _AnyEdge_INT0_
-			sbr r17, (1<<ISC00)
-		#elif defined _FallingEdge_INT0_
-			sbr r17, (1<<ISC01)
-		#elif defined _RisingEdge_INT0_
-			sbr r17, (1<<ISC00)
-			sbr r17, (1<<ISC01)
-		#endif 
-	#endif
-	#ifdef _INT1_
-		sbr r16, (1<<INT1)
-		#ifdef _AnyEdge_INT1_
-			sbr r17, (1<<ISC10)
-		#elif defined _FallingEdge_INT1_
-			sbr r17, (1<<ISC11)
-		#elif defined _RisingEdge_INT1_
-			sbr r17, (1<<ISC10)
-			sbr r17, (1<<ISC11)
-		#endif 
-	#endif
-	#ifdef _INT2_
-		sbr r16, (1<<INT2)
-		#ifdef _AnyEdge_INT2_
-			sbr r17, (1<<ISC20)
-		#elif defined _FallingEdge_INT2_
-			sbr r17, (1<<ISC21)
-		#elif defined _RisingEdge_INT2_
-			sbr r17, (1<<ISC20)
-			sbr r17, (1<<ISC21)
-		#endif 
-	#endif
-	#ifdef _INT3_
-		sbr r16, (1<<INT3)
-		#ifdef _AnyEdge_INT3_
-			sbr r17, (1<<ISC30)
-		#elif defined _FallingEdge_INT3_
-			sbr r17, (1<<ISC31)
-		#elif defined _RisingEdge_INT3_
-			sbr r17, (1<<ISC30)
-			sbr r17, (1<<ISC31)
-		#endif 
-	#endif
-	#ifdef _INT4_
-		sbr r16, (1<<INT4)
-		#ifdef _AnyEdge_INT4_
-			sbr r18, (1<<ISC40)
-		#elif defined _FallingEdge_INT4_
-			sbr r18, (1<<ISC41)
-		#elif defined _RisingEdge_INT4_
-			sbr r18, (1<<ISC40)
-			sbr r18, (1<<ISC41)
-		#endif 
-	#endif
-	#ifdef _INT5_
-		sbr r16, (1<<INT5)
-		#ifdef _AnyEdge_INT5_
-			sbr r18, (1<<ISC50)
-		#elif defined _FallingEdge_INT5_
-			sbr r18, (1<<ISC51)
-		#elif defined _RisingEdge_INT5_
-			sbr r18, (1<<ISC50)
-			sbr r18, (1<<ISC51)
-		#endif 
-	#endif
-	#ifdef _INT6_
-		sbr r16, (1<<INT6)
-		#ifdef _AnyEdge_INT6_
-			sbr r18, (1<<ISC60)
-		#elif defined _FallingEdge_INT6_
-			sbr r18, (1<<ISC61)
-		#elif defined _RisingEdge_INT6_
-			sbr r18, (1<<ISC60)
-			sbr r18, (1<<ISC61)
-		#endif 
-	#endif
-	#ifdef _INT7_
-		sbr r16, (1<<INT7)
-		#ifdef _AnyEdge_INT7_
-			sbr r18, (1<<ISC70)
-		#elif defined _FallingEdge_INT7_
-			sbr r18, (1<<ISC71)
-		#elif defined _RisingEdge_INT7_
-			sbr r18, (1<<ISC70)
-			sbr r18, (1<<ISC71)
-		#endif 
-	#endif
-
-	WRITE_REG EICRA, r17
-	WRITE_REG EICRB, r18
-	WRITE_REG EIMSK, r16
-	
-	#if defined EnablePCINT0 || EnablePCINT1 || EnablePCINT2 || EnablePCINT3
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT4 || EnablePCINT5 || EnablePCINT6 || EnablePCINT7 || EnablePCINT8
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT9 || EnablePCINT10 || EnablePCINT11 || EnablePCINT12 || EnablePCINT13
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT14 || EnablePCINT15 || EnablePCINT16 || EnablePCINT17 || EnablePCINT18
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT19 || EnablePCINT20 || EnablePCINT21 || EnablePCINT22 || EnablePCINT23
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT24 || EnablePCINT25 || EnablePCINT26 || EnablePCINT27 || EnablePCINT28
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#elif defined EnablePCINT29 || EnablePCINT30 || EnablePCINT31
-		.error "Pins PCINT0 - PCINT31 are not supported."
-	#endif
-
+.macro Enable_INT_Interrupt
+	.if @0 == INT0
+		.if @1 == LowLevel
+			CLRB EICRA, ISC00
+			CLRB EICRA, ISC01
+		.elif @1 == AnyEdge
+			SETB EICRA, ISC00
+			CLRB EICRA, ISC01
+		.elif @1 == FallingEdge
+			CLRB EICRA, ISC00
+			SETB EICRA, ISC01
+		.elif @1 == RisingEdge
+			SETB EICRA, ISC00
+			SETB EICRA, ISC01
+		.endif 
+	.elif @0 == INT1
+		.if @1 == LowLevel
+			CLRB EICRA, ISC10
+			CLRB EICRA, ISC11
+		.elif @1 == AnyEdge
+			SETB EICRA, ISC10
+			CLRB EICRA, ISC11
+		.elif @1 == FallingEdge
+			CLRB EICRA, ISC10
+			SETB EICRA, ISC11
+		.elif @1 == RisingEdge
+			SETB EICRA, ISC10
+			SETB EICRA, ISC11
+		.endif 
+	.elif @0 == INT2
+		.if @1 == LowLevel
+			CLRB EICRA, ISC20
+			CLRB EICRA, ISC21
+		.elif @1 == AnyEdge
+			SETB EICRA, ISC20
+			CLRB EICRA, ISC21
+		.elif @1 == FallingEdge
+			CLRB EICRA, ISC20
+			SETB EICRA, ISC21
+		.elif @1 == RisingEdge
+			SETB EICRA, ISC20
+			SETB EICRA, ISC21
+		.endif 
+	.elif @0 == INT3
+		.if @1 == LowLevel
+			CLRB EICRA, ISC30
+			CLRB EICRA, ISC31
+		.elif @1 == AnyEdge
+			SETB EICRA, ISC30
+			CLRB EICRA, ISC31
+		.elif @1 == FallingEdge
+			CLRB EICRA, ISC30
+			SETB EICRA, ISC31
+		.elif @1 == RisingEdge
+			SETB EICRA, ISC30
+			SETB EICRA, ISC31
+		.endif 
+	.elif @0 == INT4
+		.if @1 == LowLevel
+			CLRB EICRB, ISC40
+			CLRB EICRB, ISC41
+		.elif @1 == AnyEdge
+			SETB EICRB, ISC40
+			CLRB EICRB, ISC41
+		.elif @1 == FallingEdge
+			CLRB EICRB, ISC40
+			SETB EICRB, ISC41
+		.elif @1 == RisingEdge
+			SETB EICRB, ISC40
+			SETB EICRB, ISC41
+		.endif 
+	.elif @0 == INT5
+		.if @1 == LowLevel
+			CLRB EICRB, ISC50
+			CLRB EICRB, ISC51
+		.elif @1 == AnyEdge
+			SETB EICRB, ISC50
+			CLRB EICRB, ISC51
+		.elif @1 == FallingEdge
+			CLRB EICRB, ISC50
+			SETB EICRB, ISC51
+		.elif @1 == RisingEdge
+			SETB EICRB, ISC50
+			SETB EICRB, ISC51
+		.endif 
+	.elif @0 == INT6
+		.if @1 == LowLevel
+			CLRB EICRB, ISC60
+			CLRB EICRB, ISC61
+		.elif @1 == AnyEdge
+			SETB EICRB, ISC60
+			CLRB EICRB, ISC61
+		.elif @1 == FallingEdge
+			CLRB EICRB, ISC60
+			SETB EICRB, ISC61
+		.elif @1 == RisingEdge
+			SETB EICRB, ISC60
+			SETB EICRB, ISC61
+		.endif 
+	.elif @0 == INT7
+		.if @1 == LowLevel
+			CLRB EICRB, ISC70
+			CLRB EICRB, ISC71
+		.elif @1 == AnyEdge
+			SETB EICRB, ISC70
+			CLRB EICRB, ISC71
+		.elif @1 == FallingEdge
+			CLRB EICRB, ISC70
+			SETB EICRB, ISC71
+		.elif @1 == RisingEdge
+			SETB EICRB, ISC70
+			SETB EICRB, ISC71
+		.endif 
+	.endif
+	SETB EIMSK, @0
 .endm
+//---------------------------------------------
+.macro Disable_INT_Interrupt
+	CLRB EIMSK, @0
+	.if @0 == INT0
+		CLRB EICRA, ISC00
+		CLRB EICRA, ISC01
+	.elif @0 == INT1
+		CLRB EICRA, ISC10
+		CLRB EICRA, ISC11
+	.elif @0 == INT2
+		CLRB EICRA, ISC20
+		CLRB EICRA, ISC21
+	.elif @0 == INT3
+		CLRB EICRA, ISC30
+		CLRB EICRA, ISC31
+	.elif @0 == INT4
+		CLRB EICRB, ISC40
+		CLRB EICRB, ISC41
+	.elif @0 == INT5
+		CLRB EICRB, ISC50
+		CLRB EICRB, ISC51
+	.elif @0 == INT6
+		CLRB EICRB, ISC60
+		CLRB EICRB, ISC61
+	.elif @0 == INT7
+		CLRB EICRB, ISC70
+		CLRB EICRB, ISC71
+	.endif
+.endm
+//---------------------------------------------------
+.macro Enable_PCINT
+	.error "Any PCINT pins are not supported."
+.endm
+//---------------------------------------------------
+.macro Disable_PCINT
+	.error "Any PCINT pins are not supported."
+.endm
+

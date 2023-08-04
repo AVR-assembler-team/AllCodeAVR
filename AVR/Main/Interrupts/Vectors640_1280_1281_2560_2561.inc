@@ -40,21 +40,21 @@
 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
-	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
+	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
 	.endif
 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
-	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
+	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
 	.endif
 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
-	.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
+	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler

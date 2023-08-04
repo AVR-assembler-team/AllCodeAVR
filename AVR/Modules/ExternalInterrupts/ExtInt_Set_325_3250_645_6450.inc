@@ -274,6 +274,3 @@
 	.endif
 .endm
 
-.macro SetINT
-	
-.endm

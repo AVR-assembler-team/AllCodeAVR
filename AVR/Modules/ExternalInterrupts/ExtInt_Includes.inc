@@ -1,6 +1,4 @@
 
-.include "Modules/Configs/ExtInt_Config.inc"
-
 .if ctrl == 8
 	.include "Modules/ExternalInterrupts/ExtInt_Set_8.inc"
 .elif ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
@@ -25,8 +23,3 @@
 	.include "Modules/ExternalInterrupts/ExtInt_Set_640_1280_1281_2560_2561.inc"
 .endif
 
-
-.include "Modules/ExternalInterrupts/ExtInt_INTenable.inc"
-.include "Modules/ExternalInterrupts/ExtInt_INTdisable.inc"
-.include "Modules/ExternalInterrupts/ExtInt_Pins.inc"
-.include "Modules/ExternalInterrupts/ExtInt_Init.inc"
