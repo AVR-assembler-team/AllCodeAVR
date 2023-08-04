@@ -100,43 +100,45 @@
 	HD44780U_init_Act:
 	ldi r16,$03
 		HD44780U_Delay_15ms											; ждем 15-40 ms
-		TWSI_START TWSI_Address, 'W'									; начинаем передачу по шине I2C
+		TWSI_START										; отсылаем START (рестартуем для записи)
+		ldi r16, TWSI_Address
+		TWSI_SLA r16, 'W'
 		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем первую инструкцию инициализации				
 		HD44780U_Send_instr_byte_high		 						; передаем старшую тетраду байта инструкции
 		HD44780U_Delay_4_1ms										; ждем больше 4,1 ms
 		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем вторую инструкцию инициализации
 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
 		HD44780U_Delay_100mks										; ждем больше 100 mks
-		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем третью инструкцию инициализации
+		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)	; формируем третью инструкцию инициализации
 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
-		ldi	r16, (1<<HD44780U_LCD_D5)								; формируем четвертую инструкцию инициализации
+		ldi	r16, (1<<HD44780U_LCD_D5)							; формируем четвертую инструкцию инициализации
 		HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
 		HD44780U_BF_Check											; проверка занятости LCD
 
-		lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
-		HD44780U_Send_instruction r16					; скармливаем инструкцию
-		HD44780U_BF_Check								; проверка занятости LCD
+		;lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
+		;HD44780U_Send_instruction r16					; скармливаем инструкцию
+		;HD44780U_BF_Check								; проверка занятости LCD
 
-		lds r16, HD44780U_Display_On_Off_Control_byte	; Читаем Display On/Off Control в r16
+		;lds r16, HD44780U_Display_On_Off_Control_byte	; Читаем Display On/Off Control в r16
 		
-		HD44780U_Delay_100mks							; ждем больше 100 mks
-		HD44780U_Send_instruction r16					; отсылаем байт инструкции
-		HD44780U_BF_Check								; проверка занятости LCD
+		;HD44780U_Delay_100mks							; ждем больше 100 mks
+		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		;HD44780U_BF_Check								; проверка занятости LCD
 
-		ldi	r16, HD44780U_LCDClear						; LCD_Clear
-		HD44780U_Delay_100mks							; ждем больше 100 mks
-		HD44780U_Send_instruction r16					; отсылаем байт инструкции
-		HD44780U_BF_Check								; проверка занятости LCD
+		;ldi	r16, HD44780U_LCDClear						; LCD_Clear
+		;HD44780U_Delay_100mks							; ждем больше 100 mks
+		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		;HD44780U_BF_Check								; проверка занятости LCD
 
-		lds r16, HD44780U_Entry_Mode_Set_byte			; Читаем Entry Mode Set в r16
+		;lds r16, HD44780U_Entry_Mode_Set_byte			; Читаем Entry Mode Set в r16
 		
-		HD44780U_Delay_100mks							; ждем больше 100 mks
-		HD44780U_Send_instruction r16					; отсылаем байт инструкции
+		;HD44780U_Delay_100mks							; ждем больше 100 mks
+		;HD44780U_Send_instruction r16					; отсылаем байт инструкции
 
-		lds r16, HD44780U_Cursor_or_display_shift		; Читаем Cursor or display shift в r16
-		HD44780U_Send_instruction r16					; скармливаем инструкцию
+		;lds r16, HD44780U_Cursor_or_display_shift		; Читаем Cursor or display shift в r16
+		;HD44780U_Send_instruction r16					; скармливаем инструкцию
 
-		TWSI_STOP										; отсылаем команду STOP
+		;TWSI_STOP										; отсылаем команду STOP
 	ret													; выход из подпрограммы
 #endif
 

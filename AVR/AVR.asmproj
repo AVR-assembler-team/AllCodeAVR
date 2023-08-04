@@ -48,26 +48,26 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrAssembler>
-  <avrasm.assembler.general.AdditionalIncludeDirectories>
-    <ListValues>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
-    </ListValues>
-  </avrasm.assembler.general.AdditionalIncludeDirectories>
-  <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
-</AvrAssembler>
+        <avrasm.assembler.general.AdditionalIncludeDirectories>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
+          </ListValues>
+        </avrasm.assembler.general.AdditionalIncludeDirectories>
+        <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
+      </AvrAssembler>
     </ToolchainSettings>
     <OutputType>Executable</OutputType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrAssembler>
-  <avrasm.assembler.general.AdditionalIncludeDirectories>
-    <ListValues>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
-    </ListValues>
-  </avrasm.assembler.general.AdditionalIncludeDirectories>
-  <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
-</AvrAssembler>
+        <avrasm.assembler.general.AdditionalIncludeDirectories>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
+          </ListValues>
+        </avrasm.assembler.general.AdditionalIncludeDirectories>
+        <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
+      </AvrAssembler>
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
@@ -419,6 +419,18 @@
     <Compile Include="Modules\OneWire\OneWire_WriteScratchpad.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\PCF8574\PCF8574_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\PCF8574\PCF8574_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\PCF8574\PCF8574_Labels.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\PCF8574\PCF8574_Write.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\PCF8575\PCF8575_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -575,6 +587,7 @@
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
     <Folder Include="Modules\ExternalInterrupts" />
+    <Folder Include="Modules\PCF8574" />
     <Folder Include="Modules\PCF8575" />
     <Folder Include="Modules\NTC3950_100K" />
     <Folder Include="Modules\OneWire" />

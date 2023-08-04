@@ -33,3 +33,7 @@
 #ifdef PCF8575_Module
 	.include "Modules/PCF8575/PCF8575_Includes.inc"
 #endif
+
+#ifdef PCF8574_Module
+	.include "Modules/PCF8574/PCF8574_Includes.inc"
+#endif

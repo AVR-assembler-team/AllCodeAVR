@@ -1,5 +1,5 @@
 .macro _call
-	.if ctlr == 8 || ctlr == 48 || ctlr == 88 || ctlr == 8515 || ctlr == 8535
+	.if ctrl == 8 || ctrl == 48 || ctrl == 88 || ctrl == 8515 || ctrl == 8535
 		rcall @0
 	.else
 		call @0
@@ -7,7 +7,7 @@
 .endm
 //________________________________
 .macro _jump
-	.if ctlr == 8 || ctlr == 48 || ctlr == 88 || ctlr == 8515 || ctlr == 8535
+	.if ctrl == 8 || ctrl == 48 || ctrl == 88 || ctrl == 8515 || ctrl == 8535
 		rjmp @0
 	.else
 		jmp @0

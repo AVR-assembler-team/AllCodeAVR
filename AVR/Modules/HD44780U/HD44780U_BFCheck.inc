@@ -95,23 +95,53 @@
 		push r17										; вталкиваем r17 в STACK
 
 		ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
-		TWSI_Sending_byte r16							; отсылаем байт								
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ	
+							
 		ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, ≈ и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
-		TWSI_Sending_byte r16							; отсылаем байт	
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ
+
 		HD44780U_Delay_5mks								; задержка
-		TWSI_START TWSI_Address, 'R'				; отсылаем START (рестартуем дл€ чтени€)
-		TWSI_Reading_byte r17							; читаем байт из I2C в r17
-		TWSI_NACK										; больше не принимаем байты
-		TWSI_START TWSI_Address, 'W'				; отсылаем START (рестартуем дл€ записи)
+		
+		//TWSI_STOP										; больше не принимаем байты
+		TWSI_START 										; отсылаем START (рестартуем дл€ чтени€)
+		ldi r16, TWSI_Address
+		TWSI_SLA r16, 'R'
+
+		TWSI_ACK_Transmit								; отправл€ем ACK
+
+		READ_REG TWDR, r17								; читаем байт из I2C в r17
+
+		//TWSI_STOP										; больше не принимаем байты
+		TWSI_START										; отсылаем START (рестартуем дл€ записи)
+		ldi r16, TWSI_Address
+		TWSI_SLA r16, 'W'
+
 		ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
-		TWSI_Sending_byte r16							; отсылаем байт	
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ	
+
 		ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, ≈ и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
-		TWSI_Sending_byte r16							; отсылаем байт	
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ	
+
 		HD44780U_Delay_5mks								; задержка
+
 		ldi		r16, 0x0A								; держим подсветку LCD на +5 и RW на +5, остальное на 0
-		TWSI_Sending_byte r16							; отсылаем байт
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ	
+
 		ldi		r16, 0x08								; оставл€ем только подсветку LCD
-		TWSI_Sending_byte r16							; отсылаем байт
+		WRITE_REG TWDR, r16								; ¬талкиваем в дата регистр
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ	
+
 		sbrc	r17, 7									; если седьмой бит равен 0, то пропускаем след строку
 			rjmp	HD44780U_BF_Check_act				; переходим по метке
 
