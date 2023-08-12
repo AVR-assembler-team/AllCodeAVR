@@ -24,6 +24,8 @@
 
 	READ_REG TWDR, r18							; читаем данные с TWDR
 	WRITE_REG PCF8575_Data + 1, r18				; записываем в память
+
+	TWSI_Byte_Transmit							; больше не принимаем байты
 	
 	TWSI_STOP
 	_jump PCF8575_Read_end
