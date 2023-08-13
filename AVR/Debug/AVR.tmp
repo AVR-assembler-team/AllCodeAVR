@@ -152,12 +152,13 @@
   <HD44780U_Delay_15ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_Times.inc</FILE><LINE>52</LINE></HD44780U_Delay_15ms_act>
   <HD44780U_led_check_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_LedCheck.inc</FILE><LINE>21</LINE></HD44780U_led_check_act>
   <HD44780U_BF_Check_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_BFCheck.inc</FILE><LINE>92</LINE></HD44780U_BF_Check_act>
+  <HD44780U_BF_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_BFCheck.inc</FILE><LINE>96</LINE></HD44780U_BF_Check_act_1>
   <HD44780U_Send_instruction_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendInstruction.inc</FILE><LINE>103</LINE></HD44780U_Send_instruction_act>
   <HD44780U_Send_instr_byte_high_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendInstruction.inc</FILE><LINE>108</LINE></HD44780U_Send_instr_byte_high_act>
   <HD44780U_Send_instr_byte_low_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendInstruction.inc</FILE><LINE>130</LINE></HD44780U_Send_instr_byte_low_act>
   <HD44780U_Send_data_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendData.inc</FILE><LINE>47</LINE></HD44780U_Send_data_act>
   <HD44780U_Send_data_byte_high_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendData.inc</FILE><LINE>52</LINE></HD44780U_Send_data_byte_high_act>
-  <HD44780U_Send_data_byte_low_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendData.inc</FILE><LINE>70</LINE></HD44780U_Send_data_byte_low_act>
+  <HD44780U_Send_data_byte_low_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SendData.inc</FILE><LINE>72</LINE></HD44780U_Send_data_byte_low_act>
   <HD44780U_init_Act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_Init.inc</FILE><LINE>100</LINE></HD44780U_init_Act>
   <HD44780U_SetCursor_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SetCursor.inc</FILE><LINE>20</LINE></HD44780U_SetCursor_act>
   <FirstRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\AVR\Modules/HD44780U/HD44780U_SetCursor.inc</FILE><LINE>34</LINE></FirstRow>

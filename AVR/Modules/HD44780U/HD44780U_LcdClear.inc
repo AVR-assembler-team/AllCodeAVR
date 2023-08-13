@@ -9,5 +9,6 @@
 	HD44780U_Send_instruction r16	; отсылаем инструкцию
 
 	pop r16							; выталкиваем r16 из STACK
+	HD44780U_Set_Cursor 4, 20
 
 .endm
