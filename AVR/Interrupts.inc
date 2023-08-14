@@ -50,6 +50,7 @@ EXT_INT5:
 	// Ваш код
 	//Disable_INT_Interrupt INT5
 	//PCF8575_Read $40
+	PCF8574_Read $70
 
 	//Enable_INT_Interrupt INT5, FallingEdge
 	sei

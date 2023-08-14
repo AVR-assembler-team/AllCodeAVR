@@ -13,7 +13,7 @@
 
 	READ_REG TWSI_Flags, r18					; Считываем регистр флагов
 	sbrc r18, No_ACK							; Проверяем бит 
-	_jump gotoReadLabels						; Если поднят, то переходим
+	_jump gotoPCF8575ReadLabels						; Если поднят, то переходим
 
 	TWSI_ACK_Transmit							; отправляем ACK
 
@@ -30,7 +30,7 @@
 	TWSI_STOP
 	_jump PCF8575_Read_end
 
-	gotoReadLabels:
+	gotoPCF8575ReadLabels:
 		_call PCF8575_NoAck
 
 	PCF8575_Read_end:

@@ -10,5 +10,6 @@
 
 	pop r16							; выталкиваем r16 из STACK
 	HD44780U_Set_Cursor 4, 20
+	HD44780U_Write_Symbol ' '
 
 .endm

@@ -109,16 +109,18 @@
 		push	r16								; записываем в стек
 		andi	r16, $f0						; обнуляем первые 4 бита
 		push	r16								; записываем в стек
-		//HD44780U_led_check $04, $0c
+		
 		SETRB r16, HD44780U_LCD_E
+		SETRB r16, HD44780U_LCD_LIGHT
+
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
 		TWSI_Byte_Transmit								; Отправляем TWDR по шине
 		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
 
 		pop		r16								; извлекаем из стека
-		//CLRRB r16, HD44780U_LCD_E
-		//HD44780U_led_check $00, $08
-		HD44780U_Delay_5mks						; задержка
+		SETRB r16, HD44780U_LCD_LIGHT
+		
+		//HD44780U_Delay_5mks						; задержка
 
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
 		TWSI_Byte_Transmit								; Отправляем TWDR по шине
@@ -131,17 +133,17 @@
 		swap	r16								; меняем тетрады местами
 		andi	r16, 0xF0						; обнуляем первые 4 бита
 		push	r16								; записываем в стек
-		//HD44780U_led_check $04, $0c
+		
 		SETRB r16, HD44780U_LCD_E
+		SETRB r16, HD44780U_LCD_LIGHT
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
 		TWSI_Byte_Transmit								; Отправляем TWDR по шине
 		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
 
 		pop		r16								; извлекаем из стека
-		//CLRRB r16, HD44780U_LCD_E
-
-		//HD44780U_led_check $00, $08
-		HD44780U_Delay_5mks						; задержка
+		SETRB r16, HD44780U_LCD_LIGHT
+		
+		//HD44780U_Delay_5mks						; задержка
 
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
 		TWSI_Byte_Transmit								; Отправляем TWDR по шине

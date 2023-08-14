@@ -93,63 +93,38 @@
 	
 		push r16										; вталкиваем r16 в STACK
 		push r17										; вталкиваем r17 в STACK
-	HD44780U_BF_Check_act_1:
-		перепроверить на симуляторе во всех случаях
-		ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
-		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
-		TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
-							
-		//ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
-		//WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
-		//TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		//TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
 
-		HD44780U_Delay_5mks								; задержка
-		HD44780U_Delay_5mks								; задержка
-		HD44780U_Delay_5mks								; задержка
-		HD44780U_Delay_5mks								; задержка
-		HD44780U_Delay_5mks								; задержка
-		
-		TWSI_STOP										; больше не принимаем байты
+		ldi		r16, 0xFA								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
+		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
+		; 0.0259985
+		TWSI_Byte_Transmit								; Отправляем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
+
+		TWSI_STOP
+
 		TWSI_START 										; отсылаем START (рестартуем для чтения)
+		; 
 		ldi r16, TWSI_Address
 		TWSI_SLA r16, 'R'
-		//HD44780U_Delay_5mks								; задержка
-		//HD44780U_Delay_5mks								; задержка
-		//TWSI_ACK_Transmit
-		TWSI_Byte_Transmit								; больше не принимаем байты
-		READ_REG TWDR, r17								; читаем байт из I2C в r17
 
+	HD44780U_BF_Check_act_1:
+
+		READ_REG TWDR, r17								; читаем байт из I2C в r17
+		sbrc	r17, 7									; если седьмой бит равен 0, то пропускаем след строку
+			rjmp	HD44780U_BF_Check_act_1				; переходим по метке
+		
+		//TWSI_Byte_Transmit								; больше не принимаем байты
+		
 		TWSI_STOP										; больше не принимаем байты
 		TWSI_START										; отсылаем START (рестартуем для записи)
 		ldi r16, TWSI_Address
 		TWSI_SLA r16, 'W'
 
-		//ldi		r16, 0x0A								; держим подсветку LCD на +5 и поднимаем RW на +5
-		//WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
-		//TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		//TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
-
-		//ldi		r16, 0xFE								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
-		//WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
-		//TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		//TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
-
-		//HD44780U_Delay_5mks								; задержка
-
-		//ldi		r16, 0x0A								; держим подсветку LCD на +5 и RW на +5, остальное на 0
-	//WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
-		//TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		//TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
-
 		ldi		r16, 0x08								; оставляем только подсветку LCD
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр
 		TWSI_Byte_Transmit								; Отправляем TWDR по шине
-		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
 
-		sbrc	r17, 7									; если седьмой бит равен 0, то пропускаем след строку
-			rjmp	HD44780U_BF_Check_act_1				; переходим по метке
 
 		pop r17											; выталкиваем r17 из STACK
 		pop r16											; выталкиваем r16 из STACK

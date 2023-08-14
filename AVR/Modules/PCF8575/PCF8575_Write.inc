@@ -17,7 +17,7 @@ PCF8575_Write_act:
 	
 	READ_REG TWSI_Flags, r18						; Считываем регистр флагов
 	sbrc r18, No_ACK								; Проверяем бит 
-	_jump gotoWriteLabels							; Если поднят, то переходим
+	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 
 	READ_REG PCF8575_Data, r18
 	WRITE_REG TWDR, r18								; Вталкиваем в дата регистр
@@ -27,7 +27,7 @@ PCF8575_Write_act:
 
 	READ_REG TWSI_Flags, r18						; Считываем регистр флагов
 	sbrc r18, No_ACK								; Проверяем бит 
-	_jump gotoWriteLabels							; Если поднят, то переходим
+	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 
 	READ_REG PCF8575_Data + 1, r18
 	WRITE_REG TWDR, r18								; вталкиваем в дата регистр
@@ -37,7 +37,7 @@ PCF8575_Write_act:
 
 	READ_REG TWSI_Flags, r18						; Считываем регистр флагов
 	sbrc r18, No_ACK								; Проверяем бит 
-	_jump gotoWriteLabels							; Если поднят, то переходим
+	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 	
 	TWSI_STOP
 	_jump PCF8575_Write_end

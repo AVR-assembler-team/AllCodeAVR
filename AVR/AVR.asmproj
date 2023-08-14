@@ -15,7 +15,7 @@
     <Name>Gridar_AVR</Name>
     <RootNamespace>Gridar_AVR</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
-    <EntryFile>$(MSBuildProjectDirectory)\main.asm</EntryFile>
+    <EntryFile>$(MSBuildProjectDirectory)\AVR.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
@@ -80,7 +80,7 @@
     <Compile Include="Macros_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="main.asm">
+    <Compile Include="AVR.asm">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main\Constants.inc">
@@ -284,9 +284,6 @@
     <Compile Include="Modules\HD44780U\HD44780U_Led.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_LedCheck.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Modules\HD44780U\HD44780U_SendData.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -429,6 +426,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\PCF8574\PCF8574_Write.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\PCF8574\PCF8574_Read.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\PCF8575\PCF8575_Constants.inc">

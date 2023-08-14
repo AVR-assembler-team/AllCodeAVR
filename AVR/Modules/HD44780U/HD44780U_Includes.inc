@@ -9,7 +9,6 @@
 .include "Modules/HD44780U/HD44780U_Entry_mode_set.inc"
 .include "Modules/HD44780U/HD44780U_Cursor_or_display_shift.inc"
 
-.include "Modules/HD44780U/HD44780U_LedCheck.inc"
 .include "Modules/HD44780U/HD44780U_SetBytes.inc"
 .include "Modules/HD44780U/HD44780U_BFCheck.inc"
 .include "Modules/HD44780U/HD44780U_SendInstruction.inc"
