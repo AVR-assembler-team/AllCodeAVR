@@ -1,11 +1,14 @@
 /*
-* Записывает 2 байта в чип
+* Записывает байт в чип
 */
 
 .macro PCF8574_Write
 	push r18
+	push r19
 	ldi r18, @0
+	mov r19, @1
 	_call PCF8574_Write_act
+	pop r19
 	pop r18
 .endm
 
@@ -18,8 +21,7 @@ PCF8574_Write_act:
 	sbrc r18, No_ACK								; Проверяем бит 
 	_jump gotoPCF8574WriteLabels							; Если поднят, то переходим
 
-	READ_REG PCF8574_Data, r18
-	WRITE_REG TWDR, r18								; Вталкиваем в дата регистр
+	WRITE_REG TWDR, r19								; Вталкиваем в дата регистр
 
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ

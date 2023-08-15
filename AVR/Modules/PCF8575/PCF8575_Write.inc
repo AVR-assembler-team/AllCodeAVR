@@ -4,8 +4,14 @@
 
 .macro PCF8575_Write
 	push r18
+	push r19
+	push r20
 	ldi r18, @0
+	mov r19, @1
+	mov r20, @2
 	_call PCF8575_Write_act
+	pop r20
+	pop r19
 	pop r18
 .endm
 
@@ -19,8 +25,7 @@ PCF8575_Write_act:
 	sbrc r18, No_ACK								; Проверяем бит 
 	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 
-	READ_REG PCF8575_Data, r18
-	WRITE_REG TWDR, r18								; Вталкиваем в дата регистр
+	WRITE_REG TWDR, r19								; Вталкиваем в дата регистр
 
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
@@ -29,8 +34,7 @@ PCF8575_Write_act:
 	sbrc r18, No_ACK								; Проверяем бит 
 	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 
-	READ_REG PCF8575_Data + 1, r18
-	WRITE_REG TWDR, r18								; вталкиваем в дата регистр
+	WRITE_REG TWDR, r20								; вталкиваем в дата регистр
 
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
@@ -42,7 +46,7 @@ PCF8575_Write_act:
 	TWSI_STOP
 	_jump PCF8575_Write_end
 
-	gotoWriteLabels:
+	gotoPCF8575WriteLabels:
 		TWSI_STOP
 		_call PCF8575_NoAck
 

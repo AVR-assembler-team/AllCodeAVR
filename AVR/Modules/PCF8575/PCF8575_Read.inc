@@ -1,7 +1,11 @@
 .macro PCF8575_Read
 	push r18
+	push r19
 	ldi r18, @0
 	_call PCF8575_Read_act
+	WRITE_REG @1, r18					; записываем в память
+	WRITE_REG @2, r19					; записываем в память
+	pop r19
 	pop r18
 
 .endm
@@ -18,12 +22,12 @@
 	TWSI_ACK_Transmit							; отправляем ACK
 
 	READ_REG TWDR, r18							; читаем данные с TWDR
-	WRITE_REG PCF8575_Data, r18					; записываем в память
+	
 	
 	TWSI_ACK_Transmit							; отправляем ACK
 
-	READ_REG TWDR, r18							; читаем данные с TWDR
-	WRITE_REG PCF8575_Data + 1, r18				; записываем в память
+	READ_REG TWDR, r19							; читаем данные с TWDR
+	
 
 	TWSI_Byte_Transmit							; больше не принимаем байты
 	
@@ -32,6 +36,8 @@
 
 	gotoPCF8575ReadLabels:
 		_call PCF8575_NoAck
+		clr r18
+		clr r19
 
 	PCF8575_Read_end:
  ret

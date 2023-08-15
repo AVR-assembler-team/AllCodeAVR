@@ -18,17 +18,14 @@ sei
 
 
 ; InternalInterrupts
-	Enable_INT_Interrupt INT5, FallingEdge
+	//Enable_INT_Interrupt INT4, FallingEdge
+	//Enable_INT_Interrupt INT5, FallingEdge
 
 ; PCF8575
 	//ldi r16, $08
-	//WRITE_REG PCF8575_Data, r16
-	//inc r16
-	//WRITE_REG PCF8575_Data + 1, r16
-
-	//PCF8575_Write $40
+	//ldi r17, $09
+	//PCF8575_Write $40, r16, r17
 
 ; PCF8574
-	//ldi r16, $e7
-	//WRITE_REG PCF8574_Data, r16
-	//PCF8574_Write $70
+	//ldi r16, $7f
+	//PCF8574_Write $70, r16

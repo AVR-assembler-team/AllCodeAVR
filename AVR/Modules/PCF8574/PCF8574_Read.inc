@@ -2,6 +2,7 @@
 	push r18
 	ldi r18, @0
 	_call PCF8574_Read_act
+	WRITE_REG @1, r18					; записываем в пам€ть
 	pop r18
 
 .endm
@@ -15,24 +16,18 @@
 	sbrc r18, No_ACK							; ѕровер€ем бит 
 	_jump gotoPCF8574ReadLabels						; ≈сли подн€т, то переходим
 
-	//TWSI_ACK_Transmit							; отправл€ем ACK
 	TWSI_Byte_Transmit							; больше не принимаем байты
 
 	READ_REG TWDR, r18							; читаем данные с TWDR
-	WRITE_REG PCF8574_Data, r18					; записываем в пам€ть
 	
 	TWSI_ACK_Transmit							; отправл€ем ACK
-
-	//READ_REG TWDR, r18							; читаем данные с TWDR
-	//WRITE_REG PCF8575_Data + 1, r18				; записываем в пам€ть
-
-	//TWSI_Byte_Transmit							; больше не принимаем байты
-	
+		
 	TWSI_STOP
 	_jump PCF8574_Read_end
 
 	gotoPCF8574ReadLabels:
 		_call PCF8574_NoAck
+		clr r18
 
 	PCF8574_Read_end:
  ret

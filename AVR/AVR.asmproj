@@ -419,9 +419,6 @@
     <Compile Include="Modules\PCF8574\PCF8574_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8574\PCF8574_Constants.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Modules\PCF8574\PCF8574_Labels.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -429,9 +426,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\PCF8574\PCF8574_Read.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\PCF8575\PCF8575_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\PCF8575\PCF8575_Includes.inc">
@@ -456,6 +450,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\README\OneWire_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\README\PCF8574_README.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\README\PCF8575_README.inc">
