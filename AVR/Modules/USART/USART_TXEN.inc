@@ -36,7 +36,7 @@
     
     .macro USARTTransmitter
 	.if @0 == 0
-	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		USARTTransmit @1
 	    .else
 		USART0Transmit @1
@@ -45,11 +45,11 @@
 	.elif @0 == 1
 	    USART1Transmit @1
 	.elif @0 == 2
-	    .if ctlr != 1281 || ctlr != 2561
+	    .if ctrl != 1281 || ctrl != 2561
 		USART2Transmit @1
 	    .endif
 	.elif @0 == 3
-	    .if ctlr != 1281 || ctlr != 2561
+	    .if ctrl != 1281 || ctrl != 2561
 		USART3Transmit @1
 	    .endif
 	.endif

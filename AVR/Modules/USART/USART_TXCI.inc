@@ -36,7 +36,7 @@
 
     .macro TXCompleteInterrupt
 	.if @0 == 0
-	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		USARTTXCompleteInterr @1
 	    .else
 		USART0TXCompleteInterr @1

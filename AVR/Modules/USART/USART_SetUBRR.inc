@@ -15,25 +15,25 @@
 		ldi r16, 103
 	.endif
 	
-	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		out UBRRH, r17
 		out UBRRL, r16
 
-	.elif ctlr == 48 || ctlr == 88 || ctlr == 168
+	.elif ctrl == 48 || ctrl == 88 || ctrl == 168
 		out UBRR0H, r17
 		out UBRR0L, r16
 
-	.elif ctlr == 165 || ctlr == 169 || ctlr == 325 || ctlr == 3250 || ctlr == 645 || ctlr == 6450 || ctlr == 328 || ctlr == 329 || ctlr == 3290 || ctlr == 649 || ctlr == 6490
+	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 328 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
 		sts UBRR0H, r17
 		sts UBRR0L, r16
 	
-	.elif ctlr == 64 || ctlr == 128 || ctlr == 162 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284 
+	.elif ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284 
 		out UBRR0H, r17
 		out UBRR0L, r16
 		out UBRR1H, r17
 		out UBRR1L, r16
 
-	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
 		sts UBRR0H, r17
 		sts UBRR0L, r16
 		sts UBRR1H, r17

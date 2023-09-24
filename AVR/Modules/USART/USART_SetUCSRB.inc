@@ -10,7 +10,7 @@
 	clr r18
 	clr r19
 
-    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		#ifdef ReceiverEnable0
 			sbr r16, (1<<RXEN)
 		#endif
@@ -28,7 +28,7 @@
 		#endif
 		WriteUCSRB UCSRB, r16
 
-    .elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+    .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
 		#ifdef ReceiverEnable0
 			sbr r16, (1<<RXEN0)
 		#endif
@@ -81,7 +81,7 @@
 			sbr r19, (1<<UCSZ32)
 		#endif
 	
-		.if ctlr == 640 || ctlr == 1280 || ctlr == 2560
+		.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
 			#ifdef RXCompleteInterruptEnable2
 				sbr r18, (1<<RXCIE2)
 			#endif
@@ -101,7 +101,7 @@
 		WriteUCSRB UCSR2B, r18
 		WriteUCSRB UCSR3B, r19
 
-    .elif ctlr == 64 || ctlr == 128 || ctlr == 162 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+    .elif ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
 		#ifdef ReceiverEnable0
 			sbr r16, (1<<RXEN0)
 		#endif
@@ -136,7 +136,7 @@
 		WriteUCSRB UCSR0B, r16
 		WriteUCSRB UCSR1B, r17
 
-    .elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+    .elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
 		#ifdef ReceiverEnable0
 			sbr r16, (1<<RXEN0)
 		#endif

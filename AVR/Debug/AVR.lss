@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Tue Aug 15 23:31:43 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 14:29:13 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -24,6 +24,24 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Byte_Transmit.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Sla.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Configs/USART_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_BAUD.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_MPCM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCPOL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCSZ.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UDREI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UMSEL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UPM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_USBS.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_SetUBRR.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_SetUCSRC.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Labels.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Write.inc'
@@ -56,6 +74,24 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Byte_Transmit.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Sla.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Configs/USART_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_BAUD.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_MPCM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCPOL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCSZ.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UDREI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UMSEL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UPM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_USBS.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_SetUBRR.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_SetUCSRC.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Labels.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/PCF8575/PCF8575_Write.inc'
@@ -2100,7 +2136,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  
                                  #define TWSI_Module
                                  //#define HD44780U_Module
-                                 //#define USART_Module
+                                 #define USART_Module
                                  //#define ADC_Module
                                  #define ExternalInterrupts_Module
                                  //#define RotaryEncoder_Module
@@ -2761,6 +2797,1411 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  #endif
                                  
                                  #ifdef USART_Module
+                                 	.include "Modules/USART/USART_Includes.inc"
+                                 
+                                 .include "Modules/Configs/USART_Config.inc"
+                                 
+                                 //=========================================================================================
+                                 //-----------------------------------------------------------------------------------------
+                                 ; Прерывания по окончанию приема и передачи байта данных можно инициализировать тут,
+                                 ; а можно влючить и отключить тогда, когда это необходимо в процессе выполнения программы.
+                                 ; Подробно узнаете из файла README.inc в папке README 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 ; USART0 или если один USART в микроконтроллере
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity0_1
+                                     
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART1
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity1_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART2
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity2_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART3
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity3_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 .include "Modules/USART/USART_Constants.inc"
+                                 
+                                 .equ synchron = 1
+                                 .equ masterSPI = 2
+                                 .equ evenParity = 3
+                                 .equ oddParity = 4
+                                 .include "Modules/USART/USART_BAUD.inc"
+                                 
+                                 	.if @0 == 2400
+                                 		ldi r16, 25
+                                 	.elif @0 == 4800
+                                 		ldi r16, 12
+                                 	.elif @0 == 9600
+                                 		ldi r16, 6
+                                 	.elif @0 == 14400
+                                 		ldi r16, 3
+                                 	.elif @0 == 19200
+                                 		ldi r16, 2
+                                 	.elif @0 == 28800
+                                 		ldi r16, 1
+                                 	.elif @0 == 38400
+                                 		ldi r16, 1
+                                 	.elif @0 > 57600
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR2
+                                 	.if @0 == 2400
+                                 		ldi r16, 51
+                                 	.elif @0 == 4800
+                                 		ldi r16, 25
+                                 	.elif @0 == 9600
+                                 		ldi r16, 12
+                                 	.elif @0 == 14400
+                                 		ldi r16, 8
+                                 	.elif @0 == 19200
+                                 		ldi r16, 6
+                                 	.elif @0 == 28800
+                                 		ldi r16, 3
+                                 	.elif @0 == 38400
+                                 		ldi r16, 2
+                                 	.elif @0 == 57600
+                                 		ldi r16, 1
+                                 	.elif @0 == 76800
+                                 		ldi r16, 1
+                                 	.elif @0 > 115200
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR3
+                                 	.if @0 == 2400
+                                 		ldi r16, 103
+                                 	.elif @0 == 4800
+                                 		ldi r16, 51
+                                 	.elif @0 == 9600
+                                 		ldi r16, 25
+                                 	.elif @0 == 14400
+                                 		ldi r16, 16
+                                 	.elif @0 == 19200
+                                 		ldi r16, 12
+                                 	.elif @0 == 28800
+                                 		ldi r16, 8
+                                 	.elif @0 == 38400
+                                 		ldi r16, 6
+                                 	.elif @0 == 57600
+                                 		ldi r16, 3
+                                 	.elif @0 == 76800
+                                 		ldi r16, 2
+                                 	.elif @0 == 115200
+                                 		ldi r16, 1
+                                 	.elif @0 > 250000
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR4
+                                 	.if @0 == 2400
+                                 		ldi r16, 207
+                                 	.elif @0 == 4800
+                                 		ldi r16, 103
+                                 	.elif @0 == 9600
+                                 		ldi r16, 51
+                                 	.elif @0 == 14400
+                                 		ldi r16, 34
+                                 	.elif @0 == 19200
+                                 		ldi r16, 25
+                                 	.elif @0 == 28800
+                                 		ldi r16, 16
+                                 	.elif @0 == 38400
+                                 		ldi r16, 12
+                                 	.elif @0 == 57600
+                                 		ldi r16, 8
+                                 	.elif @0 == 76800
+                                 		ldi r16, 6
+                                 	.elif @0 == 115200
+                                 		ldi r16, 3
+                                 	.elif @0 == 230400
+                                 		ldi r16, 1
+                                 	.elif @0 == 250000
+                                 		ldi r16, 1
+                                 	.elif @0 > 500000
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR5
+                                 	.if @0 == 2400
+                                 		ldi r16, 160
+                                 		ldi r17, 1
+                                 	.elif @0 == 4800
+                                 		ldi r16, 207
+                                 	.elif @0 == 9600
+                                 		ldi r16, 103
+                                 	.elif @0 == 14400
+                                 		ldi r16, 68
+                                 	.elif @0 == 19200
+                                 		ldi r16, 51
+                                 	.elif @0 == 28800
+                                 		ldi r16, 34
+                                 	.elif @0 == 38400
+                                 		ldi r16, 25
+                                 	.elif @0 == 57600
+                                 		ldi r16, 16
+                                 	.elif @0 == 76800
+                                 		ldi r16, 12
+                                 	.elif @0 == 115200
+                                 		ldi r16, 8
+                                 	.elif @0 == 230400
+                                 		ldi r16, 3
+                                 	.elif @0 == 250000
+                                 		ldi r16, 3
+                                 	.elif @0 == 500000
+                                 		ldi r16, 1
+                                 	.endif
+                                 .endm
+                                 .macro UBBR6
+                                 	.if @0 == 2400
+                                 		ldi r16, 64
+                                 		ldi r17, 3
+                                 	.elif @0 == 4800
+                                 		ldi r16, 160
+                                 		ldi r17, 1
+                                 	.elif @0 == 9600
+                                 		ldi r16, 207
+                                 	.elif @0 == 14400
+                                 		ldi r16, 138
+                                 	.elif @0 == 19200
+                                 		ldi r16, 103
+                                 	.elif @0 == 28800
+                                 		ldi r16, 68
+                                 	.elif @0 == 38400
+                                 		ldi r16, 51
+                                 	.elif @0 == 57600
+                                 		ldi r16, 34
+                                 	.elif @0 == 76800
+                                 		ldi r16, 25
+                                 	.elif @0 == 115200
+                                 		ldi r16, 16
+                                 	.elif @0 == 230400
+                                 		ldi r16, 8
+                                 	.elif @0 == 250000
+                                 		ldi r16, 7
+                                 	.elif @0 == 500000
+                                 		ldi r16, 3
+                                 	.elif @0 == 1000000
+                                 		ldi r16, 1
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 .macro USARTBaudRate
+                                 	
+                                 	clr r16
+                                 	clr r17
+                                 
+                                 	.if ATmegaFREQ == 1000000
+                                 		.if @1 == normal
+                                 			UBBR1 @2
+                                 		.elif @1 == double
+                                 			UBBR2 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 2000000
+                                 		.if @1 == normal
+                                 			UBBR2 @2
+                                 		.elif @1 == double
+                                 			UBBR3 @2
+                                 			.if @2 == 230400
+                                 				.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 			.endif
+                                 		.endif
+                                 	.elif ATmegaFREQ == 4000000
+                                 		.if @1 == normal
+                                 			UBBR3 @2
+                                 		.elif @1 == double
+                                 			UBBR4 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 8000000
+                                 		.if @1 == normal
+                                 			UBBR4 @2
+                                 		.elif @1 == double
+                                 			UBBR5 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 16000000
+                                 		.if @1 == normal
+                                 			UBBR5 @2
+                                 		.elif @1 == double
+                                 			UBBR6 @2
+                                 		.endif
+                                 	.endif
+                                 
+                                 
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 			out UBRRH, r17
+                                 			out UBRRL, r16
+                                 		.endif
+                                 
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 168
+                                 		.if @0 == 0
+                                 			out UBRR0H, r17
+                                 			out UBRR0L, r16
+                                 		.endif
+                                 
+                                 	.elif ctlr == 165 || ctlr == 169 || ctlr == 325 || ctlr == 3250 || ctlr == 645 || ctlr == 6450 || ctlr == 328 || ctlr == 329 || ctlr == 3290 || ctlr == 649 || ctlr == 6490
+                                 		.if @0 == 0
+                                 			sts UBRR0H, r17
+                                 			sts UBRR0L, r16
+                                 		.endif
+                                 	
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 162 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284 
+                                 		.if @0 == 0
+                                 			out UBRR0H, r17
+                                 			out UBRR0L, r16
+                                 		.elif @0 == 1
+                                 			out UBRR1H, r17
+                                 			out UBRR1L, r16
+                                 		.endif
+                                 
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 			sts UBRR0H, r17
+                                 			sts UBRR0L, r16
+                                 		.elif @0 == 1
+                                 			sts UBRR1H, r17
+                                 			sts UBRR1L, r16
+                                 		.elif @0 == 2
+                                 			sts UBRR2H, r17
+                                 			sts UBRR2L, r16
+                                 		.elif @0 == 3
+                                 			sts UBRR3H, r17
+                                 			sts UBRR3L, r16
+                                 		.endif
+                                 
+                                 	.endif
+                                 .endm
+                                 .include "Modules/USART/USART_MPCM.inc"
+                                 
+                                 	.if @0 == enabled
+                                 		SETB UCSRA, MPCM
+                                 	.elif @0 == disabled
+                                 		CLRB UCSRA, MPCM
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication0
+                                 	.if @0 == enabled
+                                 		SETB UCSR0A, MPCM0
+                                 	.elif @0 == disabled
+                                 		CLRB UCSR0A, MPCM0
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication1
+                                 	.if @0 == enabled
+                                 		SETB UCSR1A, MPCM1
+                                 	.elif @0 == disabled
+                                 		CLRB UCSR1A, MPCM1
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication2
+                                 	.if @0 == enabled
+                                 		SETB UCSR2A, MPCM2
+                                 	.elif @0 == disabled
+                                 		CLRB UCSR2A, MPCM2
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication3
+                                 	.if @0 == enabled
+                                 		SETB UCSR3A, MPCM3
+                                 	.elif @0 == disabled
+                                 		CLRB UCSR3A, MPCM3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTMultiProcessorCommunicationMode
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 			MultiProcessorCommunication @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.elif @0 == 2
+                                 			MultiProcessorCommunication2 @1
+                                 		.elif @0 == 3
+                                 			MultiProcessorCommunication3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "Modules/USART/USART_RXCI.inc"
+                                 
+                                 	.if @0 == enabled
+                                 	    SETB UCSRB, RXCIE
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSRB, RXCIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0RXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR0B, RXCIE0
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR0B, RXCIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1RXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR1B, RXCIE1
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR1B, RXCIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2RXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR2B, RXCIE2
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR2B, RXCIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3RXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR3B, RXCIE3
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR3B, RXCIE3
+                                 	.endif
+                                     .endm
+                                 	
+                                     .macro RXCompleteInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		USARTRXCompleteInterr @1
+                                 	    .else
+                                 		USART0RXCompleteInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1RXCompleteInterr @1
+                                 	.elif @0 == 2
+                                 	    USART2RXCompleteInterr @1
+                                 	.elif @0 == 3
+                                 	    USART3RXCompleteInterr @1
+                                 	.endif
+                                     .endm
+                                 .include "Modules/USART/USART_RXEN.inc"
+                                 
+                                 	.if @0 == enabled
+                                 	    SETB UCSRB, RXEN
+                                 	.elif @0 == disabled
+                                 	    CLRB UCSRB, RXEN
+                                 	.endif
+                                     .endm
+                                     .macro USART0Receiv
+                                 	.if @0 == enabled
+                                 	    SETB UCSR0B, RXEN0
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR0B, RXEN0
+                                 	.endif
+                                     .endm
+                                     .macro USART1Receiv
+                                 	.if @0 == enabled
+                                 	    SETB UCSR1B, RXEN1
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR1B, RXEN1
+                                 	.endif
+                                     .endm
+                                     .macro USART2Receiv
+                                 	.if @0 == enabled
+                                 	    SETB UCSR2B, RXEN2
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR2B, RXEN2
+                                 	.endif
+                                     .endm
+                                     .macro USART3Receiv
+                                 	.if @0 == enabled
+                                 	    SETB UCSR3B, RXEN3
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR3B, RXEN3
+                                 	.endif
+                                     .endm
+                                     
+                                     
+                                     .macro USARTReceiver
+                                 	.if @0 == 0
+                                 	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		USARTReceiv @1
+                                 	    .else
+                                 		USART0Receiv @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1Receiv @1
+                                 	.elif @0 == 2
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART2Receiv @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART3Receiv @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 
+                                 
+                                 .include "Modules/USART/USART_TXCI.inc"
+                                 
+                                 	.if @0 == enabled
+                                 	    SETB UCSRB, TXCIE
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSRB, TXCIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0TXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR0B, TXCIE0
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR0B, TXCIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1TXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR1B, TXCIE1
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR1B, TXCIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2TXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR2B, TXCIE2
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR2B, TXCIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3TXCompleteInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR3B, TXCIE3
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR3B, TXCIE3
+                                 	.endif
+                                     .endm
+                                 
+                                     .macro TXCompleteInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		USARTTXCompleteInterr @1
+                                 	    .else
+                                 		USART0TXCompleteInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1TXCompleteInterr @1
+                                 	.elif @0 == 2
+                                 	    USART2TXCompleteInterr @1
+                                 	.elif @0 == 3
+                                 	    USART3TXCompleteInterr @1
+                                 	.endif
+                                     .endm
+                                 .include "Modules/USART/USART_TXEN.inc"
+                                 
+                                 	.if @0 == enabled
+                                 	    SETB UCSRB, TXEN
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSRB, TXEN
+                                 	.endif
+                                     .endm
+                                     .macro USART0Transmit
+                                 	.if @0 == enabled
+                                 	    SETB UCSR0B, TXEN0
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR0B, TXEN0
+                                 	.endif
+                                     .endm
+                                     .macro USART1Transmit
+                                 	.if @0 == enabled
+                                 	    SETB UCSR1B, TXEN1
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR1B, TXEN1
+                                 	.endif
+                                     .endm
+                                     .macro USART2Transmit
+                                 	.if @0 == enabled
+                                 	    SETB UCSR2B, TXEN2
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR2B, TXEN2
+                                 	.endif
+                                     .endm
+                                     .macro USART3Transmit
+                                 	.if @0 == enabled
+                                 	    SETB UCSR3B, TXEN3
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR3B, TXEN3
+                                 	.endif
+                                     .endm
+                                     
+                                     .macro USARTTransmitter
+                                 	.if @0 == 0
+                                 	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		USARTTransmit @1
+                                 	    .else
+                                 		USART0Transmit @1
+                                 		ldi r20, $ff
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1Transmit @1
+                                 	.elif @0 == 2
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART2Transmit @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART3Transmit @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 .include "Modules/USART/USART_UCPOL.inc"
+                                 
+                                 	.if @0 == zero
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UCPOL
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == one
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCPOL
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolarURSEL0
+                                 	.if @0 == zero
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UCPOL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == one
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCPOL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolarURSEL1
+                                 	.if @0 == zero
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UCPOL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == one
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCPOL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar0
+                                 	.if @0 == zero
+                                 		CLRB UCSR0C, UCPOL0
+                                 	.elif @0 == one
+                                 		SETB UCSR0C, UCPOL0
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar1
+                                 	.if @0 == zero
+                                 		CLRB UCSR1C, UCPOL1
+                                 	.elif @0 == one
+                                 		SETB UCSR1C, UCPOL1
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar2
+                                 	.if @0 == zero
+                                 		CLRB UCSR2C, UCPOL2
+                                 	.elif @0 == one
+                                 		SETB UCSR2C, UCPOL2
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar3
+                                 	.if @0 == zero
+                                 		CLRB UCSR3C, UCPOL3
+                                 	.elif @0 == one
+                                 		SETB UCSR3C, UCPOL3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTClockPolarity
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 			ClockPolar @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolar1 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0
+                                 			ClockPolarURSEL0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolarURSEL1 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolar1 @1
+                                 		.elif @0 == 2
+                                 			ClockPolar2 @1
+                                 		.elif @0 == 3
+                                 			ClockPolar3 @1
+                                 		.endif
+                                 	.endif
+                                 .include "Modules/USART/USART_UCSZ.inc"
+                                 
+                                 	.if @0 == 6
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		CLRB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 7
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 8
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 9
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		SETB UCSRB, UCSZ2
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSizeURSEL0
+                                 	.if @0 == 6
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		CLRB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 7
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 8
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 9
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		SETB UCSR0B, UCSZ02
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSizeURSEL1
+                                 	.if @0 == 6
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		CLRB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 7
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 8
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 9
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		SETB UCSR1B, UCSZ12
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize0
+                                 	.if @0 == 6
+                                 		SETB UCSR0C, UCSZ00
+                                 		CLRB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 7
+                                 		CLRB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 8
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 9
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		SETB UCSR0B, UCSZ02
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize1
+                                 	.if @0 == 6
+                                 		SETB UCSR1C, UCSZ10
+                                 		CLRB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 7
+                                 		CLRB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 8
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 9
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		SETB UCSR1B, UCSZ12
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize2
+                                 	.if @0 == 6
+                                 		SETB UCSR2C, UCSZ20
+                                 		CLRB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 7
+                                 		CLRB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 8
+                                 		SETB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 9
+                                 		SETB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		SETB UCSR2B, UCSZ22
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize3
+                                 	.if @0 == 6
+                                 		SETB UCSR3C, UCSZ30
+                                 		CLRB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 7
+                                 		CLRB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 8
+                                 		SETB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 9
+                                 		SETB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		SETB UCSR3B, UCSZ32
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 
+                                 .macro USARTCharacterSize
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 			CharacterSize @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSize1 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0
+                                 			CharacterSizeURSEL0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSizeURSEL1 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSize1 @1
+                                 		.elif @0 == 2
+                                 			CharacterSize2 @1
+                                 		.elif @0 == 3
+                                 			CharacterSize3 @1
+                                 		.endif
+                                 	.endif
+                                 .include "Modules/USART/USART_UDREI.inc"
+                                 
+                                 	.if @0 == enabled
+                                 	    SETB UCSRB, UDRIE
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSRB, UDRIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0DataRegisterEmptyInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR0B, UDRIE0
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR0B, UDRIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1DataRegisterEmptyInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR1B, UDRIE1
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR1B, UDRIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2DataRegisterEmptyInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR2B, UDRIE2
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR2B, UDRIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3DataRegisterEmptyInterr
+                                 	.if @0 == enabled
+                                 	    SETB UCSR3B, UDRIE3
+                                 	.elif  @0 == disabled
+                                 	    CLRB UCSR3B, UDRIE3
+                                 	.endif
+                                     .endm
+                                     
+                                     .macro USARTDataRegisterEmptyInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		USARTDataRegisterEmptyInterr @1
+                                 	    .else
+                                 		USART0DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1DataRegisterEmptyInterr @1
+                                 	.elif @0 == 2
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART2DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctlr != 1281 || ctlr != 2561
+                                 		USART3DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 .include "Modules/USART/USART_UMSEL.inc"
+                                 
+                                 	.if @0 == asynchron
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UMSEL
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == synchron
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UMSEL
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro USART0Mod2
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR0C, UMSEL0
+                                 	.elif @0 == synchron
+                                 		SETB UCSR0C, UMSEL0
+                                 	.endif
+                                 .endm
+                                 .macro USART0URSEL0Mod2
+                                 	.if @0 == asynchron
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == synchron
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro USART0Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, UMSEL1
+                                 	.elif @0 == synchron
+                                 		SETB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, UMSEL1
+                                 	.elif @0 == masterSPI
+                                 		SETB UCSR0C, UMSEL0
+                                 		SETB UCSR0C, UMSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1Mod2
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == synchron
+                                 		SETB UCSR1C, UMSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1URSEL1Mod2
+                                 	.if @0 == asynchron
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UMSEL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == synchron
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UMSEL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR1C, UMSEL0
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == synchron
+                                 		SETB UCSR1C, UMSEL0
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == masterSPI
+                                 		SETB UCSR1C, UMSEL0
+                                 		SETB UCSR1C, UMSEL1	
+                                 	.endif
+                                 .endm
+                                 .macro USART00Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR0C, UMSEL00
+                                 		CLRB UCSR0C, UMSEL01
+                                 	.elif @0 == synchron
+                                 		SETB UCSR0C, UMSEL00
+                                 		CLRB UCSR0C, UMSEL01
+                                 	.elif @0 == masterSPI	
+                                 		SETB UCSR0C, UMSEL00
+                                 		SETB UCSR0C, UMSEL01
+                                 	.endif
+                                 .endm
+                                 .macro USART01Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR1C, UMSEL10
+                                 		CLRB UCSR1C, UMSEL11
+                                 	.elif @0 == synchron
+                                 		SETB UCSR1C, UMSEL10
+                                 		CLRB UCSR1C, UMSEL11
+                                 	.elif @0 == masterSPI	
+                                 		SETB UCSR1C, UMSEL10
+                                 		SETB UCSR1C, UMSEL11
+                                 	.endif
+                                 .endm
+                                 .macro USART02Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR2C, UMSEL20
+                                 		CLRB UCSR2C, UMSEL21
+                                 	.elif @0 == synchron
+                                 		SETB UCSR2C, UMSEL20
+                                 		CLRB UCSR2C, UMSEL21
+                                 	.elif @0 == masterSPI	
+                                 		SETB UCSR2C, UMSEL20
+                                 		SETB UCSR2C, UMSEL21
+                                 	.endif
+                                 .endm
+                                 .macro USART03Mod3
+                                 	.if @0 == asynchron
+                                 		CLRB UCSR3C, UMSEL30
+                                 		CLRB UCSR3C, UMSEL31
+                                 	.elif @0 == synchron
+                                 		SETB UCSR3C, UMSEL30
+                                 		CLRB UCSR3C, UMSEL31
+                                 	.elif @0 == masterSPI	
+                                 		SETB UCSR3C, UMSEL30
+                                 		SETB UCSR3C, UMSEL31
+                                 	.endif
+                                 .endm
+                                     
+                                 .macro USARTModeSelect
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 		USARTMod2 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0    
+                                 		USART0URSEL0Mod2 @1
+                                 		.elif @0 == 1
+                                 		USART1URSEL1Mod2 @1
+                                 		.endif
+                                 	.elif ctlr == 165 || ctlr == 169 || ctlr == 325 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0        
+                                 		USART0Mod2 @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 168 || ctlr == 328 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0     
+                                 		USART00Mod3 @1
+                                 		.elif @0 == 1
+                                 		USART01Mod3 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0     
+                                 		USART00Mod3 @1
+                                 		.elif @0 == 1
+                                 		USART01Mod3 @1
+                                 		.elif @0 == 2
+                                 		USART02Mod3 @1
+                                 		.elif @0 == 3
+                                 		USART03Mod3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "Modules/USART/USART_UPM.inc"
+                                 
+                                 	.if @0 == disabled
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UPM0
+                                 		CLRB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == evenParity
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UPM0
+                                 		SETB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == oddParity
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UPM0
+                                 		SETB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode0
+                                 	.if @0 == disabled
+                                 		CLRB UCSR0C, UPM00
+                                 		CLRB UCSR0C, UPM01
+                                 	.elif @0 == evenParity
+                                 		CLRB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 	.endif
+                                 .endm
+                                 .macro ParityModeURSEL0
+                                 	.if @0 == disabled
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UPM00
+                                 		CLRB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == evenParity
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode1
+                                 	.if @0 == disabled
+                                 		CLRB UCSR1C, UPM10
+                                 		CLRB UCSR1C, UPM11
+                                 	.elif @0 == evenParity
+                                 		CLRB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 	.endif
+                                 .endm
+                                 .macro ParityModeURSEL1
+                                 	.if @0 == disabled
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UPM10
+                                 		CLRB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == evenParity
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode2
+                                 	.if @0 == disabled
+                                 		CLRB UCSR2C, UPM20
+                                 		CLRB UCSR2C, UPM21
+                                 	.elif @0 == evenParity
+                                 		CLRB UCSR2C, UPM20
+                                 		SETB UCSR2C, UPM21
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR2C, UPM20
+                                 		SETB UCSR2C, UPM21
+                                 	.endif
+                                 .endm
+                                 	.macro ParityMode3
+                                 	.if @0 == disabled
+                                 		CLRB UCSR3C, UPM30
+                                 		CLRB UCSR3C, UPM31
+                                 	.elif @0 == evenParity
+                                 		CLRB UCSR3C, UPM30
+                                 		SETB UCSR3C, UPM31
+                                 	.elif @0 == oddParity
+                                 		SETB UCSR3C, UPM30
+                                 		SETB UCSR3C, UPM31
+                                 	.endif
+                                 .endm
+                                     
+                                     
+                                 .macro USARTParityMode
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 		ParityMode @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.elif @0 == 1
+                                 		ParityMode1 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0
+                                 			ParityModeURSEL0 @1
+                                 		.elif @0 == 1
+                                 			ParityModeURSEL1 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.elif @0 == 1
+                                 		ParityMode1 @1
+                                 		.elif @0 == 2
+                                 		ParityMode2 @1
+                                 		.elif @0 == 3
+                                 		ParityMode3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "Modules/USART/USART_USBS.inc"
+                                 
+                                 	.if @0 == one
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, USBS
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == two
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, USBS
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm 
+                                 .macro StopBitsURSEL0
+                                 	.if @0 == one
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, USBS0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == two
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, USBS0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro StopBitsURSEL1
+                                 	.if @0 == one
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, USBS1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == two
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, USBS1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm 
+                                 .macro StopBits0
+                                 	.if @0 == one
+                                 		CLRB UCSR0C, USBS0
+                                 	.elif @0 == two
+                                 		SETB UCSR0C, USBS0
+                                 	.endif
+                                 .endm
+                                 .macro StopBits1
+                                 	.if @0 == one
+                                 		CLRB UCSR1C, USBS1
+                                 	.elif @0 == two
+                                 		SETB UCSR1C, USBS1
+                                 	.endif
+                                 .endm
+                                 .macro StopBits2
+                                 	.if @0 == one
+                                 		CLRB UCSR2C, USBS2
+                                 	.elif @0 == two
+                                 		SETB UCSR2C, USBS2
+                                 	.endif
+                                 .endm
+                                 .macro StopBits3
+                                 	.if @0 == one
+                                 		CLRB UCSR3C, USBS3
+                                 	.elif @0 == two
+                                 		SETB UCSR3C, USBS3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTStopBits
+                                 	.if ctlr == 8 || ctlr == 16 || ctlr == 32 || ctlr == 8515 || ctlr == 8535
+                                 		.if @0 == 0	
+                                 			StopBits @1
+                                 		.endif
+                                 	.elif ctlr == 48 || ctlr == 88 || ctlr == 165 || ctlr == 168 || ctlr == 169 || ctlr == 325 || ctlr == 328 || ctlr == 329 || ctlr == 645 || ctlr == 649 || ctlr == 3250 || ctlr == 3290 || ctlr == 6450 || ctlr == 6490
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.endif
+                                 	.elif ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.elif @0 == 1
+                                 			StopBits1 @1
+                                 		.endif
+                                 	.elif ctlr == 162
+                                 		.if @0 == 0
+                                 			StopBitsURSEL0 @1
+                                 		.elif @0 == 1
+                                 			StopBitsURSEL1 @1
+                                 		.endif
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.elif @0 == 1
+                                 			StopBits1 @1
+                                 		.elif @0 == 2
+                                 			StopBits2 @1
+                                 		.elif @0 == 3
+                                 			StopBits3 @1
+                                 		.endif
+                                 	.endif
+                                 .include "Modules/USART/USART_SetUBRR.inc"
+                                 
+                                 	
+                                 	clr r16
+                                 	clr r17
+                                 
+                                 	.if ATmegaFREQ == 1000000
+                                 		ldi r16, 6
+                                 	.elif ATmegaFREQ == 2000000
+                                 		ldi r16, 12
+                                 	.elif ATmegaFREQ == 4000000
+                                 		ldi r16, 25
+                                 	.elif ATmegaFREQ == 8000000
+                                 		ldi r16, 51
+                                 	.elif ATmegaFREQ == 16000000
+                                 		ldi r16, 103
+                                 	.endif
+                                 	
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		out UBRRH, r17
+                                 		out UBRRL, r16
+                                 
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168
+                                 		out UBRR0H, r17
+                                 		out UBRR0L, r16
+                                 
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 328 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		sts UBRR0H, r17
+                                 		sts UBRR0L, r16
+                                 	
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284 
+                                 		out UBRR0H, r17
+                                 		out UBRR0L, r16
+                                 		out UBRR1H, r17
+                                 		out UBRR1L, r16
+                                 
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		sts UBRR0H, r17
+                                 		sts UBRR0L, r16
+                                 		sts UBRR1H, r17
+                                 		sts UBRR1L, r16
+                                 		sts UBRR2H, r17
+                                 		sts UBRR2L, r16
+                                 		sts UBRR3H, r17
+                                 		sts UBRR3L, r16
+                                 
+                                 	.endif
+                                 .endm
+                                 .include "Modules/USART/USART_SetUCSRC.inc"
+                                 
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		SETB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 328 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 
+                                 	.elif ctrl == 162
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		
+                                 	.elif ctrl == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		SETB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		SETB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 .include "Modules/USART/USART_Init.inc"
+                                 
+                                 	SetUBRR		// USART/SetUBRR.inc
+                                 	SetUCSRC    // USART/SetUCRSC.inc
+                                 .endm
                                  #endif
                                  
                                  #ifdef ADC_Module
@@ -3645,6 +5086,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  	#endif
                                  
                                  	#ifdef USART_Module
+                                 		USART_init
                                  	#endif
                                  
                                  	#ifdef ADC_Module
@@ -3662,8 +5104,19 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 0001e8 e201
 0001e9 bf0e                      
 0001ea e30e
-0001eb 9300 00b8                 Modules_Inits
-0001ed 9478                      sei
+0001eb 9300 00b8
+0001ed 2700
+0001ee 2711
+0001ef e607
+0001f0 9310 00c5
+0001f2 9300 00c4
+0001f4 9310 00cd
+0001f6 9300 00cc
+0001f8 9310 00d5
+0001fa 9300 00d4
+0001fc 9310 0135
+0001fe 9300 0134                 Modules_Inits
+000200 9478                      sei
                                  
                                  ; HD44780U
                                  	//TWSI_START										; отсылаем START (рестартуем для записи)
@@ -3698,7 +5151,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  // Ваша программа
                                  //PCF8575_Read $40
                                  	
-0001ee cfff                      rjmp Proga
+000201 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -3718,7 +5171,7 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  55 r17:  13 r18:  25 r19:   3 r20:   1 
+r13:   0 r14:   0 r15:   0 r16:  61 r17:  18 r18:  25 r19:   3 r20:   1 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   3 r27:   3 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 7 out of 35 (20.0%)
@@ -3730,11 +5183,11 @@ brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :  23 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   2 cls   :   0 
+clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   4 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   0 jmp   :  63 ld    :   0 ldd   :   0 ldi   :  20 
+in    :   0 inc   :   0 jmp   :  63 ld    :   0 ldd   :   0 ldi   :  21 
 lds   :  10 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   2 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
 ori   :   1 out   :   2 pop   :  19 push  :  19 rcall :   0 ret   :  11 
@@ -3742,14 +5195,14 @@ reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   1 sbrc  :   4 
 sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  12 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  20 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 23 out of 116 (19.8%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0003de    990      0    990  262144   0.4%
+[.cseg] 0x000000 0x000404   1028      0   1028  262144   0.4%
 [.dseg] 0x000200 0x000201      0      1      1    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 

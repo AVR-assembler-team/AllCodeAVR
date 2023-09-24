@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Tue Aug 15 23:31:43 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 14:29:13 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1458,6 +1458,11 @@ CSEG TWSI_TWINT_Flag_act_1 00000098
 CSEG TWSI_START_act 0000009e
 CSEG TWSI_Byte_Transmit_act 000000a6
 CSEG TWSI_STOP_act 000000ae
+EQU  asynchron    00000000
+EQU  synchron     00000001
+EQU  masterSPI    00000002
+EQU  evenParity   00000003
+EQU  oddParity    00000004
 CSEG PCF8575_NoAck 000000b6
 CSEG PCF8575_Write_act 000000b7
 CSEG gotoPCF8575WriteLabels 000000f3
@@ -1471,4 +1476,4 @@ CSEG TIM0_COMP    00000162
 CSEG TIM2_COMP    0000017d
 CSEG USI_STRT     000001dd
 CSEG USI_OVFL     000001e0
-CSEG Proga        000001ee
+CSEG Proga        00000201
