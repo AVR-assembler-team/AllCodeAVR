@@ -39,7 +39,7 @@ OneWireCRCCheck_act:
 	
 	CLRB OneWireFlags, OneWireROMCodeCRCInvalid	; очищаем флаг ошибки данных в регистре флагов
 	ld r16, z+									; копируем первый байт в регистр r16
-	ldi r17, OneWireCRC_polynom					; записываем перевернутый зщлином для вычисления CRC
+	ldi r17, OneWireCRC_polynom					; записываем перевернутый полином для вычисления CRC
 	dec r19										; уменьшаем количество регистров для проверки
 
 OneWireCRCCheckBegin:							; метка

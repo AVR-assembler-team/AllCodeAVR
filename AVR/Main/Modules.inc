@@ -19,6 +19,7 @@
 #endif
 
 #ifdef OneWire_Module
+	.include "Modules/CRC/CRC_Includes.inc"
 	.include "Modules/OneWire/OneWire_Includes.inc"
 #endif
 
@@ -36,4 +37,8 @@
 
 #ifdef ExternalInterrupts_Module
 	.include "Modules/ExternalInterrupts/ExtInt_Includes.inc"
+#endif
+
+#ifdef CRC_Calculate
+	.include "Modules/CRC/CRC_Includes.inc"
 #endif

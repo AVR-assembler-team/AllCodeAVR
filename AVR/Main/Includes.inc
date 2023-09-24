@@ -5,7 +5,7 @@
 
 .dseg ;сегмент данных
 
-
+ddd: .byte 8
 
 .eseg ;сегмент EEPROM
 

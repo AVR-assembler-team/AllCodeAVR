@@ -209,6 +209,15 @@
     <Compile Include="Modules\Configs\USART_Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\CRC\CRC_Calculate.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\CRC\CRC_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\CRC\CRC_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\ExternalInterrupts\ExtInt_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -443,6 +452,9 @@
     <Compile Include="Modules\README\ADC_README.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\README\CRC_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\README\ExtInt_README.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -584,6 +596,7 @@
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
     <Folder Include="Modules\ExternalInterrupts" />
+    <Folder Include="Modules\CRC" />
     <Folder Include="Modules\PCF8574" />
     <Folder Include="Modules\PCF8575" />
     <Folder Include="Modules\NTC3950_100K" />
