@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 17:09:04 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 17:42:25 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1599,4 +1599,4 @@ CSEG TIM0_COMP    00000404
 CSEG TIM2_COMP    0000041f
 CSEG USI_STRT     0000047f
 CSEG USI_OVFL     00000482
-CSEG Proga        000004d0
+CSEG Proga        000004d8

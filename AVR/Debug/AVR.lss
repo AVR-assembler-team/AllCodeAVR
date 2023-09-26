@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 17:09:04 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Sep 24 17:42:25 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -4162,12 +4162,12 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  	OneWire_SingleDeviceTempReadind
                                  .endm
                                  .macro OneWire_SingleDeviceTempPrepareToReading
-                                 	OneWire_SkipROM
-                                 	OneWire_ConvertTemperature
+                                 	OneWire_SkipROM								; OneWire_SkipROM.inc
+                                 	OneWire_ConvertTemperature					; OneWire_ConvertTemperature.inc
                                  .endm 
                                  .macro OneWire_SingleDeviceTempReadind
-                                 	OneWire_SkipROM
-                                 	OneWire_ReadScratchpad
+                                 	OneWire_SkipROM								; OneWire_SkipROM.inc
+                                 	OneWire_ReadScratchpad						; OneWire_ReadScratchpad.inc
                                  .endm
                                  //////////////////////////////////////////////////
                                  ; принимает один аргумени - метку в RAM по которой лежит ROM code
@@ -4178,11 +4178,11 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  .endm
                                  .macro OneWire_ROMDeviceTempPrepareToReading
                                  	OneWire_MatchROM @0
-                                 	OneWire_ConvertTemperature
+                                 	OneWire_ConvertTemperature					; OneWire_ConvertTemperature.inc
                                  .endm
                                  .macro OneWire_ROMDeviceTempTempReadind
                                  	OneWire_MatchROM @0
-                                 	OneWire_ReadScratchpad
+                                 	OneWire_ReadScratchpad						; OneWire_ReadScratchpad.inc
                                  .endm
                                  
                                  .include "Modules/OneWire/OneWire_Labels.inc"
@@ -4614,58 +4614,67 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 000492 910f                      Modules_Inits
 000493 9478                      sei
                                  
-                                 
-000494 e208                      ldi r16, $28
-000495 930f
-000496 e208
-000497 9300 0200
-000499 910f                      WRITE_BYTE ddd, $28
-00049a 930f
-00049b e300
-00049c 9300 0201
-00049e 910f                      WRITE_BYTE ddd + 1, $30
-00049f 930f
-0004a0 ec05
-0004a1 9300 0202
-0004a3 910f                      WRITE_BYTE ddd + 2, $c5
-0004a4 930f
-0004a5 eb08
-0004a6 9300 0203
-0004a8 910f                      WRITE_BYTE ddd + 3, $b8
+                                 //OneWire_ReadROM
+000494 940e 032e
+000496 930f
+000497 e404
+000498 940e 017b
+00049a 910f
+00049b 930f
+00049c 931f
+00049d e001
+00049e 9110 0224
+0004a0 fd17
+0004a1 940e 01c0
+0004a3 940e 01b8
+0004a5 911f
+0004a6 910f
+0004a7 940e 032e
 0004a9 930f
-0004aa e000
-0004ab 9300 0204
-0004ad 910f                      WRITE_BYTE ddd + 4, $00
-0004ae 930f
-0004af e000
-0004b0 9300 0205
-0004b2 910f                      WRITE_BYTE ddd + 5, $00
-0004b3 930f
-0004b4 e000
-0004b5 9300 0206
-0004b7 910f                      WRITE_BYTE ddd + 6, $00
-0004b8 93ff
-0004b9 93ef
-0004ba 930f
-0004bb 931f
-0004bc 932f
-0004bd 933f
-0004be 935f
-0004bf 936f
-0004c0 e0f2
-0004c1 e0e0
-0004c2 e80c
-0004c3 e017
-0004c4 940e 0075
-0004c6 9320 0208
-0004c8 916f
-0004c9 915f
-0004ca 913f
-0004cb 912f
-0004cc 911f
-0004cd 910f
-0004ce 91ef
-0004cf 91ff                      CRCCalculate ddd, $8c, 7
+0004aa eb0e
+0004ab 940e 017b
+0004ad 910f
+0004ae 93ff
+0004af 93ef
+0004b0 932f
+0004b1 e0f2
+0004b2 e1e9
+0004b3 e029
+0004b4 940e 0188
+0004b6 930f
+0004b7 931f
+0004b8 932f
+0004b9 933f
+0004ba 934f
+0004bb 935f
+0004bc 936f
+0004bd e039
+0004be e049
+0004bf 9739
+0004c0 940e 00bf
+0004c2 916f
+0004c3 915f
+0004c4 914f
+0004c5 913f
+0004c6 912f
+0004c7 911f
+0004c8 910f
+0004c9 912f
+0004ca 91ef
+0004cb 91ff                      OneWire_SingleDeviceTemperature
+                                 //OneWire_SingleDeviceTempPrepareToReading     ;
+                                 //OneWire_SingleDeviceTempReadind
+0004cc 930f
+0004cd 931f
+0004ce 932f
+0004cf 93ff
+0004d0 93ef
+0004d1 940e 0354
+0004d3 91ef
+0004d4 91ff
+0004d5 912f
+0004d6 911f
+0004d7 910f                      OneWire_TemperatureDataConvertation
                                  //OneWire_ConvertTemperature
                                  ; HD44780U
                                  	//TWSI_START										; отсылаем START (рестартуем дл€ записи)
@@ -4700,7 +4709,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  // ¬аша программа
                                  //PCF8575_Read $40
                                  	
-0004d0 cfff                      rjmp Proga
+0004d8 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -4720,9 +4729,9 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   9 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16: 320 r17:  90 r18:  35 r19:  18 r20:  14 
+r13:   0 r14:   0 r15:   0 r16: 301 r17:  95 r18:  39 r19:  19 r20:  17 
 r21:  10 r22:  10 r23:   0 r24:   0 r25:   0 r26:  11 r27:  11 r28:   0 
-r29:   0 r30:  15 r31:  15 
+r29:   0 r30:  18 r31:  18 
 Registers used: 12 out of 35 (34.3%)
 
 "ATmega2560" instruction use summary:
@@ -4731,27 +4740,27 @@ andi  :   8 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0
 brcc  :   0 brcs  :   0 break :   0 breq  :   2 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   1 brlt  :   2 brmi  :   3 
 brne  :  19 brpl  :   0 brsh  :   1 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :  54 cbi   :  12 cbr   :   4 
+brvs  :   0 bset  :   0 bst   :   0 call  :  62 cbi   :  12 cbr   :   4 
 clc   :   1 clh   :   0 cli   :  68 cln   :   0 clr   :   6 cls   :   0 
 clt   :   1 clv   :   0 clz   :   0 com   :   2 cp    :   2 cpc   :   0 
 cpi   :   9 cpse  :   0 dec   :  13 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   2 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   7 inc   :   4 jmp   : 100 ld    :   5 ldd   :   0 ldi   :  69 
-lds   :  46 lpm   :   2 lsl   :  12 lsr   :   2 mov   :   8 movw  :   0 
+in    :   7 inc   :   4 jmp   : 100 ld    :   5 ldd   :   0 ldi   :  65 
+lds   :  47 lpm   :   2 lsl   :  12 lsr   :   2 mov   :   8 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   8 out   :   2 pop   : 101 push  : 101 rcall :  10 ret   :  45 
+ori   :   8 out   :   2 pop   : 105 push  : 105 rcall :  10 ret   :  45 
 reti  :  61 rjmp  :   1 rol   :  12 ror   :   5 sbc   :   0 sbci  :   0 
-sbi   :   8 sbic  :   2 sbis  :   1 sbiw  :   4 sbr   :   4 sbrc  :  25 
+sbi   :   8 sbic  :   2 sbis  :   1 sbiw  :   5 sbr   :   4 sbrc  :  26 
 sbrs  :  12 sec   :   1 seh   :   0 sei   :  69 sen   :   0 ser   :   0 
 ses   :   0 set   :   1 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   3 std   :   0 sts   :  37 sub   :   3 subi  :   0 swap  :   3 
+st    :   3 std   :   0 sts   :  29 sub   :   3 subi  :   0 swap  :   3 
 tst   :   0 wdr   :   0 
 Instructions used: 55 out of 116 (47.4%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0009a2   2450     16   2466  262144   0.9%
+[.cseg] 0x000000 0x0009b2   2466     16   2482  262144   0.9%
 [.dseg] 0x000200 0x000229      0     41     41    8192   0.5%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
