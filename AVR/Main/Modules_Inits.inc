@@ -8,10 +8,6 @@
 		HD44780U_init
 	#endif
 
-	#ifdef USART_Module
-		USART_init
-	#endif
-
 	#ifdef ADC_Module
 		ADC_init
 	#endif

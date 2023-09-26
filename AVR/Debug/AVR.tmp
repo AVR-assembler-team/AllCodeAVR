@@ -19,39 +19,21 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Macros.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Includes.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Constants.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Includes.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Set_Macs.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Configs/OneWire_Config.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Init.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_WriteBit.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBit.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_InitializationSequence.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendByte.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendROMCode.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendCommand.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBytes.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendConfByte.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadROM.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_MatchROM.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_AlarmSearch.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SkipROM.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_PowerSupply.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ConvertTemperature.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_WriteScratchpad.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CopyScratchpad.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadScratchpad.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Recall.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Temperature.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Configs/USART_Config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_Constants.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_BAUD.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_MPCM.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXCI.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_RXEN.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXCI.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_TXEN.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCPOL.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UCSZ.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UDREI.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UMSEL.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_UPM.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/USART/USART_USBS.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc</FILE>
@@ -67,7 +49,6 @@
   <FILE>AVR.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <ddd><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc</FILE><LINE>8</LINE></ddd>
   <RESET><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>7</LINE></RESET>
   <EXT_INT0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>23</LINE></EXT_INT0>
   <EXT_INT1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>28</LINE></EXT_INT1>
@@ -126,129 +107,6 @@
   <USART3_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>322</LINE></USART3_UDRE>
   <USART3_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>327</LINE></USART3_TXC>
   <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
-  <CRC_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Constants.inc</FILE><LINE>2</LINE></CRC_byte>
-  <CRCCalculate_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE><LINE>37</LINE></CRCCalculate_act>
-  <CRCCalculateBegin><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE><LINE>40</LINE></CRCCalculateBegin>
-  <CRCCalc><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE><LINE>49</LINE></CRCCalc>
-  <CRCCalc_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE><LINE>54</LINE></CRCCalc_act>
-  <CRCCalc_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/CRC/CRC_Calculate.inc</FILE><LINE>65</LINE></CRCCalc_end>
-  <OneWireROMCode><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>2</LINE></OneWireROMCode>
-  <OneWireAlarmROMCode><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>3</LINE></OneWireAlarmROMCode>
-  <OneWireScratchpad><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>4</LINE></OneWireScratchpad>
-  <OneWireTemperature><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>5</LINE></OneWireTemperature>
-  <OneWireFlags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>7</LINE></OneWireFlags>
-  <OneWireZeroFork><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>8</LINE></OneWireZeroFork>
-  <OneWireStep><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>9</LINE></OneWireStep>
-  <OneWireLastFork><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>10</LINE></OneWireLastFork>
-  <OneWireROMVar><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Constants.inc</FILE><LINE>11</LINE></OneWireROMVar>
-  <OneWire_DelayA_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>46</LINE></OneWire_DelayA_act>
-  <OneWire_DelayB_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>52</LINE></OneWire_DelayB_act>
-  <OneWire_DelayC_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>58</LINE></OneWire_DelayC_act>
-  <OneWire_DelayD_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>64</LINE></OneWire_DelayD_act>
-  <OneWire_DelayE_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>70</LINE></OneWire_DelayE_act>
-  <OneWire_DelayF_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>76</LINE></OneWire_DelayF_act>
-  <OneWire_DelayH_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>82</LINE></OneWire_DelayH_act>
-  <OneWire_DelayI_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>88</LINE></OneWire_DelayI_act>
-  <OneWire_DelayJ_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>94</LINE></OneWire_DelayJ_act>
-  <OneWire_Delay_10ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>100</LINE></OneWire_Delay_10ms_act>
-  <OneWire_Delay_750ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>106</LINE></OneWire_Delay_750ms_act>
-  <Cont_750ms><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Times.inc</FILE><LINE>109</LINE></Cont_750ms>
-  <OneWireCRCCheck_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>34</LINE></OneWireCRCCheck_act>
-  <OneWireCRCCheck_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>75</LINE></OneWireCRCCheck_act_finish>
-  <OneWireCRCCheckBegin><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>45</LINE></OneWireCRCCheckBegin>
-  <OneWireCRCCheckCalc><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>79</LINE></OneWireCRCCheckCalc>
-  <OneWireCRCCheckCorrect><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>54</LINE></OneWireCRCCheckCorrect>
-  <OneWireCRCCheckNotCorrect><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>57</LINE></OneWireCRCCheckNotCorrect>
-  <OneWireDataClean><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>62</LINE></OneWireDataClean>
-  <OneWire_ScretchpadCRC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>72</LINE></OneWire_ScretchpadCRC>
-  <ROMCodeCRCError><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>17</LINE></ROMCodeCRCError>
-  <ScretchpadCRCError><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>21</LINE></ScretchpadCRCError>
-  <OneWireCRCCheckAct><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>85</LINE></OneWireCRCCheckAct>
-  <OneWireCRCCheckEnd><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_CRCCheck.inc</FILE><LINE>96</LINE></OneWireCRCCheckEnd>
-  <OneWireWriteBit1_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_WriteBit.inc</FILE><LINE>13</LINE></OneWireWriteBit1_act>
-  <OneWireWriteBit0_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_WriteBit.inc</FILE><LINE>23</LINE></OneWireWriteBit0_act>
-  <OneWireReadBit_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBit.inc</FILE><LINE>10</LINE></OneWireReadBit_act>
-  <OneWire_InitializationSequence_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_InitializationSequence.inc</FILE><LINE>11</LINE></OneWire_InitializationSequence_act>
-  <OneWireDeviceNotDetect><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_InitializationSequence.inc</FILE><LINE>26</LINE></OneWireDeviceNotDetect>
-  <OneWireDeviceDetect><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_InitializationSequence.inc</FILE><LINE>22</LINE></OneWireDeviceDetect>
-  <OneWireInitializationSequenceFinish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_InitializationSequence.inc</FILE><LINE>30</LINE></OneWireInitializationSequenceFinish>
-  <DeviceNotDetected><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>1</LINE></DeviceNotDetected>
-  <OneWireSendByte_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendByte.inc</FILE><LINE>17</LINE></OneWireSendByte_act>
-  <OneWireSendByte_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendByte.inc</FILE><LINE>35</LINE></OneWireSendByte_act_finish>
-  <SendBiteLoop><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendByte.inc</FILE><LINE>26</LINE></SendBiteLoop>
-  <OneWireSendROMCode_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendROMCode.inc</FILE><LINE>18</LINE></OneWireSendROMCode_act>
-  <OneWireSendROMCode_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendROMCode.inc</FILE><LINE>31</LINE></OneWireSendROMCode_act_finish>
-  <OneWireSendROMCodeLoop><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendROMCode.inc</FILE><LINE>25</LINE></OneWireSendROMCodeLoop>
-  <OneWireSendCommand_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendCommand.inc</FILE><LINE>17</LINE></OneWireSendCommand_act>
-  <OneWireSendCommand_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendCommand.inc</FILE><LINE>24</LINE></OneWireSendCommand_act_finish>
-  <OneWireReadBytes_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBytes.inc</FILE><LINE>27</LINE></OneWireReadBytes_act>
-  <OneWireReadROMCode_><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBytes.inc</FILE><LINE>34</LINE></OneWireReadROMCode_>
-  <OneWireRead64Bits_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadBytes.inc</FILE><LINE>49</LINE></OneWireRead64Bits_act_finish>
-  <OneWireSendConfByte_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendConfByte.inc</FILE><LINE>25</LINE></OneWireSendConfByte_act>
-  <OneWireSendConfByte_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SendConfByte.inc</FILE><LINE>38</LINE></OneWireSendConfByte_act_finish>
-  <OneWire_ParasitePowerDeviceBusy_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>35</LINE></OneWire_ParasitePowerDeviceBusy_act>
-  <Temp><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>40</LINE></Temp>
-  <Scre><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>43</LINE></Scre>
-  <OneWire_ParasiteConvertTemperature_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>81</LINE></OneWire_ParasiteConvertTemperature_act>
-  <OneWire_ParasiteCopyScratchpad_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>64</LINE></OneWire_ParasiteCopyScratchpad_act>
-  <OneWire_ExternalPowerDeviceBusy_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>48</LINE></OneWire_ExternalPowerDeviceBusy_act>
-  <OneWireDeviceBusy_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>51</LINE></OneWireDeviceBusy_act_1>
-  <OneWireDeviceBusy_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>60</LINE></OneWireDeviceBusy_act_finish>
-  <OneWire_Parasite_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_DeviceBusy.inc</FILE><LINE>71</LINE></OneWire_Parasite_1>
-  <OneWireROMSearching_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>14</LINE></OneWireROMSearching_act>
-  <OneWireMainLoop><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>24</LINE></OneWireMainLoop>
-  <OneWireROMSearching_act_fihish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>186</LINE></OneWireROMSearching_act_fihish>
-  <AlarmSearchROMString><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>35</LINE></AlarmSearchROMString>
-  <DevicesIs><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>39</LINE></DevicesIs>
-  <AlarmSearch><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>53</LINE></AlarmSearch>
-  <TwoBitsRead><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>56</LINE></TwoBitsRead>
-  <TwoBitsMatch><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>67</LINE></TwoBitsMatch>
-  <OneWireSlaveBit1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>80</LINE></OneWireSlaveBit1>
-  <OneWireSlaveBit0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>75</LINE></OneWireSlaveBit0>
-  <BitsNotAqual><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>123</LINE></BitsNotAqual>
-  <BitsAqual><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>85</LINE></BitsAqual>
-  <OneWire_SearchROMError><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>196</LINE></OneWire_SearchROMError>
-  <StepMatchLastFork1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>90</LINE></StepMatchLastFork1>
-  <StepMatchLastFork2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>100</LINE></StepMatchLastFork2>
-  <MasterBitSet1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>96</LINE></MasterBitSet1>
-  <ROMVarAddBit><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>133</LINE></ROMVarAddBit>
-  <MasterBitSetLastROMBit><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>106</LINE></MasterBitSetLastROMBit>
-  <MasterBitCheck><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>115</LINE></MasterBitCheck>
-  <MasterBitSending><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>154</LINE></MasterBitSending>
-  <IncreaseStep><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>162</LINE></IncreaseStep>
-  <StepCheck><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>167</LINE></StepCheck>
-  <OneWireStepLoopContinue><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>174</LINE></OneWireStepLoopContinue>
-  <CheckCRC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>181</LINE></CheckCRC>
-  <OneWire_ROM><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>200</LINE></OneWire_ROM>
-  <ReadROMError><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>13</LINE></ReadROMError>
-  <OneWire_ROMAlarm><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SearchROM.inc</FILE><LINE>205</LINE></OneWire_ROMAlarm>
-  <ROMCodeNormal><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>5</LINE></ROMCodeNormal>
-  <ROMCodeAlarm><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_Labels.inc</FILE><LINE>9</LINE></ROMCodeAlarm>
-  <OneWire_ReadROM_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadROM.inc</FILE><LINE>5</LINE></OneWire_ReadROM_act>
-  <OneWire_ReadROM_act_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_ReadROM.inc</FILE><LINE>17</LINE></OneWire_ReadROM_act_End>
-  <OneWire_MatchROM_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_MatchROM.inc</FILE><LINE>11</LINE></OneWire_MatchROM_act>
-  <OneWire_MatchROM_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_MatchROM.inc</FILE><LINE>23</LINE></OneWire_MatchROM_End>
-  <OneWire_AlarmSearch_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_AlarmSearch.inc</FILE><LINE>4</LINE></OneWire_AlarmSearch_act>
-  <OneWire_AlarmSearch_act_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_AlarmSearch.inc</FILE><LINE>15</LINE></OneWire_AlarmSearch_act_End>
-  <OneWire_SkipROM_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SkipROM.inc</FILE><LINE>4</LINE></OneWire_SkipROM_act>
-  <OneWire_SkipROM_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_SkipROM.inc</FILE><LINE>14</LINE></OneWire_SkipROM_End>
-  <OneWireSingleDevicePowerSupply_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_PowerSupply.inc</FILE><LINE>12</LINE></OneWireSingleDevicePowerSupply_act>
-  <OneWireExternalPowerOn><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_PowerSupply.inc</FILE><LINE>22</LINE></OneWireExternalPowerOn>
-  <OneWireSingleDevicePowerSupply_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_PowerSupply.inc</FILE><LINE>25</LINE></OneWireSingleDevicePowerSupply_act_finish>
-  <OneWireTemperatureConversation_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>20</LINE></OneWireTemperatureConversation_act>
-  <OneWireTemperatureConversation_act_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>123</LINE></OneWireTemperatureConversation_act_finish>
-  <IsPlus><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>49</LINE></IsPlus>
-  <IsMinus><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>43</LINE></IsMinus>
-  <Is1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>52</LINE></Is1>
-  <DegreesCalc><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>56</LINE></DegreesCalc>
-  <loop_100><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>60</LINE></loop_100>
-  <loop_100_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>66</LINE></loop_100_finish>
-  <loop_10><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>71</LINE></loop_10>
-  <loop_10_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>77</LINE></loop_10_finish>
-  <AfterDotCalc><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>91</LINE></AfterDotCalc>
-  <TempTable><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>127</LINE></TempTable>
-  <loop_10th><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>103</LINE></loop_10th>
-  <loop_10th_finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/OneWire/OneWire_TemperatureDataConvertation.inc</FILE><LINE>109</LINE></loop_10th_finish>
   <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>84</LINE></EXT_PCINT3>
   <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>91</LINE></LCD_SOF>
   <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>112</LINE></TIM0_COMP>

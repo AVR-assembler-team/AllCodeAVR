@@ -533,9 +533,6 @@
     <Compile Include="Modules\USART\USART_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\USART\USART_Init.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Modules\USART\USART_MPCM.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -543,18 +540,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\USART\USART_RXEN.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_SetUBRR.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_SetUCSRA.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_SetUCSRB.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_SetUCSRC.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\USART\USART_TXCI.inc">

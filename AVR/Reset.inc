@@ -1,12 +1,14 @@
 STACKINIT		// Инициализация стэка
 Modules_Inits
 sei
-
+USARTBaudRate 0, normal, 9600
+USARTTransmitter 0, disabled
+USARTReceiver 0, enabled
 //OneWire_ReadROM
-OneWire_SingleDeviceTemperature
+//OneWire_SingleDeviceTemperature
 //OneWire_SingleDeviceTempPrepareToReading     ;
 //OneWire_SingleDeviceTempReadind
-OneWire_TemperatureDataConvertation
+//OneWire_TemperatureDataConvertation
 //OneWire_ConvertTemperature
 ; HD44780U
 	//TWSI_START										; отсылаем START (рестартуем для записи)

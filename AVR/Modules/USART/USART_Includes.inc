@@ -14,6 +14,5 @@
 .include "Modules/USART/USART_UMSEL.inc"
 .include "Modules/USART/USART_UPM.inc"
 .include "Modules/USART/USART_USBS.inc"
-.include "Modules/USART/USART_SetUBRR.inc"
-.include "Modules/USART/USART_SetUCSRC.inc"
-.include "Modules/USART/USART_Init.inc"
+//.include "Modules/USART/USART_SetUBRR.inc"
+//.include "Modules/USART/USART_SetUCSRC.inc"
