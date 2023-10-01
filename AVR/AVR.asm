@@ -1,5 +1,5 @@
 /*
-* Lib_2023.8
+* Lib_2023.9
 */
 
 .include "Main/Includes.inc"
@@ -10,6 +10,5 @@ Reset:
 Proga:
 // Читайте README файл
 // Ваша программа
-//PCF8575_Read $40
 	
 rjmp Proga

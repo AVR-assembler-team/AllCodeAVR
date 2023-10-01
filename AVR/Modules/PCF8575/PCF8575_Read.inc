@@ -1,8 +1,8 @@
-.macro PCF8575_Read
+.macro PCF8575Read
 	push r18
 	push r19
 	ldi r18, @0
-	_call PCF8575_Read_act
+	_call PCF8575Read_act
 	WRITE_REG @1, r18					; записываем в пам€ть
 	WRITE_REG @2, r19					; записываем в пам€ть
 	pop r19
@@ -10,7 +10,7 @@
 
 .endm
 
- PCF8575_Read_act:
+ PCF8575Read_act:
 
 	TWSI_START									; —тартуем работу
 	TWSI_SLA r18, 'R'							; ќтправл€ем адрес и режим работы 
@@ -32,13 +32,13 @@
 	TWSI_Byte_Transmit							; больше не принимаем байты
 	
 	TWSI_STOP
-	_jump PCF8575_Read_end
+	_jump PCF8575Read_end
 
 	gotoPCF8575ReadLabels:
 		_call PCF8575_NoAck
 		clr r18
 		clr r19
 
-	PCF8575_Read_end:
+	PCF8575Read_end:
  ret
 

@@ -572,6 +572,9 @@
     <Compile Include="Reset.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tests.inc">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Main" />

@@ -2,20 +2,20 @@
 * Записывает 2 байта в чип
 */
 
-.macro PCF8575_Write
+.macro PCF8575Write
 	push r18
 	push r19
 	push r20
 	ldi r18, @0
 	mov r19, @1
 	mov r20, @2
-	_call PCF8575_Write_act
+	_call PCF8575Write_act
 	pop r20
 	pop r19
 	pop r18
 .endm
 
-PCF8575_Write_act:
+PCF8575Write_act:
 
 
 	TWSI_START										; Стартуем работу
@@ -44,12 +44,12 @@ PCF8575_Write_act:
 	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
 	
 	TWSI_STOP
-	_jump PCF8575_Write_end
+	_jump PCF8575Write_end
 
 	gotoPCF8575WriteLabels:
 		TWSI_STOP
 		_call PCF8575_NoAck
 
-	PCF8575_Write_end:
+	PCF8575Write_end:
 
 ret
