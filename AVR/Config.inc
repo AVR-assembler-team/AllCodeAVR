@@ -14,7 +14,7 @@
 //#define PCF8574_Module
 //#define PCF8575_Module
 //#define RotaryEncoder_Module
-#define Timers_Module
+#define Counters_Module
 //#define TWSI_Module
 //#define USART_Module
 

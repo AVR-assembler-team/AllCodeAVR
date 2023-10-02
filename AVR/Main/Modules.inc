@@ -1,5 +1,5 @@
-#ifdef Timers_Module
-	.include "Modules/Timers/Timers_Includes.inc"
+#ifdef Counters_Module
+	.include "Modules/Counters/Counters_Includes.inc"
 #endif
 
 #ifdef TWSI_Module
