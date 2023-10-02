@@ -1,3 +1,7 @@
+#ifdef Timers_Module
+	.include "Modules/Timers/Timers_Includes.inc"
+#endif
+
 #ifdef TWSI_Module
 	.include "Modules/TWSI/TWSI_Includes.inc"
 #endif
@@ -19,7 +23,6 @@
 #endif
 
 #ifdef OneWire_Module
-	.include "Modules/CRC/CRC_Includes.inc"
 	.include "Modules/OneWire/OneWire_Includes.inc"
 #endif
 
@@ -39,6 +42,6 @@
 	.include "Modules/ExternalInterrupts/ExtInt_Includes.inc"
 #endif
 
-#ifdef CRC_Calculate
+#ifdef CRC_Calculate_Module
 	.include "Modules/CRC/CRC_Includes.inc"
 #endif

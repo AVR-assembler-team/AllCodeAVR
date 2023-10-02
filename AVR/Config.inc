@@ -1,7 +1,26 @@
-; ”кажите на какой частоте будет работать микроконтроллер
+// ”кажите на какой частоте будет работать микроконтроллер
 .equ ATmegaFREQ = 16000000		;частота работы чипа в √ц
 
-; ¬ыберите микроконтроллер
+//-------------------------------------------------------------
+// ¬ыберите те модули, которые вам нужны дл€ вашего проекта
+// остальные закоментируйте
+
+//#define ADC_Module
+//#define CRC_Calculate_Module
+//#define ExternalInterrupts_Module
+//#define HD44780U_Module
+//#define NTC3950_100K_Module
+//#define OneWire_Module
+//#define PCF8574_Module
+//#define PCF8575_Module
+//#define RotaryEncoder_Module
+#define Timers_Module
+//#define TWSI_Module
+//#define USART_Module
+
+//----------------------------------------------------
+// ¬ыберите микроконтроллер
+
 //.include	"m8Adef.inc"
 //.include	"m8def.inc"
 //.include	"m8HVAdef.inc"
@@ -120,17 +139,4 @@
 //.include	"m8535def.inc"
 
 
-// ¬ыберите те модули, которые вам нужны дл€ вашего проекта
-// остальные закоментируйте
 
-//#define CRC_Calculate
-//#define TWSI_Module
-//#define HD44780U_Module
-#define USART_Module
-//#define ADC_Module
-//#define ExternalInterrupts_Module
-//#define RotaryEncoder_Module
-//#define OneWire_Module
-//#define NTC3950_100K_Module
-//#define PCF8574_Module
-//#define PCF8575_Module

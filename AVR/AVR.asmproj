@@ -48,26 +48,26 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrAssembler>
-        <avrasm.assembler.general.AdditionalIncludeDirectories>
-          <ListValues>
-            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
-          </ListValues>
-        </avrasm.assembler.general.AdditionalIncludeDirectories>
-        <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
-      </AvrAssembler>
+  <avrasm.assembler.general.AdditionalIncludeDirectories>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
+    </ListValues>
+  </avrasm.assembler.general.AdditionalIncludeDirectories>
+  <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
+</AvrAssembler>
     </ToolchainSettings>
     <OutputType>Executable</OutputType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrAssembler>
-        <avrasm.assembler.general.AdditionalIncludeDirectories>
-          <ListValues>
-            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
-          </ListValues>
-        </avrasm.assembler.general.AdditionalIncludeDirectories>
-        <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
-      </AvrAssembler>
+  <avrasm.assembler.general.AdditionalIncludeDirectories>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.7.374\avrasm\inc</Value>
+    </ListValues>
+  </avrasm.assembler.general.AdditionalIncludeDirectories>
+  <avrasm.assembler.general.IncludeFile>m2560def.inc</avrasm.assembler.general.IncludeFile>
+</AvrAssembler>
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
@@ -473,6 +473,9 @@
     <Compile Include="Modules\README\RotEnc_README.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\README\Timers_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\README\TWSI_README.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -489,6 +492,51 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\RotaryEncoder\RotEnc_SetMacs.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_0.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_2.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_1.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_3.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_4.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Counter\Timers_Counter_5.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_0.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_1.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_2.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_3.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_4.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Prescaller\Timers_Prescaller_Counter_5.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Timers_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Timers_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Timers\Timers_Sets.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Modules\TWSI\TWSI_Const.inc">
@@ -585,12 +633,15 @@
     <Folder Include="Modules\ADC" />
     <Folder Include="Modules\ExternalInterrupts" />
     <Folder Include="Modules\CRC" />
+    <Folder Include="Modules\Timers" />
     <Folder Include="Modules\PCF8574" />
     <Folder Include="Modules\PCF8575" />
     <Folder Include="Modules\NTC3950_100K" />
     <Folder Include="Modules\OneWire" />
     <Folder Include="Modules\RotaryEncoder" />
     <Folder Include="Modules\README" />
+    <Folder Include="Modules\Timers\Counter" />
+    <Folder Include="Modules\Timers\Prescaller" />
     <Folder Include="Modules\TWSI" />
     <Folder Include="Modules\USART" />
   </ItemGroup>
