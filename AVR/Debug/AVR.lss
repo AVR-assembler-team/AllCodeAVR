@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Mon Oct 02 17:54:52 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Tue Oct 03 16:57:12 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -20,13 +20,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -50,13 +51,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2577,31 +2579,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_0.inc"
                                  
-                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
-                                 		.if @0 == Prescaller1
-                                 			SETB TCCR0, CS00
-                                 			CLRB TCCR0, CS01
-                                 			CLRB TCCR0, CS02
-                                 		.elif @0 == Prescaller8
-                                 			CLRB TCCR0, CS00
-                                 			SETB TCCR0, CS01
-                                 			CLRB TCCR0, CS02
-                                 		.elif @0 == Prescaller64
-                                 			SETB TCCR0, CS00
-                                 			SETB TCCR0, CS01
-                                 			CLRB TCCR0, CS02
-                                 		.elif @0 == Prescaller256
-                                 			CLRB TCCR0, CS00
-                                 			CLRB TCCR0, CS01
-                                 			SETB TCCR0, CS02
-                                 		.elif @0 == Prescaller1024
-                                 			SETB TCCR0, CS00
-                                 			CLRB TCCR0, CS01
-                                 			SETB TCCR0, CS02
-                                 		.else
-                                 			.error "Prescaller for Counter0 is not availabale"
-                                 		.endif
-                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 	.if ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
                                  		.if @0 == Prescaller1
                                  			SETB TCCR0A, CS00
                                  			CLRB TCCR0A, CS01
@@ -2610,10 +2588,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  			CLRB TCCR0A, CS00
                                  			SETB TCCR0A, CS01
                                  			CLRB TCCR0A, CS02
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 0 of this controller!"
                                  		.elif @0 == Prescaller64
                                  			SETB TCCR0A, CS00
                                  			SETB TCCR0A, CS01
                                  			CLRB TCCR0A, CS02
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 0 of this controller!"
                                  		.elif @0 == Prescaller256
                                  			CLRB TCCR0A, CS00
                                  			CLRB TCCR0A, CS01
@@ -2622,8 +2604,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  			SETB TCCR0A, CS00
                                  			CLRB TCCR0A, CS01
                                  			SETB TCCR0A, CS02
-                                 		.else
-                                 			.error "Prescaller for Counter0 is not availabale"
                                  		.endif
                                  	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
                                  		.if @0 == Prescaller1
@@ -2634,10 +2614,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  			CLRB TCCR0B, CS00
                                  			SETB TCCR0B, CS01
                                  			CLRB TCCR0B, CS02
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 0 of this controller!"
                                  		.elif @0 == Prescaller64
                                  			SETB TCCR0B, CS00
                                  			SETB TCCR0B, CS01
                                  			CLRB TCCR0B, CS02
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 0 of this controller!"
                                  		.elif @0 == Prescaller256
                                  			CLRB TCCR0B, CS00
                                  			CLRB TCCR0B, CS01
@@ -2646,10 +2630,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  			SETB TCCR0B, CS00
                                  			CLRB TCCR0B, CS01
                                  			SETB TCCR0B, CS02
-                                 		.else
-                                 			.error "Prescaller for Counter0 is not availabale"
                                  		.endif
-                                 	.elif ctrl == 64 || ctrl == 128
+                                 	.elif ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
                                  		.if @0 == Prescaller1
                                  			SETB TCCR0, CS00
                                  			CLRB TCCR0, CS01
@@ -2659,52 +2641,284 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  			SETB TCCR0, CS01
                                  			CLRB TCCR0, CS02
                                  		.elif @0 == Prescaller32
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				SETB TCCR0, CS00
+                                 				SETB TCCR0, CS01
+                                 				CLRB TCCR0, CS02
+                                 			.else
+                                 				.error "Prescaller 32 is not supporting by counter 0 of this controller!"
+                                 			.endif
+                                 		.elif @0 == Prescaller64
                                  			SETB TCCR0, CS00
                                  			SETB TCCR0, CS01
                                  			CLRB TCCR0, CS02
-                                 		.elif @0 == Prescaller64
-                                 			CLRB TCCR0, CS00
-                                 			CLRB TCCR0, CS01
-                                 			SETB TCCR0, CS02
                                  		.elif @0 == Prescaller128
-                                 			SETB TCCR0, CS00
-                                 			CLRB TCCR0, CS01
-                                 			SETB TCCR0, CS02
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				SETB TCCR0, CS00
+                                 				CLRB TCCR0, CS01
+                                 				SETB TCCR0, CS02
+                                 			.else
+                                 				.error "Prescaller 128 is not supporting by counter 0 of this controller!"
+                                 			.endif
                                  		.elif @0 == Prescaller256
                                  			CLRB TCCR0, CS00
-                                 			SETB TCCR0, CS01
+                                 			CLRB TCCR0, CS01
                                  			SETB TCCR0, CS02
                                  		.elif @0 == Prescaller1024
                                  			SETB TCCR0, CS00
-                                 			SETB TCCR0, CS01
+                                 			CLRB TCCR0, CS01
                                  			SETB TCCR0, CS02
-                                 		.else
-                                 			.error "Prescaller for Counter0 is not availabale"
                                  		.endif
                                  	.endif
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_1.inc"
                                  
-                                 
+                                 	.if @0 == Prescaller1
+                                 		SETB TCCR1B, CS10
+                                 		CLRB TCCR1B, CS11
+                                 		CLRB TCCR1B, CS12
+                                 	.elif @0 == Prescaller8
+                                 		CLRB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		CLRB TCCR1B, CS12
+                                 	.elif @0 == Prescaller32
+                                 		.error "Prescaller 32 is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == Prescaller64
+                                 		CLRB TCCR1B, CS10
+                                 		CLRB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.elif @0 == Prescaller128
+                                 		.error "Prescaller 128 is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == Prescaller256
+                                 		CLRB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.elif @0 == Prescaller1024
+                                 		SETB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.endif
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_2.inc"
                                  
-                                 
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2, CS20
+                                 			CLRB TCCR2, CS21
+                                 			CLRB TCCR2, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			CLRB TCCR2, CS22
+                                 		.elif @0 == Prescaller32
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				.error "Prescaller 32 is not supporting by counter 2 of this controller!"
+                                 			.else
+                                 				SETB TCCR2, CS20
+                                 				SETB TCCR2, CS21
+                                 				CLRB TCCR2, CS22
+                                 			.endif
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2, CS20
+                                 			CLRB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.elif @0 == Prescaller128
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				.error "Prescaller 128 is not supporting by counter 2 of this controller!"
+                                 			.else
+                                 				SETB TCCR2, CS20
+                                 				CLRB TCCR2, CS21
+                                 				SETB TCCR2, CS22
+                                 			.endif
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller32
+                                 			SETB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller128
+                                 			SETB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.endif
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller32
+                                 			SETB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller128
+                                 			SETB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 2 is not supporting by your controller!"
+                                 	.endif
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc"
                                  
-                                 
+                                 	.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR3B, CS30
+                                 			CLRB TCCR3B, CS31
+                                 			CLRB TCCR3B, CS32
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			CLRB TCCR3B, CS32
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 3 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR3B, CS30
+                                 			CLRB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 3 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 3 in not supported by this controller!"
+                                 	.endif
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc"
                                  
-                                 
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR4B, CS40
+                                 			CLRB TCCR4B, CS41
+                                 			CLRB TCCR4B, CS42
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			CLRB TCCR4B, CS42
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 4 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR4B, CS40
+                                 			CLRB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 4 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc"
                                  
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR5B, CS50
+                                 			CLRB TCCR5B, CS51
+                                 			CLRB TCCR5B, CS52
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			CLRB TCCR5B, CS52
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 5 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR5B, CS50
+                                 			CLRB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 5 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "Modules/Counters/Prescaller/Counters_Prescaller.inc"
                                  
+                                 	.if @0 == Counter0
+                                 		TimersPrescallerCounter0 @1
+                                 	.elif @0 == Counter1
+                                 		TimersPrescallerCounter1 @1
+                                 	.elif @0 == Counter2
+                                 		TimersPrescallerCounter2 @1
+                                 	.elif @0 == Counter3
+                                 		TimersPrescallerCounter3 @1
+                                 	.elif @0 == Counter4
+                                 		TimersPrescallerCounter4 @1
+                                 	.elif @0 == Counter5
+                                 		TimersPrescallerCounter5 @1
+                                 	.endif
                                  .endm
                                  
                                  .include "Modules/Counters/Counter/Counters_Counter_0.inc"
+                                 
+                                 
                                  
                                  	.if @0 == Overflow
                                  		TimersPrescallerCounter0 Prescaller1
@@ -3583,6 +3797,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 000133 9478                      sei
                                  
                                  .include "Tests.inc"
+                                 
 000134 930f
 000135 b505
 000136 7f0e
@@ -3597,22 +3812,88 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 00013f b505
 000140 7f0b
 000141 bd05
-000142 910f
+000142 910f                      CountersPrescaller Counter0, Prescaller8
 000143 930f
-000144 e302
-000145 bd08
-000146 910f
-000147 930f
-000148 9100 006e
-00014a 6004
-00014b 9300 006e
-00014d 910f                      
+000144 9100 0081
+000146 6001
+000147 9300 0081
+000149 910f
+00014a 930f
+00014b 9100 0081
+00014d 6002
+00014e 9300 0081
+000150 910f
+000151 930f
+000152 9100 0081
+000154 6004
+000155 9300 0081
+000157 910f                      CountersPrescaller Counter1, Prescaller1024
+000158 930f
+000159 9100 00b1
+00015b 7f0e
+00015c 9300 00b1
+00015e 910f
+00015f 930f
+000160 9100 00b1
+000162 6002
+000163 9300 00b1
+000165 910f
+000166 930f
+000167 9100 00b1
+000169 7f0b
+00016a 9300 00b1
+00016c 910f                      CountersPrescaller Counter2, Prescaller8
+00016d 930f
+00016e 9100 0091
+000170 7f0e
+000171 9300 0091
+000173 910f
+000174 930f
+000175 9100 0091
+000177 6002
+000178 9300 0091
+00017a 910f
+00017b 930f
+00017c 9100 0091
+00017e 7f0b
+00017f 9300 0091
+000181 910f                      CountersPrescaller Counter3, Prescaller8
+000182 930f
+000183 9100 00a1
+000185 6001
+000186 9300 00a1
+000188 910f
+000189 930f
+00018a 9100 00a1
+00018c 6002
+00018d 9300 00a1
+00018f 910f
+000190 930f
+000191 9100 00a1
+000193 6004
+000194 9300 00a1
+000196 910f                      CountersPrescaller Counter4, Prescaller1024
+000197 930f
+000198 9100 0121
+00019a 6001
+00019b 9300 0121
+00019d 910f
+00019e 930f
+00019f 9100 0121
+0001a1 6002
+0001a2 9300 0121
+0001a4 910f
+0001a5 930f
+0001a6 9100 0121
+0001a8 6004
+0001a9 9300 0121
+0001ab 910f                      CountersPrescaller Counter5, Prescaller1024
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-00014e cfff                      rjmp Proga
+0001ac cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -3632,14 +3913,14 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  28 r17:   0 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  94 r17:   0 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 3 out of 35 (8.6%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+andi  :   6 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
@@ -3648,22 +3929,22 @@ clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   3 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   3 
-lds   :   1 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   3 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
+lds   :  15 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   2 out   :   6 pop   :   5 push  :   5 rcall :   0 ret   :   2 
+ori   :  12 out   :   5 pop   :  18 push  :  18 rcall :   0 ret   :   2 
 reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :   1 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  15 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x00029e    670      0    670  262144   0.3%
+[.cseg] 0x000000 0x00035a    858      0    858  262144   0.3%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
