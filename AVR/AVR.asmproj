@@ -209,6 +209,27 @@
     <Compile Include="Modules\Configs\USART_Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_0.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_1.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_2.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_3.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_4.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\Interrupt\Counters_Interrupt_Counter_5.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\Counters\Prescaller\Counters_Prescaller.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -497,24 +518,6 @@
     <Compile Include="Modules\RotaryEncoder\RotEnc_SetMacs.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_0.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_2.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_1.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_3.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_4.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counter\Counters_Counter_5.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Modules\Counters\Prescaller\Counters_Prescaller_Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -631,6 +634,7 @@
     <Folder Include="Main" />
     <Folder Include="Main\Interrupts" />
     <Folder Include="Modules" />
+    <Folder Include="Modules\Counters\Interrupt" />
     <Folder Include="Modules\HD44780U" />
     <Folder Include="Modules\Configs" />
     <Folder Include="Modules\ADC" />
@@ -643,7 +647,6 @@
     <Folder Include="Modules\OneWire" />
     <Folder Include="Modules\RotaryEncoder" />
     <Folder Include="Modules\README" />
-    <Folder Include="Modules\Counters\Counter" />
     <Folder Include="Modules\Counters\Prescaller" />
     <Folder Include="Modules\TWSI" />
     <Folder Include="Modules\USART" />

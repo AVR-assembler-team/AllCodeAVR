@@ -28,12 +28,13 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc</FILE>

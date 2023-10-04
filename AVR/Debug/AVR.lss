@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Tue Oct 03 16:57:12 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Wed Oct 04 14:19:18 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -21,13 +21,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -52,13 +53,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mod
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counter/Counters_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(18): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2547,20 +2549,16 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.include "Modules/Counters/Counters_Includes.inc"
                                  
                                  
-                                 .equ Counter1			=	1
-                                 .equ Counter2			=	2
-                                 .equ Counter3			=	3
-                                 .equ Counter4			=	4
-                                 .equ Counter5			=	5
+                                 .equ Counter1		=	1
+                                 .equ Counter2		=	2
+                                 .equ Counter3		=	3
+                                 .equ Counter4		=	4
+                                 .equ Counter5		=	5
                                  
-                                 .equ mks1			=	0
-                                 .equ mks10			=	1
-                                 .equ mks25			=	2
-                                 .equ mks100			=	3
-                                 .equ Overflow		=	5
-                                 .equ CompareMatch	=	6
-                                 .equ CompareMatchA	=	7
-                                 .equ CompareMatchB	=	8
+                                 .equ Overflow		=	6
+                                 .equ CompareMatch	=	7
+                                 .equ CompareMatchA	=	8
+                                 .equ CompareMatchB	=	9
                                  
                                  
                                  
@@ -2579,6 +2577,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_0.inc"
                                  
+                                 *	@1 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter0
                                  	.if ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
                                  		.if @0 == Prescaller1
                                  			SETB TCCR0A, CS00
@@ -2673,6 +2675,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_1.inc"
                                  
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter1
                                  	.if @0 == Prescaller1
                                  		SETB TCCR1B, CS10
                                  		CLRB TCCR1B, CS11
@@ -2701,6 +2707,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_2.inc"
                                  
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter2
                                  	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
                                  		.if @0 == Prescaller1
                                  			SETB TCCR2, CS20
@@ -2805,6 +2815,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc"
                                  
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter3
                                  	.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                  		.if @0 == Prescaller1
                                  			SETB TCCR3B, CS30
@@ -2837,6 +2851,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc"
                                  
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter4
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
                                  		.if @0 == Prescaller1
                                  			SETB TCCR4B, CS40
@@ -2869,6 +2887,10 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc"
                                  
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro TimersPrescallerCounter5
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
                                  		.if @0 == Prescaller1
                                  			SETB TCCR5B, CS50
@@ -2901,6 +2923,11 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/Prescaller/Counters_Prescaller.inc"
                                  
+                                 *	@0 - номер счетчика (Counter0 как пример)
+                                 *	@1 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 
+                                 .macro CountersPrescaller
                                  	.if @0 == Counter0
                                  		TimersPrescallerCounter0 @1
                                  	.elif @0 == Counter1
@@ -2916,424 +2943,54 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.endif
                                  .endm
                                  
-                                 .include "Modules/Counters/Counter/Counters_Counter_0.inc"
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc"
                                  
                                  
-                                 
-                                 	.if @0 == Overflow
-                                 		TimersPrescallerCounter0 Prescaller1
-                                 		.if ctrl == 8
-                                 			SETB TIMSK, TOV0
-                                 		.elif ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
-                                 			SETB TIMSK, TOIE0
-                                 		.else
-                                 			SETB TIMSK0, TOIE0
-                                 		.endif
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc"
                                  
                                  
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc"
                                  
-                                 	.elif @0 == CompareMatch
-                                 		.if ctrl == 8|| ctrl == 48 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284 || ctrl == 8515 || ctrl == 8535
-                                 			.error "This Counter not supporting Compare Match !"
-                                 		.else
-                                 			.if @1 == mks1
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $01
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $01
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $02
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $02
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $04
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $04
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $01
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $01
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $02
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $02
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.endif
-                                 			.elif @1 == mks10
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $0a
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $0a
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $14
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $14
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $05
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $05
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $0a
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $0a
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 16000000
-                                 					.if ctrl == 64 || ctrl == 128
-                                 						TimersPrescallerCounter0 Prescaller32
-                                 						.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 							WRITE_BYTE OCR0, $05
-                                 							SETB TIMSK, OCIE0
-                                 						.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 							WRITE_BYTE OCR0A, $05
-                                 							SETB TIMSK0, OCIE0A
-                                 						.endif
-                                 					.else
-                                 						TimersPrescallerCounter0 Prescaller8
-                                 						.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 							WRITE_BYTE OCR0, $14
-                                 							SETB TIMSK, OCIE0
-                                 						.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 							WRITE_BYTE OCR0A, $14
-                                 							SETB TIMSK0, OCIE0A
-                                 						.endif
-                                 					.endif
-                                 				.endif
-                                 			.elif @1 == mks25
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $19
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $19
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $32
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $32
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $64
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $64
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $19
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $19
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $32
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $32
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.endif
-                                 			.elif @1 == mks100
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $64
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $64
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $19
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $19
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $32
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $32
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.elif ATmegaFREQ == 8000000
-                                 					.if ctrl == 64 || ctrl == 128
-                                 						TimersPrescallerCounter0 Prescaller32
-                                 						.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 							WRITE_BYTE OCR0, $19
-                                 							SETB TIMSK, OCIE0
-                                 						.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 							WRITE_BYTE OCR0A, $19
-                                 							SETB TIMSK0, OCIE0A
-                                 						.endif
-                                 					.else
-                                 						TimersPrescallerCounter0 Prescaller8
-                                 						.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 							WRITE_BYTE OCR0, $64
-                                 							SETB TIMSK, OCIE0
-                                 						.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 							WRITE_BYTE OCR0A, $64
-                                 							SETB TIMSK0, OCIE0A
-                                 						.endif
-                                 					.endif
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller64
-                                 					.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
-                                 						WRITE_BYTE OCR0, $19
-                                 						SETB TIMSK, OCIE0
-                                 					.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
-                                 						WRITE_BYTE OCR0A, $19
-                                 						SETB TIMSK0, OCIE0A
-                                 					.endif
-                                 				.endif
-                                 			.endif
-                                 		.endif
-                                 	.elif @0 == CompareMatchA
-                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
-                                 			.if @1 == mks1
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $01
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $02
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $04
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $01
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $02
-                                 				.endif
-                                 			.elif @1 == mks10
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $0a
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $14
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $05
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $0a
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $14
-                                 				.endif
-                                 			.elif @1 == mks25
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $19
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $32
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $64
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $19
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $32
-                                 				.endif
-                                 			.elif @1 == mks100
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0A, $64
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $19
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $32
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0A, $64
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller64
-                                 					WRITE_BYTE OCR0A, $19
-                                 				.endif
-                                 			.endif
-                                 		SETB TIMSK0, OCIE0A
-                                 		.else
-                                 			.error "This Counter not supporting Compare Match A!"
-                                 		.endif
-                                 	.elif @0 == CompareMatchB
-                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
-                                 			.if @1 == mks1
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $01
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $02
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $04
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $01
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $02
-                                 				.endif
-                                 			.elif @1 == mks10
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $0a
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $14
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $05
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $0a
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $14
-                                 				.endif
-                                 			.elif @1 == mks25
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $19
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $32
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $64
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $19
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $32
-                                 				.endif
-                                 			.elif @1 == mks100
-                                 				.if ATmegaFREQ == 1000000
-                                 					TimersPrescallerCounter0 Prescaller1
-                                 					WRITE_BYTE OCR0B, $64
-                                 				.elif ATmegaFREQ == 2000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $19
-                                 				.elif ATmegaFREQ == 4000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $32
-                                 				.elif ATmegaFREQ == 8000000
-                                 					TimersPrescallerCounter0 Prescaller8
-                                 					WRITE_BYTE OCR0B, $64
-                                 				.elif ATmegaFREQ == 16000000
-                                 					TimersPrescallerCounter0 Prescaller64
-                                 					WRITE_BYTE OCR0B, $19
-                                 				.endif
-                                 			.endif
-                                 		SETB TIMSK0, OCIE0B
-                                 		.else
-                                 			.error "This Counter not supporting Compare Match B!"
-                                 		.endif
+                                 
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc"
+                                 
+                                 
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc"
+                                 
+                                 
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc"
+                                 
+                                 
+                                 .endm
+                                 .include "Modules/Counters/Interrupt/Counters_Interrupt.inc"
+                                 
+                                 *
+                                 *	@0	-	номер счетчика (Counter0 как пример)
+                                 *	@1	-	какое прерывание используется
+                                 *	@2	-	включить или выключить
+                                 *
+                                 */
+                                 
+                                 .macro CounterInterrupt
+                                 	.if @0 == Counter0
+                                 		CountersInterruptCounter0 @1, @2
+                                 	.elif @0 == Counter1
+                                 		CountersInterruptCounter1 @1, @2
+                                 	.elif @0 == Counter2
+                                 		CountersInterruptCounter2 @1, @2
+                                 	.elif @0 == Counter3
+                                 		CountersInterruptCounter3 @1, @2
+                                 	.elif @0 == Counter4
+                                 		CountersInterruptCounter4 @1, @2
+                                 	.elif @0 == Counter5
+                                 		CountersInterruptCounter5 @1, @2
                                  	.endif
-                                 .include "Modules/Counters/Counter/Counters_Counter_1.inc"
-                                 
-                                  * TimerCounter1.inc
-                                  *
-                                  *  Created: 02.10.2023 11:59:42
-                                  *   Author: gridar
-                                  */ 
-                                 .include "Modules/Counters/Counter/Counters_Counter_2.inc"
-                                 
-                                  * Timers_Counter_2.inc
-                                  *
-                                  *  Created: 02.10.2023 12:00:20
-                                  *   Author: gridar
-                                  */ 
-                                 .include "Modules/Counters/Counter/Counters_Counter_3.inc"
-                                 
-                                  * Timers_Counter_3.inc
-                                  *
-                                  *  Created: 02.10.2023 12:00:50
-                                  *   Author: gridar
-                                  */ 
-                                 .include "Modules/Counters/Counter/Counters_Counter_4.inc"
-                                 
-                                  * Timers_Counter_4.inc
-                                  *
-                                  *  Created: 02.10.2023 12:00:59
-                                  *   Author: gridar
-                                  */ 
-                                 .include "Modules/Counters/Counter/Counters_Counter_5.inc"
-                                 
-                                  * Timers_Counter_5.inc
-                                  *
-                                  *  Created: 02.10.2023 12:01:08
-                                  *   Author: gridar
-                                  */ 
+                                 .endm
                                  
                                  .include "Modules/Counters/Counters_Sets.inc"
                                  
@@ -3888,6 +3545,13 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 0001a8 6004
 0001a9 9300 0121
 0001ab 910f                      CountersPrescaller Counter5, Prescaller1024
+                                 
+                                 CounterInterrupt Counter0, Overflow, enabled
+                                 CounterInterrupt Counter1, Overflow, enabled
+                                 CounterInterrupt Counter2, Overflow, enabled
+                                 CounterInterrupt Counter3, Overflow, enabled
+                                 CounterInterrupt Counter4, Overflow, enabled
+                                 CounterInterrupt Counter5, Overflow, enabled
                                  
                                  Proga:
                                  // Читайте README файл
