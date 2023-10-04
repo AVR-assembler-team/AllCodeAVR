@@ -5,10 +5,12 @@
 .equ Counter4		=	4
 .equ Counter5		=	5
 
-.equ Overflow		=	6
-.equ CompareMatch	=	7
-.equ CompareMatchA	=	8
-.equ CompareMatchB	=	9
+.equ CaptureEvent	=	6
+.equ Overflow		=	7
+.equ CompareMatch	=	8
+.equ CompareMatchA	=	9
+.equ CompareMatchB	=	10
+.equ CompareMatchC	=	11
 
 
 

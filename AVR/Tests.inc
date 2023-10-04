@@ -7,8 +7,11 @@ CountersPrescaller Counter4, Prescaller1024
 CountersPrescaller Counter5, Prescaller1024
 
 CounterInterrupt Counter0, Overflow, enabled
-CounterInterrupt Counter1, Overflow, enabled
+//CounterInterrupt Counter0, CompareMatch, enabled
+CounterInterrupt Counter0, CompareMatchA, enabled
+CounterInterrupt Counter0, CompareMatchB, enabled
+//CounterInterrupt Counter2, CaptureEvent, enabled
 CounterInterrupt Counter2, Overflow, enabled
-CounterInterrupt Counter3, Overflow, enabled
-CounterInterrupt Counter4, Overflow, enabled
-CounterInterrupt Counter5, Overflow, enabled
+CounterInterrupt Counter2, CompareMatchA, enabled
+CounterInterrupt Counter2, CompareMatchB, enabled
+//CounterInterrupt Counter2, CompareMatchC, enabled

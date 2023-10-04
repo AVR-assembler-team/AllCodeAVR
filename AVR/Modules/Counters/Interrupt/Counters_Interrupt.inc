@@ -21,3 +21,4 @@
 		CountersInterruptCounter5 @1, @2
 	.endif
 .endm
+

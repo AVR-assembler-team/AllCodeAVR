@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Wed Oct 04 14:19:18 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Wed Oct 04 23:00:41 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1441,10 +1441,12 @@ EQU  Counter2     00000002
 EQU  Counter3     00000003
 EQU  Counter4     00000004
 EQU  Counter5     00000005
-EQU  Overflow     00000006
-EQU  CompareMatch 00000007
-EQU  CompareMatchA 00000008
-EQU  CompareMatchB 00000009
+EQU  CaptureEvent 00000006
+EQU  Overflow     00000007
+EQU  CompareMatch 00000008
+EQU  CompareMatchA 00000009
+EQU  CompareMatchB 0000000a
+EQU  CompareMatchC 0000000b
 EQU  Prescaller1  00000001
 EQU  Prescaller8  00000008
 EQU  Prescaller32 00000020
@@ -1458,4 +1460,4 @@ CSEG TIM0_COMP    000000ab
 CSEG TIM2_COMP    000000c6
 CSEG USI_STRT     00000126
 CSEG USI_OVFL     00000129
-CSEG Proga        000001ac
+CSEG Proga        000001d6
