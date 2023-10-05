@@ -58,7 +58,7 @@
 			.endif
 		.endif
 	.elif @0 == CompareMatchC
-		.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+		.if ctrl == 64 || ctrl == 128 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
 			.if @1 == enabled
 				SETB TIMSK1, OCIE1C
 			.elif @1 == disabled

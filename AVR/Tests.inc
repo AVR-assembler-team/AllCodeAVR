@@ -10,8 +10,9 @@ CounterInterrupt Counter0, Overflow, enabled
 //CounterInterrupt Counter0, CompareMatch, enabled
 CounterInterrupt Counter0, CompareMatchA, enabled
 CounterInterrupt Counter0, CompareMatchB, enabled
-//CounterInterrupt Counter2, CaptureEvent, enabled
-CounterInterrupt Counter2, Overflow, enabled
-CounterInterrupt Counter2, CompareMatchA, enabled
-CounterInterrupt Counter2, CompareMatchB, enabled
-//CounterInterrupt Counter2, CompareMatchC, enabled
+CounterInterrupt Counter5, CaptureEvent, enabled
+CounterInterrupt Counter5, Overflow, enabled
+//CounterInterrupt Counter5, CompareMatch, enabled
+CounterInterrupt Counter5, CompareMatchA, enabled
+CounterInterrupt Counter5, CompareMatchB, enabled
+CounterInterrupt Counter5, CompareMatchC, enabled
