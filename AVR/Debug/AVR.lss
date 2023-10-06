@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 06 16:21:45 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 06 19:35:14 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -3463,11 +3463,87 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_1.inc"
                                  
-                                  * WeveformGenerationMode_Counter_1.inc
-                                  *
-                                  *  Created: 06.10.2023 15:11:14
-                                  *   Author: gridar
-                                  */ 
+                                 	.if @0 == 0
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 1
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 2
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 3
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 4
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 5
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 6
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 7
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 8
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 9
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 10
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 11
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 12
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 15
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_2.inc"
                                  
                                   * WeveformGenerationMode_Counter_2.inc
@@ -3501,6 +3577,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.if @0 == Counter0
                                  		WeveformGenerationModeCounter0 @1
                                  	.elif @0 == Counter1
+                                 		WeveformGenerationModeCounter1 @1
                                  	.elif @0 == Counter2
                                  	.elif @0 == Counter3
                                  	.elif @0 == Counter4
@@ -4074,26 +4151,31 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //CounterInterrupt Counter5, CompareMatchC, enabled
                                  
 0001ac 930f
-0001ad b504
-0001ae 6001
-0001af bd04
-0001b0 910f
-0001b1 930f
-0001b2 b504
-0001b3 6002
-0001b4 bd04
-0001b5 910f
-0001b6 930f
-0001b7 b505
-0001b8 6008
-0001b9 bd05
-0001ba 910f                      WeveformGenerationMode Counter0, 7
+0001ad 9100 0080
+0001af 6001
+0001b0 9300 0080
+0001b2 910f
+0001b3 930f
+0001b4 9100 0080
+0001b6 6002
+0001b7 9300 0080
+0001b9 910f
+0001ba 930f
+0001bb 9100 0081
+0001bd 6008
+0001be 9300 0081
+0001c0 910f
+0001c1 930f
+0001c2 9100 0081
+0001c4 6100
+0001c5 9300 0081
+0001c7 910f                      WeveformGenerationMode Counter1, 15
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001bb cfff                      rjmp Proga
+0001c8 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -4113,7 +4195,7 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16: 109 r17:   0 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16: 114 r17:   0 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 3 out of 35 (8.6%)
@@ -4129,22 +4211,22 @@ clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   6 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
-lds   :  15 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   3 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
+lds   :  19 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :  15 out   :   8 pop   :  21 push  :  21 rcall :   0 ret   :   2 
+ori   :  16 out   :   5 pop   :  22 push  :  22 rcall :   0 ret   :   2 
 reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  15 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  19 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000378    888      0    888  262144   0.3%
+[.cseg] 0x000000 0x000392    914      0    914  262144   0.3%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
