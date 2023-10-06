@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 05 19:01:48 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 06 16:21:45 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -14,21 +14,28 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -46,21 +53,28 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Counters_Prescaller.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Counters_Interrupt.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Prescaller/Prescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Interrupt/Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Modules/Counters/Counters_Sets.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2577,7 +2591,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .equ Prescaller256	=	256
                                  .equ Prescaller1024	=	1024
                                  
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_0.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_0.inc"
                                  
                                  *	@1 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2675,7 +2689,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_1.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_1.inc"
                                  
                                  *	@0 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2707,7 +2721,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		SETB TCCR1B, CS12
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_2.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_2.inc"
                                  
                                  *	@0 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2815,7 +2829,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Counter 2 is not supporting by your controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_3.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_3.inc"
                                  
                                  *	@0 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2851,7 +2865,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Counter 3 in not supported by this controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_4.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_4.inc"
                                  
                                  *	@0 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2887,7 +2901,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Counter 4 is not supporting by this controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller_Counter_5.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller_Counter_5.inc"
                                  
                                  *	@0 - претделитель	(Prescaller8 как пример)
                                  */
@@ -2923,7 +2937,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Counter 4 is not supporting by this controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Prescaller/Counters_Prescaller.inc"
+                                 .include "Modules/Counters/Prescaller/Prescaller.inc"
                                  
                                  *	@0 - номер счетчика (Counter0 как пример)
                                  *	@1 - претделитель	(Prescaller8 как пример)
@@ -2945,7 +2959,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.endif
                                  .endm
                                  
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_0.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_0.inc"
                                  
                                  	.if @0 == CaptureEvent
                                  		.error "Capture Event is not supporting by counter 0 of this controller!"
@@ -2997,7 +3011,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Compare Match C is not supporting by counter 0 of this controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_1.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_1.inc"
                                  
                                  	.if @0 == CompareMatch
                                  		.error "Compare Match is not supporting by counter 1 of this controller!"
@@ -3069,7 +3083,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_2.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_2.inc"
                                  
                                  	.if @0 == CompareMatch
                                  		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
@@ -3123,7 +3137,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.error "Compare Match C Interrupt is not supporting by counter 2 of this controller!"
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_3.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_3.inc"
                                  
                                  	.if @0 == CaptureEvent
                                  				.if ctrl == 64 || ctrl == 128 || ctrl == 162
@@ -3211,7 +3225,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  				.endif
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_4.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_4.inc"
                                  
                                  	.if @0 == CaptureEvent
                                  		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
@@ -3267,7 +3281,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt_Counter_5.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt_Counter_5.inc"
                                  
                                  	.if @0 == CaptureEvent
                                  		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
@@ -3323,7 +3337,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
-                                 .include "Modules/Counters/Interrupt/Counters_Interrupt.inc"
+                                 .include "Modules/Counters/Interrupt/Interrupt.inc"
                                  
                                  *
                                  *	@0	-	номер счетчика (Counter0 как пример)
@@ -3348,6 +3362,151 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.endif
                                  .endm
                                  
+                                 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_0.inc"
+                                 
+                                 	.if @0 == 0
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				CLRB TCCR0, WGM00
+                                 				CLRB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CLRB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				CLRB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 1
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				SETB TCCR0, WGM00
+                                 				CLRB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 2
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				CLRB TCCR0, WGM00
+                                 				SETB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CLRB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				CLRB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 4
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 3
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				SETB TCCR0, WGM00
+                                 				SETB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 5
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				SETB TCCR0B, WGM02
+                                 			.else
+                                 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 6
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 7
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				SETB TCCR0B, WGM02
+                                 			.else
+                                 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_1.inc"
+                                 
+                                  * WeveformGenerationMode_Counter_1.inc
+                                  *
+                                  *  Created: 06.10.2023 15:11:14
+                                  *   Author: gridar
+                                  */ 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_2.inc"
+                                 
+                                  * WeveformGenerationMode_Counter_2.inc
+                                  *
+                                  *  Created: 06.10.2023 15:11:22
+                                  *   Author: gridar
+                                  */ 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_3.inc"
+                                 
+                                  * WeveformGenerationMode_Counter_3.inc
+                                  *
+                                  *  Created: 06.10.2023 15:11:31
+                                  *   Author: gridar
+                                  */ 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_4.inc"
+                                 
+                                  * WeveformGenerationMode_Counter_4.inc
+                                  *
+                                  *  Created: 06.10.2023 15:11:39
+                                  *   Author: gridar
+                                  */ 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_5.inc"
+                                 
+                                  * WeveformGenerationMode_Counter_5.inc
+                                  *
+                                  *  Created: 06.10.2023 15:11:46
+                                  *   Author: gridar
+                                  */ 
+                                 .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode.inc"
+                                 
+                                 	.if @0 == Counter0
+                                 		WeveformGenerationModeCounter0 @1
+                                 	.elif @0 == Counter1
+                                 	.elif @0 == Counter2
+                                 	.elif @0 == Counter3
+                                 	.elif @0 == Counter4
+                                 	.elif @0 == Counter5
+                                 	.endif
+                                 .endm
                                  
                                  .include "Modules/Counters/Counters_Sets.inc"
                                  
@@ -3903,54 +4062,38 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 0001a9 9300 0121
 0001ab 910f                      CountersPrescaller Counter5, Prescaller1024
                                  
-0001ac 930f
-0001ad 9100 006e
-0001af 6001
-0001b0 9300 006e
-0001b2 910f                      CounterInterrupt Counter0, Overflow, enabled
+                                 //CounterInterrupt Counter0, Overflow, enabled
                                  //CounterInterrupt Counter0, CompareMatch, enabled
-0001b3 930f
-0001b4 9100 006e
-0001b6 6002
-0001b7 9300 006e
-0001b9 910f                      CounterInterrupt Counter0, CompareMatchA, enabled
-0001ba 930f
-0001bb 9100 006e
-0001bd 6004
-0001be 9300 006e
-0001c0 910f                      CounterInterrupt Counter0, CompareMatchB, enabled
-0001c1 930f
-0001c2 9100 0073
-0001c4 6200
-0001c5 9300 0073
-0001c7 910f                      CounterInterrupt Counter5, CaptureEvent, enabled
-0001c8 930f
-0001c9 9100 0073
-0001cb 6001
-0001cc 9300 0073
-0001ce 910f                      CounterInterrupt Counter5, Overflow, enabled
+                                 //CounterInterrupt Counter0, CompareMatchA, enabled
+                                 //CounterInterrupt Counter0, CompareMatchB, enabled
+                                 //CounterInterrupt Counter5, CaptureEvent, enabled
+                                 //CounterInterrupt Counter5, Overflow, enabled
                                  //CounterInterrupt Counter5, CompareMatch, enabled
-0001cf 930f
-0001d0 9100 0073
-0001d2 6002
-0001d3 9300 0073
-0001d5 910f                      CounterInterrupt Counter5, CompareMatchA, enabled
-0001d6 930f
-0001d7 9100 0073
-0001d9 6004
-0001da 9300 0073
-0001dc 910f                      CounterInterrupt Counter5, CompareMatchB, enabled
-0001dd 930f
-0001de 9100 0073
-0001e0 6008
-0001e1 9300 0073
-0001e3 910f                      CounterInterrupt Counter5, CompareMatchC, enabled
+                                 //CounterInterrupt Counter5, CompareMatchA, enabled
+                                 //CounterInterrupt Counter5, CompareMatchB, enabled
+                                 //CounterInterrupt Counter5, CompareMatchC, enabled
+                                 
+0001ac 930f
+0001ad b504
+0001ae 6001
+0001af bd04
+0001b0 910f
+0001b1 930f
+0001b2 b504
+0001b3 6002
+0001b4 bd04
+0001b5 910f
+0001b6 930f
+0001b7 b505
+0001b8 6008
+0001b9 bd05
+0001ba 910f                      WeveformGenerationMode Counter0, 7
                                  
                                  Proga:
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001e4 cfff                      rjmp Proga
+0001bb cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -3970,7 +4113,7 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16: 134 r17:   0 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16: 109 r17:   0 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 3 out of 35 (8.6%)
@@ -3986,22 +4129,22 @@ clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   3 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
-lds   :  23 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   6 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
+lds   :  15 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :  20 out   :   5 pop   :  26 push  :  26 rcall :   0 ret   :   2 
+ori   :  15 out   :   8 pop   :  21 push  :  21 rcall :   0 ret   :   2 
 reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  23 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  15 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0003ca    970      0    970  262144   0.4%
+[.cseg] 0x000000 0x000378    888      0    888  262144   0.3%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
