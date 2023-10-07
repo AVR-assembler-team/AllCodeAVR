@@ -83,7 +83,7 @@
 	.equ ctrl = 6490
 #elif defined _M8515DEF_INC_
 	.equ ctrl = 8515
-#elif _M8535DEF_INC_
+#elif defined _M8535DEF_INC_
 	.equ ctrl = 8535
 #endif
 

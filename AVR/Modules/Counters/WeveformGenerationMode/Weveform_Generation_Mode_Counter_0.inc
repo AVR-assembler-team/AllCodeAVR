@@ -14,7 +14,6 @@
 				CLRB TCCR0A, WGM00
 				CLRB TCCR0A, WGM01
 			.endif
-			#define NormalMode
 		.endif
 	.elif @0 == 1
 		.if ctrl == 8
@@ -31,7 +30,6 @@
 				SETB TCCR0A, WGM00
 				CLRB TCCR0A, WGM01
 			.endif
-			#define PWMPhaseCorrectMode
 		.endif
 	.elif @0 == 2
 		.if ctrl == 8
@@ -48,7 +46,6 @@
 				CLRB TCCR0A, WGM00
 				SETB TCCR0A, WGM01
 			.endif
-			#define CTCMode
 		.endif
 	.elif @0 == 3
 		.if ctrl == 8
@@ -65,7 +62,6 @@
 				SETB TCCR0A, WGM00
 				SETB TCCR0A, WGM01
 			.endif
-			#define FastPWMMode
 		.endif
 	.elif @0 == 4
 		.error "This Mode Number is reserved for this controller!"
@@ -77,7 +73,6 @@
 				SETB TCCR0A, WGM00
 				CLRB TCCR0A, WGM01
 				SETB TCCR0B, WGM02
-				#define PWMPhaseCorrectMode
 			.else
 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
 			.endif
@@ -92,7 +87,6 @@
 				SETB TCCR0A, WGM00
 				SETB TCCR0A, WGM01
 				SETB TCCR0B, WGM02
-				#define FastPWMMode
 			.else
 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
 			.endif

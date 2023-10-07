@@ -12,12 +12,10 @@
 .equ CompareMatchB	=	10
 .equ CompareMatchC	=	11
 
-
-
-
-//.equ ms500			=	9
-//.equ s1				=	10
-
+.equ CompareMatchOutput		=	0
+.equ CompareMatchOutputA	=	1
+.equ CompareMatchOutputB	=	2
+.equ CompareMatchOutputC	=	3
 
 .equ Prescaller1	=	1
 .equ Prescaller8	=	8

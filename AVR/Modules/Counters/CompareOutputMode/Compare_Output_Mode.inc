@@ -1,9 +1,35 @@
 .macro CompareOutputMode
-	.if @0 == Counter0
-	.elif @0 == Counter1
-	.elif @0 == Counter2
-	.elif @0 == Counter3
-	.elif @0 == Counter4
-	.elif @0 == Counter5
+	.if @2 >= 0 && @2 <= 3
+		.if @0 == Counter0
+			CompareOutputModeCounter0 @1, @2
+		.elif @0 == Counter1
+			CompareOutputModeCounter1 @1, @2
+		.elif @0 == Counter2
+			.if ctrl == 5815
+				.error "Counter 2 is not supporting by this controller!"
+			.else
+				CompareOutputModeCounter2 @1, @2
+			.endif
+		.elif @0 == Counter3
+			.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+				CompareOutputModeCounter3 @1, @2
+			.else
+				.error "Counter 3 is not supporting by this controller!"
+			.endif
+		.elif @0 == Counter4
+			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+				CompareOutputModeCounter4 @1, @2
+			.else
+				.error "Counter 4 is not supporting by this controller!"
+			.endif
+		.elif @0 == Counter5
+			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+				CompareOutputModeCounter5 @1, @2
+			.else
+				.error "Counter 5 is not supporting by this controller!"
+			.endif
+		.endif
+	.else
+		.error "This Compare Output Mode is not supporting by counter 0 of this controller!"
 	.endif
 .endm

@@ -4,79 +4,66 @@
 		CLRB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define NormalMode
 	.elif @0 == 1
 		SETB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 2
 		CLRB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 3
 		SETB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 4
 		CLRB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define CTCMode
 	.elif @0 == 5
 		SETB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define FastPWMMode
 	.elif @0 == 6
 		CLRB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define FastPWMMode
 	.elif @0 == 7
 		SETB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		CLRB TCCR3B, WGM33
-		#define FastPWMMode
 	.elif @0 == 8
 		CLRB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 9
 		SETB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 10
 		CLRB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 11
 		SETB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		CLRB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define PWMPhaseCorrectMode
 	.elif @0 == 12
 		CLRB TCCR3A, WGM30
 		CLRB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define CTCMode
 	.elif @0 == 13
 		.error "This Mode Number is reserved for this controller!"
 	.elif @0 == 14
@@ -84,13 +71,11 @@
 		SETB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define FastPWMMode
 	.elif @0 == 15
 		SETB TCCR3A, WGM30
 		SETB TCCR3A, WGM31
 		SETB TCCR3B, WGM32
 		SETB TCCR3B, WGM33
-		#define FastPWMMode
 	.else
 		.error "This Mode Number is not supporting by this controller!"
 	.endif
