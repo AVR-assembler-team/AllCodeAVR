@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 06 19:35:14 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sat Oct 07 13:25:00 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -3413,8 +3413,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  				SETB TCCR0A, WGM01
                                  			.endif
                                  		.endif
-                                 	.elif @0 == 4
-                                 		.error "This Mode Number is reserved for this controller!"
                                  	.elif @0 == 3
                                  		.if ctrl == 8 || ctrl == 16
                                  			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
@@ -3431,6 +3429,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  				SETB TCCR0A, WGM01
                                  			.endif
                                  		.endif
+                                 	.elif @0 == 4
+                                 		.error "This Mode Number is reserved for this controller!"
                                  	.elif @0 == 5
                                  		.if ctrl == 8 || ctrl == 16
                                  			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
@@ -3546,32 +3546,327 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_2.inc"
                                  
-                                  * WeveformGenerationMode_Counter_2.inc
-                                  *
-                                  *  Created: 06.10.2023 15:11:22
-                                  *   Author: gridar
-                                  */ 
+                                 	.if @0 == 0
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			CLRB TCCR2, WGM20
+                                 			CLRB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			CLRB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			CLRB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 1
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			SETB TCCR2, WGM20
+                                 			CLRB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 2
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			CLRB TCCR2, WGM20
+                                 			SETB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			CLRB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			CLRB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 3
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			SETB TCCR2, WGM20
+                                 			SETB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 4
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 5
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			SETB TCCR2B, WGM22
+                                 		.else
+                                 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
+                                 		.endif
+                                 	.elif @0 == 6
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 7
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			SETB TCCR2B, WGM22
+                                 		.else
+                                 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
+                                 		.endif
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_3.inc"
                                  
-                                  * WeveformGenerationMode_Counter_3.inc
-                                  *
-                                  *  Created: 06.10.2023 15:11:31
-                                  *   Author: gridar
-                                  */ 
+                                 	.if @0 == 0
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 1
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 2
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 3
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 4
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 5
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 6
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 7
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 8
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 9
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 10
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 11
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 12
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 15
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_4.inc"
                                  
-                                  * WeveformGenerationMode_Counter_4.inc
-                                  *
-                                  *  Created: 06.10.2023 15:11:39
-                                  *   Author: gridar
-                                  */ 
+                                 	.if @0 == 0
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 1
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 2
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 3
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 4
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 5
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 6
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 7
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 8
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 9
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 10
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 11
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 12
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 15
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode_Counter_5.inc"
                                  
-                                  * WeveformGenerationMode_Counter_5.inc
-                                  *
-                                  *  Created: 06.10.2023 15:11:46
-                                  *   Author: gridar
-                                  */ 
+                                 	.if @0 == 0
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 1
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 2
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 3
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 4
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 5
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 6
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 7
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 8
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 9
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 10
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 11
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 12
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 15
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
                                  .include "Modules/Counters/WeveformGenerationMode/Weveform_Generation_Mode.inc"
                                  
                                  	.if @0 == Counter0
@@ -3579,9 +3874,29 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	.elif @0 == Counter1
                                  		WeveformGenerationModeCounter1 @1
                                  	.elif @0 == Counter2
+                                 		.if ctrl == 8515 || ctrl == 8535
+                                 			.error "Counter 2 is not supporting by this controller!"
+                                 		.else
+                                 			WeveformGenerationModeCounter2 @1
+                                 		.endif
                                  	.elif @0 == Counter3
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			WeveformGenerationModeCounter3 @1
+                                 		.else
+                                 			.error "Counter 3 is not supporting by this controller!"
+                                 		.endif
                                  	.elif @0 == Counter4
+                                 		.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			WeveformGenerationModeCounter4 @1
+                                 		.else
+                                 			.error "Counter 4 is not supporting by this controller!"
+                                 		.endif
                                  	.elif @0 == Counter5
+                                 		.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			WeveformGenerationModeCounter5 @1
+                                 		.else
+                                 			.error "Counter 5 is not supporting by this controller!"
+                                 		.endif
                                  	.endif
                                  .endm
                                  
@@ -4151,25 +4466,25 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //CounterInterrupt Counter5, CompareMatchC, enabled
                                  
 0001ac 930f
-0001ad 9100 0080
+0001ad 9100 0120
 0001af 6001
-0001b0 9300 0080
+0001b0 9300 0120
 0001b2 910f
 0001b3 930f
-0001b4 9100 0080
+0001b4 9100 0120
 0001b6 6002
-0001b7 9300 0080
+0001b7 9300 0120
 0001b9 910f
 0001ba 930f
-0001bb 9100 0081
+0001bb 9100 0121
 0001bd 6008
-0001be 9300 0081
+0001be 9300 0121
 0001c0 910f
 0001c1 930f
-0001c2 9100 0081
+0001c2 9100 0121
 0001c4 6100
-0001c5 9300 0081
-0001c7 910f                      WeveformGenerationMode Counter1, 15
+0001c5 9300 0121
+0001c7 910f                      WeveformGenerationMode Counter5, 15
                                  
                                  Proga:
                                  // Читайте README файл

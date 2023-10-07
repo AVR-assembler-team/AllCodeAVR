@@ -47,8 +47,6 @@
 				SETB TCCR0A, WGM01
 			.endif
 		.endif
-	.elif @0 == 4
-		.error "This Mode Number is reserved for this controller!"
 	.elif @0 == 3
 		.if ctrl == 8 || ctrl == 16
 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
@@ -65,6 +63,8 @@
 				SETB TCCR0A, WGM01
 			.endif
 		.endif
+	.elif @0 == 4
+		.error "This Mode Number is reserved for this controller!"
 	.elif @0 == 5
 		.if ctrl == 8 || ctrl == 16
 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"

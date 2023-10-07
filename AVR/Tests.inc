@@ -17,4 +17,4 @@ CountersPrescaller Counter5, Prescaller1024
 //CounterInterrupt Counter5, CompareMatchB, enabled
 //CounterInterrupt Counter5, CompareMatchC, enabled
 
-WeveformGenerationMode Counter2, 1
+WeveformGenerationMode Counter5, 15
