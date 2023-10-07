@@ -209,6 +209,27 @@
     <Compile Include="Modules\Configs\USART_Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_0.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_1.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_2.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_3.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_4.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode_Counter_5.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Modules\Counters\Interrupt\Interrupt.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -656,6 +677,7 @@
     <Folder Include="Main\Interrupts" />
     <Folder Include="Modules" />
     <Folder Include="Modules\Counters\Interrupt" />
+    <Folder Include="Modules\Counters\CompareOutputMode" />
     <Folder Include="Modules\Counters\WeveformGenerationMode" />
     <Folder Include="Modules\HD44780U" />
     <Folder Include="Modules\Configs" />

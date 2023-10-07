@@ -11,6 +11,7 @@
 			CLRB TCCR2A, WGM20
 			CLRB TCCR2A, WGM21
 		.endif
+		#define NormalMode
 	.elif @0 == 1
 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
 			SETB TCCR2, WGM20
@@ -23,6 +24,7 @@
 			SETB TCCR2A, WGM20
 			CLRB TCCR2A, WGM21
 		.endif
+		#define PWMPhaseCorrectMode
 	.elif @0 == 2
 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
 			CLRB TCCR2, WGM20
@@ -35,6 +37,7 @@
 			CLRB TCCR2A, WGM20
 			SETB TCCR2A, WGM21
 		.endif
+		#define CTCMode
 	.elif @0 == 3
 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
 			SETB TCCR2, WGM20
@@ -47,6 +50,7 @@
 			SETB TCCR2A, WGM20
 			SETB TCCR2A, WGM21
 		.endif
+		#define FastPWMMode
 	.elif @0 == 4
 		.error "This Mode Number is reserved for this controller!"
 	.elif @0 == 5
@@ -54,6 +58,7 @@
 			SETB TCCR2A, WGM20
 			CLRB TCCR2A, WGM21
 			SETB TCCR2B, WGM22
+			#define PWMPhaseCorrectMode
 		.else
 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
 		.endif
@@ -64,6 +69,7 @@
 			SETB TCCR2A, WGM20
 			SETB TCCR2A, WGM21
 			SETB TCCR2B, WGM22
+			#define FastPWMMode
 		.else
 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
 		.endif
