@@ -1,30 +1,70 @@
 
-CountersPrescaller Counter0, Prescaller8
-CountersPrescaller Counter1, Prescaller1024
-CountersPrescaller Counter2, Prescaller8
-CountersPrescaller Counter3, Prescaller8
-CountersPrescaller Counter4, Prescaller1024
-CountersPrescaller Counter5, Prescaller1024
+//CountersPrescaller Counter0, Prescaller8
+//CountersOffMode Counter0
+//CountersPrescaller Counter1, Prescaller1024
+//CountersOffMode Counter1
+//CountersPrescaller Counter2, Prescaller8
+//CountersOffMode Counter2
+//CountersPrescaller Counter3, Prescaller8
+//CountersOffMode Counter3
+//CountersPrescaller Counter4, Prescaller1024
+//CountersOffMode Counter4
+//CountersPrescaller Counter5, Prescaller1024
+//CountersOffMode Counter5
 
-//CounterInterrupt Counter0, Overflow, enabled
-//CounterInterrupt Counter0, CompareMatch, enabled
-//CounterInterrupt Counter0, CompareMatchA, enabled
-//CounterInterrupt Counter0, CompareMatchB, enabled
-//CounterInterrupt Counter5, CaptureEvent, enabled
-//CounterInterrupt Counter5, Overflow, enabled
-//CounterInterrupt Counter5, CompareMatch, enabled
-//CounterInterrupt Counter5, CompareMatchA, enabled
-//CounterInterrupt Counter5, CompareMatchB, enabled
-//CounterInterrupt Counter5, CompareMatchC, enabled
 
-//WeveformGenerationMode Counter0, 2
-//WeveformGenerationMode Counter1, 2
-//WeveformGenerationMode Counter2, 2
-//WeveformGenerationMode Counter3, 2
-//WeveformGenerationMode Counter4, 2
-WeveformGenerationMode Counter5, 12
+//CountersInterrupt Counter0, Overflow, enabled, $30
+//CountersInterrupt Counter0, CompareMatch, enabled, $30
+//CountersInterrupt Counter5, CompareMatchA, enabled, $395
+//CountersInterrupt Counter5, CompareMatchB, enabled, $465
+//CountersInterrupt Counter5, CompareMatchC, enabled, $578
 
-//CompareOutputMode Counter5, CompareMatchOutput, 3
-//CompareOutputMode Counter5, CompareMatchOutputC, 3
-//CompareOutputMode Counter5, CompareMatchOutputA, 3
-//CompareOutputMode Counter5, CompareMatchOutputB, 3
+//CountersInterrupt Counter5, CompareMatchA, disabled
+//CountersInterrupt Counter5, CompareMatchB, disabled
+//CountersInterrupt Counter5, CompareMatchC, disabled
+
+
+//CountersInterrupt Counter5, CaptureEvent, enabled, $30
+//CountersInterrupt Counter5, Overflow, enabled, $30
+//CountersInterrupt Counter5, CompareMatch, enabled, $30
+//CountersInterrupt Counter5, CompareMatchA, enabled, $30
+//CountersInterrupt Counter5, CompareMatchB, enabled, $30
+//CountersInterrupt Counter5, CompareMatchC, enabled, $30
+
+//CountersWeveformGenerationMode Counter0, 2
+//CountersWeveformGenerationMode Counter1, 2
+//CountersWeveformGenerationMode Counter2, 2
+//CountersWeveformGenerationMode Counter3, 2
+//CountersWeveformGenerationMode Counter4, 2
+//CountersWeveformGenerationMode Counter5, 12
+
+//CountersCompareOutputMode Counter5, CompareMatchOutput, 3
+//CountersCompareOutputMode Counter5, CompareMatchOutputC, 3
+//CountersCompareOutputMode Counter5, CompareMatchOutputA, 3
+//CountersCompareOutputMode Counter5, CompareMatchOutputB, 3
+
+CountersExternalClockSourceOnT0pin Counter0, FallingEdge
+CountersPrescaller Counter0, Prescaller1
+CountersExternalClockSourceOnT0pin Counter0, RisingEdge
+
+//CountersExternalClockSourceOnT0pin Counter1, FallingEdge
+//CountersPrescaller Counter1, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter1, RisingEdge
+
+//CountersExternalClockSourceOnT0pin Counter2, FallingEdge
+//CountersPrescaller Counter2, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter2, RisingEdge
+
+//CountersExternalClockSourceOnT0pin Counter3, FallingEdge
+//CountersPrescaller Counter3, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter3, RisingEdge
+
+//CountersExternalClockSourceOnT0pin Counter4, FallingEdge
+//CountersPrescaller Counter4, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter4, RisingEdge
+
+//CountersExternalClockSourceOnT0pin Counter5, FallingEdge
+//CountersPrescaller Counter5, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter5, RisingEdge
+
+

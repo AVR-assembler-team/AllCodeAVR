@@ -2,19 +2,20 @@
 * Эти константы можно использовать как хотите
 */
 
-.equ enabled = 1
-.equ disabled = 0
-.equ right = 1
-.equ left = 0
-.equ null = 255
-.equ On = 1
-.equ Off = 0
-.equ zero = 0
-.equ one = 1
-.equ two = 2
-.equ normal = 0
-.equ double = 1
-.equ LowLevel = 0
-.equ AnyEdge = 1
-.equ FallingEdge = 2
-.equ RisingEdge = 3
+.equ All			= 'a'
+.equ enabled		= 'b'
+.equ disabled		= 'c'
+.equ right			= 'c'
+.equ left			= 'd'
+.equ null			= 'e'
+.equ On				= 'f'
+.equ Off			= 'g'
+.equ zero			= 'h'
+.equ one			= 'i'
+.equ two			= 'j'
+.equ normal			= 'k'
+.equ double			= 'l'
+.equ LowLevel		= 'm'
+.equ AnyEdge		= 'n'
+.equ FallingEdge	= 'o'
+.equ RisingEdge		= 'p'

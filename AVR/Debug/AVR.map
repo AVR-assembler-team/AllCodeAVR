@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sat Oct 07 19:39:55 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Tue Oct 10 16:09:02 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1359,22 +1359,23 @@ EQU  URXC3addr    0000006c
 EQU  UDRE3addr    0000006e
 EQU  UTXC3addr    00000070
 EQU  INT_VECTORS_SIZE 00000072
-EQU  enabled      00000001
-EQU  disabled     00000000
-EQU  right        00000001
-EQU  left         00000000
-EQU  null         000000ff
-EQU  On           00000001
-EQU  Off          00000000
-EQU  zero         00000000
-EQU  one          00000001
-EQU  two          00000002
-EQU  normal       00000000
-EQU  double       00000001
-EQU  LowLevel     00000000
-EQU  AnyEdge      00000001
-EQU  FallingEdge  00000002
-EQU  RisingEdge   00000003
+EQU  All          00000061
+EQU  enabled      00000062
+EQU  disabled     00000063
+EQU  right        00000063
+EQU  left         00000064
+EQU  null         00000065
+EQU  On           00000066
+EQU  Off          00000067
+EQU  zero         00000068
+EQU  one          00000069
+EQU  two          0000006a
+EQU  normal       0000006b
+EQU  double       0000006c
+EQU  LowLevel     0000006d
+EQU  AnyEdge      0000006e
+EQU  FallingEdge  0000006f
+EQU  RisingEdge   00000070
 EQU  ATmegaFREQ   00f42400
 EQU  ctrl         00000a00
 CSEG RESET        0000012f
@@ -1464,4 +1465,4 @@ CSEG TIM0_COMP    000000ab
 CSEG TIM2_COMP    000000c6
 CSEG USI_STRT     00000126
 CSEG USI_OVFL     00000129
-CSEG Proga        000001c8
+CSEG Proga        00000161
