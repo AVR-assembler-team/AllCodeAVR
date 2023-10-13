@@ -74,6 +74,162 @@
     <Compile Include="Config.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FunctionModules\CRC\CRC_Calculate.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionModules\CRC\CRC_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionModules\CRC\CRC_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionModules\FunctionModules_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionModules\README\CRC_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\Configs\HD44780U_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\Configs\RotEnc_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\GadgetModules_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_BFCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_ChangeParams.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Cursor_or_display_shift.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_DDRAMincrement.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Display_on_off_control.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Entry_mode_set.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Function_set.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Init.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Instr.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_LcdClear.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Led.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SendData.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SendInstruction.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SetBytes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SetCursor.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SetMacs.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Times.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Writeregister.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Writestring.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_WriteSymbol.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_Result.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_TemperatureToMemory.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_TempTable.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8574\PCF8574_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8574\PCF8574_Labels.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8574\PCF8574_Read.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8574\PCF8574_Write.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8575\PCF8575_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8575\PCF8575_Labels.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8575\PCF8575_Read.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\PCF8575\PCF8575_Write.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\README\HD44780U_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\README\PCF8574_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\README\PCF8575_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\README\RotEnc_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\RotaryEncoder\RotEnc_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\RotaryEncoder\RotEnc_Count.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\RotaryEncoder\RotEnc_Includes.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\RotaryEncoder\RotEnc_SetMacs.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Interrupts.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -84,6 +240,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main\Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\FunctionModules.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\GadgetModules.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main\Interrupts\Vectors.inc">
@@ -146,7 +308,7 @@
     <Compile Include="Main\Macros.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Main\Modules.inc">
+    <Compile Include="Main\AVRModules.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Main\Modules_Inits.inc">
@@ -158,547 +320,400 @@
     <Compile Include="Main\Time_Cycles.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_ChannelSelection.inc">
+    <Compile Include="AVRModules\ADC\ADC_ChannelSelection.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Constants.inc">
+    <Compile Include="AVRModules\ADC\ADC_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_DigitalInputDisable.inc">
+    <Compile Include="AVRModules\ADC\ADC_DigitalInputDisable.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Includes.inc">
+    <Compile Include="AVRModules\ADC\ADC_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Init.inc">
+    <Compile Include="AVRModules\ADC\ADC_Init.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Interrupt.inc">
+    <Compile Include="AVRModules\ADC\ADC_Interrupt.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_LeftAdjustResult.inc">
+    <Compile Include="AVRModules\ADC\ADC_LeftAdjustResult.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Mode.inc">
+    <Compile Include="AVRModules\ADC\ADC_Mode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_Prescaler.inc">
+    <Compile Include="AVRModules\ADC\ADC_Prescaler.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_ReferenceSelection.inc">
+    <Compile Include="AVRModules\ADC\ADC_ReferenceSelection.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ADC\ADC_START.inc">
+    <Compile Include="AVRModules\ADC\ADC_START.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\ADC_Config.inc">
+    <Compile Include="AVRModules\Configs\ADC_Config.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\HD44780U_Config.inc">
+    <Compile Include="AVRModules\Configs\OneWire_Config.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\OneWire_Config.inc">
+    <Compile Include="AVRModules\Configs\TWSI_Config.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\RotEnc_Config.inc">
+    <Compile Include="AVRModules\Configs\USART_Config.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\TWSI_Config.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\CompareOutputMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Configs\USART_Config.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Compare_Output_Mode.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\CompareOutputMode\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\ExternalClockSourceOnT0pin.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Interrupt.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\ExternalClockSourceOnT0pin\External_Clock_Source_On_T0_pin.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Interrupt.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Interrupt\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\OffMode\OffMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Prescaller.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\OffMode\OffMode.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\WeveformGenerationMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Prescaller.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Weveform_Generation_Mode.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_4.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\Counters\WeveformGenerationMode\Counter_5.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_162.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\CRC\CRC_Calculate.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_164_324_644_1284.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\CRC\CRC_Constants.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_165_169.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\CRC\CRC_Includes.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_16_32_8515_8535.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Includes.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_325_3250_645_6450.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_162.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_328.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_164_324_644_1284.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_329_3290_649_6490.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_165_169.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_48_88_168.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_16_32_8515_8535.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_640_1280_1281_2560_2561.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_325_3250_645_6450.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_64_128.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_328.inc">
+    <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_8.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_329_3290_649_6490.inc">
+    <Compile Include="AVRModules\AVRModules_Config.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_48_88_168.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_AlarmSearch.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_640_1280_1281_2560_2561.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_64_128.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_ConvertTemperature.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\ExternalInterrupts\ExtInt_Set_8.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_CopyScratchpad.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_BFCheck.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_CRCCheck.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_ChangeParams.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_DeviceBusy.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Constants.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Cursor_or_display_shift.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Init.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_DDRAMincrement.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_InitializationSequence.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Display_on_off_control.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Labels.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Entry_mode_set.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_MatchROM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Function_set.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_PowerSupply.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Includes.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_ReadBit.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Init.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_ReadBytes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Instr.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_ReadROM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_LcdClear.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_ReadScratchpad.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Led.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Recall.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_SendData.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SearchROM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_SendInstruction.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SendByte.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_SetBytes.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SendCommand.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_SetCursor.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SendConfByte.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_SetMacs.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SendROMCode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Times.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Set_Macs.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Writeregister.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_SkipROM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_Writestring.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Temperature.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\HD44780U\HD44780U_WriteSymbol.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_TemperatureDataConvertation.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Constants.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_Times.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Includes.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_WriteBit.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_README.inc">
+    <Compile Include="AVRModules\OneWire\OneWire_WriteScratchpad.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_Result.inc">
+    <Compile Include="AVRModules\README\ADC_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_TemperatureToMemory.inc">
+    <Compile Include="AVRModules\README\ExtInt_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\NTC3950_100K\NTC3950_100K_TempTable.inc">
+    <Compile Include="AVRModules\README\OneWire_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_AlarmSearch.inc">
+    <Compile Include="AVRModules\README\Counters_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Constants.inc">
+    <Compile Include="AVRModules\README\TWSI_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_ConvertTemperature.inc">
+    <Compile Include="AVRModules\README\USART_README.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_CopyScratchpad.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_CRCCheck.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_DeviceBusy.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Includes.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Init.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_InitializationSequence.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter_5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Labels.inc">
+    <Compile Include="AVRModules\Counters\Counters_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_MatchROM.inc">
+    <Compile Include="AVRModules\Counters\Counters_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_PowerSupply.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Const.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_ReadBit.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Init.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_ReadBytes.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_ACK_Transmit.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_ReadROM.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Byte_Transmit.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_ReadScratchpad.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Sla.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Recall.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Start.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SearchROM.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Stop.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SendByte.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Times.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SendCommand.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_TwintFlag.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SendConfByte.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_ACK_Check.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SendROMCode.inc">
+    <Compile Include="AVRModules\TWSI\TWSI_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Set_Macs.inc">
+    <Compile Include="AVRModules\USART\USART_BAUD.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_SkipROM.inc">
+    <Compile Include="AVRModules\USART\USART_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Temperature.inc">
+    <Compile Include="AVRModules\USART\USART_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_TemperatureDataConvertation.inc">
+    <Compile Include="AVRModules\USART\USART_MPCM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_Times.inc">
+    <Compile Include="AVRModules\USART\USART_RXCI.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_WriteBit.inc">
+    <Compile Include="AVRModules\USART\USART_RXEN.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\OneWire\OneWire_WriteScratchpad.inc">
+    <Compile Include="AVRModules\USART\USART_TXCI.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8574\PCF8574_Includes.inc">
+    <Compile Include="AVRModules\USART\USART_TXEN.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8574\PCF8574_Labels.inc">
+    <Compile Include="AVRModules\USART\USART_UCPOL.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8574\PCF8574_Write.inc">
+    <Compile Include="AVRModules\USART\USART_UCSZ.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8574\PCF8574_Read.inc">
+    <Compile Include="AVRModules\USART\USART_UDREI.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8575\PCF8575_Includes.inc">
+    <Compile Include="AVRModules\USART\USART_UMSEL.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8575\PCF8575_Labels.inc">
+    <Compile Include="AVRModules\USART\USART_UPM.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modules\PCF8575\PCF8575_Read.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\PCF8575\PCF8575_Write.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\ADC_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\CRC_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\ExtInt_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\HD44780U_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\OneWire_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\PCF8574_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\PCF8575_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\RotEnc_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\Counters_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\TWSI_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\README\USART_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\RotaryEncoder\RotEnc_Constants.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\RotaryEncoder\RotEnc_Count.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\RotaryEncoder\RotEnc_Includes.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\RotaryEncoder\RotEnc_SetMacs.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_0.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_1.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_2.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_3.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_4.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Prescaller\Counter_5.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counters_Includes.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\Counters\Counters_Constants.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Const.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Init.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_ACK_Transmit.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Byte_Transmit.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Sla.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Start.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Stop.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Times.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_TwintFlag.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_ACK_Check.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\TWSI\TWSI_Includes.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_BAUD.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_Constants.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_Includes.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_MPCM.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_RXCI.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_RXEN.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_TXCI.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_TXEN.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_UCPOL.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_UCSZ.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_UDREI.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_UMSEL.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_UPM.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Modules\USART\USART_USBS.inc">
+    <Compile Include="AVRModules\USART\USART_USBS.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="README.inc">
@@ -712,29 +727,34 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="FunctionModules\CRC\" />
+    <Folder Include="FunctionModules\README" />
+    <Folder Include="GadgetModules\Configs\" />
+    <Folder Include="GadgetModules\HD44780U\" />
+    <Folder Include="GadgetModules\README" />
+    <Folder Include="GadgetModules\NTC3950_100K\" />
+    <Folder Include="GadgetModules\PCF8574\" />
+    <Folder Include="GadgetModules\PCF8575\" />
+    <Folder Include="GadgetModules\RotaryEncoder\" />
     <Folder Include="Main" />
     <Folder Include="Main\Interrupts" />
-    <Folder Include="Modules" />
-    <Folder Include="Modules\Counters\Interrupt" />
-    <Folder Include="Modules\Counters\CompareOutputMode" />
-    <Folder Include="Modules\Counters\ExternalClockSourceOnT0pin" />
-    <Folder Include="Modules\Counters\OffMode" />
-    <Folder Include="Modules\Counters\WeveformGenerationMode" />
-    <Folder Include="Modules\HD44780U" />
-    <Folder Include="Modules\Configs" />
-    <Folder Include="Modules\ADC" />
-    <Folder Include="Modules\ExternalInterrupts" />
-    <Folder Include="Modules\CRC" />
-    <Folder Include="Modules\Counters" />
-    <Folder Include="Modules\PCF8574" />
-    <Folder Include="Modules\PCF8575" />
-    <Folder Include="Modules\NTC3950_100K" />
-    <Folder Include="Modules\OneWire" />
-    <Folder Include="Modules\RotaryEncoder" />
-    <Folder Include="Modules\README" />
-    <Folder Include="Modules\Counters\Prescaller" />
-    <Folder Include="Modules\TWSI" />
-    <Folder Include="Modules\USART" />
+    <Folder Include="AVRModules" />
+    <Folder Include="AVRModules\Counters\Interrupt" />
+    <Folder Include="AVRModules\Counters\CompareOutputMode" />
+    <Folder Include="AVRModules\Counters\ExternalClockSourceOnT0pin" />
+    <Folder Include="AVRModules\Counters\OffMode" />
+    <Folder Include="AVRModules\Counters\WeveformGenerationMode" />
+    <Folder Include="AVRModules\Configs" />
+    <Folder Include="AVRModules\ADC" />
+    <Folder Include="AVRModules\ExternalInterrupts" />
+    <Folder Include="AVRModules\Counters" />
+    <Folder Include="AVRModules\OneWire" />
+    <Folder Include="AVRModules\README" />
+    <Folder Include="AVRModules\Counters\Prescaller" />
+    <Folder Include="AVRModules\TWSI" />
+    <Folder Include="AVRModules\USART" />
+    <Folder Include="GadgetModules" />
+    <Folder Include="FunctionModules" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
 </Project>

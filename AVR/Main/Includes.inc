@@ -1,4 +1,7 @@
 .include "Main/Constants.inc"
+.include "FunctionModules/FunctionModules_Config.inc"
+.include "AVRModules/AVRModules_Config.inc"
+.include "GadgetModules/GadgetModules_Config.inc"
 .include "Config.inc"
 .include "Main/Relative.inc"
 
@@ -19,7 +22,9 @@
 
 
 ; добавляем модули сюда
-.include "Main/Modules.inc"
+.include "Main/FunctionModules.inc"
+.include "Main/AVRModules.inc"
+.include "Main/GadgetModules.inc"
 
 
 .include "Interrupts.inc"

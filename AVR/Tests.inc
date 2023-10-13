@@ -43,9 +43,9 @@
 //CountersCompareOutputMode Counter5, CompareMatchOutputA, 3
 //CountersCompareOutputMode Counter5, CompareMatchOutputB, 3
 
-CountersExternalClockSourceOnT0pin Counter0, FallingEdge
-CountersPrescaller Counter0, Prescaller1
-CountersExternalClockSourceOnT0pin Counter0, RisingEdge
+//CountersExternalClockSourceOnT0pin Counter0, FallingEdge
+//CountersPrescaller Counter0, Prescaller1
+//CountersExternalClockSourceOnT0pin Counter0, RisingEdge
 
 //CountersExternalClockSourceOnT0pin Counter1, FallingEdge
 //CountersPrescaller Counter1, Prescaller1

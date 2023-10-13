@@ -1,0 +1,16 @@
+
+.include "AVRModules/Configs/USART_Config.inc"
+
+.include "AVRModules/USART/USART_Constants.inc"
+.include "AVRModules/USART/USART_BAUD.inc"
+.include "AVRModules/USART/USART_MPCM.inc"
+.include "AVRModules/USART/USART_RXCI.inc"
+.include "AVRModules/USART/USART_RXEN.inc"
+.include "AVRModules/USART/USART_TXCI.inc"
+.include "AVRModules/USART/USART_TXEN.inc"
+.include "AVRModules/USART/USART_UCPOL.inc"
+.include "AVRModules/USART/USART_UCSZ.inc"
+.include "AVRModules/USART/USART_UDREI.inc"
+.include "AVRModules/USART/USART_UMSEL.inc"
+.include "AVRModules/USART/USART_UPM.inc"
+.include "AVRModules/USART/USART_USBS.inc"
