@@ -1,35 +1,35 @@
     .macro USARTTransmit
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSRB, TXEN
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSRB, TXEN
 	.endif
     .endm
     .macro USART0Transmit
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR0B, TXEN0
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR0B, TXEN0
 	.endif
     .endm
     .macro USART1Transmit
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR1B, TXEN1
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR1B, TXEN1
 	.endif
     .endm
     .macro USART2Transmit
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR2B, TXEN2
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR2B, TXEN2
 	.endif
     .endm
     .macro USART3Transmit
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR3B, TXEN3
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR3B, TXEN3
 	.endif
     .endm

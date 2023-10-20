@@ -1,15 +1,15 @@
 .macro ParityMode
-	.if @0 == disabled
-		SETB UCSRC, URSEL
+	.if @0 == Disable
+		SETB UCSRC, UREL
 		CLRB UCSRC, UPM0
 		CLRB UCSRC, UPM1
 		CLRB UCSRC, URSEL
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		SETB UCSRC, URSEL
 		CLRB UCSRC, UPM0
 		SETB UCSRC, UPM1
 		CLRB UCSRC, URSEL
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSRC, URSEL
 		SETB UCSRC, UPM0
 		SETB UCSRC, UPM1
@@ -17,29 +17,29 @@
 	.endif
 .endm
 .macro ParityMode0
-	.if @0 == disabled
+	.if @0 == Disable
 		CLRB UCSR0C, UPM00
 		CLRB UCSR0C, UPM01
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		CLRB UCSR0C, UPM00
 		SETB UCSR0C, UPM01
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR0C, UPM00
 		SETB UCSR0C, UPM01
 	.endif
 .endm
 .macro ParityModeURSEL0
-	.if @0 == disabled
+	.if @0 == Disable
 		SETB UCSR0C, URSEL0
 		CLRB UCSR0C, UPM00
 		CLRB UCSR0C, UPM01
 		CLRB UCSR0C, URSEL0
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		SETB UCSR0C, URSEL0
 		CLRB UCSR0C, UPM00
 		SETB UCSR0C, UPM01
 		CLRB UCSR0C, URSEL0
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR0C, URSEL0
 		SETB UCSR0C, UPM00
 		SETB UCSR0C, UPM01
@@ -47,29 +47,29 @@
 	.endif
 .endm
 .macro ParityMode1
-	.if @0 == disabled
+	.if @0 == Disable
 		CLRB UCSR1C, UPM10
 		CLRB UCSR1C, UPM11
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		CLRB UCSR1C, UPM10
 		SETB UCSR1C, UPM11
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR1C, UPM10
 		SETB UCSR1C, UPM11
 	.endif
 .endm
 .macro ParityModeURSEL1
-	.if @0 == disabled
+	.if @0 == Disable
 		SETB UCSR1C, URSEL1
 		CLRB UCSR1C, UPM10
 		CLRB UCSR1C, UPM11
 		CLRB UCSR1C, URSEL1
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		SETB UCSR1C, URSEL1
 		CLRB UCSR1C, UPM10
 		SETB UCSR1C, UPM11
 		CLRB UCSR1C, URSEL1
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR1C, URSEL1
 		SETB UCSR1C, UPM10
 		SETB UCSR1C, UPM11
@@ -77,25 +77,25 @@
 	.endif
 .endm
 .macro ParityMode2
-	.if @0 == disabled
+	.if @0 == Disable
 		CLRB UCSR2C, UPM20
 		CLRB UCSR2C, UPM21
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		CLRB UCSR2C, UPM20
 		SETB UCSR2C, UPM21
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR2C, UPM20
 		SETB UCSR2C, UPM21
 	.endif
 .endm
 	.macro ParityMode3
-	.if @0 == disabled
+	.if @0 == Disable
 		CLRB UCSR3C, UPM30
 		CLRB UCSR3C, UPM31
-	.elif @0 == evenParity
+	.elif @0 == EvenParity
 		CLRB UCSR3C, UPM30
 		SETB UCSR3C, UPM31
-	.elif @0 == oddParity
+	.elif @0 == OddParity
 		SETB UCSR3C, UPM30
 		SETB UCSR3C, UPM31
 	.endif

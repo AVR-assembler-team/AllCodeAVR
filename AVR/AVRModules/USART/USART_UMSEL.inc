@@ -1,118 +1,118 @@
 .macro USARTMod2
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		SETB UCSRC, URSEL
 		CLRB UCSRC, UMSEL
 		CLRB UCSRC, URSEL
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSRC, URSEL
 		SETB UCSRC, UMSEL
 		CLRB UCSRC, URSEL
 	.endif
 .endm
 .macro USART0Mod2
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR0C, UMSEL0
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR0C, UMSEL0
 	.endif
 .endm
 .macro USART0URSEL0Mod2
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		SETB UCSR0C, URSEL0
 		CLRB UCSR0C, UMSEL0
 		CLRB UCSR0C, URSEL0
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR0C, URSEL0
 		SETB UCSR0C, UMSEL0
 		CLRB UCSR0C, URSEL0
 	.endif
 .endm
 .macro USART0Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR0C, UMSEL0
 		CLRB UCSR0C, UMSEL1
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR0C, UMSEL0
 		CLRB UCSR0C, UMSEL1
-	.elif @0 == masterSPI
+	.elif @0 == MasterSPI
 		SETB UCSR0C, UMSEL0
 		SETB UCSR0C, UMSEL1
 	.endif
 .endm
 .macro USART1Mod2
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR1C, UMSEL1
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR1C, UMSEL1
 	.endif
 .endm
 .macro USART1URSEL1Mod2
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		SETB UCSR1C, URSEL1
 		CLRB UCSR1C, UMSEL1
 		CLRB UCSR1C, URSEL1
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR1C, URSEL1
 		SETB UCSR1C, UMSEL1
 		CLRB UCSR1C, URSEL1
 	.endif
 .endm
 .macro USART1Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR1C, UMSEL0
 		CLRB UCSR1C, UMSEL1
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR1C, UMSEL0
 		CLRB UCSR1C, UMSEL1
-	.elif @0 == masterSPI
+	.elif @0 == MasterSPI
 		SETB UCSR1C, UMSEL0
 		SETB UCSR1C, UMSEL1	
 	.endif
 .endm
 .macro USART00Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR0C, UMSEL00
 		CLRB UCSR0C, UMSEL01
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR0C, UMSEL00
 		CLRB UCSR0C, UMSEL01
-	.elif @0 == masterSPI	
+	.elif @0 == MasterSPI	
 		SETB UCSR0C, UMSEL00
 		SETB UCSR0C, UMSEL01
 	.endif
 .endm
 .macro USART01Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR1C, UMSEL10
 		CLRB UCSR1C, UMSEL11
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR1C, UMSEL10
 		CLRB UCSR1C, UMSEL11
-	.elif @0 == masterSPI	
+	.elif @0 == MasterSPI	
 		SETB UCSR1C, UMSEL10
 		SETB UCSR1C, UMSEL11
 	.endif
 .endm
 .macro USART02Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR2C, UMSEL20
 		CLRB UCSR2C, UMSEL21
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR2C, UMSEL20
 		CLRB UCSR2C, UMSEL21
-	.elif @0 == masterSPI	
+	.elif @0 == MasterSPI	
 		SETB UCSR2C, UMSEL20
 		SETB UCSR2C, UMSEL21
 	.endif
 .endm
 .macro USART03Mod3
-	.if @0 == asynchron
+	.if @0 == Asynchron
 		CLRB UCSR3C, UMSEL30
 		CLRB UCSR3C, UMSEL31
-	.elif @0 == synchron
+	.elif @0 == Synchron
 		SETB UCSR3C, UMSEL30
 		CLRB UCSR3C, UMSEL31
-	.elif @0 == masterSPI	
+	.elif @0 == MasterSPI	
 		SETB UCSR3C, UMSEL30
 		SETB UCSR3C, UMSEL31
 	.endif

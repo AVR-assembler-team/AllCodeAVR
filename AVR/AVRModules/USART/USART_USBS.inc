@@ -1,61 +1,61 @@
 .macro StopBits
-	.if @0 == one
+	.if @0 == One
 		SETB UCSRC, URSEL
 		CLRB UCSRC, USBS
 		CLRB UCSRC, URSEL
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSRC, URSEL
 		SETB UCSRC, USBS
 		CLRB UCSRC, URSEL
 	.endif
 .endm 
 .macro StopBitsURSEL0
-	.if @0 == one
+	.if @0 == One
 		SETB UCSR0C, URSEL0
 		CLRB UCSR0C, USBS0
 		CLRB UCSR0C, URSEL0
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR0C, URSEL0
 		SETB UCSR0C, USBS0
 		CLRB UCSR0C, URSEL0
 	.endif
 .endm
 .macro StopBitsURSEL1
-	.if @0 == one
+	.if @0 == One
 		SETB UCSR1C, URSEL1
 		CLRB UCSR1C, USBS1
 		CLRB UCSR1C, URSEL1
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR1C, URSEL1
 		SETB UCSR1C, USBS1
 		CLRB UCSR1C, URSEL1
 	.endif
 .endm 
 .macro StopBits0
-	.if @0 == one
+	.if @0 == One
 		CLRB UCSR0C, USBS0
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR0C, USBS0
 	.endif
 .endm
 .macro StopBits1
-	.if @0 == one
+	.if @0 == One
 		CLRB UCSR1C, USBS1
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR1C, USBS1
 	.endif
 .endm
 .macro StopBits2
-	.if @0 == one
+	.if @0 == One
 		CLRB UCSR2C, USBS2
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR2C, USBS2
 	.endif
 .endm
 .macro StopBits3
-	.if @0 == one
+	.if @0 == One
 		CLRB UCSR3C, USBS3
-	.elif @0 == two
+	.elif @0 == Two
 		SETB UCSR3C, USBS3
 	.endif
 .endm

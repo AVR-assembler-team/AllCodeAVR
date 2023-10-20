@@ -165,36 +165,36 @@
 	clr r17
 
 	.if ATmegaFREQ == 1000000
-		.if @1 == normal
+		.if @1 == Normal
 			UBBR1 @2
-		.elif @1 == double
+		.elif @1 == Double
 			UBBR2 @2
 		.endif
 	.elif ATmegaFREQ == 2000000
-		.if @1 == normal
+		.if @1 == Normal
 			UBBR2 @2
-		.elif @1 == double
+		.elif @1 == Double
 			UBBR3 @2
 			.if @2 == 230400
 				.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
 			.endif
 		.endif
 	.elif ATmegaFREQ == 4000000
-		.if @1 == normal
+		.if @1 == Normal
 			UBBR3 @2
-		.elif @1 == double
+		.elif @1 == Double
 			UBBR4 @2
 		.endif
 	.elif ATmegaFREQ == 8000000
-		.if @1 == normal
+		.if @1 == Normal
 			UBBR4 @2
-		.elif @1 == double
+		.elif @1 == Double
 			UBBR5 @2
 		.endif
 	.elif ATmegaFREQ == 16000000
-		.if @1 == normal
+		.if @1 == Normal
 			UBBR5 @2
-		.elif @1 == double
+		.elif @1 == Double
 			UBBR6 @2
 		.endif
 	.endif
