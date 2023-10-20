@@ -9,7 +9,7 @@ reti
 ADC_Conv_Comp:
 	cli
 	// Ваш код
-	_call ADCINTtt
+	//_call ADCINTtt
 	sei
 reti
 ////////////////////////////////////////////////////////////

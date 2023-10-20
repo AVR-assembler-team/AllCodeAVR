@@ -1,8 +1,0 @@
-.macro ADCSTART
-	_call ADCSTAR_act
-.endm
-
-ADCSTAR_act:
-	SETB ADCSRA, ADEN
-	SETB ADCSRA, ADSC
-ret

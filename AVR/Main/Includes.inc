@@ -1,7 +1,7 @@
 .include "Main/Constants.inc"
-.include "FunctionModules/FunctionModules_Config.inc"
-.include "AVRModules/AVRModules_Config.inc"
-.include "GadgetModules/GadgetModules_Config.inc"
+.include "Configs/FunctionModules_Config.inc"
+.include "Configs/AVRModules_Config.inc"
+.include "Configs/GadgetModules_Config.inc"
 .include "Config.inc"
 .include "Main/Relative.inc"
 

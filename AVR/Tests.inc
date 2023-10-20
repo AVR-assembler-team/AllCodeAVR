@@ -1,9 +1,30 @@
 
+// пример настройки и работы ADC
+;ADCPrescalerSelection 128							; настройка претделителя
+;ADCReferenceSelection AREFpin						; настройка Reference Selection
+;ADCLeftAdjustResult Left							; настройка ADC Left Adjust Result
+;ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
+;ADCAutoTriggerSourceSelections FreeRun				; настройка ADC Auto Trigger Source
+;ADCInterrupt Enable									; настройка ADC Interrupt
+;ADCCondition Enable									; запускаем ADC
+;ADCConversion Enable								; запускаем крнвертацию
 
+// делаем вывод в порт K
+;ldi r16, $ff
+;WRITE_REG DDRK, r16
 
-ldi r16, $ff
-WRITE_REG DDRK, r16
-ADCSTART
+// Это пишем в AVR.asm после функции Proga
+/*ADCINTtt:
+	READ_REG ADCL, r17
+	READ_REG ADCH, r16
+
+	WRITE_REG PORTK, r16
+ret
+
+ADCINTtt вызываем в прерываниях ADC_Conv_Comp в файле Interrupts.inc
+*/
+//=======================================================================================
+
 
 
 //CountersPrescaller Counter0, Prescaller8

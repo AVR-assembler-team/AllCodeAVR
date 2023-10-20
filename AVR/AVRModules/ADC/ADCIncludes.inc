@@ -6,9 +6,7 @@
 .include "AVRModules/ADC/ADCReferenceSelection.inc"
 .include "AVRModules/ADC/ADCLeftAdjustResult.inc"
 .include "AVRModules/ADC/ADCAutoTriggerSourceSelections.inc"
-.include "AVRModules/Configs/ADC_Config.inc"
+.include "AVRModules/ADC/ADCInterrupt.inc"
 
-.include "AVRModules/ADC/ADC_Interrupt.inc"
-
-.include "AVRModules/ADC/ADC_Init.inc"
-.include "AVRModules/ADC/ADC_START.inc"
+.include "AVRModules/ADC/ADCCondition.inc"
+.include "AVRModules/ADC/ADCConversion.inc"

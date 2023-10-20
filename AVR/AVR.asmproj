@@ -71,7 +71,34 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AVRModules\ADC\ADCConversion.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\AVRModules_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\FunctionModules_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\GadgetModules_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\HD44780U_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\OneWire_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\RotEnc_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\TWSI_Config.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configs\USART_Config.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FunctionModules\CRC\CRC_Calculate.inc">
@@ -81,21 +108,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FunctionModules\CRC\CRC_Includes.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="FunctionModules\FunctionModules_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="FunctionModules\README\CRC_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\Configs\HD44780U_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\Configs\RotEnc_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\GadgetModules_Config.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GadgetModules\HD44780U\HD44780U_BFCheck.inc">
@@ -206,18 +218,6 @@
     <Compile Include="GadgetModules\PCF8575\PCF8575_Write.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\README\HD44780U_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\README\PCF8574_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\README\PCF8575_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GadgetModules\README\RotEnc_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="GadgetModules\RotaryEncoder\RotEnc_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -231,9 +231,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Interrupts.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Macros_README.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVR.asm">
@@ -332,10 +329,7 @@
     <Compile Include="AVRModules\ADC\ADCIncludes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Init.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Interrupt.inc">
+    <Compile Include="AVRModules\ADC\ADCInterrupt.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADCLeftAdjustResult.inc">
@@ -350,19 +344,7 @@
     <Compile Include="AVRModules\ADC\ADCReferenceSelection.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_START.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\Configs\ADC_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\Configs\OneWire_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\Configs\TWSI_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\Configs\USART_Config.inc">
+    <Compile Include="AVRModules\ADC\ADCCondition.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\Counters\CompareOutputMode\CompareOutputMode.inc">
@@ -509,9 +491,6 @@
     <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Set_8.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\AVRModules_Config.inc">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="AVRModules\OneWire\OneWire_AlarmSearch.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -597,24 +576,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\OneWire\OneWire_WriteScratchpad.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\ADC_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\ExtInt_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\OneWire_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\Counters_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\TWSI_README.inc">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AVRModules\README\USART_README.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\Counters\Prescaller\Counter_0.inc">
@@ -719,6 +680,42 @@
     <Compile Include="README.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="README\ADC_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\Counters_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\CRC_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\ExtInt_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\HD44780U_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\Macros_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\OneWire_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\PCF8574_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\PCF8575_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\RotEnc_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\TWSI_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="README\USART_README.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Reset.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -728,10 +725,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FunctionModules\CRC\" />
-    <Folder Include="FunctionModules\README" />
     <Folder Include="GadgetModules\Configs\" />
     <Folder Include="GadgetModules\HD44780U\" />
-    <Folder Include="GadgetModules\README" />
     <Folder Include="GadgetModules\NTC3950_100K\" />
     <Folder Include="GadgetModules\PCF8574\" />
     <Folder Include="GadgetModules\PCF8575\" />
@@ -744,17 +739,17 @@
     <Folder Include="AVRModules\Counters\ExternalClockSourceOnT0pin" />
     <Folder Include="AVRModules\Counters\OffMode" />
     <Folder Include="AVRModules\Counters\WeveformGenerationMode" />
-    <Folder Include="AVRModules\Configs" />
     <Folder Include="AVRModules\ADC" />
     <Folder Include="AVRModules\ExternalInterrupts" />
     <Folder Include="AVRModules\Counters" />
     <Folder Include="AVRModules\OneWire" />
-    <Folder Include="AVRModules\README" />
     <Folder Include="AVRModules\Counters\Prescaller" />
     <Folder Include="AVRModules\TWSI" />
     <Folder Include="AVRModules\USART" />
     <Folder Include="GadgetModules" />
     <Folder Include="FunctionModules" />
+    <Folder Include="Configs" />
+    <Folder Include="README" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
 </Project>
