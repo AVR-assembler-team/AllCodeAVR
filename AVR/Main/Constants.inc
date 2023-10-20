@@ -19,3 +19,4 @@
 .equ AnyEdge		= 'n'
 .equ FallingEdge	= 'o'
 .equ RisingEdge		= 'p'
+.equ GND			= 'q'

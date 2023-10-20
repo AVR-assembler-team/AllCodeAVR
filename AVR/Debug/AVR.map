@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 15:53:04 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 18:54:31 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1376,6 +1376,7 @@ EQU  LowLevel     0000006d
 EQU  AnyEdge      0000006e
 EQU  FallingEdge  0000006f
 EQU  RisingEdge   00000070
+EQU  GND          00000071
 EQU  ATmegaFREQ   00f42400
 EQU  ctrl         00000a00
 CSEG RESET        00000140
@@ -1444,30 +1445,36 @@ EQU  TC0Overflow  00000004
 EQU  TC1CompMatchB 00000005
 EQU  TC1Overflow  00000006
 EQU  TC1CaptEvent 00000007
-EQU  ADC0         00000000
-EQU  ADC1         00000001
-EQU  ADC2         00000002
-EQU  ADC3         00000003
-EQU  ADC4         00000004
-EQU  ADC5         00000005
-EQU  ADC6         00000006
-EQU  ADC7         00000007
-EQU  ADC8         00000008
-EQU  ADC9         00000009
-EQU  ADC10        0000000a
-EQU  ADC11        0000000b
-EQU  ADC12        0000000c
-EQU  ADC13        0000000d
-EQU  ADC14        0000000e
-EQU  ADC15        0000000f
-EQU  V0           00000010
-EQU  V1           00000011
+EQU  SingleEndedInput 00000008
+EQU  DifferentialInput 00000009
+EQU  ADC0         0000000a
+EQU  ADC1         0000000b
+EQU  ADC2         0000000c
+EQU  ADC3         0000000d
+EQU  ADC4         0000000e
+EQU  ADC5         0000000f
+EQU  ADC6         00000010
+EQU  ADC7         00000011
+EQU  ADC8         00000012
+EQU  ADC9         00000013
+EQU  ADC10        00000014
+EQU  ADC11        00000015
+EQU  ADC12        00000016
+EQU  ADC13        00000017
+EQU  ADC14        00000018
+EQU  ADC15        00000019
+EQU  VBG          0000001a
+EQU  V0           0000001b
+EQU  V1           0000001c
+EQU  Gain1        0000001d
+EQU  Gain10       0000001e
+EQU  Gain200      0000001f
 CSEG ADCSTAR_act  00000075
-CSEG ADCINTtt     00000198
+CSEG ADCINTtt     000001c2
 CSEG EXT_PCINT3   000000b0
 CSEG LCD_SOF      000000b3
 CSEG TIM0_COMP    000000bc
 CSEG TIM2_COMP    000000d7
 CSEG USI_STRT     00000137
 CSEG USI_OVFL     0000013a
-CSEG Proga        00000197
+CSEG Proga        000001c1

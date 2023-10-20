@@ -28,66 +28,6 @@
 
 //-----------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------
-
-
-
-
-; Input Channel Delections
-
-; бывает 
-;			Single Ended Input - ADC0 ... ADC15
-;			Positive Differential input - ADC0 ... ADC15
-;			Negative Differential input - ADC0 ... ADC2, ADC8 ... ADC10
-;			Gain - 1, 10, 200
-; раскоментируйте нужный вам
-
-#define SingleEndedInput_ADC0
-//#define SingleEndedInput_ADC1
-//#define SingleEndedInput_ADC2
-//#define SingleEndedInput_ADC3
-//#define SingleEndedInput_ADC4
-//#define SingleEndedInput_ADC5
-//#define SingleEndedInput_ADC6
-//#define SingleEndedInput_ADC7
-//#define SingleEndedInput_ADC8
-//#define SingleEndedInput_ADC9
-//#define SingleEndedInput_ADC10
-//#define SingleEndedInput_ADC11
-//#define SingleEndedInput_ADC12
-//#define SingleEndedInput_ADC13
-//#define SingleEndedInput_ADC14
-//#define SingleEndedInput_ADC15
-//#define SingleEndedInput_VBG
-//#define SingleEndedInput_GND
-
-//#define PositiveDifferentialInput_ADC0
-//#define PositiveDifferentialInput_ADC1
-//#define PositiveDifferentialInput_ADC2
-//#define PositiveDifferentialInput_ADC3
-//#define PositiveDifferentialInput_ADC4
-//#define PositiveDifferentialInput_ADC5
-//#define PositiveDifferentialInput_ADC6
-//#define PositiveDifferentialInput_ADC7
-//#define PositiveDifferentialInput_ADC8
-//#define PositiveDifferentialInput_ADC9
-//#define PositiveDifferentialInput_ADC10
-//#define PositiveDifferentialInput_ADC11
-//#define PositiveDifferentialInput_ADC12
-//#define PositiveDifferentialInput_ADC13
-//#define PositiveDifferentialInput_ADC14
-//#define PositiveDifferentialInput_ADC15
-
-//#define NegativeDifferentialInput_ADC0
-//#define NegativeDifferentialInput_ADC1
-//#define NegativeDifferentialInput_ADC2
-//#define NegativeDifferentialInput_ADC8
-//#define NegativeDifferentialInput_ADC9
-//#define NegativeDifferentialInput_ADC10
-
-//#define Gain_1
-//#define Gain_10
-//#define Gain_200
-
 //-----------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------
 

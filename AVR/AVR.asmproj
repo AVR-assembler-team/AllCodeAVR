@@ -320,7 +320,7 @@
     <Compile Include="Main\Time_Cycles.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_ChannelSelection.inc">
+    <Compile Include="AVRModules\ADC\ADCInputChannelSelection.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADCConstants.inc">
