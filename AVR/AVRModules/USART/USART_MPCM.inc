@@ -1,35 +1,35 @@
 .macro MultiProcessorCommunication
-	.if @0 == enabled
+	.if @0 == Enable
 		SETB UCSRA, MPCM
-	.elif @0 == disabled
+	.elif @0 == Disable
 		CLRB UCSRA, MPCM
 	.endif
 .endm
 .macro MultiProcessorCommunication0
-	.if @0 == enabled
+	.if @0 == Enable
 		SETB UCSR0A, MPCM0
-	.elif @0 == disabled
+	.elif @0 == Disable
 		CLRB UCSR0A, MPCM0
 	.endif
 .endm
 .macro MultiProcessorCommunication1
-	.if @0 == enabled
+	.if @0 == Enable
 		SETB UCSR1A, MPCM1
-	.elif @0 == disabled
+	.elif @0 == Disable
 		CLRB UCSR1A, MPCM1
 	.endif
 .endm
 .macro MultiProcessorCommunication2
-	.if @0 == enabled
+	.if @0 == Enable
 		SETB UCSR2A, MPCM2
-	.elif @0 == disabled
+	.elif @0 == Disable
 		CLRB UCSR2A, MPCM2
 	.endif
 .endm
 .macro MultiProcessorCommunication3
-	.if @0 == enabled
+	.if @0 == Enable
 		SETB UCSR3A, MPCM3
-	.elif @0 == disabled
+	.elif @0 == Disable
 		CLRB UCSR3A, MPCM3
 	.endif
 .endm

@@ -1,61 +1,61 @@
 .macro ClockPolar
-	.if @0 == zero
+	.if @0 == Zero
 		SETB UCSRC, URSEL
 		CLRB UCSRC, UCPOL
 		CLRB UCSRC, URSEL
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSRC, URSEL
 		SETB UCSRC, UCPOL
 		CLRB UCSRC, URSEL
 	.endif
 .endm
 .macro ClockPolarURSEL0
-	.if @0 == zero
+	.if @0 == Zero
 		SETB UCSR0C, URSEL0
 		CLRB UCSR0C, UCPOL0
 		CLRB UCSR0C, URSEL0
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR0C, URSEL0
 		SETB UCSR0C, UCPOL0
 		CLRB UCSR0C, URSEL0
 	.endif
 .endm
 .macro ClockPolarURSEL1
-	.if @0 == zero
+	.if @0 == Zero
 		SETB UCSR1C, URSEL1
 		CLRB UCSR1C, UCPOL1
 		CLRB UCSR1C, URSEL1
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR1C, URSEL1
 		SETB UCSR1C, UCPOL1
 		CLRB UCSR1C, URSEL1
 	.endif
 .endm
 .macro ClockPolar0
-	.if @0 == zero
+	.if @0 == Zero
 		CLRB UCSR0C, UCPOL0
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR0C, UCPOL0
 	.endif
 .endm
 .macro ClockPolar1
-	.if @0 == zero
+	.if @0 == Zero
 		CLRB UCSR1C, UCPOL1
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR1C, UCPOL1
 	.endif
 .endm
 .macro ClockPolar2
-	.if @0 == zero
+	.if @0 == Zero
 		CLRB UCSR2C, UCPOL2
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR2C, UCPOL2
 	.endif
 .endm
 .macro ClockPolar3
-	.if @0 == zero
+	.if @0 == Zero
 		CLRB UCSR3C, UCPOL3
-	.elif @0 == one
+	.elif @0 == One
 		SETB UCSR3C, UCPOL3
 	.endif
 .endm

@@ -1,35 +1,35 @@
     .macro USARTDataRegisterEmptyInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSRB, UDRIE
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSRB, UDRIE
 	.endif
     .endm
     .macro USART0DataRegisterEmptyInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR0B, UDRIE0
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR0B, UDRIE0
 	.endif
     .endm
     .macro USART1DataRegisterEmptyInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR1B, UDRIE1
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR1B, UDRIE1
 	.endif
     .endm
     .macro USART2DataRegisterEmptyInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR2B, UDRIE2
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR2B, UDRIE2
 	.endif
     .endm
     .macro USART3DataRegisterEmptyInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR3B, UDRIE3
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR3B, UDRIE3
 	.endif
     .endm

@@ -1,35 +1,35 @@
     .macro USARTReceiv
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSRB, RXEN
-	.elif @0 == disabled
+	.elif @0 == Disable
 	    CLRB UCSRB, RXEN
 	.endif
     .endm
     .macro USART0Receiv
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR0B, RXEN0
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR0B, RXEN0
 	.endif
     .endm
     .macro USART1Receiv
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR1B, RXEN1
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR1B, RXEN1
 	.endif
     .endm
     .macro USART2Receiv
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR2B, RXEN2
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR2B, RXEN2
 	.endif
     .endm
     .macro USART3Receiv
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR3B, RXEN3
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR3B, RXEN3
 	.endif
     .endm

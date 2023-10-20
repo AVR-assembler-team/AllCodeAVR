@@ -1,35 +1,35 @@
     .macro USARTRXCompleteInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSRB, RXCIE
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSRB, RXCIE
 	.endif
     .endm
     .macro USART0RXCompleteInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR0B, RXCIE0
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR0B, RXCIE0
 	.endif
     .endm
     .macro USART1RXCompleteInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR1B, RXCIE1
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR1B, RXCIE1
 	.endif
     .endm
     .macro USART2RXCompleteInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR2B, RXCIE2
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR2B, RXCIE2
 	.endif
     .endm
     .macro USART3RXCompleteInterr
-	.if @0 == enabled
+	.if @0 == Enable
 	    SETB UCSR3B, RXCIE3
-	.elif  @0 == disabled
+	.elif  @0 == Disable
 	    CLRB UCSR3B, RXCIE3
 	.endif
     .endm
