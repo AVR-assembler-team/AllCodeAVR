@@ -47,3 +47,6 @@
 .equ pin13D				=	45
 .equ pin14D				=	46
 .equ pin15D				=	47
+.equ AREFpin			=	48
+.equ Internal_1_1V		=	49
+.equ Internal_2_56V		=	50

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 19:54:34 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 21:08:07 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -21,8 +21,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCInputChannelSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCDigitalInputDisable.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
@@ -53,8 +53,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCInputChannelSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCDigitalInputDisable.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
@@ -2620,6 +2620,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .equ pin13D				=	45
                                  .equ pin14D				=	46
                                  .equ pin15D				=	47
+                                 .equ AREFpin			=	48
+                                 .equ Internal_1_1V		=	49
+                                 .equ Internal_2_56V		=	50
                                  .include "AVRModules/ADC/ADCPrescalerSelection.inc"
                                  
                                  	.if ctrl == 162 || ctrl == 8515
@@ -3528,28 +3531,44 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
+                                 .include "AVRModules/ADC/ADCReferenceSelection.inc"
+                                 
+                                 	.if ctrl == 162 || ctrl == 8515
+                                 		.error "ADC is not supporting by this controller!"
+                                 	.else
+                                 		.if @0 == Off
+                                 			CLRB ADMUX, REFS0
+                                 			CLRB ADMUX, REFS1
+                                 		.elif @0 == AREFpin
+                                 			SETB ADMUX, REFS0
+                                 			CLRB ADMUX, REFS1
+                                 		.elif @0 == Internal_1_1V
+                                 			.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128
+                                 				.error "Internal 1.1V Voltage Reference with external capacitor at AREF pin is not supporting by this controller!"
+                                 			.elif ctrl == 164 || ctrl == 324 || ctrl == 640 || ctrl == 644 || ctrl == 1280 || ctrl == 1281 || ctrl == 1284 || ctrl == 2560 || ctrl == 2561
+                                 				CLRB ADMUX, REFS0
+                                 				SETB ADMUX, REFS1
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 				SETB ADMUX, REFS0
+                                 				SETB ADMUX, REFS1
+                                 			.endif
+                                 		.elif @0 == Internal_2_56V
+                                 			.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 640 || ctrl == 644 || ctrl == 1280 || ctrl == 1281 || ctrl == 1284 || ctrl == 2560 || ctrl == 2561
+                                 				SETB ADMUX, REFS0
+                                 				SETB ADMUX, REFS1
+                                 			.else
+                                 				.error "Internal 2.56V Voltage Reference with external capacitor at AREF pin is not supporting by this controller!"
+                                 			.endif
+                                 		.else
+                                 			.error "This ADC Reference Selection mode is not supporting by this controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
                                  .include "AVRModules/Configs/ADC_Config.inc"
                                  
                                  
                                  
                                  
-                                 
-                                 
-                                 //-----------------------------------------------------------------------------------------
-                                 //-----------------------------------------------------------------------------------------
-                                 
-                                 ; Reference Selection
-                                 
-                                 ; бывает - TurnedOff, AREFpin, Voltage_1_1, Voltage_2_56
-                                 ; раскоментируйте нужный вам
-                                 
-                                 //#define TurnedOff
-                                 #define AREFpin
-                                 //#define Voltage_1_1
-                                 //#define Voltage_2_56
-                                 
-                                 //-----------------------------------------------------------------------------------------
-                                 //-----------------------------------------------------------------------------------------
                                  
                                  ; Left Adjust Result
                                  
@@ -3598,16 +3617,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //-----------------------------------------------------------------------------------------
                                  
                                  
-                                 .include "AVRModules/ADC/ADC_ReferenceSelection.inc"
-                                 
-                                 	#ifdef TurnedOff
-                                 	#elif defined AREFpin
-                                 		SETB ADMUX, REFS0
-                                 		CLRB ADMUX, REFS1
-                                 	#elif defined Voltage_1_1
-                                 	#elif defined Voltage_2_56
-                                 	#endif
-                                 .endm
                                  .include "AVRModules/ADC/ADC_LeftAdjustResult.inc"
                                  
                                  	#ifdef Adjust_Left
@@ -3667,7 +3676,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .include "AVRModules/ADC/ADC_Init.inc"
                                  
                                  	ADCPrescalerSelection 128							; настройка претделителя
-                                 	SetRefSel
+                                 	ADCReferenceSelection AREFpin						; настройка Reference Selection
                                  	SetAdjustResult
                                  	ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
                                  	SetADCModeSelect
@@ -4179,6 +4188,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 0001bb 9478                      sei
                                  
                                  .include "Tests.inc"
+                                 
                                  
                                  
 0001bc ef0f                      ldi r16, $ff

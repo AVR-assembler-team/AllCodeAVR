@@ -347,7 +347,7 @@
     <Compile Include="AVRModules\ADC\ADCPrescalerSelection.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_ReferenceSelection.inc">
+    <Compile Include="AVRModules\ADC\ADCReferenceSelection.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADC_START.inc">
