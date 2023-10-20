@@ -323,7 +323,7 @@
     <Compile Include="AVRModules\ADC\ADC_ChannelSelection.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Constants.inc">
+    <Compile Include="AVRModules\ADC\ADCConstants.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADC_DigitalInputDisable.inc">
@@ -344,7 +344,7 @@
     <Compile Include="AVRModules\ADC\ADC_Mode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Prescaler.inc">
+    <Compile Include="AVRModules\ADC\ADCPrescalerSelection.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADC_ReferenceSelection.inc">

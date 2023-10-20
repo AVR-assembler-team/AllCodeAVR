@@ -1,5 +1,5 @@
 .macro ADC_init
-	SetPrescaler
+	ADCPrescalerSelection 128				; настройка претделителя
 	SetRefSel
 	SetAdjustResult
 	SetChannelSelection

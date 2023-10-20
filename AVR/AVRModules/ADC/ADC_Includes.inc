@@ -1,8 +1,8 @@
 
-.include "AVRModules/ADC/ADC_Constants.inc"
+.include "AVRModules/ADC/ADCConstants.inc"
+.include "AVRModules/ADC/ADCPrescalerSelection.inc"
 .include "AVRModules/Configs/ADC_Config.inc"
 
-.include "AVRModules/ADC/ADC_Prescaler.inc"
 .include "AVRModules/ADC/ADC_ReferenceSelection.inc"
 .include "AVRModules/ADC/ADC_LeftAdjustResult.inc"
 .include "AVRModules/ADC/ADC_ChannelSelection.inc"

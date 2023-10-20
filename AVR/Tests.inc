@@ -1,4 +1,10 @@
 
+
+ldi r16, $ff
+WRITE_REG DDRK, r16
+ADCSTART
+
+
 //CountersPrescaller Counter0, Prescaller8
 //CountersOffMode Counter0
 //CountersPrescaller Counter1, Prescaller1024

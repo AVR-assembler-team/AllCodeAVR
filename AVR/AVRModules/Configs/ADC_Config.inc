@@ -1,22 +1,8 @@
-//=========================================================================================
-//=========================================================================================
 
-; ADC Prescaler selection
 
-; Работаем между 50kHz и 200kHz
-; Делим ATmegaFREQ/50000 = прескалер на меньшую частоту
-; Делим ATmegaFREQ/200000 = прескалер на большую частоту
-; Выбираем между ними 
-; бывает - 2, 4, 8, 16, 32, 64, 128
-; раскоментируйте нужный вам
 
-//#define Prescaler_2
-//#define Prescaler_4
-//#define Prescaler_8
-//#define Prescaler_16
-//#define Prescaler_32
-//#define Prescaler_64
-#define Prescaler_128
+
+
 
 //-----------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------
@@ -38,10 +24,13 @@
 
 ; бывает - Left, Right as default
 
-//#define Adjust_Left
+#define Adjust_Left
 
 //-----------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------
+
+
+
 
 ; Input Channel Delections
 
@@ -52,7 +41,7 @@
 ;			Gain - 1, 10, 200
 ; раскоментируйте нужный вам
 
-//#define SingleEndedInput_ADC0
+#define SingleEndedInput_ADC0
 //#define SingleEndedInput_ADC1
 //#define SingleEndedInput_ADC2
 //#define SingleEndedInput_ADC3
@@ -71,7 +60,7 @@
 //#define SingleEndedInput_VBG
 //#define SingleEndedInput_GND
 
-#define PositiveDifferentialInput_ADC0
+//#define PositiveDifferentialInput_ADC0
 //#define PositiveDifferentialInput_ADC1
 //#define PositiveDifferentialInput_ADC2
 //#define PositiveDifferentialInput_ADC3
@@ -88,7 +77,7 @@
 //#define PositiveDifferentialInput_ADC14
 //#define PositiveDifferentialInput_ADC15
 
-#define NegativeDifferentialInput_ADC0
+//#define NegativeDifferentialInput_ADC0
 //#define NegativeDifferentialInput_ADC1
 //#define NegativeDifferentialInput_ADC2
 //#define NegativeDifferentialInput_ADC8
@@ -96,7 +85,7 @@
 //#define NegativeDifferentialInput_ADC10
 
 //#define Gain_1
-#define Gain_10
+//#define Gain_10
 //#define Gain_200
 
 //-----------------------------------------------------------------------------------------

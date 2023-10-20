@@ -1,31 +1,33 @@
-.macro SetPrescaler
-	#ifdef Prescaler_2
+.macro ADCPrescalerSelection
+	.if @0 == 2
 		SETB ADCSRA, ADPS0
 		CLRB ADCSRA, ADPS1
 		CLRB ADCSRA, ADPS2
-	#elif defined Prescaler_4
+	.elif @0 == 4
 		CLRB ADCSRA, ADPS0
 		SETB ADCSRA, ADPS1
 		CLRB ADCSRA, ADPS2
-	#elif defined Prescaler_8
+	.elif @0 == 8
 		SETB ADCSRA, ADPS0
 		SETB ADCSRA, ADPS1
 		CLRB ADCSRA, ADPS2
-	#elif defined Prescaler_16
+	.elif @0 == 16
 		CLRB ADCSRA, ADPS0
 		CLRB ADCSRA, ADPS1
 		SETB ADCSRA, ADPS2
-	#elif defined Prescaler_32
+	.elif @0 == 32
 		SETB ADCSRA, ADPS0
 		CLRB ADCSRA, ADPS1
 		SETB ADCSRA, ADPS2
-	#elif defined Prescaler_64
+	.elif @0 == 64
 		CLRB ADCSRA, ADPS0
 		SETB ADCSRA, ADPS1
 		SETB ADCSRA, ADPS2
-	#elif defined Prescaler_128
+	.elif @0 == 128
 		SETB ADCSRA, ADPS0
 		SETB ADCSRA, ADPS1
 		SETB ADCSRA, ADPS2
-	#endif
+	.else
+		.error "ADC Prescaller is not available!"
+	.endif
 .endm

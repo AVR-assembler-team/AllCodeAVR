@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 13 12:40:53 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 15:53:04 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -16,18 +16,18 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/TWSI_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Init.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ChannelSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_DigitalInputDisable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_START.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
@@ -48,18 +48,18 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/TWSI_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Init.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ReferenceSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_ChannelSelection.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_DigitalInputDisable.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_START.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
@@ -1935,11 +1935,11 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //#define CRC_Calculate_Module
                                  .include "AVRModules/AVRModules_Config.inc"
                                  
-                                 //#define ADC_Module
+                                 #define ADC_Module
                                  //#define ExternalInterrupts_Module
                                  //#define OneWire_Module
                                  //#define Counters_Module
-                                 #define TWSI_Module
+                                 //#define TWSI_Module
                                  //#define USART_Module
                                  .include "GadgetModules/GadgetModules_Config.inc"
                                  
@@ -2202,68 +2202,68 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 0170                 	.org 0x0000	 jmp RESET ; Reset Handler
-000002 940c 00bf                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 00c2                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 00c5                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
-000008 940c 00c8                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
-00000a 940c 00cb                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
-00000c 940c 00ce                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
-00000e 940c 00d1                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
-000010 940c 00d4                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
-000012 940c 00d7                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 00da                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 00dd                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 016d                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 010a                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 010d                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 0110                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 00f8                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 00fb                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 00fe                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 0101                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 0104                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 00ef                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 00f2                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 00f5                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 00e6                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 0143                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 0146                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 0149                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
-000038 940c 00b6                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
-00003a 940c 00b9                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
-00003c 940c 00bc                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 0113                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 0116                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 0119                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 011c                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 011f                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 014c                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 014f                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 0152                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 0140                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 00e9                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+000000 940c 0140                 	.org 0x0000	 jmp RESET ; Reset Handler
+000002 940c 008f                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 0092                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 0095                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
+000008 940c 0098                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
+00000a 940c 009b                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
+00000c 940c 009e                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
+00000e 940c 00a1                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
+000010 940c 00a4                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
+000012 940c 00a7                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
+000014 940c 00aa                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 00ad                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 013d                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 00da                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 00dd                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 00e0                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 00c8                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 00cb                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 00ce                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 00d1                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 00d4                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 00bf                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 00c2                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 00c5                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 00b6                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 0113                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 0116                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 0119                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000038 940c 0084                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
+00003a 940c 0087                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
+00003c 940c 008c                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
+00003e 940c 00e3                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 00e6                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 00e9                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 00ec                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 00ef                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 011c                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 011f                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 0122                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 0110                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 00b9                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000052 940c 0122                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 00f2                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 0125                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 0128                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 012b                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 012e                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 00f5                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 00f8                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 00fb                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 00fe                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-00005c 940c 0131                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 0101                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 0134                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 0137                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 013a                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 013d                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 0104                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 0107                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 010a                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 010d                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000066 940c 0155                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 0158                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 015b                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 015e                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 0161                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 0164                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 0125                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 0128                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 012b                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 012e                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 0131                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 0134                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctrl == 1284
                                  .elif ctrl == 8515
@@ -2561,228 +2561,548 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  #endif
                                  
                                  #ifdef TWSI_Module
-                                 	.include "AVRModules/TWSI/TWSI_Includes.inc"
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Const.inc"
-                                 
-                                 * Константы, используемые в работе модуля TWSI
-                                 */
-                                 .dseg
-000200                           TWSI_Flags:				.byte 1
-                                 
-                                 .cseg
-                                 .equ No_ACK		=	0
-                                 
-                                 
-                                 .equ START_ACK			=	$08
-                                 .equ MT_SLA_W_ACK		=	$18
-                                 .equ MT_SLA_W_NOT_ACK	=	$20
-                                 .equ MT_SLA_R_ACK		=	$40
-                                 .equ MT_SLA_R_NOT_ACK	=	$48
-                                 .equ MT_DATA_ACK		=	$28
-                                 .equ MT_DATA_NOT_ACK	=	$30
-                                 .equ MT_NACK			=	$58
-                                 
-                                 .equ MR_DATA_ACK		=	$50
-                                 .equ MR_LASTDATA_ACK	=	$58
-                                 .include "AVRModules/Configs/TWSI_Config.inc"
-                                 
-                                 * Укажите на какой скорости (в Гц) будет работать ваша шина I2C
-                                 */
-                                 .equ FreqSCL = 31250	; Скорость передачи по I2C 
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Times.inc"
-                                 
-                                 * Задержка в 4,1 мс
-                                 */
-                                 
-                                 .macro TWSI_Delay_4_1ms
-                                 	_call TWSI_Delay_4_1ms_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_Delay_4_1ms_act:
-000075 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
-000076 e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
-000077 940e 0072                 	_call Time_Cycles
-000079 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
-00007a e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
-00007b 940e 0072                 	_call Time_Cycles
-00007d 9508                      ret
-                                 
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Init.inc"
-                                 
-                                 * Инициализация работы модуля I2C
-                                 */
-                                 .macro TWSI_init
-                                 	ldi	r16, ((ATmegaFREQ/FreqSCL)-16)/8	;задаем частоту передачи по I2C, в формуле учитывается Регистр TWPS == 0
-                                 	WRITE_REG TWBR, r16						;записываем данные в регистр для I2C
-                                 .endm
-                                 
-                                 .include "AVRModules/TWSI/TWSI_ACK_Check.inc"
-                                 
-                                 * Проверяет состояние регистра TWI модуля I2C
-                                 */
-                                 .macro TWSI_ACK_Check
-                                 	push r17
-                                 	push r18
-                                 	ldi r17, @0
-                                 	ldi r18, @1
-                                 	_call TWSI_ACK_Check_act
-                                 	pop r18
-                                 	pop r17
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_ACK_Check_act:
-00007e 930f                      	push r16
-                                 	TWSI_ACK_Check_act_1:
-00007f 9100 00b9                 		READ_REG TWSR, r16					; читаем TWSR
-000081 7f08                      		andi	r16, 0xF8					; обнуляем первые три бита
-000082 1301                      		cpse	r16, r17					; сравниваем r16 и r17
-000083 c008                      		rjmp TWSI_Status_act_2				; переходим
-000084 930f
-000085 9100 0200
-000087 7f0e
-000088 9300 0200
-00008a 910f                      		CLRB TWSI_Flags, No_ACK				; обнуляем флаг
-00008b c009                      		rjmp TWSI_ACK_Check_act_end			; переходим
-                                 
-                                 		TWSI_Status_act_2:
-00008c 1302                      			cpse	r16, r18				; сравниваем r16 и r18
-00008d cff1                      			rjmp	TWSI_ACK_Check_act_1	; если не равны, то переходим
-00008e 930f
-00008f 9100 0200
-000091 6001
-000092 9300 0200
-000094 910f                      			SETB TWSI_Flags, No_ACK			; устанавливаем флаг
-                                 	TWSI_ACK_Check_act_end:
-000095 910f                      	pop r16
-000096 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_TwintFlag.inc"
-                                 
-                                 * Проверяет состояние флага TWINT модуля TWSI
-                                 */
-                                 .macro TWSI_TWINT_Flag
-                                 	_call TWSI_TWINT_Flag_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_TWINT_Flag_act:
-000097 930f                      	push r16
-                                 
-                                 	TWSI_TWINT_Flag_act_1:
-000098 9100 00bc                 		READ_REG TWCR, r16					; записываем TWCR в R16
-00009a ff07                      		sbrs	r16, TWINT						; если бит TWINT поднят, то пропускаем след строку
-00009b cffc                      		rjmp	TWSI_TWINT_Flag_act_1					; перепрыгиваем на метку
-                                 
-00009c 910f                      	pop r16
-00009d 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_ACK_Transmit.inc"
-                                 
-                                 * Чтение байта из модуля I2C
-                                 * Принимает один аргумент - регистр в который производим запись прочитанного TWDR
-                                 */
-                                 .macro TWSI_ACK_Transmit
-                                 	push r16
-                                 	ldi		r16, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
-                                 	WRITE_REG TWCR, r16						; отправляем по шине
-                                 	TWSI_TWINT_Flag
-                                 	pop r16
-                                 .endm						; выход из подпрограммы
-                                 .include "AVRModules/TWSI/TWSI_Start.inc"
-                                 
-                                 * Запускает модуль TWSI
-                                 * Принимает два аргумента
-                                 * @0 - адрес модуля TWSI
-                                 * @1 - 'W'-запись / 'R'-чтение
-                                 * и передает в функцию TWSI_SLA после подачи сигнала START
-                                 */
-                                 .macro TWSI_START										; макрос START
-                                 	_call TWSI_START_act
-                                 .endm													; выход из макроса
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_START_act:
-00009e 930f                      	push r16
-00009f ea04                      	ldi		r16, (1<<TWINT) | (1<<TWSTA) | (1<<TWEN)	; формируем сагнал START
-0000a0 9300 00bc                 	WRITE_REG TWCR, r16									; отправляем по шине
-0000a2 940e 0097                 	TWSI_TWINT_Flag
-0000a4 910f                      	pop r16
-0000a5 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_Byte_Transmit.inc"
-                                 
-                                 * Устанавливает биты в TWCR
-                                 */
-                                 .macro TWSI_Byte_Transmit
-                                 	_call TWSI_Byte_Transmit_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_Byte_Transmit_act:
-0000a6 930f                      	push r16
-0000a7 e804                      	ldi		r16, (1<<TWINT) | (1<<TWEN)		; формируем сигнал для передачи данных с TWDR
-0000a8 9300 00bc                 	WRITE_REG TWCR, r16						; отправляем по шине
-0000aa 940e 0097                 	TWSI_TWINT_Flag
-0000ac 910f                      	pop r16
-0000ad 9508                      ret											; выход из подпрограммы
-                                 .include "AVRModules/TWSI/TWSI_Sla.inc"
-                                 
-                                 * Передаем модулю TWSI адрес чипа, читать или записывать
-                                 * Принимает два аргумента
-                                 * @0 - Адрес чипа TWSI
-                                 * @1 - 'W'-запись / 'R'-чтение
-                                 
-                                 * После проверки в регистре флагов (TWSI_Flags) будет установлено соответственное 
-                                 * состояние бита (Address_No_ACK)
-                                 * 0 - все хорошо
-                                 * 1 - ответа нет
-                                 */
-                                 .macro TWSI_SLA
-                                 	push r16
-                                 
-                                 	.if @1 == 'W'
-                                 		mov	r16, @0
-                                 	.elif @1 == 'R'
-                                 		mov	r16, @0
-                                 		sbr	r16, 1
-                                 	.endif
-                                 		
-                                 	WRITE_REG TWDR, r16						; вталкиваем в дата регистр
-                                 	TWSI_Byte_Transmit
-                                 
-                                 	.if @1 == 'W'
-                                 		TWSI_ACK_Check MT_SLA_W_ACK, MT_SLA_W_NOT_ACK					; Проверяем получен ли ответ
-                                 	.elif @1 == 'R'
-                                 		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK					; Проверяем получен ли ответ
-                                 	.endif
-                                 
-                                 	pop r16
-                                 .endm
-                                 .include "AVRModules/TWSI/TWSI_Stop.inc"
-                                 
-                                 * Останавливает модуль TWSI
-                                 */
-                                 .macro TWSI_STOP
-                                 	_call TWSI_STOP_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_STOP_act:											; метка
-0000ae 930f                      	push r16
-0000af e904                      	ldi		r16, (1<<TWINT) | (1<<TWSTO) | (1<<TWEN)	; формируем сигнал STOP
-0000b0 9300 00bc                 	WRITE_REG TWCR, r16									; отправляем по шине
-0000b2 940e 0075                 	TWSI_Delay_4_1ms
-                                 	//TWSI_TWINT_Flag
-0000b4 910f                      	pop r16
-0000b5 9508                      ret	
                                  #endif
                                  
                                  #ifdef USART_Module
                                  #endif
                                  
                                  #ifdef ADC_Module
+                                 	.include "AVRModules/ADC/ADC_Includes.inc"
+                                 
+                                 .include "AVRModules/ADC/ADC_Constants.inc"
+                                 
+                                 //.equ AREFpin = 1
+                                 //.equ Voltage_1_1 = 2
+                                 //.equ Voltage_2_56 = 3
+                                 
+                                 .equ FreeRun = 0
+                                 .equ AnComp = 1
+                                 .equ ExtIntReq0 = 2
+                                 .equ TC0CompMatch = 3
+                                 .equ TC0Overflow = 4
+                                 .equ TC1CompMatchB = 5
+                                 .equ TC1Overflow = 6
+                                 .equ TC1CaptEvent = 7
+                                 
+                                 .equ ADC0 = 0
+                                 .equ ADC1 = 1
+                                 .equ ADC2 = 2
+                                 .equ ADC3 = 3
+                                 .equ ADC4 = 4
+                                 .equ ADC5 = 5
+                                 .equ ADC6 = 6
+                                 .equ ADC7 = 7
+                                 .equ ADC8 = 8
+                                 .equ ADC9 = 9
+                                 .equ ADC10 = 10
+                                 .equ ADC11 = 11
+                                 .equ ADC12 = 12
+                                 .equ ADC13 = 13
+                                 .equ ADC14 = 14
+                                 .equ ADC15 = 15
+                                 .equ V0 = 16
+                                 .equ V1 = 17
+                                 .include "AVRModules/ADC/ADCPrescalerSelection.inc"
+                                 
+                                 	.if @0 == 2
+                                 		SETB ADCSRA, ADPS0
+                                 		CLRB ADCSRA, ADPS1
+                                 		CLRB ADCSRA, ADPS2
+                                 	.elif @0 == 4
+                                 		CLRB ADCSRA, ADPS0
+                                 		SETB ADCSRA, ADPS1
+                                 		CLRB ADCSRA, ADPS2
+                                 	.elif @0 == 8
+                                 		SETB ADCSRA, ADPS0
+                                 		SETB ADCSRA, ADPS1
+                                 		CLRB ADCSRA, ADPS2
+                                 	.elif @0 == 16
+                                 		CLRB ADCSRA, ADPS0
+                                 		CLRB ADCSRA, ADPS1
+                                 		SETB ADCSRA, ADPS2
+                                 	.elif @0 == 32
+                                 		SETB ADCSRA, ADPS0
+                                 		CLRB ADCSRA, ADPS1
+                                 		SETB ADCSRA, ADPS2
+                                 	.elif @0 == 64
+                                 		CLRB ADCSRA, ADPS0
+                                 		SETB ADCSRA, ADPS1
+                                 		SETB ADCSRA, ADPS2
+                                 	.elif @0 == 128
+                                 		SETB ADCSRA, ADPS0
+                                 		SETB ADCSRA, ADPS1
+                                 		SETB ADCSRA, ADPS2
+                                 	.else
+                                 		.error "ADC Prescaller is not available!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Configs/ADC_Config.inc"
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; Reference Selection
+                                 
+                                 ; бывает - TurnedOff, AREFpin, Voltage_1_1, Voltage_2_56
+                                 ; раскоментируйте нужный вам
+                                 
+                                 //#define TurnedOff
+                                 #define AREFpin
+                                 //#define Voltage_1_1
+                                 //#define Voltage_2_56
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; Left Adjust Result
+                                 
+                                 ; бывает - Left, Right as default
+                                 
+                                 #define Adjust_Left
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 
+                                 
+                                 
+                                 ; Input Channel Delections
+                                 
+                                 ; бывает 
+                                 ;			Single Ended Input - ADC0 ... ADC15
+                                 ;			Positive Differential input - ADC0 ... ADC15
+                                 ;			Negative Differential input - ADC0 ... ADC2, ADC8 ... ADC10
+                                 ;			Gain - 1, 10, 200
+                                 ; раскоментируйте нужный вам
+                                 
+                                 #define SingleEndedInput_ADC0
+                                 //#define SingleEndedInput_ADC1
+                                 //#define SingleEndedInput_ADC2
+                                 //#define SingleEndedInput_ADC3
+                                 //#define SingleEndedInput_ADC4
+                                 //#define SingleEndedInput_ADC5
+                                 //#define SingleEndedInput_ADC6
+                                 //#define SingleEndedInput_ADC7
+                                 //#define SingleEndedInput_ADC8
+                                 //#define SingleEndedInput_ADC9
+                                 //#define SingleEndedInput_ADC10
+                                 //#define SingleEndedInput_ADC11
+                                 //#define SingleEndedInput_ADC12
+                                 //#define SingleEndedInput_ADC13
+                                 //#define SingleEndedInput_ADC14
+                                 //#define SingleEndedInput_ADC15
+                                 //#define SingleEndedInput_VBG
+                                 //#define SingleEndedInput_GND
+                                 
+                                 //#define PositiveDifferentialInput_ADC0
+                                 //#define PositiveDifferentialInput_ADC1
+                                 //#define PositiveDifferentialInput_ADC2
+                                 //#define PositiveDifferentialInput_ADC3
+                                 //#define PositiveDifferentialInput_ADC4
+                                 //#define PositiveDifferentialInput_ADC5
+                                 //#define PositiveDifferentialInput_ADC6
+                                 //#define PositiveDifferentialInput_ADC7
+                                 //#define PositiveDifferentialInput_ADC8
+                                 //#define PositiveDifferentialInput_ADC9
+                                 //#define PositiveDifferentialInput_ADC10
+                                 //#define PositiveDifferentialInput_ADC11
+                                 //#define PositiveDifferentialInput_ADC12
+                                 //#define PositiveDifferentialInput_ADC13
+                                 //#define PositiveDifferentialInput_ADC14
+                                 //#define PositiveDifferentialInput_ADC15
+                                 
+                                 //#define NegativeDifferentialInput_ADC0
+                                 //#define NegativeDifferentialInput_ADC1
+                                 //#define NegativeDifferentialInput_ADC2
+                                 //#define NegativeDifferentialInput_ADC8
+                                 //#define NegativeDifferentialInput_ADC9
+                                 //#define NegativeDifferentialInput_ADC10
+                                 
+                                 //#define Gain_1
+                                 //#define Gain_10
+                                 //#define Gain_200
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; ADC Free Running Select или ADC Auto Trigger
+                                 
+                                 ; бывает:
+                                 ;			null - Free Run Mode или ADC Auto Trigger Mode отключен (as default)
+                                 ;			FreeRun - ADC Free Running Select или Free Running mode (в зависимости от контроллера)
+                                 ;			AnComp - Analog Comparator
+                                 ;			ExtIntReq0 - External Interrupt Request 0
+                                 ;			TC0CompMatch - Timer/Counter0 Compare Match
+                                 ;			TC0Overflow - Timer/Counter0 Overflow
+                                 ;			TC1CompMatchB - Timer/Counter1 Compare Match B
+                                 ;			TC1Overflow - Timer/Counter1 Overflow
+                                 ;			TC1CaptEvent - Timer/Counter1 Capture Event
+                                 ; раскоментируйте нужный вам
+                                 
+                                 #define FreeRun
+                                 //#define AnComp
+                                 //#define ExtIntReq0
+                                 //#define TC0CompMatch
+                                 //#define TC0Overflow
+                                 //#define TC1CompMatchB
+                                 //#define TC1Overflow
+                                 //#define TC1CaptEvent
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; ADC Interrupt Enable
+                                 
+                                 ; бывает - Enabled, Disabled as default
+                                 
+                                 #define ADCInterrupt_Enabled
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; Digital Input Disable 
+                                 
+                                 ; Закоментируйте те пины, которые не нужно отключать
+                                 
+                                 //#define Disable_ADC0D
+                                 //#define Disable_ADC1D
+                                 //#define Disable_ADC2D
+                                 //#define Disable_ADC3D
+                                 //#define Disable_ADC4D
+                                 //#define Disable_ADC5D
+                                 //#define Disable_ADC6D
+                                 //#define Disable_ADC7D
+                                 //#define Disable_ADC8D
+                                 //#define Disable_ADC9D
+                                 //#define Disable_ADC10D
+                                 //#define Disable_ADC11D
+                                 //#define Disable_ADC12D
+                                 //#define Disable_ADC13D
+                                 //#define Disable_ADC14D
+                                 //#define Disable_ADC15D
+                                 
+                                 .include "AVRModules/ADC/ADC_ReferenceSelection.inc"
+                                 
+                                 	#ifdef TurnedOff
+                                 	#elif defined AREFpin
+                                 		SETB ADMUX, REFS0
+                                 		CLRB ADMUX, REFS1
+                                 	#elif defined Voltage_1_1
+                                 	#elif defined Voltage_2_56
+                                 	#endif
+                                 .endm
+                                 .include "AVRModules/ADC/ADC_LeftAdjustResult.inc"
+                                 
+                                 	#ifdef Adjust_Left
+                                 		SETB ADMUX, ADLAR
+                                 	#endif
+                                 .endm
+                                 .include "AVRModules/ADC/ADC_ChannelSelection.inc"
+                                 
+                                 	.if ctrl == 8 || ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 328
+                                 		#ifdef SingleEndedInput_ADC0
+                                 			CLRB ADMUX, MUX0
+                                 			CLRB ADMUX, MUX1
+                                 			CLRB ADMUX, MUX2
+                                 			CLRB ADMUX, MUX3
+                                 		#elif defined SingleEndedInput_ADC1
+                                 		#elif defined SingleEndedInput_ADC2
+                                 		#elif defined SingleEndedInput_ADC3
+                                 		#elif defined SingleEndedInput_ADC4
+                                 		#elif defined SingleEndedInput_ADC5
+                                 		#elif defined SingleEndedInput_ADC6
+                                 		#elif defined SingleEndedInput_ADC7
+                                 		#elif defined SingleEndedInput_ADC8 || SingleEndedInput_ADC9 || SingleEndedInput_ADC10 || SingleEndedInput_ADC11 || SingleEndedInput_ADC12 || SingleEndedInput_ADC13 || SingleEndedInput_ADC14 || SingleEndedInput_ADC15
+                                 		#elif defined SingleEndedInput_VBG
+                                 		#elif defined SingleEndedInput_GND
+                                 		#endif
+                                 
+                                 		#if defined PositiveDifferentialInput_ADC0 || PositiveDifferentialInput_ADC1
+                                 		#elif defined PositiveDifferentialInput_ADC2 || PositiveDifferentialInput_ADC3
+                                 		#elif defined PositiveDifferentialInput_ADC4 || PositiveDifferentialInput_ADC5
+                                 		#elif defined PositiveDifferentialInput_ADC6 || PositiveDifferentialInput_ADC7
+                                 		#elif defined PositiveDifferentialInput_ADC8 || PositiveDifferentialInput_ADC9
+                                 		#elif defined PositiveDifferentialInput_ADC10 || PositiveDifferentialInput_ADC11
+                                 		#elif defined PositiveDifferentialInput_ADC12 || PositiveDifferentialInput_ADC13
+                                 		#elif defined PositiveDifferentialInput_ADC14 || PositiveDifferentialInput_ADC15
+                                 		#elif defined NegativeDifferentialInput_ADC0 || NegativeDifferentialInput_ADC1
+                                 		#elif defined NegativeDifferentialInput_ADC2 || NegativeDifferentialInput_ADC8
+                                 		#elif defined NegativeDifferentialInput_ADC9 || NegativeDifferentialInput_ADC10
+                                 		#elif defined Gain_1 || Gain_10 || Gain_200
+                                 		#endif
+                                 		
+                                 	.elif ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 165 || ctrl == 169 || ctrl == 324 || ctrl == 325 || ctrl == 329 || ctrl == 644 || ctrl == 645 || ctrl == 649 || ctrl == 1284 || ctrl == 3250 || ctrl == 3290 || ctrl ==                                  6450 || ctrl == 6490 || ctrl == 8535
+                                 		#ifdef SingleEndedInput_ADC0
+                                 			CLRB ADMUX, MUX0
+                                 			CLRB ADMUX, MUX1
+                                 			CLRB ADMUX, MUX2
+                                 			CLRB ADMUX, MUX3
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADMUX, MUX4
+                                 			.error "Single Ended Input is not available! Change the setting in the file ADC_config.inc"
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 		#endif
+                                 
+                                 		.if ctlr == 16 || ctlr == 32 || ctlr == 64 || ctlr == 128 || ctlr == 164 || ctlr == 324 || ctlr == 644 || ctlr == 1284 || ctlr == 8535
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				CLRB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 				SETB ADMUX, MUX4
+                                 			#else
+                                 				.error "Positive Differential Input, Negative Differential Input and Gain combination is not available! Change the setting in the file ADC_config.inc"
+                                 			#endif
+                                 		.endif
+                                 
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 			SETB ADMUX, MUX4
+                                 		#else
+                                 			.error "Positive and Negative Differential Input combination is not available! Change the setting in the file ADC_config.inc"
+                                 		#endif
+                                 			
+                                 	.elif ctlr == 640 || ctlr == 1280 || ctlr == 1281 || ctlr == 2560 || ctlr == 2561
+                                 		#ifdef SingleEndedInput_ADC0
+                                 			CLRB ADMUX, MUX0
+                                 			CLRB ADMUX, MUX1
+                                 			CLRB ADMUX, MUX2
+                                 			CLRB ADMUX, MUX3
+                                 			CLRB ADMUX, MUX4
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 		#endif
+                                 
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			CLRB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 			SETB ADCSRB, MUX5
+                                 		#else
+                                 			.error "Positive Differential Input, Negative Differential Input and Gain combination is not available! Change the setting in the file ADC_config.inc"
+                                 		#endif
+                                 	.endif
+                                 .include "AVRModules/ADC/ADC_Mode.inc"
+                                 
+                                 	.if ctrl == 8 || ctrl == 128
+                                 		#ifdef FreeRun
+                                 			SETB ADCSRA, ADFR
+                                 		#elif defined AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
+                                 		#else
+                                 		#endif
+                                 	.else
+                                 		#if defined FreeRun || AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
+                                 			SETB ADCSRA, ADATE
+                                 			.if ctrl == 16 || ctrl == 32
+                                 				#ifdef FreeRun
+                                 					CLRB SFIOR, ADTS0
+                                 					CLRB SFIOR, ADTS1
+                                 					CLRB SFIOR, ADTS2
+                                 				#elif defined AnComp
+                                 				#elif defined ExtIntReq0
+                                 				#elif defined TC0CompMatch
+                                 				#elif defined TC0Overflow
+                                 				#elif defined TC1CompMatchB
+                                 				#elif defined TC1Overflow
+                                 				#elif defined TC1CaptEvent
+                                 				#endif
+                                 			.else
+                                 				#ifdef FreeRun
+                                 					CLRB ADCSRB, ADTS0
+                                 					CLRB ADCSRB, ADTS1
+                                 					CLRB ADCSRB, ADTS2
+                                 				#elif defined AnComp
+                                 				#elif defined ExtIntReq0
+                                 				#elif defined TC0CompMatch
+                                 				#elif defined TC0Overflow
+                                 				#elif defined TC1CompMatchB
+                                 				#elif defined TC1Overflow
+                                 				#elif defined TC1CaptEvent
+                                 				#endif
+                                 			.endif
+                                 		#else
+                                 		#endif
+                                 	.endif
+                                 .endm
+                                 
+                                 .include "AVRModules/ADC/ADC_Interrupt.inc"
+                                 
+                                 	#ifdef ADCInterrupt_Enabled
+                                 		SETB ADCSRA, ADIE
+                                 	#endif
+                                 .endm
+                                 .include "AVRModules/ADC/ADC_DigitalInputDisable.inc"
+                                 
+                                 	#ifdef Disable_ADC0D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC1D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC2D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC3D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC4D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC5D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC6D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC7D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC8D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC9D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC10D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC11D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC12D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC13D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC14D
+                                 	#endif
+                                 
+                                 	#ifdef Disable_ADC15D
+                                 	#endif
+                                 .endm
+                                 
+                                 .include "AVRModules/ADC/ADC_Init.inc"
+                                 
+                                 	ADCPrescalerSelection 128				; настройка претделителя
+                                 	SetRefSel
+                                 	SetAdjustResult
+                                 	SetChannelSelection
+                                 	SetADCModeSelect
+                                 	SetADCInterrupt
+                                 	SetDigInpDis
+                                 .endm
+                                 .include "AVRModules/ADC/ADC_START.inc"
+                                 
+                                 	_call ADCSTAR_act
+                                 .endm
+                                 
+                                 ADCSTAR_act:
+000075 930f
+000076 9100 007a
+000078 6800
+000079 9300 007a
+00007b 910f                      	SETB ADCSRA, ADEN
+00007c 930f
+00007d 9100 007a
+00007f 6400
+000080 9300 007a
+000082 910f                      	SETB ADCSRA, ADSC
+000083 9508                      ret
                                  #endif
                                  
                                  #ifdef OneWire_Module
@@ -2811,365 +3131,366 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .include "Interrupts.inc"
                                  
                                  ANA_COMP:
-0000b6 94f8                      	cli
+000084 94f8                      	cli
                                  	// Ваш код
-0000b7 9478                      	sei
-0000b8 9518                      reti
+000085 9478                      	sei
+000086 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // ADC Conversion Complete Handler
                                  ADC_Conv_Comp:
-0000b9 94f8                      	cli
+000087 94f8                      	cli
                                  	// Ваш код
-0000ba 9478                      	sei
-0000bb 9518                      reti
+000088 940e 0198                 	_call ADCINTtt
+00008a 9478                      	sei
+00008b 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //EEPROM Ready Handler
                                  EE_RDY:
-0000bc 94f8                      	cli
+00008c 94f8                      	cli
                                  	// Ваш код
-0000bd 9478                      	sei
-0000be 9518                      reti
+00008d 9478                      	sei
+00008e 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // External Interrupts
                                  EXT_INT0:
-0000bf 94f8                      	cli
+00008f 94f8                      	cli
                                  	// Ваш код
-0000c0 9478                      	sei
-0000c1 9518                      reti
+000090 9478                      	sei
+000091 9518                      reti
                                  EXT_INT1:
-0000c2 94f8                      	cli
+000092 94f8                      	cli
                                  	// Ваш код
-0000c3 9478                      	sei
-0000c4 9518                      reti
+000093 9478                      	sei
+000094 9518                      reti
                                  EXT_INT2:
-0000c5 94f8                      	cli
+000095 94f8                      	cli
                                  	// Ваш код
-0000c6 9478                      	sei
-0000c7 9518                      reti
+000096 9478                      	sei
+000097 9518                      reti
                                  EXT_INT3:
-0000c8 94f8                      	cli
+000098 94f8                      	cli
                                  	// Ваш код
-0000c9 9478                      	sei
-0000ca 9518                      reti
+000099 9478                      	sei
+00009a 9518                      reti
                                  EXT_INT4:
-0000cb 94f8                      	cli
+00009b 94f8                      	cli
                                  	// Ваш код
                                  	//PCF8574_Read $70, PCF8574_Data
-0000cc 9478                      	sei
-0000cd 9518                      reti
+00009c 9478                      	sei
+00009d 9518                      reti
                                  EXT_INT5:
-0000ce 94f8                      	cli
+00009e 94f8                      	cli
                                  	// Ваш код
                                  	//Disable_INT_Interrupt INT5
                                  	//PCF8575_Read $40, PCF8575_Data, PCF8575_Data + 1
                                  	//PCF8574_Read $70, PCF8574_Data
                                  
                                  	//Enable_INT_Interrupt INT5, FallingEdge
+00009f 9478                      	sei
+0000a0 9518                      reti
+                                 EXT_INT6:
+0000a1 94f8                      	cli
+                                 	// Ваш код
+0000a2 9478                      	sei
+0000a3 9518                      reti
+                                 EXT_INT7:
+0000a4 94f8                      	cli
+                                 	// Ваш код
+0000a5 9478                      	sei
+0000a6 9518                      reti
+                                 EXT_PCINT0:
+0000a7 94f8                      	cli
+                                 	// Ваш код
+0000a8 9478                      	sei
+0000a9 9518                      reti
+                                 EXT_PCINT1:
+0000aa 94f8                      	cli
+                                 	// Ваш код
+0000ab 9478                      	sei
+0000ac 9518                      reti
+                                 EXT_PCINT2:
+0000ad 94f8                      	cli
+                                 	// Ваш код
+0000ae 9478                      	sei
+0000af 9508                      ret
+                                 EXT_PCINT3:
+0000b0 94f8                      	cli
+                                 	// Ваш код
+0000b1 9478                      	sei
+0000b2 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // LCD_SOF
+                                 LCD_SOF:
+0000b3 94f8                      	cli
+                                 	// Ваш код
+0000b4 9478                      	sei
+0000b5 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // SPI
+                                 SPI_STC:
+0000b6 94f8                      	cli
+                                 	// Ваш код
+0000b7 9478                      	sei
+0000b8 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // SPM_RDY
+                                 SPM_RDY:
+0000b9 94f8                      	cli
+                                 	// Ваш код
+0000ba 9478                      	sei
+0000bb 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 0
+                                 TIM0_COMP:
+0000bc 94f8                      	cli
+                                 	// Ваш код
+0000bd 9478                      	sei
+0000be 9518                      reti
+                                 TIM0_COMPA:
+0000bf 94f8                      	cli
+                                 	// Ваш код
+0000c0 9478                      	sei
+0000c1 9518                      reti
+                                 TIM0_COMPB:
+0000c2 94f8                      	cli
+                                 	// Ваш код
+0000c3 9478                      	sei
+0000c4 9518                      reti
+                                 TIM0_OVF:
+0000c5 94f8                      	cli
+                                 	// Ваш код
+0000c6 9478                      	sei
+0000c7 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 1
+                                 TIM1_CAPT:
+0000c8 94f8                      	cli
+                                 	// Ваш код
+0000c9 9478                      	sei
+0000ca 9518                      reti
+                                 TIM1_COMPA:
+0000cb 94f8                      	cli
+                                 	// Ваш код
+0000cc 9478                      	sei
+0000cd 9518                      reti
+                                 TIM1_COMPB:
+0000ce 94f8                      	cli
+                                 	// Ваш код
 0000cf 9478                      	sei
 0000d0 9518                      reti
-                                 EXT_INT6:
+                                 TIM1_COMPC:
 0000d1 94f8                      	cli
                                  	// Ваш код
 0000d2 9478                      	sei
 0000d3 9518                      reti
-                                 EXT_INT7:
+                                 TIM1_OVF:
 0000d4 94f8                      	cli
                                  	// Ваш код
 0000d5 9478                      	sei
 0000d6 9518                      reti
-                                 EXT_PCINT0:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 2
+                                 TIM2_COMP:
 0000d7 94f8                      	cli
                                  	// Ваш код
 0000d8 9478                      	sei
 0000d9 9518                      reti
-                                 EXT_PCINT1:
+                                 TIM2_COMPA:
 0000da 94f8                      	cli
                                  	// Ваш код
 0000db 9478                      	sei
 0000dc 9518                      reti
-                                 EXT_PCINT2:
+                                 TIM2_COMPB:
 0000dd 94f8                      	cli
                                  	// Ваш код
 0000de 9478                      	sei
-0000df 9508                      ret
-                                 EXT_PCINT3:
+0000df 9518                      reti
+                                 TIM2_OVF:
 0000e0 94f8                      	cli
                                  	// Ваш код
 0000e1 9478                      	sei
 0000e2 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 // LCD_SOF
-                                 LCD_SOF:
+                                 //Timer 3
+                                 TIM3_CAPT:
 0000e3 94f8                      	cli
                                  	// Ваш код
 0000e4 9478                      	sei
 0000e5 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPI
-                                 SPI_STC:
+                                 TIM3_COMPA:
 0000e6 94f8                      	cli
                                  	// Ваш код
 0000e7 9478                      	sei
 0000e8 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPM_RDY
-                                 SPM_RDY:
+                                 TIM3_COMPB:
 0000e9 94f8                      	cli
                                  	// Ваш код
 0000ea 9478                      	sei
 0000eb 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 0
-                                 TIM0_COMP:
+                                 TIM3_COMPC:
 0000ec 94f8                      	cli
                                  	// Ваш код
 0000ed 9478                      	sei
 0000ee 9518                      reti
-                                 TIM0_COMPA:
+                                 TIM3_OVF:
 0000ef 94f8                      	cli
                                  	// Ваш код
 0000f0 9478                      	sei
 0000f1 9518                      reti
-                                 TIM0_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 4
+                                 TIM4_CAPT:
 0000f2 94f8                      	cli
                                  	// Ваш код
 0000f3 9478                      	sei
 0000f4 9518                      reti
-                                 TIM0_OVF:
+                                 TIM4_COMPA:
 0000f5 94f8                      	cli
                                  	// Ваш код
 0000f6 9478                      	sei
 0000f7 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 1
-                                 TIM1_CAPT:
+                                 TIM4_COMPB:
 0000f8 94f8                      	cli
                                  	// Ваш код
 0000f9 9478                      	sei
 0000fa 9518                      reti
-                                 TIM1_COMPA:
+                                 TIM4_COMPC:
 0000fb 94f8                      	cli
                                  	// Ваш код
 0000fc 9478                      	sei
 0000fd 9518                      reti
-                                 TIM1_COMPB:
+                                 TIM4_OVF:
 0000fe 94f8                      	cli
                                  	// Ваш код
 0000ff 9478                      	sei
 000100 9518                      reti
-                                 TIM1_COMPC:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 5
+                                 TIM5_CAPT:
 000101 94f8                      	cli
                                  	// Ваш код
 000102 9478                      	sei
 000103 9518                      reti
-                                 TIM1_OVF:
+                                 TIM5_COMPA:
 000104 94f8                      	cli
                                  	// Ваш код
 000105 9478                      	sei
 000106 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 2
-                                 TIM2_COMP:
+                                 TIM5_COMPB:
 000107 94f8                      	cli
                                  	// Ваш код
 000108 9478                      	sei
 000109 9518                      reti
-                                 TIM2_COMPA:
+                                 TIM5_COMPC:
 00010a 94f8                      	cli
                                  	// Ваш код
 00010b 9478                      	sei
 00010c 9518                      reti
-                                 TIM2_COMPB:
+                                 TIM5_OVF:
 00010d 94f8                      	cli
                                  	// Ваш код
 00010e 9478                      	sei
 00010f 9518                      reti
-                                 TIM2_OVF:
+                                 ////////////////////////////////////////////////////////////
+                                 // TWSI
+                                 TWSI:
 000110 94f8                      	cli
                                  	// Ваш код
 000111 9478                      	sei
 000112 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 //Timer 3
-                                 TIM3_CAPT:
+                                 // USART
+                                 USART0_RXC:
 000113 94f8                      	cli
                                  	// Ваш код
 000114 9478                      	sei
 000115 9518                      reti
-                                 TIM3_COMPA:
+                                 USART0_UDRE:
 000116 94f8                      	cli
                                  	// Ваш код
 000117 9478                      	sei
 000118 9518                      reti
-                                 TIM3_COMPB:
+                                 USART0_TXC:
 000119 94f8                      	cli
                                  	// Ваш код
 00011a 9478                      	sei
 00011b 9518                      reti
-                                 TIM3_COMPC:
+                                 USART1_RXC:
 00011c 94f8                      	cli
                                  	// Ваш код
 00011d 9478                      	sei
 00011e 9518                      reti
-                                 TIM3_OVF:
+                                 USART1_UDRE:
 00011f 94f8                      	cli
                                  	// Ваш код
 000120 9478                      	sei
 000121 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 4
-                                 TIM4_CAPT:
+                                 USART1_TXC:
 000122 94f8                      	cli
                                  	// Ваш код
 000123 9478                      	sei
 000124 9518                      reti
-                                 TIM4_COMPA:
+                                 USART2_RXC:
 000125 94f8                      	cli
                                  	// Ваш код
 000126 9478                      	sei
 000127 9518                      reti
-                                 TIM4_COMPB:
+                                 USART2_UDRE:
 000128 94f8                      	cli
                                  	// Ваш код
 000129 9478                      	sei
 00012a 9518                      reti
-                                 TIM4_COMPC:
+                                 USART2_TXC:
 00012b 94f8                      	cli
                                  	// Ваш код
 00012c 9478                      	sei
 00012d 9518                      reti
-                                 TIM4_OVF:
+                                 
+                                 USART3_RXC:
 00012e 94f8                      	cli
                                  	// Ваш код
 00012f 9478                      	sei
 000130 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 5
-                                 TIM5_CAPT:
+                                 USART3_UDRE:
 000131 94f8                      	cli
                                  	// Ваш код
 000132 9478                      	sei
 000133 9518                      reti
-                                 TIM5_COMPA:
+                                 USART3_TXC:
 000134 94f8                      	cli
                                  	// Ваш код
 000135 9478                      	sei
 000136 9518                      reti
-                                 TIM5_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 //USI
+                                 USI_STRT:
 000137 94f8                      	cli
                                  	// Ваш код
 000138 9478                      	sei
 000139 9518                      reti
-                                 TIM5_COMPC:
+                                 USI_OVFL:
 00013a 94f8                      	cli
                                  	// Ваш код
 00013b 9478                      	sei
 00013c 9518                      reti
-                                 TIM5_OVF:
+                                 ////////////////////////////////////////////////////////////
+                                 // WDT
+                                 WDT:
 00013d 94f8                      	cli
                                  	// Ваш код
 00013e 9478                      	sei
 00013f 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // TWSI
-                                 TWSI:
-000140 94f8                      	cli
-                                 	// Ваш код
-000141 9478                      	sei
-000142 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // USART
-                                 USART0_RXC:
-000143 94f8                      	cli
-                                 	// Ваш код
-000144 9478                      	sei
-000145 9518                      reti
-                                 USART0_UDRE:
-000146 94f8                      	cli
-                                 	// Ваш код
-000147 9478                      	sei
-000148 9518                      reti
-                                 USART0_TXC:
-000149 94f8                      	cli
-                                 	// Ваш код
-00014a 9478                      	sei
-00014b 9518                      reti
-                                 USART1_RXC:
-00014c 94f8                      	cli
-                                 	// Ваш код
-00014d 9478                      	sei
-00014e 9518                      reti
-                                 USART1_UDRE:
-00014f 94f8                      	cli
-                                 	// Ваш код
-000150 9478                      	sei
-000151 9518                      reti
-                                 USART1_TXC:
-000152 94f8                      	cli
-                                 	// Ваш код
-000153 9478                      	sei
-000154 9518                      reti
-                                 USART2_RXC:
-000155 94f8                      	cli
-                                 	// Ваш код
-000156 9478                      	sei
-000157 9518                      reti
-                                 USART2_UDRE:
-000158 94f8                      	cli
-                                 	// Ваш код
-000159 9478                      	sei
-00015a 9518                      reti
-                                 USART2_TXC:
-00015b 94f8                      	cli
-                                 	// Ваш код
-00015c 9478                      	sei
-00015d 9518                      reti
-                                 
-                                 USART3_RXC:
-00015e 94f8                      	cli
-                                 	// Ваш код
-00015f 9478                      	sei
-000160 9518                      reti
-                                 USART3_UDRE:
-000161 94f8                      	cli
-                                 	// Ваш код
-000162 9478                      	sei
-000163 9518                      reti
-                                 USART3_TXC:
-000164 94f8                      	cli
-                                 	// Ваш код
-000165 9478                      	sei
-000166 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 //USI
-                                 USI_STRT:
-000167 94f8                      	cli
-                                 	// Ваш код
-000168 9478                      	sei
-000169 9518                      reti
-                                 USI_OVFL:
-00016a 94f8                      	cli
-                                 	// Ваш код
-00016b 9478                      	sei
-00016c 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // WDT
-                                 WDT:
-00016d 94f8                      	cli
-                                 	// Ваш код
-00016e 9478                      	sei
-00016f 9518                      reti
                                  .include "Main/Modules_Inits.inc"
                                  
                                  	
                                  	#ifdef TWSI_Module
-                                 		TWSI_init
                                  	#endif
                                  
                                  	#ifdef HD44780U_Module
                                  	#endif
                                  
                                  	#ifdef ADC_Module
+                                 		ADC_init
                                  	#endif
                                  
                                  	#ifdef OneWire_Module
@@ -3179,15 +3500,74 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-000170 ef0f
-000171 bf0d
-000172 e201
-000173 bf0e                      
-000174 e30e
-000175 9300 00b8                 Modules_Inits
-000177 9478                      sei
+000140 ef0f
+000141 bf0d
+000142 e201
+000143 bf0e                      
+000144 930f
+000145 9100 007a
+000147 6001
+000148 9300 007a
+00014a 910f
+00014b 930f
+00014c 9100 007a
+00014e 6002
+00014f 9300 007a
+000151 910f
+000152 930f
+000153 9100 007a
+000155 6004
+000156 9300 007a
+000158 910f
+000159 930f
+00015a 9100 007c
+00015c 6400
+00015d 9300 007c
+00015f 910f
+000160 930f
+000161 9100 007c
+000163 770f
+000164 9300 007c
+000166 910f
+000167 930f
+000168 9100 007c
+00016a 6200
+00016b 9300 007c
+00016d 910f
+00016e 930f
+00016f 9100 007a
+000171 6200
+000172 9300 007a
+000174 910f
+000175 930f
+000176 9100 007b
+000178 7f0e
+000179 9300 007b
+00017b 910f
+00017c 930f
+00017d 9100 007b
+00017f 7f0d
+000180 9300 007b
+000182 910f
+000183 930f
+000184 9100 007b
+000186 7f0b
+000187 9300 007b
+000189 910f
+00018a 930f
+00018b 9100 007a
+00018d 6008
+00018e 9300 007a
+000190 910f                      Modules_Inits
+000191 9478                      sei
                                  
                                  .include "Tests.inc"
+                                 
+                                 
+000192 ef0f                      ldi r16, $ff
+000193 9300 0107                 WRITE_REG DDRK, r16
+000195 940e 0075                 ADCSTART
+                                 
                                  
                                  //CountersPrescaller Counter0, Prescaller8
                                  //CountersOffMode Counter0
@@ -3263,7 +3643,13 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-000178 cfff                      rjmp Proga
+000197 cfff                      rjmp Proga
+                                 ADCINTtt:
+000198 9110 0078                 	READ_REG ADCL, r17
+00019a 9100 0079                 	READ_REG ADCH, r16
+                                 
+00019c 9300 0108                 	WRITE_REG PORTK, r16
+00019e 9508                      ret
 
 
 RESOURCE USE INFORMATION
@@ -3283,39 +3669,39 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  38 r17:   1 r18:   1 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   3 r27:   3 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:  73 r17:   1 r18:   0 r19:   0 r20:   0 
+r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 5 out of 35 (14.3%)
+Registers used: 4 out of 35 (11.4%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+andi  :   4 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   5 cbi   :   0 cbr   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   2 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
+cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :  10 
-lds   :   4 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   0 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   3 
+lds   :  15 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   1 out   :   2 pop   :   7 push  :   7 rcall :   0 ret   :   8 
-reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+ori   :   9 out   :   2 pop   :  13 push  :  13 rcall :   0 ret   :   4 
+reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
-sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
+sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :   6 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  15 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 19 out of 116 (16.4%)
+Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0002f2    754      0    754  262144   0.3%
-[.dseg] 0x000200 0x000201      0      1      1    8192   0.0%
+[.cseg] 0x000000 0x00033e    830      0    830  262144   0.3%
+[.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
 Assembly complete, 0 errors, 0 warnings
