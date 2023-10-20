@@ -1,93 +1,107 @@
 .macro ADCAutoTriggerSourceSelections
-	
-.endm
-
-
-
-.macro SetADCModeSelect
-	.if ctrl == 8 || ctrl == 128
-		#ifdef FreeRun
-			SETB ADCSRA, ADFR
-		#elif defined AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-			.error "ADC Mode not available! Change the setting in the file ADC_config.inc"
-		#else
+	.if ctrl == 162 || ctrl == 8515
+		.error "ADC is not supporting by this controller!"
+	.elif ctrl == 8 || ctrl == 128
+		.if @0 == null
 			CLRB ADCSRA, ADFR
-		#endif
-	.else
-		#if defined FreeRun || AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-			SETB ADCSRA, ADATE
-			.if ctrl == 16 || ctrl == 32
-				#ifdef FreeRun
-					CLRB SFIOR, ADTS0
-					CLRB SFIOR, ADTS1
-					CLRB SFIOR, ADTS2
-				#elif defined AnComp
-					SETB SFIOR, ADTS0
-					CLRB SFIOR, ADTS1
-					CLRB SFIOR, ADTS2
-				#elif defined ExtIntReq0
-					CLRB SFIOR, ADTS0
-					SETB SFIOR, ADTS1
-					CLRB SFIOR, ADTS2
-				#elif defined TC0CompMatch
-					SETB SFIOR, ADTS0
-					SETB SFIOR, ADTS1
-					CLRB SFIOR, ADTS2
-				#elif defined TC0Overflow
-					CLRB SFIOR, ADTS0
-					CLRB SFIOR, ADTS1
-					SETB SFIOR, ADTS2
-				#elif defined TC1CompMatchB
-					SETB SFIOR, ADTS0
-					CLRB SFIOR, ADTS1
-					SETB SFIOR, ADTS2
-				#elif defined TC1Overflow
-					CLRB SFIOR, ADTS0
-					SETB SFIOR, ADTS1
-					SETB SFIOR, ADTS2
-				#elif defined TC1CaptEvent
-					SETB SFIOR, ADTS0
-					SETB SFIOR, ADTS1
-					SETB SFIOR, ADTS2
-				#endif
-			.else
-				#ifdef FreeRun
-					CLRB ADCSRB, ADTS0
-					CLRB ADCSRB, ADTS1
-					CLRB ADCSRB, ADTS2
-				#elif defined AnComp
-					SETB ADCSRB, ADTS0
-					CLRB ADCSRB, ADTS1
-					CLRB ADCSRB, ADTS2
-				#elif defined ExtIntReq0
-					CLRB ADCSRB, ADTS0
-					SETB ADCSRB, ADTS1
-					CLRB ADCSRB, ADTS2
-				#elif defined TC0CompMatch
-					SETB ADCSRB, ADTS0
-					SETB ADCSRB, ADTS1
-					CLRB ADCSRB, ADTS2
-				#elif defined TC0Overflow
-					CLRB ADCSRB, ADTS0
-					CLRB ADCSRB, ADTS1
-					SETB ADCSRB, ADTS2
-				#elif defined TC1CompMatchB
-					SETB ADCSRB, ADTS0
-					CLRB ADCSRB, ADTS1
-					SETB ADCSRB, ADTS2
-				#elif defined TC1Overflow
-					CLRB ADCSRB, ADTS0
-					SETB ADCSRB, ADTS1
-					SETB ADCSRB, ADTS2
-				#elif defined TC1CaptEvent
-					SETB ADCSRB, ADTS0
-					SETB ADCSRB, ADTS1
-					SETB ADCSRB, ADTS2
-				#endif
-			.endif
-		#else
+		.elif @0 == FreeRun
+			SETB ADCSRA, ADFR
+		.else
+			.error "This Trigger Source in ADC Auto Trigger Source Selections is not available by this controller!"
+		.endif
+	.elif ctrl == 16 || ctrl == 32 || ctrl == 8535
+		.if @0 == null
 			CLRB ADCSRA, ADATE
-		#endif
+			CLRB SFIOR, ADTS0
+			CLRB SFIOR, ADTS1
+			CLRB SFIOR, ADTS2
+		.elif @0 == FreeRun
+			SETB ADCSRA, ADATE
+			CLRB SFIOR, ADTS0
+			CLRB SFIOR, ADTS1
+			CLRB SFIOR, ADTS2
+		.elif @0 == AnComp
+			SETB ADCSRA, ADATE
+			SETB SFIOR, ADTS0
+			CLRB SFIOR, ADTS1
+			CLRB SFIOR, ADTS2
+		.elif @0 == ExtIntReq0
+			SETB ADCSRA, ADATE
+			CLRB SFIOR, ADTS0
+			SETB SFIOR, ADTS1
+			CLRB SFIOR, ADTS2
+		.elif @0 == TC0CompMatch
+			SETB ADCSRA, ADATE
+			SETB SFIOR, ADTS0
+			SETB SFIOR, ADTS1
+			CLRB SFIOR, ADTS2
+		.elif @0 == TC0Overflow
+			SETB ADCSRA, ADATE
+			CLRB SFIOR, ADTS0
+			CLRB SFIOR, ADTS1
+			SETB SFIOR, ADTS2
+		.elif @0 == TC1CompMatchB
+			SETB ADCSRA, ADATE
+			SETB SFIOR, ADTS0
+			CLRB SFIOR, ADTS1
+			SETB SFIOR, ADTS2
+		.elif @0 == TC1Overflow
+			SETB ADCSRA, ADATE
+			CLRB SFIOR, ADTS0
+			SETB SFIOR, ADTS1
+			SETB SFIOR, ADTS2
+		.elif @0 == TC1CaptEvent
+			SETB ADCSRA, ADATE
+			SETB SFIOR, ADTS0
+			SETB SFIOR, ADTS1
+			SETB SFIOR, ADTS2
+		.endif
+	.else
+		.if @0 == null
+			CLRB ADCSRA, ADATE
+			CLRB ADCSRB, ADTS0
+			CLRB ADCSRB, ADTS1
+			CLRB ADCSRB, ADTS2
+		.elif @0 == FreeRun
+			SETB ADCSRA, ADATE
+			CLRB ADCSRB, ADTS0
+			CLRB ADCSRB, ADTS1
+			CLRB ADCSRB, ADTS2
+		.elif @0 == AnComp
+			SETB ADCSRA, ADATE
+			SETB ADCSRB, ADTS0
+			CLRB ADCSRB, ADTS1
+			CLRB ADCSRB, ADTS2
+		.elif @0 == ExtIntReq0
+			SETB ADCSRA, ADATE
+			CLRB ADCSRB, ADTS0
+			SETB ADCSRB, ADTS1
+			CLRB ADCSRB, ADTS2
+		.elif @0 == TC0CompMatch
+			SETB ADCSRA, ADATE
+			SETB ADCSRB, ADTS0
+			SETB ADCSRB, ADTS1
+			CLRB ADCSRB, ADTS2
+		.elif @0 == TC0Overflow
+			SETB ADCSRA, ADATE
+			CLRB ADCSRB, ADTS0
+			CLRB ADCSRB, ADTS1
+			SETB ADCSRB, ADTS2
+		.elif @0 == TC1CompMatchB
+			SETB ADCSRA, ADATE
+			SETB ADCSRB, ADTS0
+			CLRB ADCSRB, ADTS1
+			SETB ADCSRB, ADTS2
+		.elif @0 == TC1Overflow
+			SETB ADCSRA, ADATE
+			CLRB ADCSRB, ADTS0
+			SETB ADCSRB, ADTS1
+			SETB ADCSRB, ADTS2
+		.elif @0 == TC1CaptEvent
+			SETB ADCSRA, ADATE
+			SETB ADCSRB, ADTS0
+			SETB ADCSRB, ADTS1
+			SETB ADCSRB, ADTS2
+		.endif
 	.endif
 .endm
-

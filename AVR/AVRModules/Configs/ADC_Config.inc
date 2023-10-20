@@ -18,7 +18,7 @@
 ;			TC1CaptEvent - Timer/Counter1 Capture Event
 ; раскоментируйте нужный вам
 
-#define FreeRun
+//#define FreeRun
 //#define AnComp
 //#define ExtIntReq0
 //#define TC0CompMatch

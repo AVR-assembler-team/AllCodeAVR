@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 21:27:27 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 22:02:56 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -1918,7 +1918,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .equ disabled		= 'c'
                                  .equ Right			= 'c'
                                  .equ Left			= 'd'
-                                 .equ null			= 'e'
+                                 .equ Null			= 'e'
                                  .equ On				= 'f'
                                  .equ Off			= 'g'
                                  .equ zero			= 'h'
@@ -3578,44 +3578,112 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .endm
                                  .include "AVRModules/ADC/ADCAutoTriggerSourceSelections.inc"
                                  
-                                 	
-                                 .endm
-                                 
-                                 
-                                 
-                                 .macro SetADCModeSelect
-                                 	.if ctrl == 8 || ctrl == 128
-                                 		#ifdef FreeRun
-                                 		#elif defined AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-                                 		#else
+                                 	.if ctrl == 162 || ctrl == 8515
+                                 		.error "ADC is not supporting by this controller!"
+                                 	.elif ctrl == 8 || ctrl == 128
+                                 		.if @0 == null
                                  			CLRB ADCSRA, ADFR
-                                 		#endif
-                                 	.else
-                                 		#if defined FreeRun || AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-                                 				#ifdef FreeRun
-                                 				#elif defined AnComp
-                                 				#elif defined ExtIntReq0
-                                 				#elif defined TC0CompMatch
-                                 				#elif defined TC0Overflow
-                                 				#elif defined TC1CompMatchB
-                                 				#elif defined TC1Overflow
-                                 				#elif defined TC1CaptEvent
-                                 				#endif
-                                 				#ifdef FreeRun
-                                 				#elif defined AnComp
-                                 				#elif defined ExtIntReq0
-                                 				#elif defined TC0CompMatch
-                                 				#elif defined TC0Overflow
-                                 				#elif defined TC1CompMatchB
-                                 				#elif defined TC1Overflow
-                                 				#elif defined TC1CaptEvent
-                                 				#endif
-                                 		#else
+                                 		.elif @0 == FreeRun
+                                 			SETB ADCSRA, ADFR
+                                 		.else
+                                 			.error "This Trigger Source in ADC Auto Trigger Source Selections is not available by this controller!"
+                                 		.endif
+                                 	.elif ctrl == 16 || ctrl == 32 || ctrl == 8535
+                                 		.if @0 == null
                                  			CLRB ADCSRA, ADATE
-                                 		#endif
+                                 			CLRB SFIOR, ADTS0
+                                 			CLRB SFIOR, ADTS1
+                                 			CLRB SFIOR, ADTS2
+                                 		.elif @0 == FreeRun
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB SFIOR, ADTS0
+                                 			CLRB SFIOR, ADTS1
+                                 			CLRB SFIOR, ADTS2
+                                 		.elif @0 == AnComp
+                                 			SETB ADCSRA, ADATE
+                                 			SETB SFIOR, ADTS0
+                                 			CLRB SFIOR, ADTS1
+                                 			CLRB SFIOR, ADTS2
+                                 		.elif @0 == ExtIntReq0
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB SFIOR, ADTS0
+                                 			SETB SFIOR, ADTS1
+                                 			CLRB SFIOR, ADTS2
+                                 		.elif @0 == TC0CompMatch
+                                 			SETB ADCSRA, ADATE
+                                 			SETB SFIOR, ADTS0
+                                 			SETB SFIOR, ADTS1
+                                 			CLRB SFIOR, ADTS2
+                                 		.elif @0 == TC0Overflow
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB SFIOR, ADTS0
+                                 			CLRB SFIOR, ADTS1
+                                 			SETB SFIOR, ADTS2
+                                 		.elif @0 == TC1CompMatchB
+                                 			SETB ADCSRA, ADATE
+                                 			SETB SFIOR, ADTS0
+                                 			CLRB SFIOR, ADTS1
+                                 			SETB SFIOR, ADTS2
+                                 		.elif @0 == TC1Overflow
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB SFIOR, ADTS0
+                                 			SETB SFIOR, ADTS1
+                                 			SETB SFIOR, ADTS2
+                                 		.elif @0 == TC1CaptEvent
+                                 			SETB ADCSRA, ADATE
+                                 			SETB SFIOR, ADTS0
+                                 			SETB SFIOR, ADTS1
+                                 			SETB SFIOR, ADTS2
+                                 		.endif
+                                 	.else
+                                 		.if @0 == null
+                                 			CLRB ADCSRA, ADATE
+                                 			CLRB ADCSRB, ADTS0
+                                 			CLRB ADCSRB, ADTS1
+                                 			CLRB ADCSRB, ADTS2
+                                 		.elif @0 == FreeRun
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB ADCSRB, ADTS0
+                                 			CLRB ADCSRB, ADTS1
+                                 			CLRB ADCSRB, ADTS2
+                                 		.elif @0 == AnComp
+                                 			SETB ADCSRA, ADATE
+                                 			SETB ADCSRB, ADTS0
+                                 			CLRB ADCSRB, ADTS1
+                                 			CLRB ADCSRB, ADTS2
+                                 		.elif @0 == ExtIntReq0
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB ADCSRB, ADTS0
+                                 			SETB ADCSRB, ADTS1
+                                 			CLRB ADCSRB, ADTS2
+                                 		.elif @0 == TC0CompMatch
+                                 			SETB ADCSRA, ADATE
+                                 			SETB ADCSRB, ADTS0
+                                 			SETB ADCSRB, ADTS1
+                                 			CLRB ADCSRB, ADTS2
+                                 		.elif @0 == TC0Overflow
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB ADCSRB, ADTS0
+                                 			CLRB ADCSRB, ADTS1
+                                 			SETB ADCSRB, ADTS2
+                                 		.elif @0 == TC1CompMatchB
+                                 			SETB ADCSRA, ADATE
+                                 			SETB ADCSRB, ADTS0
+                                 			CLRB ADCSRB, ADTS1
+                                 			SETB ADCSRB, ADTS2
+                                 		.elif @0 == TC1Overflow
+                                 			SETB ADCSRA, ADATE
+                                 			CLRB ADCSRB, ADTS0
+                                 			SETB ADCSRB, ADTS1
+                                 			SETB ADCSRB, ADTS2
+                                 		.elif @0 == TC1CaptEvent
+                                 			SETB ADCSRA, ADATE
+                                 			SETB ADCSRB, ADTS0
+                                 			SETB ADCSRB, ADTS1
+                                 			SETB ADCSRB, ADTS2
+                                 		.endif
                                  	.endif
                                  .endm
-                                 
                                  .include "AVRModules/Configs/ADC_Config.inc"
                                  
                                  //-----------------------------------------------------------------------------------------
@@ -3637,7 +3705,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ;			TC1CaptEvent - Timer/Counter1 Capture Event
                                  ; раскоментируйте нужный вам
                                  
-                                 #define FreeRun
+                                 //#define FreeRun
                                  //#define AnComp
                                  //#define ExtIntReq0
                                  //#define TC0CompMatch
@@ -3672,7 +3740,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	ADCReferenceSelection AREFpin						; настройка Reference Selection
                                  	ADCLeftAdjustResult Left							; настройка ADC Left Adjust Result
                                  	ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
-                                 	SetADCModeSelect
+                                 	//ADCAutoTriggerSourceSelections FreeRun
                                  	SetADCInterrupt
                                  .endm
                                  .include "AVRModules/ADC/ADC_START.inc"
@@ -3729,7 +3797,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ADC_Conv_Comp:
 000087 94f8                      	cli
                                  	// Ваш код
-000088 940e 01ad                 	_call ADCINTtt
+000088 940e 0366                 	_call ADCINTtt
 00008a 9478                      	sei
 00008b 9518                      reti
                                  ////////////////////////////////////////////////////////////
@@ -4155,24 +4223,339 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 000197 910f
 000198 930f
 000199 9100 007a
-00019b 7d0f
+00019b 6008
 00019c 9300 007a
-00019e 910f
-00019f 930f
-0001a0 9100 007a
-0001a2 6008
-0001a3 9300 007a
-0001a5 910f                      Modules_Inits
-0001a6 9478                      sei
+00019e 910f                      Modules_Inits
+00019f 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
                                  
+0001a0 930f
+0001a1 9100 007a
+0001a3 6200
+0001a4 9300 007a
+0001a6 910f
+0001a7 930f
+0001a8 9100 007b
+0001aa 7f0e
+0001ab 9300 007b
+0001ad 910f
+0001ae 930f
+0001af 9100 007b
+0001b1 7f0d
+0001b2 9300 007b
+0001b4 910f
+0001b5 930f
+0001b6 9100 007b
+0001b8 7f0b
+0001b9 9300 007b
+0001bb 910f                      ADCAutoTriggerSourceSelections FreeRun
+0001bc 930f
+0001bd 9100 007a
+0001bf 7d0f
+0001c0 9300 007a
+0001c2 910f
+0001c3 930f
+0001c4 9100 007b
+0001c6 7f0e
+0001c7 9300 007b
+0001c9 910f
+0001ca 930f
+0001cb 9100 007b
+0001cd 7f0d
+0001ce 9300 007b
+0001d0 910f
+0001d1 930f
+0001d2 9100 007b
+0001d4 7f0b
+0001d5 9300 007b
+0001d7 910f                      ADCAutoTriggerSourceSelections Null
+0001d8 930f
+0001d9 9100 007a
+0001db 6200
+0001dc 9300 007a
+0001de 910f
+0001df 930f
+0001e0 9100 007b
+0001e2 6001
+0001e3 9300 007b
+0001e5 910f
+0001e6 930f
+0001e7 9100 007b
+0001e9 7f0d
+0001ea 9300 007b
+0001ec 910f
+0001ed 930f
+0001ee 9100 007b
+0001f0 7f0b
+0001f1 9300 007b
+0001f3 910f                      ADCAutoTriggerSourceSelections AnComp
+0001f4 930f
+0001f5 9100 007a
+0001f7 7d0f
+0001f8 9300 007a
+0001fa 910f
+0001fb 930f
+0001fc 9100 007b
+0001fe 7f0e
+0001ff 9300 007b
+000201 910f
+000202 930f
+000203 9100 007b
+000205 7f0d
+000206 9300 007b
+000208 910f
+000209 930f
+00020a 9100 007b
+00020c 7f0b
+00020d 9300 007b
+00020f 910f                      ADCAutoTriggerSourceSelections Null
+000210 930f
+000211 9100 007a
+000213 6200
+000214 9300 007a
+000216 910f
+000217 930f
+000218 9100 007b
+00021a 7f0e
+00021b 9300 007b
+00021d 910f
+00021e 930f
+00021f 9100 007b
+000221 6002
+000222 9300 007b
+000224 910f
+000225 930f
+000226 9100 007b
+000228 7f0b
+000229 9300 007b
+00022b 910f                      ADCAutoTriggerSourceSelections ExtIntReq0
+00022c 930f
+00022d 9100 007a
+00022f 7d0f
+000230 9300 007a
+000232 910f
+000233 930f
+000234 9100 007b
+000236 7f0e
+000237 9300 007b
+000239 910f
+00023a 930f
+00023b 9100 007b
+00023d 7f0d
+00023e 9300 007b
+000240 910f
+000241 930f
+000242 9100 007b
+000244 7f0b
+000245 9300 007b
+000247 910f                      ADCAutoTriggerSourceSelections Null
+000248 930f
+000249 9100 007a
+00024b 6200
+00024c 9300 007a
+00024e 910f
+00024f 930f
+000250 9100 007b
+000252 6001
+000253 9300 007b
+000255 910f
+000256 930f
+000257 9100 007b
+000259 6002
+00025a 9300 007b
+00025c 910f
+00025d 930f
+00025e 9100 007b
+000260 7f0b
+000261 9300 007b
+000263 910f                      ADCAutoTriggerSourceSelections TC0CompMatch
+000264 930f
+000265 9100 007a
+000267 7d0f
+000268 9300 007a
+00026a 910f
+00026b 930f
+00026c 9100 007b
+00026e 7f0e
+00026f 9300 007b
+000271 910f
+000272 930f
+000273 9100 007b
+000275 7f0d
+000276 9300 007b
+000278 910f
+000279 930f
+00027a 9100 007b
+00027c 7f0b
+00027d 9300 007b
+00027f 910f                      ADCAutoTriggerSourceSelections Null
+000280 930f
+000281 9100 007a
+000283 6200
+000284 9300 007a
+000286 910f
+000287 930f
+000288 9100 007b
+00028a 7f0e
+00028b 9300 007b
+00028d 910f
+00028e 930f
+00028f 9100 007b
+000291 7f0d
+000292 9300 007b
+000294 910f
+000295 930f
+000296 9100 007b
+000298 6004
+000299 9300 007b
+00029b 910f                      ADCAutoTriggerSourceSelections TC0Overflow
+00029c 930f
+00029d 9100 007a
+00029f 7d0f
+0002a0 9300 007a
+0002a2 910f
+0002a3 930f
+0002a4 9100 007b
+0002a6 7f0e
+0002a7 9300 007b
+0002a9 910f
+0002aa 930f
+0002ab 9100 007b
+0002ad 7f0d
+0002ae 9300 007b
+0002b0 910f
+0002b1 930f
+0002b2 9100 007b
+0002b4 7f0b
+0002b5 9300 007b
+0002b7 910f                      ADCAutoTriggerSourceSelections Null
+0002b8 930f
+0002b9 9100 007a
+0002bb 6200
+0002bc 9300 007a
+0002be 910f
+0002bf 930f
+0002c0 9100 007b
+0002c2 6001
+0002c3 9300 007b
+0002c5 910f
+0002c6 930f
+0002c7 9100 007b
+0002c9 7f0d
+0002ca 9300 007b
+0002cc 910f
+0002cd 930f
+0002ce 9100 007b
+0002d0 6004
+0002d1 9300 007b
+0002d3 910f                      ADCAutoTriggerSourceSelections TC1CompMatchB
+0002d4 930f
+0002d5 9100 007a
+0002d7 7d0f
+0002d8 9300 007a
+0002da 910f
+0002db 930f
+0002dc 9100 007b
+0002de 7f0e
+0002df 9300 007b
+0002e1 910f
+0002e2 930f
+0002e3 9100 007b
+0002e5 7f0d
+0002e6 9300 007b
+0002e8 910f
+0002e9 930f
+0002ea 9100 007b
+0002ec 7f0b
+0002ed 9300 007b
+0002ef 910f                      ADCAutoTriggerSourceSelections Null
+0002f0 930f
+0002f1 9100 007a
+0002f3 6200
+0002f4 9300 007a
+0002f6 910f
+0002f7 930f
+0002f8 9100 007b
+0002fa 7f0e
+0002fb 9300 007b
+0002fd 910f
+0002fe 930f
+0002ff 9100 007b
+000301 6002
+000302 9300 007b
+000304 910f
+000305 930f
+000306 9100 007b
+000308 6004
+000309 9300 007b
+00030b 910f                      ADCAutoTriggerSourceSelections TC1Overflow
+00030c 930f
+00030d 9100 007a
+00030f 7d0f
+000310 9300 007a
+000312 910f
+000313 930f
+000314 9100 007b
+000316 7f0e
+000317 9300 007b
+000319 910f
+00031a 930f
+00031b 9100 007b
+00031d 7f0d
+00031e 9300 007b
+000320 910f
+000321 930f
+000322 9100 007b
+000324 7f0b
+000325 9300 007b
+000327 910f                      ADCAutoTriggerSourceSelections Null
+000328 930f
+000329 9100 007a
+00032b 6200
+00032c 9300 007a
+00032e 910f
+00032f 930f
+000330 9100 007b
+000332 6001
+000333 9300 007b
+000335 910f
+000336 930f
+000337 9100 007b
+000339 6002
+00033a 9300 007b
+00033c 910f
+00033d 930f
+00033e 9100 007b
+000340 6004
+000341 9300 007b
+000343 910f                      ADCAutoTriggerSourceSelections TC1CaptEvent
+000344 930f
+000345 9100 007a
+000347 7d0f
+000348 9300 007a
+00034a 910f
+00034b 930f
+00034c 9100 007b
+00034e 7f0e
+00034f 9300 007b
+000351 910f
+000352 930f
+000353 9100 007b
+000355 7f0d
+000356 9300 007b
+000358 910f
+000359 930f
+00035a 9100 007b
+00035c 7f0b
+00035d 9300 007b
+00035f 910f                      ADCAutoTriggerSourceSelections Null
                                  
                                  
-0001a7 ef0f                      ldi r16, $ff
-0001a8 9300 0107                 WRITE_REG DDRK, r16
-0001aa 940e 0075                 ADCSTART
+000360 ef0f                      ldi r16, $ff
+000361 9300 0107                 WRITE_REG DDRK, r16
+000363 940e 0075                 ADCSTART
                                  
                                  
                                  //CountersPrescaller Counter0, Prescaller8
@@ -4249,13 +4632,13 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001ac cfff                      rjmp Proga
+000365 cfff                      rjmp Proga
                                  ADCINTtt:
-0001ad 9110 0078                 	READ_REG ADCL, r17
-0001af 9100 0079                 	READ_REG ADCH, r16
+000366 9110 0078                 	READ_REG ADCL, r17
+000368 9100 0079                 	READ_REG ADCH, r16
                                  
-0001b1 9300 0108                 	WRITE_REG PORTK, r16
-0001b3 9508                      ret
+00036a 9300 0108                 	WRITE_REG PORTK, r16
+00036c 9508                      ret
 
 
 RESOURCE USE INFORMATION
@@ -4275,14 +4658,14 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  88 r17:   1 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16: 403 r17:   1 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 4 out of 35 (11.4%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   8 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+andi  :  51 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
@@ -4292,21 +4675,21 @@ clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
 in    :   0 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   3 
-lds   :  18 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+lds   :  81 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   8 out   :   2 pop   :  16 push  :  16 rcall :   0 ret   :   4 
+ori   :  28 out   :   2 pop   :  79 push  :  79 rcall :   0 ret   :   4 
 reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  18 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  81 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000368    872      0    872  262144   0.3%
+[.cseg] 0x000000 0x0006da   1754      0   1754  262144   0.7%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 21:27:27 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 22:02:56 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1364,7 +1364,7 @@ EQU  enabled      00000062
 EQU  disabled     00000063
 EQU  Right        00000063
 EQU  Left         00000064
-EQU  null         00000065
+EQU  Null         00000065
 EQU  On           00000066
 EQU  Off          00000067
 EQU  zero         00000068
@@ -1489,11 +1489,11 @@ EQU  AREFpin      00000030
 EQU  Internal_1_1V 00000031
 EQU  Internal_2_56V 00000032
 CSEG ADCSTAR_act  00000075
-CSEG ADCINTtt     000001ad
+CSEG ADCINTtt     00000366
 CSEG EXT_PCINT3   000000b0
 CSEG LCD_SOF      000000b3
 CSEG TIM0_COMP    000000bc
 CSEG TIM2_COMP    000000d7
 CSEG USI_STRT     00000137
 CSEG USI_OVFL     0000013a
-CSEG Proga        000001ac
+CSEG Proga        00000365

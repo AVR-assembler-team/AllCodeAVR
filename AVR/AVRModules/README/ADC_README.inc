@@ -46,4 +46,20 @@
 *
 * =========================================================================
 * =========================================================================
+* ADC Auto Trigger Source
+*
+* Для настройки данного параметра используется
+*	ADCAutoTriggerSourceSelections [аргумент1]
+*	[аргумент1]	-	Null - Free Run Mode или ADC Auto Trigger Mode отключен
+*					FreeRun - ADC Free Running Select или Free Running mode
+*					AnComp - Analog Comparator
+*					ExtIntReq0 - External Interrupt Request 0
+*					TC0CompMatch - Timer/Counter0 Compare Match
+*					TC0Overflow - Timer/Counter0 Overflow	
+*					TC1CompMatchB - Timer/Counter1 Compare Match B
+*					TC1Overflow - Timer/Counter1 Overflow
+*					TC1CaptEvent - Timer/Counter1 Capture Event
+*
+* =========================================================================
+* =========================================================================
 */

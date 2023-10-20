@@ -1,7 +1,6 @@
 
 
 
-
 ldi r16, $ff
 WRITE_REG DDRK, r16
 ADCSTART
