@@ -23,6 +23,50 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersConstants.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/CountersPrescaller.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/CountersInterrupt.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/CountersWeveformGenerationMode.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/CountersCompareOutputMode.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/CountersExternalClockSourceOnT0pin.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter0.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter2.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter3.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter4.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter5.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/CountersOffMode.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConstants.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc</FILE>

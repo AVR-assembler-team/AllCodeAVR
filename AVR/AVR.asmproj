@@ -347,112 +347,112 @@
     <Compile Include="AVRModules\ADC\ADCCondition.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\CompareOutputMode.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\CountersCompareOutputMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\CompareOutputMode\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\ExternalClockSourceOnT0pin.inc">
+    <Compile Include="AVRModules\Counters\ExternalClockSourceOnT0pin\CountersExternalClockSourceOnT0pin.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Interrupt.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\CountersInterrupt.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Interrupt\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\Interrupt\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\OffMode\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\OffMode\OffMode.inc">
+    <Compile Include="AVRModules\Counters\OffMode\CountersOffMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Prescaller.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\CountersPrescaller.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\WeveformGenerationMode.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\CountersWeveformGenerationMode.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\WeveformGenerationMode\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ExternalInterrupts\ExtInt_Includes.inc">
@@ -578,28 +578,28 @@
     <Compile Include="AVRModules\OneWire\OneWire_WriteScratchpad.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_0.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter0.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_1.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_2.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_3.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter3.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_4.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter4.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Prescaller\Counter_5.inc">
+    <Compile Include="AVRModules\Counters\Prescaller\Counter5.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Counters_Includes.inc">
+    <Compile Include="AVRModules\Counters\CountersIncludes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\Counters\Counters_Constants.inc">
+    <Compile Include="AVRModules\Counters\CountersConstants.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\TWSI\TWSI_Const.inc">

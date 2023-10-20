@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 22:47:33 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 23:14:40 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -16,6 +16,50 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersConstants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/CountersPrescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/CountersInterrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/CountersWeveformGenerationMode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/CountersCompareOutputMode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(35): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(36): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(37): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(38): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(39): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(40): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(41): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/CountersExternalClockSourceOnT0pin.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(43): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(44): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(45): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(46): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(47): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(48): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(49): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/CountersOffMode.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConstants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
@@ -47,6 +91,50 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Mai
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(26): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(1): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersConstants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Prescaller/CountersPrescaller.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(17): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/Interrupt/CountersInterrupt.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(20): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(21): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(22): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(25): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/WeveformGenerationMode/CountersWeveformGenerationMode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(28): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(32): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(33): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CompareOutputMode/CountersCompareOutputMode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(35): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(36): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(37): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(38): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(39): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(40): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(41): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/ExternalClockSourceOnT0pin/CountersExternalClockSourceOnT0pin.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(43): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter0.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(44): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter1.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(45): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter2.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(46): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter3.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(47): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter4.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(48): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter5.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(49): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/CountersOffMode.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConstants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
@@ -1934,7 +2022,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //#define CRC_Calculate_Module
                                  .include "Configs/AVRModules_Config.inc"
                                  
-                                 //#define ADC_Module
                                  //#define ExternalInterrupts_Module
                                  //#define OneWire_Module
                                  //#define Counters_Module
@@ -2557,7 +2644,2028 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  #endif
                                  .include "Main/AVRModules.inc"
                                  
-                                 #endif
+                                 	.include "AVRModules/Counters/CountersIncludes.inc"
+                                 
+                                 
+                                 .equ Counter1		=	1
+                                 .equ Counter2		=	2
+                                 .equ Counter3		=	3
+                                 .equ Counter4		=	4
+                                 .equ Counter5		=	5
+                                 
+                                 .equ CaptureEvent	=	6
+                                 .equ Overflow		=	7
+                                 .equ CompareMatch	=	8
+                                 .equ CompareMatchA	=	9
+                                 .equ CompareMatchB	=	10
+                                 .equ CompareMatchC	=	11
+                                 
+                                 .equ CompareMatchOutput		=	0
+                                 .equ CompareMatchOutputA	=	1
+                                 .equ CompareMatchOutputB	=	2
+                                 .equ CompareMatchOutputC	=	3
+                                 
+                                 .equ Prescaller1	=	1
+                                 .equ Prescaller8	=	8
+                                 .equ Prescaller32	=	32
+                                 .equ Prescaller64	=	64
+                                 .equ Prescaller128	=	128
+                                 .equ Prescaller256	=	256
+                                 .equ Prescaller1024	=	1024
+                                 
+                                 .include "AVRModules/Counters/Prescaller/Counter0.inc"
+                                 
+                                 *	@1 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter0
+                                 	.if ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR0A, CS00
+                                 			CLRB TCCR0A, CS01
+                                 			CLRB TCCR0A, CS02
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR0A, CS00
+                                 			SETB TCCR0A, CS01
+                                 			CLRB TCCR0A, CS02
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 0 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			SETB TCCR0A, CS00
+                                 			SETB TCCR0A, CS01
+                                 			CLRB TCCR0A, CS02
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 0 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR0A, CS00
+                                 			CLRB TCCR0A, CS01
+                                 			SETB TCCR0A, CS02
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR0A, CS00
+                                 			CLRB TCCR0A, CS01
+                                 			SETB TCCR0A, CS02
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR0B, CS00
+                                 			CLRB TCCR0B, CS01
+                                 			CLRB TCCR0B, CS02
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR0B, CS00
+                                 			SETB TCCR0B, CS01
+                                 			CLRB TCCR0B, CS02
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 0 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			SETB TCCR0B, CS00
+                                 			SETB TCCR0B, CS01
+                                 			CLRB TCCR0B, CS02
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 0 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR0B, CS00
+                                 			CLRB TCCR0B, CS01
+                                 			SETB TCCR0B, CS02
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR0B, CS00
+                                 			CLRB TCCR0B, CS01
+                                 			SETB TCCR0B, CS02
+                                 		.endif
+                                 	.elif ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR0, CS00
+                                 			CLRB TCCR0, CS01
+                                 			CLRB TCCR0, CS02
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR0, CS00
+                                 			SETB TCCR0, CS01
+                                 			CLRB TCCR0, CS02
+                                 		.elif @0 == Prescaller32
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				SETB TCCR0, CS00
+                                 				SETB TCCR0, CS01
+                                 				CLRB TCCR0, CS02
+                                 			.else
+                                 				.error "Prescaller 32 is not supporting by counter 0 of this controller!"
+                                 			.endif
+                                 		.elif @0 == Prescaller64
+                                 			SETB TCCR0, CS00
+                                 			SETB TCCR0, CS01
+                                 			CLRB TCCR0, CS02
+                                 		.elif @0 == Prescaller128
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				SETB TCCR0, CS00
+                                 				CLRB TCCR0, CS01
+                                 				SETB TCCR0, CS02
+                                 			.else
+                                 				.error "Prescaller 128 is not supporting by counter 0 of this controller!"
+                                 			.endif
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR0, CS00
+                                 			CLRB TCCR0, CS01
+                                 			SETB TCCR0, CS02
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR0, CS00
+                                 			CLRB TCCR0, CS01
+                                 			SETB TCCR0, CS02
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/Counter1.inc"
+                                 
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter1
+                                 	.if @0 == Prescaller1
+                                 		SETB TCCR1B, CS10
+                                 		CLRB TCCR1B, CS11
+                                 		CLRB TCCR1B, CS12
+                                 	.elif @0 == Prescaller8
+                                 		CLRB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		CLRB TCCR1B, CS12
+                                 	.elif @0 == Prescaller32
+                                 		.error "Prescaller 32 is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == Prescaller64
+                                 		CLRB TCCR1B, CS10
+                                 		CLRB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.elif @0 == Prescaller128
+                                 		.error "Prescaller 128 is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == Prescaller256
+                                 		CLRB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.elif @0 == Prescaller1024
+                                 		SETB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/Counter2.inc"
+                                 
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter2
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2, CS20
+                                 			CLRB TCCR2, CS21
+                                 			CLRB TCCR2, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			CLRB TCCR2, CS22
+                                 		.elif @0 == Prescaller32
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				.error "Prescaller 32 is not supporting by counter 2 of this controller!"
+                                 			.else
+                                 				SETB TCCR2, CS20
+                                 				SETB TCCR2, CS21
+                                 				CLRB TCCR2, CS22
+                                 			.endif
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2, CS20
+                                 			CLRB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.elif @0 == Prescaller128
+                                 			.if ctrl == 64 || ctrl == 128
+                                 				.error "Prescaller 128 is not supporting by counter 2 of this controller!"
+                                 			.else
+                                 				SETB TCCR2, CS20
+                                 				CLRB TCCR2, CS21
+                                 				SETB TCCR2, CS22
+                                 			.endif
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller32
+                                 			SETB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			CLRB TCCR2B, CS22
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller128
+                                 			SETB TCCR2B, CS20
+                                 			CLRB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2B, CS20
+                                 			SETB TCCR2B, CS21
+                                 			SETB TCCR2B, CS22
+                                 		.endif
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller32
+                                 			SETB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			CLRB TCCR2A, CS22
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller128
+                                 			SETB TCCR2A, CS20
+                                 			CLRB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR2A, CS20
+                                 			SETB TCCR2A, CS21
+                                 			SETB TCCR2A, CS22
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 2 is not supporting by your controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/Counter3.inc"
+                                 
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter3
+                                 	.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR3B, CS30
+                                 			CLRB TCCR3B, CS31
+                                 			CLRB TCCR3B, CS32
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			CLRB TCCR3B, CS32
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 3 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR3B, CS30
+                                 			CLRB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 3 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 3 in not supported by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/Counter4.inc"
+                                 
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter4
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR4B, CS40
+                                 			CLRB TCCR4B, CS41
+                                 			CLRB TCCR4B, CS42
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			CLRB TCCR4B, CS42
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 4 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR4B, CS40
+                                 			CLRB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 4 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/Counter5.inc"
+                                 
+                                 *	@0 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescallerCounter5
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == Prescaller1
+                                 			SETB TCCR5B, CS50
+                                 			CLRB TCCR5B, CS51
+                                 			CLRB TCCR5B, CS52
+                                 		.elif @0 == Prescaller8
+                                 			CLRB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			CLRB TCCR5B, CS52
+                                 		.elif @0 == Prescaller32
+                                 			.error "Prescaller 32 is not supporting by counter 5 of this controller!"
+                                 		.elif @0 == Prescaller64
+                                 			CLRB TCCR5B, CS50
+                                 			CLRB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.elif @0 == Prescaller128
+                                 			.error "Prescaller 128 is not supporting by counter 5 of this controller!"
+                                 		.elif @0 == Prescaller256
+                                 			CLRB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.elif @0 == Prescaller1024
+                                 			SETB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Prescaller/CountersPrescaller.inc"
+                                 
+                                 *	@0 - номер счетчика (Counter0 как пример)
+                                 *	@1 - претделитель	(Prescaller8 как пример)
+                                 */
+                                 .macro CountersPrescaller
+                                 	.if @0 == Counter0
+                                 		CountersPrescallerCounter0 @1
+                                 	.elif @0 == Counter1
+                                 		CountersPrescallerCounter1 @1
+                                 	.elif @0 == Counter2
+                                 		CountersPrescallerCounter2 @1
+                                 	.elif @0 == Counter3
+                                 		CountersPrescallerCounter3 @1
+                                 	.elif @0 == Counter4
+                                 		CountersPrescallerCounter4 @1
+                                 	.elif @0 == Counter5
+                                 		CountersPrescallerCounter5 @1
+                                 	.endif
+                                 .endm
+                                 
+                                 .include "AVRModules/Counters/Interrupt/Counter0.inc"
+                                 
+                                 	.if @0 == CaptureEvent
+                                 		.error "Capture Event is not supporting by counter 0 of this controller!"
+                                 	.elif @0 == Overflow
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, TOIE0
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, TOIE0
+                                 			.endif
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK0, TOIE0
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK0, TOIE0
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatch
+                                 		.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				WRITE_BYTE OCR0, @2
+                                 				SETB TIMSK, OCIE0
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, OCIE0
+                                 				WRITE_BYTE OCR0, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchA
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.error "Compare Match A is not supporting by counter 0 of this controller!"
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK0, OCIE0A
+                                 				WRITE_BYTE OCR0A, @2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK0, OCIE0A
+                                 				WRITE_BYTE OCR0A, $00
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == enabled
+                                 				SETB TIMSK0, OCIE0B
+                                 				WRITE_BYTE OCR0B, @2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK0, OCIE0B
+                                 				WRITE_BYTE OCR0B, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match B is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.error "Compare Match C is not supporting by counter 0 of this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/Counter1.inc"
+                                 
+                                 	.if @0 == CompareMatch
+                                 		.error "Compare Match is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == Overflow
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, TOIE1
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, TOIE1
+                                 			.endif
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK1, TOIE1
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK1, TOIE1
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CaptureEvent
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, TICIE1
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, TICIE1
+                                 			.endif
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK1, ICIE1
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK1, ICIE1
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchA
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, OCIE1A
+                                 				WRITE_BYTE OCR1AH, high(@2)
+                                 				WRITE_BYTE OCR1AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, OCIE1A
+                                 				WRITE_BYTE OCR1AH, $00
+                                 				WRITE_BYTE OCR1AL, $00
+                                 			.endif
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK1, OCIE1A
+                                 				WRITE_BYTE OCR1AH, high(@2)
+                                 				WRITE_BYTE OCR1AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK1, OCIE1A
+                                 				WRITE_BYTE OCR1AH, $00
+                                 				WRITE_BYTE OCR1AL, $00
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, OCIE1B
+                                 				WRITE_BYTE OCR1BH, high(@2)
+                                 				WRITE_BYTE OCR1BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, OCIE1B
+                                 				WRITE_BYTE OCR1BH, $00
+                                 				WRITE_BYTE OCR1BL, $00
+                                 			.endif
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK1, OCIE1B
+                                 				WRITE_BYTE OCR1BH, high(@2)
+                                 				WRITE_BYTE OCR1BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK1, OCIE1B
+                                 				WRITE_BYTE OCR1BH, $00
+                                 				WRITE_BYTE OCR1BL, $00
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK1, OCIE1C
+                                 				WRITE_BYTE OCR1CH, high(@2)
+                                 				WRITE_BYTE OCR1CL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK1, OCIE1C
+                                 				WRITE_BYTE OCR1CH, $00
+                                 				WRITE_BYTE OCR1CL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match C is not supporting by counter 1 of this controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/Counter2.inc"
+                                 
+                                 	.if @0 == CompareMatch
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, OCIE2
+                                 				WRITE_BYTE OCR2, @2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, OCIE2
+                                 				WRITE_BYTE OCR2, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match Interrupt is not supporting by counter 2 of this controller!"
+                                 		.endif
+                                 	.elif @0 == Overflow
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB TIMSK, TOIE2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK, TOIE2
+                                 			.endif
+                                 		.elif ctrl == 8515 || ctrl == 8535
+                                 			.error "Overflow Interrupt is not supporting by counter 2 of this controller!"
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK2, TOIE2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK2, TOIE2
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CaptureEvent
+                                 		.error "Capture Event Interrupt is not supporting by counter 2 of this controller!"
+                                 	.elif @0 == CompareMatchA
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.error "Compare Match A Interrupt is not supporting by counter 2 of this controller!"
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK2, OCIE2A
+                                 				WRITE_BYTE OCR2A, @2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK2, OCIE2A
+                                 				WRITE_BYTE OCR2A, $00
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.error "Compare Match B Interrupt is not supporting by counter 2 of this controller!"
+                                 		.else
+                                 			.if @1 == enabled
+                                 				SETB TIMSK2, OCIE2B
+                                 				WRITE_BYTE OCR2B, @2
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK2, OCIE2B
+                                 				WRITE_BYTE OCR2B, $00
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.error "Compare Match C Interrupt is not supporting by counter 2 of this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/Counter3.inc"
+                                 
+                                 	.if @0 == CaptureEvent
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB ETIMSK, TICIE3
+                                 			.elif @1 == disabled
+                                 				CLRB ETIMSK, TICIE3
+                                 			.endif
+                                 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == enabled
+                                 				SETB TIMSK3, ICIE3
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK3, ICIE3
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 3 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == Overflow
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB ETIMSK, TOIE3
+                                 			.elif @1 == disabled
+                                 				CLRB ETIMSK, TOIE3
+                                 			.endif
+                                 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == enabled
+                                 				SETB TIMSK3, TOIE3
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK3, TOIE3
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 3 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatch
+                                 		.error "Compare Match is not supporting by counter 3 of this controller!"
+                                 	.elif @0 == CompareMatchA
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB ETIMSK, OCIE3A
+                                 				WRITE_BYTE OCR3AH, high(@2)
+                                 				WRITE_BYTE OCR3AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB ETIMSK, OCIE3A
+                                 				WRITE_BYTE OCR3AH, $00
+                                 				WRITE_BYTE OCR3AL, $00
+                                 			.endif
+                                 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == enabled
+                                 				SETB TIMSK3, OCIE3A
+                                 				WRITE_BYTE OCR3AH, high(@2)
+                                 				WRITE_BYTE OCR3AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK3, OCIE3A
+                                 				WRITE_BYTE OCR3AH, $00
+                                 				WRITE_BYTE OCR3AL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 3 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 			.if @1 == enabled
+                                 				SETB ETIMSK, OCIE3B
+                                 				WRITE_BYTE OCR3BH, high(@2)
+                                 				WRITE_BYTE OCR3BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB ETIMSK, OCIE3B
+                                 				WRITE_BYTE OCR3BH, $00
+                                 				WRITE_BYTE OCR3BL, $00
+                                 			.endif
+                                 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == enabled
+                                 				SETB TIMSK3, OCIE3B
+                                 				WRITE_BYTE OCR3BH, high(@2)
+                                 				WRITE_BYTE OCR3BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK3, OCIE3B
+                                 				WRITE_BYTE OCR3BH, $00
+                                 				WRITE_BYTE OCR3BL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 3 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.if ctrl == 64 || ctrl == 128
+                                 			.if @1 == enabled
+                                 				SETB ETIMSK, OCIE3C
+                                 				WRITE_BYTE OCR3CH, high(@2)
+                                 				WRITE_BYTE OCR3CL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB ETIMSK, OCIE3C
+                                 				WRITE_BYTE OCR3CH, $00
+                                 				WRITE_BYTE OCR3CL, $00
+                                 			.endif
+                                 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK3, OCIE3C
+                                 				WRITE_BYTE OCR3CH, high(@2)
+                                 				WRITE_BYTE OCR3CL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK3, OCIE3C
+                                 				WRITE_BYTE OCR3CH, $00
+                                 				WRITE_BYTE OCR3CL, $00
+                                 			.endif
+                                 		.elif ctrl == 162 || ctrl == 1284
+                                 			.error "Compare Match C is not supporting by counter 3 of this controller!"
+                                 		.else
+                                 			.error "Counter 3 is not supporting by your controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/Counter4.inc"
+                                 
+                                 	.if @0 == CaptureEvent
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK4, ICIE4
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK4, ICIE4
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 4 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == Overflow
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK4, TOIE4
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK4, TOIE4
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 4 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatch
+                                 		.error "Compare Match is not supporting by counter 4 of this controller!"
+                                 	.elif @0 == CompareMatchA
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK4, OCIE4A
+                                 				WRITE_BYTE OCR4AH, high(@2)
+                                 				WRITE_BYTE OCR4AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK4, OCIE4A
+                                 				WRITE_BYTE OCR4AH, $00
+                                 				WRITE_BYTE OCR4AL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 4 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK4, OCIE4B
+                                 				WRITE_BYTE OCR4BH, high(@2)
+                                 				WRITE_BYTE OCR4BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK4, OCIE4B
+                                 				WRITE_BYTE OCR4BH, $00
+                                 				WRITE_BYTE OCR4BL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 4 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK4, OCIE4C
+                                 				WRITE_BYTE OCR4CH, high(@2)
+                                 				WRITE_BYTE OCR4CL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK4, OCIE4C
+                                 				WRITE_BYTE OCR4CH, $00
+                                 				WRITE_BYTE OCR4CL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 4 is not supporting by your controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/Counter5.inc"
+                                 
+                                 	.if @0 == CaptureEvent
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK5, ICIE5
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK5, ICIE5
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 5 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == Overflow
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK5, TOIE5
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK5, TOIE5
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 5 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatch
+                                 		.error "Compare Match is not supporting by counter 5 of this controller!"
+                                 	.elif @0 == CompareMatchA
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK5, OCIE5A
+                                 				WRITE_BYTE OCR5AH, high(@2)
+                                 				WRITE_BYTE OCR5AL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK5, OCIE5A
+                                 				WRITE_BYTE OCR5AH, $00
+                                 				WRITE_BYTE OCR5AL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 5 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchB
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK5, OCIE5B
+                                 				WRITE_BYTE OCR5BH, high(@2)
+                                 				WRITE_BYTE OCR5BL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK5, OCIE5B
+                                 				WRITE_BYTE OCR5BH, $00
+                                 				WRITE_BYTE OCR5BL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 5 is not supporting by your controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchC
+                                 		.if Ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == enabled
+                                 				SETB TIMSK5, OCIE5C
+                                 				WRITE_BYTE OCR5CH, high(@2)
+                                 				WRITE_BYTE OCR5CL, low(@2)
+                                 			.elif @1 == disabled
+                                 				CLRB TIMSK5, OCIE5C
+                                 				WRITE_BYTE OCR5CH, $00
+                                 				WRITE_BYTE OCR5CL, $00
+                                 			.endif
+                                 		.else
+                                 			.error "Counter 5 is not supporting by your controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/Interrupt/CountersInterrupt.inc"
+                                 
+                                 *
+                                 *	@0	-	номер счетчика (Counter0 как пример)
+                                 *	@1	-	какое прерывание используется
+                                 *	@2	-	включить или выключить
+                                 */
+                                 .macro CountersInterrupt
+                                 	.if @0 == Counter0
+                                 		CountersInterruptCounter0 @1, @2, @3
+                                 	.elif @0 == Counter1
+                                 		CountersInterruptCounter1 @1, @2, @3
+                                 	.elif @0 == Counter2
+                                 		CountersInterruptCounter2 @1, @2, @3
+                                 	.elif @0 == Counter3
+                                 		CountersInterruptCounter3 @1, @2, @3
+                                 	.elif @0 == Counter4
+                                 		CountersInterruptCounter4 @1, @2, @3
+                                 	.elif @0 == Counter5
+                                 		CountersInterruptCounter5 @1, @2, @3
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter0.inc"
+                                 
+                                 	.if @0 == 0
+                                 		.if ctrl == 8
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				CLRB TCCR0, WGM00
+                                 				CLRB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CLRB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				CLRB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 1
+                                 		.if ctrl == 8
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				SETB TCCR0, WGM00
+                                 				CLRB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 2
+                                 		.if ctrl == 8
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				CLRB TCCR0, WGM00
+                                 				SETB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CLRB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				CLRB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 3
+                                 		.if ctrl == 8
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				SETB TCCR0, WGM00
+                                 				SETB TCCR0, WGM01
+                                 			.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				CLRB TCCR0B, WGM02
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 4
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 5
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				CLRB TCCR0A, WGM01
+                                 				SETB TCCR0B, WGM02
+                                 			.else
+                                 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.elif @0 == 6
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 7
+                                 		.if ctrl == 8 || ctrl == 16
+                                 			.error "Weveform Generation Mode is not supporting by Counter 0 of this controller!"
+                                 		.else
+                                 			.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				SETB TCCR0A, WGM00
+                                 				SETB TCCR0A, WGM01
+                                 				SETB TCCR0B, WGM02
+                                 			.else
+                                 				.error "This Weveform Generation Mode Number is not supporting by Counter 0 of this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter1.inc"
+                                 
+                                 	.if @0 == 0
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 1
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 2
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 3
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 4
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 5
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 6
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 7
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		CLRB TCCR1B, WGM13
+                                 	.elif @0 == 8
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 9
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 10
+                                 		CLRB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 11
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		CLRB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 12
+                                 		CLRB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		SETB TCCR1A, WGM10
+                                 		CLRB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.elif @0 == 15
+                                 		SETB TCCR1A, WGM10
+                                 		SETB TCCR1A, WGM11
+                                 		SETB TCCR1B, WGM12
+                                 		SETB TCCR1B, WGM13
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter2.inc"
+                                 
+                                 	.if @0 == 0
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			CLRB TCCR2, WGM20
+                                 			CLRB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284 || ctrl == 8535
+                                 			CLRB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			CLRB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 1
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			SETB TCCR2, WGM20
+                                 			CLRB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284 || ctrl == 8535
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 2
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			CLRB TCCR2, WGM20
+                                 			SETB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284 || ctrl == 8535
+                                 			CLRB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			CLRB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 3
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 165 || ctrl == 169
+                                 			SETB TCCR2, WGM20
+                                 			SETB TCCR2, WGM21
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284 || ctrl == 8535
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			CLRB TCCR2B, WGM22
+                                 		.elif ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 		.endif
+                                 	.elif @0 == 4
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 5
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			CLRB TCCR2A, WGM21
+                                 			SETB TCCR2B, WGM22
+                                 		.else
+                                 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
+                                 		.endif
+                                 	.elif @0 == 6
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 7
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			SETB TCCR2A, WGM20
+                                 			SETB TCCR2A, WGM21
+                                 			SETB TCCR2B, WGM22
+                                 		.else
+                                 			.error "This Weveform Generation Mode Number is not supporting by Counter 2 of this controller!"
+                                 		.endif
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter3.inc"
+                                 
+                                 	.if @0 == 0
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 1
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 2
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 3
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 4
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 5
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 6
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 7
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		CLRB TCCR3B, WGM33
+                                 	.elif @0 == 8
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 9
+                                 		SETB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 10
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 11
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		CLRB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 12
+                                 		CLRB TCCR3A, WGM30
+                                 		CLRB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.elif @0 == 15
+                                 		SETB TCCR3A, WGM30
+                                 		SETB TCCR3A, WGM31
+                                 		SETB TCCR3B, WGM32
+                                 		SETB TCCR3B, WGM33
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter4.inc"
+                                 
+                                 	.if @0 == 0
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 1
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 2
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 3
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 4
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 5
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 6
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 7
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		CLRB TCCR4B, WGM43
+                                 	.elif @0 == 8
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 9
+                                 		SETB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 10
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 11
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		CLRB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 12
+                                 		CLRB TCCR4A, WGM40
+                                 		CLRB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.elif @0 == 15
+                                 		SETB TCCR4A, WGM40
+                                 		SETB TCCR4A, WGM41
+                                 		SETB TCCR4B, WGM42
+                                 		SETB TCCR4B, WGM43
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/Counter5.inc"
+                                 
+                                 	.if @0 == 0
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 1
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 2
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 3
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 4
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 5
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 6
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 7
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		CLRB TCCR5B, WGM53
+                                 	.elif @0 == 8
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 9
+                                 		SETB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 10
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 11
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		CLRB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 12
+                                 		CLRB TCCR5A, WGM50
+                                 		CLRB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 13
+                                 		.error "This Mode Number is reserved for this controller!"
+                                 	.elif @0 == 14
+                                 		CLRB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.elif @0 == 15
+                                 		SETB TCCR5A, WGM50
+                                 		SETB TCCR5A, WGM51
+                                 		SETB TCCR5B, WGM52
+                                 		SETB TCCR5B, WGM53
+                                 	.else
+                                 		.error "This Mode Number is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/WeveformGenerationMode/CountersWeveformGenerationMode.inc"
+                                 
+                                 	.if @1 >0 && @1 <= 15
+                                 		.if @0 == Counter0
+                                 			CountersWeveformGenerationModeCounter0 @1
+                                 		.elif @0 == Counter1
+                                 			CountersWeveformGenerationModeCounter1 @1
+                                 		.elif @0 == Counter2
+                                 			.if ctrl == 8515
+                                 				.error "Counter 2 is not supporting by this controller!"
+                                 			.else
+                                 				CountersWeveformGenerationModeCounter2 @1
+                                 			.endif
+                                 		.elif @0 == Counter3
+                                 			.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersWeveformGenerationModeCounter3 @1
+                                 			.else
+                                 				.error "Counter 3 is not supporting by this controller!"
+                                 			.endif
+                                 		.elif @0 == Counter4
+                                 			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersWeveformGenerationModeCounter4 @1
+                                 			.else
+                                 				.error "Counter 4 is not supporting by this controller!"
+                                 			.endif
+                                 		.elif @0 == Counter5
+                                 			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersWeveformGenerationModeCounter5 @1
+                                 			.else
+                                 				.error "Counter 5 is not supporting by this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.else
+                                 		.error "This Weveform Generation Mode is not supporting by counter 0 of this controller!"
+                                 	.endif
+                                 .endm
+                                 
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter0.inc"
+                                 
+                                 	.if ctrl == 8
+                                 		.error "Compare Output Mode is not supporting by counter 0 of this controller!"
+                                 	.else
+                                 		.if @0 == CompareMatchOutput
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 				.if @1 == 0
+                                 					CLRB TCCR0, COM00
+                                 					CLRB TCCR0, COM01
+                                 				.elif @1 == 1
+                                 					SETB TCCR0, COM00
+                                 					CLRB TCCR0, COM01
+                                 				.elif @1 == 2
+                                 					CLRB TCCR0, COM00
+                                 					SETB TCCR0, COM01
+                                 				.elif @1 == 3
+                                 					SETB TCCR0, COM00
+                                 					SETB TCCR0, COM01
+                                 				.endif
+                                 			.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				.if @1 == 0
+                                 					CLRB TCCR0A, COM0A0
+                                 					CLRB TCCR0A, COM0A1
+                                 				.elif @1 == 1
+                                 					SETB TCCR0A, COM0A0
+                                 					CLRB TCCR0A, COM0A1
+                                 				.elif @1 == 2
+                                 					CLRB TCCR0A, COM0A0
+                                 					SETB TCCR0A, COM0A1
+                                 				.elif @1 == 3
+                                 					SETB TCCR0A, COM0A0
+                                 					SETB TCCR0A, COM0A1
+                                 				.endif
+                                 			.else
+                                 				.error "Compare Match Output is not supporting by counter 0 of this controller!"
+                                 			.endif
+                                 		.elif @0 == CompareMatchOutputA
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 162 || ctrl == 8515 || ctrl == 8535 || ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				.error "Compare Match Output A is not supporting by counter 0 of this controller!"
+                                 			.else
+                                 				.if @1 == 0
+                                 					CLRB TCCR0A, COM0A0
+                                 					CLRB TCCR0A, COM0A1
+                                 				.elif @1 == 1
+                                 					SETB TCCR0A, COM0A0
+                                 					CLRB TCCR0A, COM0A1
+                                 				.elif @1 == 2
+                                 					CLRB TCCR0A, COM0A0
+                                 					SETB TCCR0A, COM0A1
+                                 				.elif @1 == 3
+                                 					SETB TCCR0A, COM0A0
+                                 					SETB TCCR0A, COM0A1
+                                 				.endif
+                                 			.endif
+                                 		.elif @0 == CompareMatchOutputB
+                                 			.if ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 162 || ctrl == 8515 || ctrl == 8535 || ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 				.error "Compare Match Output B is not supporting by counter 0 of this controller!"
+                                 			.else
+                                 				.if @1 == 0
+                                 					CLRB TCCR0A, COM0B0
+                                 					CLRB TCCR0A, COM0B1
+                                 				.elif @1 == 1
+                                 					SETB TCCR0A, COM0B0
+                                 					CLRB TCCR0A, COM0B1
+                                 				.elif @1 == 2
+                                 					CLRB TCCR0A, COM0B0
+                                 					SETB TCCR0A, COM0B1
+                                 				.elif @1 == 3
+                                 					SETB TCCR0A, COM0B0
+                                 					SETB TCCR0A, COM0B1
+                                 				.endif
+                                 			.endif
+                                 		.elif @0 == CompareMatchOutputC
+                                 			.error "Compare Match Output C is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter1.inc"
+                                 
+                                 	.if @0 == CompareMatchOutput
+                                 		.error "Compare Output Mode is not supporting by counter 1 of this controller!"
+                                 	.elif @0 == CompareMatchOutputA
+                                 		.if @1 == 0
+                                 			CLRB TCCR1A, COM1A0 
+                                 			CLRB TCCR1A, COM1A1
+                                 		.elif @1 == 1
+                                 			SETB TCCR1A, COM1A0
+                                 			CLRB TCCR1A, COM1A1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR1A, COM1A0
+                                 			SETB TCCR1A, COM1A1
+                                 		.elif @1 == 3
+                                 			SETB TCCR1A, COM1A0
+                                 			SETB TCCR1A, COM1A1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputB
+                                 		.if @1 == 0
+                                 			CLRB TCCR1A, COM1B0 
+                                 			CLRB TCCR1A, COM1B1
+                                 		.elif @1 == 1
+                                 			SETB TCCR1A, COM1B0
+                                 			CLRB TCCR1A, COM1B1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR1A, COM1B0
+                                 			SETB TCCR1A, COM1B1
+                                 		.elif @1 == 3
+                                 			SETB TCCR1A, COM1B0
+                                 			SETB TCCR1A, COM1B1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputC
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == 0
+                                 				CLRB TCCR1A, COM1C0 
+                                 				CLRB TCCR1A, COM1C1
+                                 			.elif @1 == 1
+                                 				SETB TCCR1A, COM1C0
+                                 				CLRB TCCR1A, COM1C1
+                                 			.elif @1 == 2
+                                 				CLRB TCCR1A, COM1C0
+                                 				SETB TCCR1A, COM1C1
+                                 			.elif @1 == 3
+                                 				SETB TCCR1A, COM1C0
+                                 				SETB TCCR1A, COM1C1
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match Output C is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter2.inc"
+                                 
+                                 	.if @0 == CompareMatchOutput
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 8535
+                                 			.if @1 == 0
+                                 				CLRB TCCR2, COM20
+                                 				CLRB TCCR2, COM21
+                                 			.elif @1 == 1
+                                 				SETB TCCR2, COM20
+                                 				CLRB TCCR2, COM21
+                                 			.elif @1 == 2
+                                 				CLRB TCCR2, COM20
+                                 				SETB TCCR2, COM21
+                                 			.elif @1 == 3
+                                 				SETB TCCR2, COM20
+                                 				SETB TCCR2, COM21
+                                 			.endif
+                                 		.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			.if @1 == 0
+                                 				CLRB TCCR2A, COM2A0
+                                 				CLRB TCCR2A, COM2A1
+                                 			.elif @1 == 1
+                                 				SETB TCCR2A, COM2A0
+                                 				CLRB TCCR2A, COM2A1
+                                 			.elif @1 == 2
+                                 				CLRB TCCR2A, COM2A0
+                                 				SETB TCCR2A, COM2A1
+                                 			.elif @1 == 3
+                                 				SETB TCCR2A, COM2A0
+                                 				SETB TCCR2A, COM2A1
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Output Mode is not supporting by counter 2 of this controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputA
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == 0
+                                 				CLRB TCCR2A, COM2A0
+                                 				CLRB TCCR2A, COM2A1
+                                 			.elif @1 == 1
+                                 				SETB TCCR2A, COM2A0
+                                 				CLRB TCCR2A, COM2A1
+                                 			.elif @1 == 2
+                                 				CLRB TCCR2A, COM2A0
+                                 				SETB TCCR2A, COM2A1
+                                 			.elif @1 == 3
+                                 				SETB TCCR2A, COM2A0
+                                 				SETB TCCR2A, COM2A1
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match Output A is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputB
+                                 		.if ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @1 == 0
+                                 				CLRB TCCR2A, COM2B0
+                                 				CLRB TCCR2A, COM2B1
+                                 			.elif @1 == 1
+                                 				SETB TCCR2A, COM2B0
+                                 				CLRB TCCR2A, COM2B1
+                                 			.elif @1 == 2
+                                 				CLRB TCCR2A, COM2B0
+                                 				SETB TCCR2A, COM2B1
+                                 			.elif @1 == 3
+                                 				SETB TCCR2A, COM2B0
+                                 				SETB TCCR2A, COM2B1
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match Output B is not supporting by counter 0 of this controller!"
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputC
+                                 		.error "Compare Match Output C is not supporting by counter 0 of this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter3.inc"
+                                 
+                                 	.if @0 == CompareMatchOutput
+                                 		.error "Compare Output Mode is not supporting by counter 3 of this controller!"
+                                 	.elif @0 == CompareMatchOutputA
+                                 		.if @1 == 0
+                                 			CLRB TCCR3A, COM3A0 
+                                 			CLRB TCCR3A, COM3A1
+                                 		.elif @1 == 1
+                                 			SETB TCCR3A, COM3A0
+                                 			CLRB TCCR3A, COM3A1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR3A, COM3A0
+                                 			SETB TCCR3A, COM3A1
+                                 		.elif @1 == 3
+                                 			SETB TCCR3A, COM3A0
+                                 			SETB TCCR3A, COM3A1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputB
+                                 		.if @1 == 0
+                                 			CLRB TCCR3A, COM3B0 
+                                 			CLRB TCCR3A, COM3B1
+                                 		.elif @1 == 1
+                                 			SETB TCCR3A, COM3B0
+                                 			CLRB TCCR3A, COM3B1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR3A, COM3B0
+                                 			SETB TCCR3A, COM3B1
+                                 		.elif @1 == 3
+                                 			SETB TCCR3A, COM3B0
+                                 			SETB TCCR3A, COM3B1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputC
+                                 		.if ctrl == 64 || ctrl == 128 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 			.if @1 == 0
+                                 				CLRB TCCR3A, COM3C0 
+                                 				CLRB TCCR3A, COM3C1
+                                 			.elif @1 == 1
+                                 				SETB TCCR3A, COM3C0
+                                 				CLRB TCCR3A, COM3C1
+                                 			.elif @1 == 2
+                                 				CLRB TCCR3A, COM3C0
+                                 				SETB TCCR3A, COM3C1
+                                 			.elif @1 == 3
+                                 				SETB TCCR3A, COM3C0
+                                 				SETB TCCR3A, COM3C1
+                                 			.endif
+                                 		.else
+                                 			.error "Compare Match Output C is not supporting by counter 3 of this controller!"
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter4.inc"
+                                 
+                                 	.if @0 == CompareMatchOutput
+                                 		.error "Compare Output Mode is not supporting by counter 5 of this controller!"
+                                 	.elif @0 == CompareMatchOutputA
+                                 		.if @1 == 0
+                                 			CLRB TCCR4A, COM4A0 
+                                 			CLRB TCCR4A, COM4A1
+                                 		.elif @1 == 1
+                                 			SETB TCCR4A, COM4A0
+                                 			CLRB TCCR4A, COM4A1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR4A, COM4A0
+                                 			SETB TCCR4A, COM4A1
+                                 		.elif @1 == 3
+                                 			SETB TCCR4A, COM4A0
+                                 			SETB TCCR4A, COM4A1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputB
+                                 		.if @1 == 0
+                                 			CLRB TCCR4A, COM4B0 
+                                 			CLRB TCCR4A, COM4B1
+                                 		.elif @1 == 1
+                                 			SETB TCCR4A, COM4B0
+                                 			CLRB TCCR4A, COM4B1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR4A, COM4B0
+                                 			SETB TCCR4A, COM4B1
+                                 		.elif @1 == 3
+                                 			SETB TCCR4A, COM4B0
+                                 			SETB TCCR4A, COM4B1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputC
+                                 		.if @1 == 0
+                                 			CLRB TCCR4A, COM4C0 
+                                 			CLRB TCCR4A, COM4C1
+                                 		.elif @1 == 1
+                                 			SETB TCCR4A, COM4C0
+                                 			CLRB TCCR4A, COM4C1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR4A, COM4C0
+                                 			SETB TCCR4A, COM4C1
+                                 		.elif @1 == 3
+                                 			SETB TCCR4A, COM4C0
+                                 			SETB TCCR4A, COM4C1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/Counter5.inc"
+                                 
+                                 	.if @0 == CompareMatchOutput
+                                 		.error "Compare Output Mode is not supporting by counter 5 of this controller!"
+                                 	.elif @0 == CompareMatchOutputA
+                                 		.if @1 == 0
+                                 			CLRB TCCR5A, COM5A0 
+                                 			CLRB TCCR5A, COM5A1
+                                 		.elif @1 == 1
+                                 			SETB TCCR5A, COM5A0
+                                 			CLRB TCCR5A, COM5A1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR5A, COM5A0
+                                 			SETB TCCR5A, COM5A1
+                                 		.elif @1 == 3
+                                 			SETB TCCR5A, COM5A0
+                                 			SETB TCCR5A, COM5A1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputB
+                                 		.if @1 == 0
+                                 			CLRB TCCR5A, COM5B0
+                                 			CLRB TCCR5A, COM5B1
+                                 		.elif @1 == 1
+                                 			SETB TCCR5A, COM5B0
+                                 			CLRB TCCR5A, COM5B1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR5A, COM5B0
+                                 			SETB TCCR5A, COM5B1
+                                 		.elif @1 == 3
+                                 			SETB TCCR5A, COM5B0
+                                 			SETB TCCR5A, COM5B1
+                                 		.endif
+                                 	.elif @0 == CompareMatchOutputC
+                                 		.if @1 == 0
+                                 			CLRB TCCR5A, COM5C0 
+                                 			CLRB TCCR5A, COM5C1
+                                 		.elif @1 == 1
+                                 			SETB TCCR5A, COM5C0
+                                 			CLRB TCCR5A, COM5C1
+                                 		.elif @1 == 2
+                                 			CLRB TCCR5A, COM5C0
+                                 			SETB TCCR5A, COM5C1
+                                 		.elif @1 == 3
+                                 			SETB TCCR5A, COM5C0
+                                 			SETB TCCR5A, COM5C1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/CompareOutputMode/CountersCompareOutputMode.inc"
+                                 
+                                 	.if @2 >= 0 && @2 <= 3
+                                 		.if @0 == Counter0
+                                 			CountersCompareOutputModeCounter0 @1, @2
+                                 		.elif @0 == Counter1
+                                 			CountersCompareOutputModeCounter1 @1, @2
+                                 		.elif @0 == Counter2
+                                 			.if ctrl == 5815
+                                 				.error "Counter 2 is not supporting by this controller!"
+                                 			.else
+                                 				CountersCompareOutputModeCounter2 @1, @2
+                                 			.endif
+                                 		.elif @0 == Counter3
+                                 			.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersCompareOutputModeCounter3 @1, @2
+                                 			.else
+                                 				.error "Counter 3 is not supporting by this controller!"
+                                 			.endif
+                                 		.elif @0 == Counter4
+                                 			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersCompareOutputModeCounter4 @1, @2
+                                 			.else
+                                 				.error "Counter 4 is not supporting by this controller!"
+                                 			.endif
+                                 		.elif @0 == Counter5
+                                 			.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 				CountersCompareOutputModeCounter5 @1, @2
+                                 			.else
+                                 				.error "Counter 5 is not supporting by this controller!"
+                                 			.endif
+                                 		.endif
+                                 	.else
+                                 		.error "This Compare Output Mode is not supporting by counter 0 of this controller!"
+                                 	.endif
+                                 .endm
+                                 
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter0.inc"
+                                 
+                                 	.if ctrl == 64 || ctrl == 128
+                                 		.error "External Clock Source on T0 pin is not supporting by counter 0 of this controller!"
+                                 	.else
+                                 		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 			.if @0 == FallingEdge
+                                 				CLRB TCCR0, CS00
+                                 				SETB TCCR0, CS01
+                                 				SETB TCCR0, CS02
+                                 			.elif @0 == RisingEdge
+                                 				SETB TCCR0, CS00
+                                 				SETB TCCR0, CS01
+                                 				SETB TCCR0, CS02
+                                 			.endif
+                                 		.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 			.if @0 == FallingEdge
+                                 				CLRB TCCR0A, CS00
+                                 				SETB TCCR0A, CS01
+                                 				SETB TCCR0A, CS02
+                                 			.elif @0 == RisingEdge
+                                 				SETB TCCR0A, CS00
+                                 				SETB TCCR0A, CS01
+                                 				SETB TCCR0A, CS02
+                                 			.endif
+                                 		.elif ctrl == 48 || ctrl == 88 || ctrl == 168  || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 			.if @0 == FallingEdge
+                                 				CLRB TCCR0B, CS00
+                                 				SETB TCCR0B, CS01
+                                 				SETB TCCR0B, CS02
+                                 			.elif @0 == RisingEdge
+                                 				SETB TCCR0B, CS00
+                                 				SETB TCCR0B, CS01
+                                 				SETB TCCR0B, CS02
+                                 			.endif
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter1.inc"
+                                 
+                                 	.if @0 == FallingEdge
+                                 		CLRB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.elif @0 == RisingEdge
+                                 		SETB TCCR1B, CS10
+                                 		SETB TCCR1B, CS11
+                                 		SETB TCCR1B, CS12
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter2.inc"
+                                 
+                                 	.if ctrl == 64 || ctrl == 128
+                                 		.if @0 == FallingEdge
+                                 			CLRB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.elif @0 == RisingEdge
+                                 			SETB TCCR2, CS20
+                                 			SETB TCCR2, CS21
+                                 			SETB TCCR2, CS22
+                                 		.endif
+                                 	.elif ctrl == 8515
+                                 		.error "Counter 2 is not supporting by this controller!"
+                                 	.else
+                                 		.error "External Clock Source on T0 pin is not supporting by counter 0 of this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter3.inc"
+                                 
+                                 	.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 		.if @0 == FallingEdge
+                                 			CLRB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.elif @0 == RisingEdge
+                                 			SETB TCCR3B, CS30
+                                 			SETB TCCR3B, CS31
+                                 			SETB TCCR3B, CS32
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 3 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter4.inc"
+                                 
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == FallingEdge
+                                 			CLRB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.elif @0 == RisingEdge
+                                 			SETB TCCR4B, CS40
+                                 			SETB TCCR4B, CS41
+                                 			SETB TCCR4B, CS42
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/Counter5.inc"
+                                 
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == FallingEdge
+                                 			CLRB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.elif @0 == RisingEdge
+                                 			SETB TCCR5B, CS50
+                                 			SETB TCCR5B, CS51
+                                 			SETB TCCR5B, CS52
+                                 		.endif
+                                 	.else
+                                 		.error "Counter 5 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/ExternalClockSourceOnT0pin/CountersExternalClockSourceOnT0pin.inc"
+                                 
+                                 	.if @0 == Counter0
+                                 		CountersExternalClockSourceOnT0pinCounter0 @1
+                                 	.elif @0 == Counter1
+                                 		CountersExternalClockSourceOnT0pinCounter1 @1
+                                 	.elif @0 == Counter2
+                                 		CountersExternalClockSourceOnT0pinCounter2 @1
+                                 	.elif @0 == Counter3
+                                 		CountersExternalClockSourceOnT0pinCounter3 @1
+                                 	.elif @0 == Counter4
+                                 		CountersExternalClockSourceOnT0pinCounter4 @1
+                                 	.elif @0 == Counter5
+                                 		CountersExternalClockSourceOnT0pinCounter5 @1
+                                 	.endif
+                                 .endm
+                                 
+                                 .include "AVRModules/Counters/OffMode/Counter0.inc"
+                                 
+                                 	.if ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		CLRB TCCR0A, CS00
+                                 		CLRB TCCR0A, CS01
+                                 		CLRB TCCR0A, CS02
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
+                                 		CLRB TCCR0B, CS00
+                                 		CLRB TCCR0B, CS01
+                                 		CLRB TCCR0B, CS02
+                                 	.elif ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 162 || ctrl == 8515 || ctrl == 8535
+                                 		CLRB TCCR0, CS00
+                                 		CLRB TCCR0, CS01
+                                 		CLRB TCCR0, CS02
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/Counter1.inc"
+                                 
+                                 	CLRB TCCR1B, CS10
+                                 	CLRB TCCR1B, CS11
+                                 	CLRB TCCR1B, CS12
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/Counter2.inc"
+                                 
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 64 || ctrl == 128 || ctrl == 162
+                                 		CLRB TCCR2, CS20
+                                 		CLRB TCCR2, CS21
+                                 		CLRB TCCR2, CS22
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 328 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		CLRB TCCR2B, CS20
+                                 		CLRB TCCR2B, CS21
+                                 		CLRB TCCR2B, CS22
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		CLRB TCCR2A, CS20
+                                 		CLRB TCCR2A, CS21
+                                 		CLRB TCCR2A, CS22
+                                 	.else
+                                 		.error "Counter 2 is not supporting by your controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/Counter3.inc"
+                                 
+                                 	.if ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		CLRB TCCR3B, CS30
+                                 		CLRB TCCR3B, CS31
+                                 		CLRB TCCR3B, CS32
+                                 	.else
+                                 		.error "Counter 3 in not supported by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/Counter4.inc"
+                                 
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		CLRB TCCR4B, CS40
+                                 		CLRB TCCR4B, CS41
+                                 		CLRB TCCR4B, CS42
+                                 	.else
+                                 		.error "Counter 4 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/Counter5.inc"
+                                 
+                                 	.if ctrl == 640 || ctrl == 1280 || ctrl == 1280 || ctrl == 2560 || ctrl == 2561
+                                 		CLRB TCCR5B, CS50
+                                 		CLRB TCCR5B, CS51
+                                 		CLRB TCCR5B, CS52
+                                 	.else
+                                 		.error "Counter 5 is not supporting by this controller!"
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/Counters/OffMode/CountersOffMode.inc"
+                                 
+                                 	.if @0 == Counter0
+                                 		CountersOffModeCounter0
+                                 	.elif @0 == Counter1
+                                 		CountersOffModeCounter1
+                                 	.elif @0 == Counter2
+                                 		CountersOffModeCounter2
+                                 	.elif @0 == Counter3
+                                 		CountersOffModeCounter3
+                                 	.elif @0 == Counter4
+                                 		CountersOffModeCounter4
+                                 	.elif @0 == Counter5
+                                 		CountersOffModeCounter5
+                                 	.endif
+                                 .endm
+                                 
                                  
                                  #ifdef TWSI_Module
                                  #endif
@@ -4119,101 +6227,73 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  .include "Tests.inc"
                                  
-                                 // пример настройки и работы ADC
-                                 ;ADCPrescalerSelection 128							; настройка претделителя
-                                 ;ADCReferenceSelection AREFpin						; настройка Reference Selection
-                                 ;ADCLeftAdjustResult Left							; настройка ADC Left Adjust Result
-                                 ;ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
-                                 ;ADCAutoTriggerSourceSelections FreeRun				; настройка ADC Auto Trigger Source
-                                 ;ADCInterrupt Enable									; настройка ADC Interrupt
-                                 ;ADCCondition Enable									; запускаем ADC
-                                 ;ADCConversion Enable								; запускаем крнвертацию
                                  
-                                 // делаем вывод в порт K
-                                 ;ldi r16, $ff
-                                 ;WRITE_REG DDRK, r16
+                                 // Пример настройки счетчиков
+                                 ;CountersPrescaller Counter0, Prescaller8
+                                 ;CountersOffMode Counter0
+                                 ;CountersPrescaller Counter1, Prescaller1024
+                                 ;CountersOffMode Counter1
+                                 ;CountersPrescaller Counter2, Prescaller8
+                                 ;CountersOffMode Counter2
+                                 ;CountersPrescaller Counter3, Prescaller8
+                                 ;CountersOffMode Counter3
+                                 ;CountersPrescaller Counter4, Prescaller1024
+                                 ;CountersOffMode Counter4
+                                 ;CountersPrescaller Counter5, Prescaller1024
+                                 ;CountersOffMode Counter5
                                  
-                                 // Это пишем в AVR.asm после функции Proga
-                                 /*ADCINTtt:
-                                 	READ_REG ADCL, r17
-                                 	READ_REG ADCH, r16
+                                 ;CountersInterrupt Counter0, Overflow, enabled, $30
+                                 ;CountersInterrupt Counter0, CompareMatch, enabled, $30
+                                 ;CountersInterrupt Counter5, CompareMatchA, enabled, $395
+                                 ;CountersInterrupt Counter5, CompareMatchB, enabled, $465
+                                 ;CountersInterrupt Counter5, CompareMatchC, enabled, $578
                                  
-                                 	WRITE_REG PORTK, r16
-                                 ret
+                                 ;CountersInterrupt Counter5, CompareMatchA, disabled
+                                 ;CountersInterrupt Counter5, CompareMatchB, disabled
+                                 ;CountersInterrupt Counter5, CompareMatchC, disabled
                                  
-                                 ADCINTtt вызываем в прерываниях ADC_Conv_Comp в файле Interrupts.inc
-                                 */
-                                 //=======================================================================================
+                                 ;CountersInterrupt Counter5, CaptureEvent, enabled, $30
+                                 ;CountersInterrupt Counter5, Overflow, enabled, $30
+                                 ;CountersInterrupt Counter5, CompareMatch, enabled, $30
+                                 ;CountersInterrupt Counter5, CompareMatchA, enabled, $30
+                                 ;CountersInterrupt Counter5, CompareMatchB, enabled, $30
+                                 ;CountersInterrupt Counter5, CompareMatchC, enabled, $30
                                  
+                                 ;CountersWeveformGenerationMode Counter0, 2
+                                 ;CountersWeveformGenerationMode Counter1, 2
+                                 ;CountersWeveformGenerationMode Counter2, 2
+                                 ;CountersWeveformGenerationMode Counter3, 2
+                                 ;CountersWeveformGenerationMode Counter4, 2
+                                 ;CountersWeveformGenerationMode Counter5, 12
                                  
+                                 ;CountersCompareOutputMode Counter5, CompareMatchOutput, 3
+                                 ;CountersCompareOutputMode Counter5, CompareMatchOutputC, 3
+                                 ;CountersCompareOutputMode Counter5, CompareMatchOutputA, 3
+                                 ;CountersCompareOutputMode Counter5, CompareMatchOutputB, 3
                                  
-                                 //CountersPrescaller Counter0, Prescaller8
-                                 //CountersOffMode Counter0
-                                 //CountersPrescaller Counter1, Prescaller1024
-                                 //CountersOffMode Counter1
-                                 //CountersPrescaller Counter2, Prescaller8
-                                 //CountersOffMode Counter2
-                                 //CountersPrescaller Counter3, Prescaller8
-                                 //CountersOffMode Counter3
-                                 //CountersPrescaller Counter4, Prescaller1024
-                                 //CountersOffMode Counter4
-                                 //CountersPrescaller Counter5, Prescaller1024
-                                 //CountersOffMode Counter5
+                                 ;CountersExternalClockSourceOnT0pin Counter0, FallingEdge
+                                 ;CountersPrescaller Counter0, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter0, RisingEdge
                                  
+                                 ;CountersExternalClockSourceOnT0pin Counter1, FallingEdge
+                                 ;CountersPrescaller Counter1, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter1, RisingEdge
                                  
-                                 //CountersInterrupt Counter0, Overflow, enabled, $30
-                                 //CountersInterrupt Counter0, CompareMatch, enabled, $30
-                                 //CountersInterrupt Counter5, CompareMatchA, enabled, $395
-                                 //CountersInterrupt Counter5, CompareMatchB, enabled, $465
-                                 //CountersInterrupt Counter5, CompareMatchC, enabled, $578
+                                 ;CountersExternalClockSourceOnT0pin Counter2, FallingEdge
+                                 ;CountersPrescaller Counter2, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter2, RisingEdge
                                  
-                                 //CountersInterrupt Counter5, CompareMatchA, disabled
-                                 //CountersInterrupt Counter5, CompareMatchB, disabled
-                                 //CountersInterrupt Counter5, CompareMatchC, disabled
+                                 ;CountersExternalClockSourceOnT0pin Counter3, FallingEdge
+                                 ;CountersPrescaller Counter3, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter3, RisingEdge
                                  
+                                 ;CountersExternalClockSourceOnT0pin Counter4, FallingEdge
+                                 ;CountersPrescaller Counter4, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter4, RisingEdge
                                  
-                                 //CountersInterrupt Counter5, CaptureEvent, enabled, $30
-                                 //CountersInterrupt Counter5, Overflow, enabled, $30
-                                 //CountersInterrupt Counter5, CompareMatch, enabled, $30
-                                 //CountersInterrupt Counter5, CompareMatchA, enabled, $30
-                                 //CountersInterrupt Counter5, CompareMatchB, enabled, $30
-                                 //CountersInterrupt Counter5, CompareMatchC, enabled, $30
-                                 
-                                 //CountersWeveformGenerationMode Counter0, 2
-                                 //CountersWeveformGenerationMode Counter1, 2
-                                 //CountersWeveformGenerationMode Counter2, 2
-                                 //CountersWeveformGenerationMode Counter3, 2
-                                 //CountersWeveformGenerationMode Counter4, 2
-                                 //CountersWeveformGenerationMode Counter5, 12
-                                 
-                                 //CountersCompareOutputMode Counter5, CompareMatchOutput, 3
-                                 //CountersCompareOutputMode Counter5, CompareMatchOutputC, 3
-                                 //CountersCompareOutputMode Counter5, CompareMatchOutputA, 3
-                                 //CountersCompareOutputMode Counter5, CompareMatchOutputB, 3
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter0, FallingEdge
-                                 //CountersPrescaller Counter0, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter0, RisingEdge
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter1, FallingEdge
-                                 //CountersPrescaller Counter1, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter1, RisingEdge
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter2, FallingEdge
-                                 //CountersPrescaller Counter2, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter2, RisingEdge
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter3, FallingEdge
-                                 //CountersPrescaller Counter3, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter3, RisingEdge
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter4, FallingEdge
-                                 //CountersPrescaller Counter4, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter4, RisingEdge
-                                 
-                                 //CountersExternalClockSourceOnT0pin Counter5, FallingEdge
-                                 //CountersPrescaller Counter5, Prescaller1
-                                 //CountersExternalClockSourceOnT0pin Counter5, RisingEdge
+                                 ;CountersExternalClockSourceOnT0pin Counter5, FallingEdge
+                                 ;CountersPrescaller Counter5, Prescaller1
+                                 ;CountersExternalClockSourceOnT0pin Counter5, RisingEdge
                                  
                                  
                                  

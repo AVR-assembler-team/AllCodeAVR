@@ -1,6 +1,6 @@
-#ifdef Counters_Module
-	.include "AVRModules/Counters/Counters_Includes.inc"
-#endif
+
+	.include "AVRModules/Counters/CountersIncludes.inc"
+
 
 #ifdef TWSI_Module
 	.include "AVRModules/TWSI/TWSI_Includes.inc"
