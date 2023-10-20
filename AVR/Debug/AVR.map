@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 18:54:31 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 19:54:34 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1469,6 +1469,22 @@ EQU  V1           0000001c
 EQU  Gain1        0000001d
 EQU  Gain10       0000001e
 EQU  Gain200      0000001f
+EQU  pin0D        00000020
+EQU  pin1D        00000021
+EQU  pin2D        00000022
+EQU  pin3D        00000023
+EQU  pin4D        00000024
+EQU  pin5D        00000025
+EQU  pin6D        00000026
+EQU  pin7D        00000027
+EQU  pin8D        00000028
+EQU  pin9D        00000029
+EQU  pin10D       0000002a
+EQU  pin11D       0000002b
+EQU  pin12D       0000002c
+EQU  pin13D       0000002d
+EQU  pin14D       0000002e
+EQU  pin15D       0000002f
 CSEG ADCSTAR_act  00000075
 CSEG ADCINTtt     000001c2
 CSEG EXT_PCINT3   000000b0

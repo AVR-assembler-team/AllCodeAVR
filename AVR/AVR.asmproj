@@ -326,10 +326,10 @@
     <Compile Include="AVRModules\ADC\ADCConstants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_DigitalInputDisable.inc">
+    <Compile Include="AVRModules\ADC\ADCDigitalInputDisable.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Includes.inc">
+    <Compile Include="AVRModules\ADC\ADCIncludes.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADC_Init.inc">

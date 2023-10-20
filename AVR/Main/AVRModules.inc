@@ -11,7 +11,7 @@
 #endif
 
 #ifdef ADC_Module
-	.include "AVRModules/ADC/ADC_Includes.inc"
+	.include "AVRModules/ADC/ADCIncludes.inc"
 #endif
 
 #ifdef OneWire_Module

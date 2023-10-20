@@ -5,5 +5,4 @@
 	ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
 	SetADCModeSelect
 	SetADCInterrupt
-	SetDigInpDis
 .endm

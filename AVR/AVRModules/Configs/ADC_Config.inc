@@ -66,23 +66,3 @@
 //-----------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------
 
-; Digital Input Disable 
-
-; Закоментируйте те пины, которые не нужно отключать
-
-//#define Disable_ADC0D
-//#define Disable_ADC1D
-//#define Disable_ADC2D
-//#define Disable_ADC3D
-//#define Disable_ADC4D
-//#define Disable_ADC5D
-//#define Disable_ADC6D
-//#define Disable_ADC7D
-//#define Disable_ADC8D
-//#define Disable_ADC9D
-//#define Disable_ADC10D
-//#define Disable_ADC11D
-//#define Disable_ADC12D
-//#define Disable_ADC13D
-//#define Disable_ADC14D
-//#define Disable_ADC15D
