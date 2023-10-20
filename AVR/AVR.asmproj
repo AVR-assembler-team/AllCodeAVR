@@ -338,10 +338,10 @@
     <Compile Include="AVRModules\ADC\ADC_Interrupt.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_LeftAdjustResult.inc">
+    <Compile Include="AVRModules\ADC\ADCLeftAdjustResult.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AVRModules\ADC\ADC_Mode.inc">
+    <Compile Include="AVRModules\ADC\ADCAutoTriggerSourceSelections.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AVRModules\ADC\ADCPrescalerSelection.inc">

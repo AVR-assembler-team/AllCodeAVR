@@ -4,10 +4,10 @@
 .include "AVRModules/ADC/ADCInputChannelSelection.inc"
 .include "AVRModules/ADC/ADCDigitalInputDisable.inc"
 .include "AVRModules/ADC/ADCReferenceSelection.inc"
+.include "AVRModules/ADC/ADCLeftAdjustResult.inc"
+.include "AVRModules/ADC/ADCAutoTriggerSourceSelections.inc"
 .include "AVRModules/Configs/ADC_Config.inc"
 
-.include "AVRModules/ADC/ADC_LeftAdjustResult.inc"
-.include "AVRModules/ADC/ADC_Mode.inc"
 .include "AVRModules/ADC/ADC_Interrupt.inc"
 
 .include "AVRModules/ADC/ADC_Init.inc"

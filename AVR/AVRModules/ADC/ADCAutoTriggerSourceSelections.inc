@@ -1,3 +1,9 @@
+.macro ADCAutoTriggerSourceSelections
+	
+.endm
+
+
+
 .macro SetADCModeSelect
 	.if ctrl == 8 || ctrl == 128
 		#ifdef FreeRun

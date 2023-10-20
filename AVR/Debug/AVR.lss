@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 21:08:07 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 21:27:27 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -22,9 +22,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCInputChannelSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCDigitalInputDisable.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCReferenceSelection.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCLeftAdjustResult.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCAutoTriggerSourceSelections.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_START.inc'
@@ -54,9 +54,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCInputChannelSelection.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCDigitalInputDisable.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCReferenceSelection.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCLeftAdjustResult.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCAutoTriggerSourceSelections.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Init.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_START.inc'
@@ -1916,8 +1916,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .equ All			= 'a'
                                  .equ enabled		= 'b'
                                  .equ disabled		= 'c'
-                                 .equ right			= 'c'
-                                 .equ left			= 'd'
+                                 .equ Right			= 'c'
+                                 .equ Left			= 'd'
                                  .equ null			= 'e'
                                  .equ On				= 'f'
                                  .equ Off			= 'g'
@@ -3564,17 +3564,59 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  		.endif
                                  	.endif
                                  .endm
+                                 .include "AVRModules/ADC/ADCLeftAdjustResult.inc"
+                                 
+                                 	.if ctrl == 162 || ctrl == 8515
+                                 		.error "ADC is not supporting by this controller!"
+                                 	.else
+                                 		.if @0 == Left
+                                 			SETB ADMUX, ADLAR
+                                 		.elif @0 == Right
+                                 			CLRB ADMUX, ADLAR
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/ADC/ADCAutoTriggerSourceSelections.inc"
+                                 
+                                 	
+                                 .endm
+                                 
+                                 
+                                 
+                                 .macro SetADCModeSelect
+                                 	.if ctrl == 8 || ctrl == 128
+                                 		#ifdef FreeRun
+                                 		#elif defined AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
+                                 		#else
+                                 			CLRB ADCSRA, ADFR
+                                 		#endif
+                                 	.else
+                                 		#if defined FreeRun || AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
+                                 				#ifdef FreeRun
+                                 				#elif defined AnComp
+                                 				#elif defined ExtIntReq0
+                                 				#elif defined TC0CompMatch
+                                 				#elif defined TC0Overflow
+                                 				#elif defined TC1CompMatchB
+                                 				#elif defined TC1Overflow
+                                 				#elif defined TC1CaptEvent
+                                 				#endif
+                                 				#ifdef FreeRun
+                                 				#elif defined AnComp
+                                 				#elif defined ExtIntReq0
+                                 				#elif defined TC0CompMatch
+                                 				#elif defined TC0Overflow
+                                 				#elif defined TC1CompMatchB
+                                 				#elif defined TC1Overflow
+                                 				#elif defined TC1CaptEvent
+                                 				#endif
+                                 		#else
+                                 			CLRB ADCSRA, ADATE
+                                 		#endif
+                                 	.endif
+                                 .endm
+                                 
                                  .include "AVRModules/Configs/ADC_Config.inc"
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 ; Left Adjust Result
-                                 
-                                 ; бывает - Left, Right as default
-                                 
-                                 #define Adjust_Left
                                  
                                  //-----------------------------------------------------------------------------------------
                                  //-----------------------------------------------------------------------------------------
@@ -3617,55 +3659,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  //-----------------------------------------------------------------------------------------
                                  
                                  
-                                 .include "AVRModules/ADC/ADC_LeftAdjustResult.inc"
-                                 
-                                 	#ifdef Adjust_Left
-                                 		SETB ADMUX, ADLAR
-                                 	#endif
-                                 .endm
-                                 .include "AVRModules/ADC/ADC_Mode.inc"
-                                 
-                                 	.if ctrl == 8 || ctrl == 128
-                                 		#ifdef FreeRun
-                                 			SETB ADCSRA, ADFR
-                                 		#elif defined AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-                                 		#else
-                                 		#endif
-                                 	.else
-                                 		#if defined FreeRun || AnComp || ExtIntReq0 || TC0CompMatch || TC0Overflow || TC1CompMatchB || TC1Overflow || TC1CaptEvent
-                                 			SETB ADCSRA, ADATE
-                                 			.if ctrl == 16 || ctrl == 32
-                                 				#ifdef FreeRun
-                                 					CLRB SFIOR, ADTS0
-                                 					CLRB SFIOR, ADTS1
-                                 					CLRB SFIOR, ADTS2
-                                 				#elif defined AnComp
-                                 				#elif defined ExtIntReq0
-                                 				#elif defined TC0CompMatch
-                                 				#elif defined TC0Overflow
-                                 				#elif defined TC1CompMatchB
-                                 				#elif defined TC1Overflow
-                                 				#elif defined TC1CaptEvent
-                                 				#endif
-                                 			.else
-                                 				#ifdef FreeRun
-                                 					CLRB ADCSRB, ADTS0
-                                 					CLRB ADCSRB, ADTS1
-                                 					CLRB ADCSRB, ADTS2
-                                 				#elif defined AnComp
-                                 				#elif defined ExtIntReq0
-                                 				#elif defined TC0CompMatch
-                                 				#elif defined TC0Overflow
-                                 				#elif defined TC1CompMatchB
-                                 				#elif defined TC1Overflow
-                                 				#elif defined TC1CaptEvent
-                                 				#endif
-                                 			.endif
-                                 		#else
-                                 		#endif
-                                 	.endif
-                                 .endm
-                                 
                                  .include "AVRModules/ADC/ADC_Interrupt.inc"
                                  
                                  	#ifdef ADCInterrupt_Enabled
@@ -3677,7 +3670,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  	ADCPrescalerSelection 128							; настройка претделителя
                                  	ADCReferenceSelection AREFpin						; настройка Reference Selection
-                                 	SetAdjustResult
+                                 	ADCLeftAdjustResult Left							; настройка ADC Left Adjust Result
                                  	ADCInputChannelSelection SingleEndedInput, ADC0		; настройка Input Channel Selections
                                  	SetADCModeSelect
                                  	SetADCInterrupt
@@ -3736,7 +3729,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ADC_Conv_Comp:
 000087 94f8                      	cli
                                  	// Ваш код
-000088 940e 01c2                 	_call ADCINTtt
+000088 940e 01ad                 	_call ADCINTtt
 00008a 9478                      	sei
 00008b 9518                      reti
                                  ////////////////////////////////////////////////////////////
@@ -4162,38 +4155,24 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 000197 910f
 000198 930f
 000199 9100 007a
-00019b 6200
+00019b 7d0f
 00019c 9300 007a
 00019e 910f
 00019f 930f
-0001a0 9100 007b
-0001a2 7f0e
-0001a3 9300 007b
-0001a5 910f
-0001a6 930f
-0001a7 9100 007b
-0001a9 7f0d
-0001aa 9300 007b
-0001ac 910f
-0001ad 930f
-0001ae 9100 007b
-0001b0 7f0b
-0001b1 9300 007b
-0001b3 910f
-0001b4 930f
-0001b5 9100 007a
-0001b7 6008
-0001b8 9300 007a
-0001ba 910f                      Modules_Inits
-0001bb 9478                      sei
+0001a0 9100 007a
+0001a2 6008
+0001a3 9300 007a
+0001a5 910f                      Modules_Inits
+0001a6 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
                                  
                                  
-0001bc ef0f                      ldi r16, $ff
-0001bd 9300 0107                 WRITE_REG DDRK, r16
-0001bf 940e 0075                 ADCSTART
+                                 
+0001a7 ef0f                      ldi r16, $ff
+0001a8 9300 0107                 WRITE_REG DDRK, r16
+0001aa 940e 0075                 ADCSTART
                                  
                                  
                                  //CountersPrescaller Counter0, Prescaller8
@@ -4270,13 +4249,13 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001c1 cfff                      rjmp Proga
+0001ac cfff                      rjmp Proga
                                  ADCINTtt:
-0001c2 9110 0078                 	READ_REG ADCL, r17
-0001c4 9100 0079                 	READ_REG ADCH, r16
+0001ad 9110 0078                 	READ_REG ADCL, r17
+0001af 9100 0079                 	READ_REG ADCH, r16
                                  
-0001c6 9300 0108                 	WRITE_REG PORTK, r16
-0001c8 9508                      ret
+0001b1 9300 0108                 	WRITE_REG PORTK, r16
+0001b3 9508                      ret
 
 
 RESOURCE USE INFORMATION
@@ -4296,14 +4275,14 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16: 103 r17:   1 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  88 r17:   1 r18:   0 r19:   0 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 4 out of 35 (11.4%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :  10 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+andi  :   8 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
@@ -4313,21 +4292,21 @@ clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
 in    :   0 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   3 
-lds   :  21 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+lds   :  18 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   9 out   :   2 pop   :  19 push  :  19 rcall :   0 ret   :   4 
+ori   :   8 out   :   2 pop   :  16 push  :  16 rcall :   0 ret   :   4 
 reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
 sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  21 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  18 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
 Instructions used: 17 out of 116 (14.7%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000392    914      0    914  262144   0.3%
+[.cseg] 0x000000 0x000368    872      0    872  262144   0.3%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 

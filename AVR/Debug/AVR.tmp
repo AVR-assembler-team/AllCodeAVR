@@ -29,9 +29,9 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCInputChannelSelection.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCDigitalInputDisable.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCReferenceSelection.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCLeftAdjustResult.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCAutoTriggerSourceSelections.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Configs/ADC_Config.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_LeftAdjustResult.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Mode.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Interrupt.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_Init.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADC_START.inc</FILE>
