@@ -1,15 +1,15 @@
 .macro CountersInterruptCounter3
 	.if @0 == CaptureEvent
 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB ETIMSK, TICIE3
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB ETIMSK, TICIE3
 			.endif
 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB TIMSK3, ICIE3
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB TIMSK3, ICIE3
 			.endif
 		.else
@@ -17,15 +17,15 @@
 		.endif
 	.elif @0 == Overflow
 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB ETIMSK, TOIE3
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB ETIMSK, TOIE3
 			.endif
 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB TIMSK3, TOIE3
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB TIMSK3, TOIE3
 			.endif
 		.else
@@ -35,21 +35,21 @@
 		.error "Compare Match is not supporting by counter 3 of this controller!"
 	.elif @0 == CompareMatchA
 		.if ctrl == 64 || ctrl == 128 || ctrl == 162
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB ETIMSK, OCIE3A
 				WRITE_BYTE OCR3AH, high(@2)
 				WRITE_BYTE OCR3AL, low(@2)
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB ETIMSK, OCIE3A
 				WRITE_BYTE OCR3AH, $00
 				WRITE_BYTE OCR3AL, $00
 			.endif
 		.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561 || ctrl == 1284
-			.if @1 == enabled
+			.if @1 == Enable
 				SETB TIMSK3, OCIE3A
 				WRITE_BYTE OCR3AH, high(@2)
 				WRITE_BYTE OCR3AL, low(@2)
-			.elif @1 == disabled
+			.elif @1 == Disable
 				CLRB TIMSK3, OCIE3A
 				WRITE_BYTE OCR3AH, $00
 				WRITE_BYTE OCR3AL, $00

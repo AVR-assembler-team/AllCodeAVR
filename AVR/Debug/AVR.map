@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 20 23:14:40 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Oct 22 21:14:19 2023
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1367,7 +1367,7 @@ EQU  Left         00000064
 EQU  Null         00000065
 EQU  On           00000066
 EQU  Off          00000067
-EQU  zero         00000068
+EQU  Zero         00000068
 EQU  One          00000069
 EQU  Two          0000006a
 EQU  Normal       0000006b
