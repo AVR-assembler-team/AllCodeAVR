@@ -1,7 +1,7 @@
 
 .include "AVRModules/OneWire/OneWire_Constants.inc"
 .include "AVRModules/OneWire/OneWire_Set_Macs.inc"
-.include "AVRModules/Configs/OneWire_Config.inc"
+.include "Configs/OneWire_Config.inc"
 
 .include "AVRModules/OneWire/OneWire_Init.inc"
 .include "AVRModules/OneWire/OneWire_Times.inc"

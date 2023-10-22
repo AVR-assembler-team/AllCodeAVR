@@ -1,5 +1,5 @@
 
-.include "AVRModules/Configs/USART_Config.inc"
+.include "Configs/USART_Config.inc"
 
 .include "AVRModules/USART/USART_Constants.inc"
 .include "AVRModules/USART/USART_BAUD.inc"

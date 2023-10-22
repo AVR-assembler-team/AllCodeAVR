@@ -1,6 +1,6 @@
 
 .include "AVRModules/TWSI/TWSI_Const.inc"
-.include "AVRModules/Configs/TWSI_Config.inc"
+.include "Configs/TWSI_Config.inc"
 
 .include "AVRModules/TWSI/TWSI_Times.inc"
 
