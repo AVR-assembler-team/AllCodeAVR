@@ -206,6 +206,9 @@
     <Compile Include="GadgetModules\PCF8574\PCF8574_Write.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GadgetModules\PCF8575\PCF8575_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GadgetModules\PCF8575\PCF8575_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -725,7 +728,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FunctionModules\CRC\" />
-    <Folder Include="GadgetModules\Configs\" />
     <Folder Include="GadgetModules\HD44780U\" />
     <Folder Include="GadgetModules\NTC3950_100K\" />
     <Folder Include="GadgetModules\PCF8574\" />
