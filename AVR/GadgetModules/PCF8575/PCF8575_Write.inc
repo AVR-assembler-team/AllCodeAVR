@@ -5,8 +5,7 @@
 .macro PCF8575Write
 
 	TWSI_START										; Стартуем работу
-	ldi r25, @0
-	TWSI_SLA r25, 'W'								; Отправляем адрес и режим работы
+	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
 
 	_call PCF8575Write_act
 .endm
