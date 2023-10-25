@@ -6,6 +6,9 @@
 //PCF8575Read $40
 //PCF8574Write $70, r16
 
+WRITE_BYTE PCF8574Bytes +2, $25
+PCF8574Write $70
+PCF8574Read $70
 // Пример настройки счетчиков
 ;CountersPrescaller Counter0, Prescaller8
 ;CountersOffMode Counter0

@@ -194,6 +194,9 @@
     <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_TempTable.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GadgetModules\PCF8574\PCF8574_Constants.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GadgetModules\PCF8574\PCF8574_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
