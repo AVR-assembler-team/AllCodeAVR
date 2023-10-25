@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 01:09:03 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 01:23:41 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -4862,9 +4862,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .macro TWSI_SLA
                                  
                                  	.if @1 == 'W'
-                                 		mov	r25, @0
+                                 		ldi	r25, @0
                                  	.elif @1 == 'R'
-                                 		mov	r25, @0
+                                 		ldi	r25, @0
                                  		sbr	r25, 1
                                  	.endif
                                  		
@@ -6090,8 +6090,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  .macro PCF8574Write
                                  	TWSI_START										; Стартуем работу
-                                 	ldi r25, @0
-                                 	TWSI_SLA r25, 'W'								; Отправляем адрес и режим работы
+                                 	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
                                  
                                  	_call PCF8574_Write_act
                                  .endm
@@ -6100,9 +6099,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	
 0000ad 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 0000af fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000b0 940c 00c3                 	_jump gotoPCF8574WriteLabels							; Если поднят, то переходим
+0000b0 940c 00c3                 	_jump gotoPCF8574WriteLabels					; Если поднят, то переходим
                                  
-0000b2 9190 0203                 	READ_REG PCF8574Bytes + 2, r25
+0000b2 9190 0201                 	READ_REG PCF8574Bytes, r25
 0000b4 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
                                  
 0000b6 940e 00a0                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
@@ -6112,7 +6111,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
 0000bc 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 0000be fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000bf 940c 00c3                 		_jump gotoPCF8574WriteLabels							; Если поднят, то переходим
+0000bf 940c 00c3                 		_jump gotoPCF8574WriteLabels				; Если поднят, то переходим
 0000c1 940c 00c5                 		_jump PCF8574_Write_end
                                  
                                  gotoPCF8574WriteLabels:
@@ -6124,8 +6123,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .include "GadgetModules/PCF8574/PCF8574_Read.inc"
                                  
                                  	TWSI_START									; Стартуем работу
-                                 	ldi r25, @0
-                                 	TWSI_SLA r25, 'R'							; Отправляем адрес и режим работы 
+                                 	TWSI_SLA @0, 'R'							; Отправляем адрес и режим работы 
                                  
                                  	_call PCF8574_Read_act
                                  .endm
@@ -6135,7 +6133,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
 0000c8 9190 0200                 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
 0000ca fd90                      	sbrc r25, No_ACK							; Проверяем бит 
-0000cb 940c 00da                 	_jump gotoPCF8574ReadLabels						; Если поднят, то переходим
+0000cb 940c 00da                 	_jump gotoPCF8574ReadLabels					; Если поднят, то переходим
                                  
 0000cd 940e 00a0                 	TWSI_Byte_Transmit							; больше не принимаем байты
                                  
@@ -6550,27 +6548,25 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
 0001a6 930f
 0001a7 e205
-0001a8 9300 0203
-0001aa 910f                      WRITE_BYTE PCF8574Bytes +2, $25
+0001a8 9300 0201
+0001aa 910f                      WRITE_BYTE PCF8574Bytes, $25
 0001ab 940e 009a
 0001ad e790
-0001ae 2f99
-0001af 9390 00bb
-0001b1 940e 00a0
-0001b3 e188
-0001b4 e270
-0001b5 940e 007e
-0001b7 940e 00ad                 PCF8574Write $70
-0001b9 940e 009a
-0001bb e790
-0001bc 2f99
-0001bd 6091
-0001be 9390 00bb
-0001c0 940e 00a0
-0001c2 e480
-0001c3 e478
-0001c4 940e 007e
-0001c6 940e 00c8                 PCF8574Read $70
+0001ae 9390 00bb
+0001b0 940e 00a0
+0001b2 e188
+0001b3 e270
+0001b4 940e 007e
+0001b6 940e 00ad                 PCF8574Write $70
+0001b8 940e 009a
+0001ba e790
+0001bb 6091
+0001bc 9390 00bb
+0001be 940e 00a0
+0001c0 e480
+0001c1 e478
+0001c2 940e 007e
+0001c4 940e 00c8                 PCF8574Read $70
                                  // Пример настройки счетчиков
                                  ;CountersPrescaller Counter0, Prescaller8
                                  ;CountersOffMode Counter0
@@ -6644,7 +6640,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001c8 cfff                      rjmp Proga
+0001c6 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -6665,7 +6661,7 @@ counted separately from r26..r31 here.
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
 r13:   0 r14:   0 r15:   0 r16:  22 r17:   0 r18:   0 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:   4 r24:   4 r25:  35 r26:   3 r27:   3 r28:   0 
+r21:   0 r22:   0 r23:   4 r24:   4 r25:  31 r26:   3 r27:   3 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 6 out of 35 (17.1%)
 
@@ -6681,7 +6677,7 @@ clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0
 cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
 in    :   0 inc   :   0 jmp   :  62 ld    :   0 ldd   :   0 ldi   :  21 
-lds   :   9 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   2 movw  :   0 
+lds   :   9 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
 ori   :   1 out   :   2 pop   :   4 push  :   4 rcall :   0 ret   :  11 
 reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
@@ -6690,12 +6686,12 @@ sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
 st    :   0 std   :   0 sts   :  13 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 22 out of 116 (19.0%)
+Instructions used: 21 out of 116 (18.1%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000392    914      0    914  262144   0.3%
+[.cseg] 0x000000 0x00038e    910      0    910  262144   0.3%
 [.dseg] 0x000200 0x000202      0      2      2    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
