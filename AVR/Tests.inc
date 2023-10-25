@@ -1,14 +1,14 @@
 
-//WRITE_BYTE PCF8575Bytes, $25
-//WRITE_BYTE PCF8575Bytes + 1, $0f
+WRITE_BYTE PCF8575Bytes, $25
+WRITE_BYTE PCF8575Bytes + 1, $0f
 
-//PCF8575Write $40
-//PCF8575Read $40
+PCF8575Write $40
+PCF8575Read $40
 //PCF8574Write $70, r16
 
-WRITE_BYTE PCF8574Bytes +2, $25
-PCF8574Write $70
-PCF8574Read $70
+//WRITE_BYTE PCF8574Bytes +2, $25
+//PCF8574Write $70
+//PCF8574Read $70
 // Пример настройки счетчиков
 ;CountersPrescaller Counter0, Prescaller8
 ;CountersOffMode Counter0

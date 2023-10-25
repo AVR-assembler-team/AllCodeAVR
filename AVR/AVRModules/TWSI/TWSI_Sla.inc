@@ -12,9 +12,9 @@
 .macro TWSI_SLA
 
 	.if @1 == 'W'
-		mov	r25, @0
+		ldi	r25, @0
 	.elif @1 == 'R'
-		mov	r25, @0
+		ldi	r25, @0
 		sbr	r25, 1
 	.endif
 		

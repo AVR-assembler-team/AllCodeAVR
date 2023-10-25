@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 01:09:03 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 01:18:35 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -84,11 +84,11 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCCondition.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConversion.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Labels.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -176,11 +176,11 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCCondition.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConversion.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Labels.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2064,8 +2064,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  //#define HD44780U_Module
                                  //#define NTC3950_100K_Module
-                                 #define PCF8574_Module
-                                 //#define PCF8575_Module
+                                 //#define PCF8574_Module
+                                 #define PCF8575_Module
                                  //#define RotaryEncoder_Module
                                  .include "Config.inc"
                                  
@@ -2321,68 +2321,68 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 019e                 	.org 0x0000	 jmp RESET ; Reset Handler
-000002 940c 00ed                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 00f0                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 00f3                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
-000008 940c 00f6                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
-00000a 940c 00f9                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
-00000c 940c 00fc                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
-00000e 940c 00ff                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
-000010 940c 0102                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
-000012 940c 0105                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 0108                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 010b                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 019b                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 0138                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 013b                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 013e                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 0126                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 0129                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 012c                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 012f                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 0132                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 011d                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 0120                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 0123                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 0114                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 0171                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 0174                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 0177                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
-000038 940c 00e4                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
-00003a 940c 00e7                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
-00003c 940c 00ea                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 0141                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 0144                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 0147                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 014a                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 014d                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 017a                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 017d                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 0180                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 016e                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 0117                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+000000 940c 01bd                 	.org 0x0000	 jmp RESET ; Reset Handler
+000002 940c 010c                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 010f                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 0112                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
+000008 940c 0115                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
+00000a 940c 0118                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
+00000c 940c 011b                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
+00000e 940c 011e                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
+000010 940c 0121                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
+000012 940c 0124                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
+000014 940c 0127                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 012a                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 01ba                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 0157                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 015a                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 015d                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 0145                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 0148                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 014b                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 014e                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 0151                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 013c                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 013f                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 0142                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 0133                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 0190                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 0193                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 0196                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000038 940c 0103                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
+00003a 940c 0106                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
+00003c 940c 0109                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
+00003e 940c 0160                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 0163                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 0166                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 0169                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 016c                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 0199                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 019c                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 019f                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 018d                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 0136                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000052 940c 0150                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 016f                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 0153                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 0156                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 0159                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 015c                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 0172                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 0175                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 0178                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 017b                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-00005c 940c 015f                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 017e                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 0162                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 0165                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 0168                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 016b                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 0181                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 0184                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 0187                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 018a                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000066 940c 0183                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 0186                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 0189                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 018c                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 018f                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 0192                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 01a2                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 01a5                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 01a8                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 01ab                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 01ae                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 01b1                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctrl == 1284
                                  .elif ctrl == 8515
@@ -4862,9 +4862,9 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .macro TWSI_SLA
                                  
                                  	.if @1 == 'W'
-                                 		mov	r25, @0
+                                 		ldi	r25, @0
                                  	.elif @1 == 'R'
-                                 		mov	r25, @0
+                                 		ldi	r25, @0
                                  		sbr	r25, 1
                                  	.endif
                                  		
@@ -6068,41 +6068,39 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  #endif
                                  
                                  #ifdef PCF8575_Module
-                                 #endif
+                                 	.include "GadgetModules/PCF8575/PCF8575_Includes.inc"
                                  
-                                 #ifdef PCF8574_Module
-                                 	.include "GadgetModules/PCF8574/PCF8574_Includes.inc"
-                                 
-                                 .include "GadgetModules/PCF8574/PCF8574_Constants.inc"
+                                 .include "GadgetModules/PCF8575/PCF8575_Constants.inc"
                                  
                                  .dseg
-000201                           PCF8574Bytes:	.byte 1
+000201                           PCF8575Bytes:	.byte 2
                                  
                                  .cseg
-                                 .include "GadgetModules/PCF8574/PCF8574_Labels.inc"
+                                 .include "GadgetModules/PCF8575/PCF8575_Labels.inc"
                                  
                                  	; Ваш код ошибки
 0000ac 9508                      ret
-                                 .include "GadgetModules/PCF8574/PCF8574_Write.inc"
+                                 .include "GadgetModules/PCF8575/PCF8575_Write.inc"
                                  
-                                 * Записывает байт в чип
+                                 * Записывает 2 байта в чип
                                  */
                                  
-                                 .macro PCF8574Write
-                                 	TWSI_START										; Стартуем работу
-                                 	ldi r25, @0
-                                 	TWSI_SLA r25, 'W'								; Отправляем адрес и режим работы
+                                 .macro PCF8575Write
                                  
-                                 	_call PCF8574_Write_act
+                                 	TWSI_START										; Стартуем работу
+                                 	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
+                                 
+                                 	_call PCF8575Write_act
                                  .endm
                                  
-                                 PCF8574_Write_act:
+                                 PCF8575Write_act:
                                  	
+                                 
 0000ad 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 0000af fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000b0 940c 00c3                 	_jump gotoPCF8574WriteLabels							; Если поднят, то переходим
-                                 
-0000b2 9190 0203                 	READ_REG PCF8574Bytes + 2, r25
+0000b0 940c 00d2                 	_jump gotoPCF8575WriteLabels					; Если поднят, то переходим
+                                 	
+0000b2 9190 0201                 	READ_REG PCF8575Bytes, r25
 0000b4 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
                                  
 0000b6 940e 00a0                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
@@ -6112,408 +6110,437 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
 0000bc 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 0000be fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000bf 940c 00c3                 		_jump gotoPCF8574WriteLabels							; Если поднят, то переходим
-0000c1 940c 00c5                 		_jump PCF8574_Write_end
+0000bf 940c 00d2                 	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
+                                 	
+0000c1 9190 0202                 	READ_REG PCF8575Bytes + 1, r25
+0000c3 9390 00bb                 	WRITE_REG TWDR, r25								; вталкиваем в дата регистр
                                  
-                                 gotoPCF8574WriteLabels:
-0000c3 940e 00ac                 	_call PCF8574_NoAck
+0000c5 940e 00a0                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+0000c7 e288
+0000c8 e370
+0000c9 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
                                  
-                                 PCF8574_Write_end:
-0000c5 940e 00a6                 	TWSI_STOP
-0000c7 9508                      ret
-                                 .include "GadgetModules/PCF8574/PCF8574_Read.inc"
+0000cb 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
+0000cd fd90                      	sbrc r25, No_ACK								; Проверяем бит 
+0000ce 940c 00d2                 		_jump gotoPCF8575WriteLabels				; Если поднят, то переходим
+0000d0 940c 00d6                 		_jump PCF8575Write_end
+                                 
+                                 gotoPCF8575WriteLabels:
+0000d2 940e 00a6                 	TWSI_STOP
+0000d4 940e 00ac                 	_call PCF8575_NoAck
+                                 
+                                 PCF8575Write_end:
+0000d6 940e 00a6                 	TWSI_STOP
+0000d8 9508                      ret
+                                 .include "GadgetModules/PCF8575/PCF8575_Read.inc"
+                                 
                                  
                                  	TWSI_START									; Стартуем работу
-                                 	ldi r25, @0
-                                 	TWSI_SLA r25, 'R'							; Отправляем адрес и режим работы 
+                                 	TWSI_SLA @0, 'R'							; Отправляем адрес и режим работы 
                                  
-                                 	_call PCF8574_Read_act
+                                 	_call PCF8575Read_act
+                                 
                                  .endm
                                  
-                                  PCF8574_Read_act:
+                                  PCF8575Read_act:
                                  
                                  
-0000c8 9190 0200                 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
-0000ca fd90                      	sbrc r25, No_ACK							; Проверяем бит 
-0000cb 940c 00da                 	_jump gotoPCF8574ReadLabels						; Если поднят, то переходим
+0000d9 9190 0200                 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
+0000db fd90                      	sbrc r25, No_ACK							; Проверяем бит 
+0000dc 940c 00f4                 	_jump gotoPCF8575ReadLabels						; Если поднят, то переходим
                                  
-0000cd 940e 00a0                 	TWSI_Byte_Transmit							; больше не принимаем байты
+0000de ec94
+0000df 9390 00bc
+0000e1 940e 0095                 	TWSI_ACK_Transmit							; отправляем ACK
                                  
-0000cf 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
-0000d1 9390 0201                 	WRITE_REG PCF8574Bytes, r25
+0000e3 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
+0000e5 9390 0201                 	WRITE_REG PCF8575Bytes, r25
                                  	
-0000d3 ec94
-0000d4 9390 00bc
-0000d6 940e 0095                 	TWSI_ACK_Transmit							; отправляем ACK
-                                 		
-0000d8 940c 00e1                 	_jump PCF8574_Read_end
+0000e7 ec94
+0000e8 9390 00bc
+0000ea 940e 0095                 	TWSI_ACK_Transmit							; отправляем ACK
                                  
-                                 	gotoPCF8574ReadLabels:
-0000da 940e 00ac                 		_call PCF8574_NoAck
-0000dc 930f
-0000dd e000
-0000de 9300 0201
-0000e0 910f                      		WRITE_BYTE PCF8574Bytes, $00
+0000ec 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
+0000ee 9390 0202                 	WRITE_REG PCF8575Bytes + 1, r25
                                  
-                                 	PCF8574_Read_end:
-0000e1 940e 00a6                 	TWSI_STOP
-0000e3 9508                       ret
+0000f0 940e 00a0                 	TWSI_Byte_Transmit							; больше не принимаем байты
+                                 	
+0000f2 940c 0100                 	_jump PCF8575Read_end
                                  
+                                 gotoPCF8575ReadLabels:
+0000f4 940e 00ac                 	_call PCF8575_NoAck
+0000f6 930f
+0000f7 e000
+0000f8 9300 0201
+0000fa 910f                      	WRITE_BYTE PCF8575Bytes, $00
+0000fb 930f
+0000fc e000
+0000fd 9300 0202
+0000ff 910f                      	WRITE_BYTE PCF8575Bytes + 1, $00
+                                 
+                                 	PCF8575Read_end:
+000100 940e 00a6                 	TWSI_STOP
+                                 
+000102 9508                       ret
+                                 
+                                 #endif
+                                 
+                                 #ifdef PCF8574_Module
                                  #endif
                                  
                                  
                                  .include "Interrupts.inc"
                                  
                                  ANA_COMP:
-0000e4 94f8                      	cli
+000103 94f8                      	cli
                                  	// Ваш код
-0000e5 9478                      	sei
-0000e6 9518                      reti
+000104 9478                      	sei
+000105 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // ADC Conversion Complete Handler
                                  ADC_Conv_Comp:
-0000e7 94f8                      	cli
+000106 94f8                      	cli
                                  	// Ваш код
                                  	//_call ADCINTtt
-0000e8 9478                      	sei
-0000e9 9518                      reti
+000107 9478                      	sei
+000108 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //EEPROM Ready Handler
                                  EE_RDY:
-0000ea 94f8                      	cli
+000109 94f8                      	cli
                                  	// Ваш код
-0000eb 9478                      	sei
-0000ec 9518                      reti
+00010a 9478                      	sei
+00010b 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // External Interrupts
                                  EXT_INT0:
-0000ed 94f8                      	cli
+00010c 94f8                      	cli
                                  	// Ваш код
-0000ee 9478                      	sei
-0000ef 9518                      reti
+00010d 9478                      	sei
+00010e 9518                      reti
                                  EXT_INT1:
-0000f0 94f8                      	cli
+00010f 94f8                      	cli
                                  	// Ваш код
-0000f1 9478                      	sei
-0000f2 9518                      reti
+000110 9478                      	sei
+000111 9518                      reti
                                  EXT_INT2:
-0000f3 94f8                      	cli
+000112 94f8                      	cli
                                  	// Ваш код
-0000f4 9478                      	sei
-0000f5 9518                      reti
+000113 9478                      	sei
+000114 9518                      reti
                                  EXT_INT3:
-0000f6 94f8                      	cli
+000115 94f8                      	cli
                                  	// Ваш код
-0000f7 9478                      	sei
-0000f8 9518                      reti
+000116 9478                      	sei
+000117 9518                      reti
                                  EXT_INT4:
-0000f9 94f8                      	cli
+000118 94f8                      	cli
                                  	// Ваш код
                                  	//PCF8574_Read $70, PCF8574_Data
-0000fa 9478                      	sei
-0000fb 9518                      reti
+000119 9478                      	sei
+00011a 9518                      reti
                                  EXT_INT5:
-0000fc 94f8                      	cli
+00011b 94f8                      	cli
                                  	// Ваш код
                                  	//Disable_INT_Interrupt INT5
                                  	//PCF8575_Read $40, PCF8575_Data, PCF8575_Data + 1
                                  	//PCF8574_Read $70, PCF8574_Data
                                  
                                  	//Enable_INT_Interrupt INT5, FallingEdge
-0000fd 9478                      	sei
-0000fe 9518                      reti
+00011c 9478                      	sei
+00011d 9518                      reti
                                  EXT_INT6:
-0000ff 94f8                      	cli
+00011e 94f8                      	cli
                                  	// Ваш код
-000100 9478                      	sei
-000101 9518                      reti
+00011f 9478                      	sei
+000120 9518                      reti
                                  EXT_INT7:
-000102 94f8                      	cli
+000121 94f8                      	cli
                                  	// Ваш код
-000103 9478                      	sei
-000104 9518                      reti
+000122 9478                      	sei
+000123 9518                      reti
                                  EXT_PCINT0:
-000105 94f8                      	cli
+000124 94f8                      	cli
                                  	// Ваш код
-000106 9478                      	sei
-000107 9518                      reti
+000125 9478                      	sei
+000126 9518                      reti
                                  EXT_PCINT1:
-000108 94f8                      	cli
+000127 94f8                      	cli
                                  	// Ваш код
-000109 9478                      	sei
-00010a 9518                      reti
+000128 9478                      	sei
+000129 9518                      reti
                                  EXT_PCINT2:
-00010b 94f8                      	cli
+00012a 94f8                      	cli
                                  	// Ваш код
-00010c 9478                      	sei
-00010d 9508                      ret
+00012b 9478                      	sei
+00012c 9508                      ret
                                  EXT_PCINT3:
-00010e 94f8                      	cli
+00012d 94f8                      	cli
                                  	// Ваш код
-00010f 9478                      	sei
-000110 9518                      reti
+00012e 9478                      	sei
+00012f 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // LCD_SOF
                                  LCD_SOF:
-000111 94f8                      	cli
+000130 94f8                      	cli
                                  	// Ваш код
-000112 9478                      	sei
-000113 9518                      reti
+000131 9478                      	sei
+000132 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPI
                                  SPI_STC:
-000114 94f8                      	cli
+000133 94f8                      	cli
                                  	// Ваш код
-000115 9478                      	sei
-000116 9518                      reti
+000134 9478                      	sei
+000135 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPM_RDY
                                  SPM_RDY:
-000117 94f8                      	cli
+000136 94f8                      	cli
                                  	// Ваш код
-000118 9478                      	sei
-000119 9518                      reti
+000137 9478                      	sei
+000138 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 0
                                  TIM0_COMP:
-00011a 94f8                      	cli
+000139 94f8                      	cli
                                  	// Ваш код
-00011b 9478                      	sei
-00011c 9518                      reti
+00013a 9478                      	sei
+00013b 9518                      reti
                                  TIM0_COMPA:
-00011d 94f8                      	cli
+00013c 94f8                      	cli
                                  	// Ваш код
-00011e 9478                      	sei
-00011f 9518                      reti
+00013d 9478                      	sei
+00013e 9518                      reti
                                  TIM0_COMPB:
-000120 94f8                      	cli
+00013f 94f8                      	cli
                                  	// Ваш код
-000121 9478                      	sei
-000122 9518                      reti
+000140 9478                      	sei
+000141 9518                      reti
                                  TIM0_OVF:
-000123 94f8                      	cli
+000142 94f8                      	cli
                                  	// Ваш код
-000124 9478                      	sei
-000125 9518                      reti
+000143 9478                      	sei
+000144 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 1
                                  TIM1_CAPT:
-000126 94f8                      	cli
+000145 94f8                      	cli
                                  	// Ваш код
-000127 9478                      	sei
-000128 9518                      reti
+000146 9478                      	sei
+000147 9518                      reti
                                  TIM1_COMPA:
-000129 94f8                      	cli
+000148 94f8                      	cli
                                  	// Ваш код
-00012a 9478                      	sei
-00012b 9518                      reti
+000149 9478                      	sei
+00014a 9518                      reti
                                  TIM1_COMPB:
-00012c 94f8                      	cli
+00014b 94f8                      	cli
                                  	// Ваш код
-00012d 9478                      	sei
-00012e 9518                      reti
+00014c 9478                      	sei
+00014d 9518                      reti
                                  TIM1_COMPC:
-00012f 94f8                      	cli
+00014e 94f8                      	cli
                                  	// Ваш код
-000130 9478                      	sei
-000131 9518                      reti
+00014f 9478                      	sei
+000150 9518                      reti
                                  TIM1_OVF:
-000132 94f8                      	cli
+000151 94f8                      	cli
                                  	// Ваш код
-000133 9478                      	sei
-000134 9518                      reti
+000152 9478                      	sei
+000153 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 2
                                  TIM2_COMP:
-000135 94f8                      	cli
+000154 94f8                      	cli
                                  	// Ваш код
-000136 9478                      	sei
-000137 9518                      reti
+000155 9478                      	sei
+000156 9518                      reti
                                  TIM2_COMPA:
-000138 94f8                      	cli
+000157 94f8                      	cli
                                  	// Ваш код
-000139 9478                      	sei
-00013a 9518                      reti
+000158 9478                      	sei
+000159 9518                      reti
                                  TIM2_COMPB:
-00013b 94f8                      	cli
+00015a 94f8                      	cli
                                  	// Ваш код
-00013c 9478                      	sei
-00013d 9518                      reti
+00015b 9478                      	sei
+00015c 9518                      reti
                                  TIM2_OVF:
-00013e 94f8                      	cli
+00015d 94f8                      	cli
                                  	// Ваш код
-00013f 9478                      	sei
-000140 9518                      reti
+00015e 9478                      	sei
+00015f 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //Timer 3
                                  TIM3_CAPT:
-000141 94f8                      	cli
+000160 94f8                      	cli
                                  	// Ваш код
-000142 9478                      	sei
-000143 9518                      reti
+000161 9478                      	sei
+000162 9518                      reti
                                  TIM3_COMPA:
-000144 94f8                      	cli
+000163 94f8                      	cli
                                  	// Ваш код
-000145 9478                      	sei
-000146 9518                      reti
+000164 9478                      	sei
+000165 9518                      reti
                                  TIM3_COMPB:
-000147 94f8                      	cli
+000166 94f8                      	cli
                                  	// Ваш код
-000148 9478                      	sei
-000149 9518                      reti
+000167 9478                      	sei
+000168 9518                      reti
                                  TIM3_COMPC:
-00014a 94f8                      	cli
+000169 94f8                      	cli
                                  	// Ваш код
-00014b 9478                      	sei
-00014c 9518                      reti
+00016a 9478                      	sei
+00016b 9518                      reti
                                  TIM3_OVF:
-00014d 94f8                      	cli
+00016c 94f8                      	cli
                                  	// Ваш код
-00014e 9478                      	sei
-00014f 9518                      reti
+00016d 9478                      	sei
+00016e 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 4
                                  TIM4_CAPT:
-000150 94f8                      	cli
+00016f 94f8                      	cli
                                  	// Ваш код
-000151 9478                      	sei
-000152 9518                      reti
+000170 9478                      	sei
+000171 9518                      reti
                                  TIM4_COMPA:
-000153 94f8                      	cli
+000172 94f8                      	cli
                                  	// Ваш код
-000154 9478                      	sei
-000155 9518                      reti
+000173 9478                      	sei
+000174 9518                      reti
                                  TIM4_COMPB:
-000156 94f8                      	cli
+000175 94f8                      	cli
                                  	// Ваш код
-000157 9478                      	sei
-000158 9518                      reti
+000176 9478                      	sei
+000177 9518                      reti
                                  TIM4_COMPC:
-000159 94f8                      	cli
+000178 94f8                      	cli
                                  	// Ваш код
-00015a 9478                      	sei
-00015b 9518                      reti
+000179 9478                      	sei
+00017a 9518                      reti
                                  TIM4_OVF:
-00015c 94f8                      	cli
+00017b 94f8                      	cli
                                  	// Ваш код
-00015d 9478                      	sei
-00015e 9518                      reti
+00017c 9478                      	sei
+00017d 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 5
                                  TIM5_CAPT:
-00015f 94f8                      	cli
+00017e 94f8                      	cli
                                  	// Ваш код
-000160 9478                      	sei
-000161 9518                      reti
+00017f 9478                      	sei
+000180 9518                      reti
                                  TIM5_COMPA:
-000162 94f8                      	cli
+000181 94f8                      	cli
                                  	// Ваш код
-000163 9478                      	sei
-000164 9518                      reti
+000182 9478                      	sei
+000183 9518                      reti
                                  TIM5_COMPB:
-000165 94f8                      	cli
+000184 94f8                      	cli
                                  	// Ваш код
-000166 9478                      	sei
-000167 9518                      reti
+000185 9478                      	sei
+000186 9518                      reti
                                  TIM5_COMPC:
-000168 94f8                      	cli
+000187 94f8                      	cli
                                  	// Ваш код
-000169 9478                      	sei
-00016a 9518                      reti
+000188 9478                      	sei
+000189 9518                      reti
                                  TIM5_OVF:
-00016b 94f8                      	cli
+00018a 94f8                      	cli
                                  	// Ваш код
-00016c 9478                      	sei
-00016d 9518                      reti
+00018b 9478                      	sei
+00018c 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // TWSI
                                  TWSI:
-00016e 94f8                      	cli
+00018d 94f8                      	cli
                                  	// Ваш код
-00016f 9478                      	sei
-000170 9518                      reti
+00018e 9478                      	sei
+00018f 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // USART
                                  USART0_RXC:
-000171 94f8                      	cli
+000190 94f8                      	cli
                                  	// Ваш код
-000172 9478                      	sei
-000173 9518                      reti
+000191 9478                      	sei
+000192 9518                      reti
                                  USART0_UDRE:
-000174 94f8                      	cli
+000193 94f8                      	cli
                                  	// Ваш код
-000175 9478                      	sei
-000176 9518                      reti
+000194 9478                      	sei
+000195 9518                      reti
                                  USART0_TXC:
-000177 94f8                      	cli
+000196 94f8                      	cli
                                  	// Ваш код
-000178 9478                      	sei
-000179 9518                      reti
+000197 9478                      	sei
+000198 9518                      reti
                                  USART1_RXC:
-00017a 94f8                      	cli
+000199 94f8                      	cli
                                  	// Ваш код
-00017b 9478                      	sei
-00017c 9518                      reti
+00019a 9478                      	sei
+00019b 9518                      reti
                                  USART1_UDRE:
-00017d 94f8                      	cli
+00019c 94f8                      	cli
                                  	// Ваш код
-00017e 9478                      	sei
-00017f 9518                      reti
+00019d 9478                      	sei
+00019e 9518                      reti
                                  USART1_TXC:
-000180 94f8                      	cli
+00019f 94f8                      	cli
                                  	// Ваш код
-000181 9478                      	sei
-000182 9518                      reti
+0001a0 9478                      	sei
+0001a1 9518                      reti
                                  USART2_RXC:
-000183 94f8                      	cli
+0001a2 94f8                      	cli
                                  	// Ваш код
-000184 9478                      	sei
-000185 9518                      reti
+0001a3 9478                      	sei
+0001a4 9518                      reti
                                  USART2_UDRE:
-000186 94f8                      	cli
+0001a5 94f8                      	cli
                                  	// Ваш код
-000187 9478                      	sei
-000188 9518                      reti
+0001a6 9478                      	sei
+0001a7 9518                      reti
                                  USART2_TXC:
-000189 94f8                      	cli
+0001a8 94f8                      	cli
                                  	// Ваш код
-00018a 9478                      	sei
-00018b 9518                      reti
+0001a9 9478                      	sei
+0001aa 9518                      reti
                                  
                                  USART3_RXC:
-00018c 94f8                      	cli
+0001ab 94f8                      	cli
                                  	// Ваш код
-00018d 9478                      	sei
-00018e 9518                      reti
+0001ac 9478                      	sei
+0001ad 9518                      reti
                                  USART3_UDRE:
-00018f 94f8                      	cli
+0001ae 94f8                      	cli
                                  	// Ваш код
-000190 9478                      	sei
-000191 9518                      reti
+0001af 9478                      	sei
+0001b0 9518                      reti
                                  USART3_TXC:
-000192 94f8                      	cli
+0001b1 94f8                      	cli
                                  	// Ваш код
-000193 9478                      	sei
-000194 9518                      reti
+0001b2 9478                      	sei
+0001b3 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //USI
                                  USI_STRT:
-000195 94f8                      	cli
+0001b4 94f8                      	cli
                                  	// Ваш код
-000196 9478                      	sei
-000197 9518                      reti
+0001b5 9478                      	sei
+0001b6 9518                      reti
                                  USI_OVFL:
-000198 94f8                      	cli
+0001b7 94f8                      	cli
                                  	// Ваш код
-000199 9478                      	sei
-00019a 9518                      reti
+0001b8 9478                      	sei
+0001b9 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // WDT
                                  WDT:
-00019b 94f8                      	cli
+0001ba 94f8                      	cli
                                  	// Ваш код
-00019c 9478                      	sei
-00019d 9518                      reti
+0001bb 9478                      	sei
+0001bc 9518                      reti
                                  .include "Main/Modules_Inits.inc"
                                  
                                  	
@@ -6531,46 +6558,47 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-00019e ef0f
-00019f bf0d
-0001a0 e201
-0001a1 bf0e                      
-0001a2 e39e
-0001a3 9390 00b8                 Modules_Inits
-0001a5 9478                      sei
+0001bd ef0f
+0001be bf0d
+0001bf e201
+0001c0 bf0e                      
+0001c1 e39e
+0001c2 9390 00b8                 Modules_Inits
+0001c4 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
-                                 //WRITE_BYTE PCF8575Bytes, $25
-                                 //WRITE_BYTE PCF8575Bytes + 1, $0f
+0001c5 930f
+0001c6 e205
+0001c7 9300 0201
+0001c9 910f                      WRITE_BYTE PCF8575Bytes, $25
+0001ca 930f
+0001cb e00f
+0001cc 9300 0202
+0001ce 910f                      WRITE_BYTE PCF8575Bytes + 1, $0f
                                  
-                                 //PCF8575Write $40
-                                 //PCF8575Read $40
+0001cf 940e 009a
+0001d1 e490
+0001d2 9390 00bb
+0001d4 940e 00a0
+0001d6 e188
+0001d7 e270
+0001d8 940e 007e
+0001da 940e 00ad                 PCF8575Write $40
+0001dc 940e 009a
+0001de e490
+0001df 6091
+0001e0 9390 00bb
+0001e2 940e 00a0
+0001e4 e480
+0001e5 e478
+0001e6 940e 007e
+0001e8 940e 00d9                 PCF8575Read $40
                                  //PCF8574Write $70, r16
                                  
-0001a6 930f
-0001a7 e205
-0001a8 9300 0203
-0001aa 910f                      WRITE_BYTE PCF8574Bytes +2, $25
-0001ab 940e 009a
-0001ad e790
-0001ae 2f99
-0001af 9390 00bb
-0001b1 940e 00a0
-0001b3 e188
-0001b4 e270
-0001b5 940e 007e
-0001b7 940e 00ad                 PCF8574Write $70
-0001b9 940e 009a
-0001bb e790
-0001bc 2f99
-0001bd 6091
-0001be 9390 00bb
-0001c0 940e 00a0
-0001c2 e480
-0001c3 e478
-0001c4 940e 007e
-0001c6 940e 00c8                 PCF8574Read $70
+                                 //WRITE_BYTE PCF8574Bytes +2, $25
+                                 //PCF8574Write $70
+                                 //PCF8574Read $70
                                  // Пример настройки счетчиков
                                  ;CountersPrescaller Counter0, Prescaller8
                                  ;CountersOffMode Counter0
@@ -6644,7 +6672,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-0001c8 cfff                      rjmp Proga
+0001ea cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -6664,8 +6692,8 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  22 r17:   0 r18:   0 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:   4 r24:   4 r25:  35 r26:   3 r27:   3 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:  30 r17:   0 r18:   0 r19:   0 r20:   0 
+r21:   0 r22:   0 r23:   5 r24:   5 r25:  39 r26:   3 r27:   3 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 6 out of 35 (17.1%)
 
@@ -6675,28 +6703,28 @@ andi  :   2 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :  21 cbi   :   0 cbr   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :  25 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   0 jmp   :  62 ld    :   0 ldd   :   0 ldi   :  21 
-lds   :   9 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   2 movw  :   0 
+in    :   0 inc   :   0 jmp   :  63 ld    :   0 ldd   :   0 ldi   :  26 
+lds   :  12 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   1 out   :   2 pop   :   4 push  :   4 rcall :   0 ret   :  11 
+ori   :   1 out   :   2 pop   :   6 push  :   6 rcall :   0 ret   :  11 
 reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
-sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   1 sbrc  :   3 
+sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   1 sbrc  :   4 
 sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  13 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :  18 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 22 out of 116 (19.0%)
+Instructions used: 21 out of 116 (18.1%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000392    914      0    914  262144   0.3%
-[.dseg] 0x000200 0x000202      0      2      2    8192   0.0%
+[.cseg] 0x000000 0x0003d6    982      0    982  262144   0.4%
+[.dseg] 0x000200 0x000203      0      3      3    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
 Assembly complete, 0 errors, 0 warnings
