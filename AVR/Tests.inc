@@ -1,4 +1,9 @@
 
+//ldi r16, $25
+//ldi r17, $0f
+
+//PCF8575Write $40, r16, r17
+//PCF8574Write $70, r16
 
 // Пример настройки счетчиков
 ;CountersPrescaller Counter0, Prescaller8

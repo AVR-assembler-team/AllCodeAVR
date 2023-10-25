@@ -2,7 +2,7 @@
 * Записывает 2 байта в чип
 */
 
-.macro PCF8575Write
+.macro PCF8575_Write
 	push r18
 	push r19
 	push r20

@@ -10,16 +10,15 @@
 * 1 - ответа нет
 */
 .macro TWSI_SLA
-	push r16
 
 	.if @1 == 'W'
-		mov	r16, @0
+		mov	r25, @0
 	.elif @1 == 'R'
-		mov	r16, @0
-		sbr	r16, 1
+		mov	r25, @0
+		sbr	r25, 1
 	.endif
 		
-	WRITE_REG TWDR, r16						; вталкиваем в дата регистр
+	WRITE_REG TWDR, r25						; вталкиваем в дата регистр
 	TWSI_Byte_Transmit
 
 	.if @1 == 'W'
@@ -28,5 +27,4 @@
 		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK					; Проверяем получен ли ответ
 	.endif
 
-	pop r16
 .endm
