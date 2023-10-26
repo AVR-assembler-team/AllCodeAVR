@@ -1,51 +1,61 @@
-    .macro USARTRXCompleteInterr
+.macro USARTRXCompleteInterr
+	READ_REG UCSRB, r25
 	.if @0 == Enable
-	    SETB UCSRB, RXCIE
+		SETRB r25, RXCIE
 	.elif  @0 == Disable
-	    CLRB UCSRB, RXCIE
+		CLRRB r25, RXCIE
 	.endif
-    .endm
-    .macro USART0RXCompleteInterr
+	WRITE_REG UCSRB, r25
+.endm
+.macro USART0RXCompleteInterr
+	READ_REG UCSR0B, r25
 	.if @0 == Enable
-	    SETB UCSR0B, RXCIE0
+		SETRB r25, RXCIE0
 	.elif  @0 == Disable
-	    CLRB UCSR0B, RXCIE0
+		CLRRB r25, RXCIE0
 	.endif
-    .endm
-    .macro USART1RXCompleteInterr
+	WRITE_REG UCSR0B, r25
+.endm
+.macro USART1RXCompleteInterr
+	READ_REG UCSR1B, r25
 	.if @0 == Enable
-	    SETB UCSR1B, RXCIE1
+		SETRB r25, RXCIE1
 	.elif  @0 == Disable
-	    CLRB UCSR1B, RXCIE1
+		CLRRB r25, RXCIE1
 	.endif
-    .endm
-    .macro USART2RXCompleteInterr
+	WRITE_REG UCSR1B, r25
+.endm
+.macro USART2RXCompleteInterr
+	READ_REG UCSR2B, r25
 	.if @0 == Enable
-	    SETB UCSR2B, RXCIE2
+		SETRB r25, RXCIE2
 	.elif  @0 == Disable
-	    CLRB UCSR2B, RXCIE2
+		CLRRB r25, RXCIE2
 	.endif
-    .endm
-    .macro USART3RXCompleteInterr
+	WRITE_REG UCSR2B, r25
+.endm
+.macro USART3RXCompleteInterr
+	READ_REG UCSR3B, r25
 	.if @0 == Enable
-	    SETB UCSR3B, RXCIE3
+		SETRB r25, RXCIE3
 	.elif  @0 == Disable
-	    CLRB UCSR3B, RXCIE3
+		CLRRB r25, RXCIE3
 	.endif
-    .endm
+	WRITE_REG UCSR3B, r25
+.endm
 	
-    .macro RXCompleteInterrupt
+.macro RXCompleteInterrupt
 	.if @0 == 0
-	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		USARTRXCompleteInterr @1
-	    .else
+		.else
 		USART0RXCompleteInterr @1
-	    .endif
+		.endif
 	.elif @0 == 1
-	    USART1RXCompleteInterr @1
+		USART1RXCompleteInterr @1
 	.elif @0 == 2
-	    USART2RXCompleteInterr @1
+		USART2RXCompleteInterr @1
 	.elif @0 == 3
-	    USART3RXCompleteInterr @1
+		USART3RXCompleteInterr @1
 	.endif
-    .endm
+.endm

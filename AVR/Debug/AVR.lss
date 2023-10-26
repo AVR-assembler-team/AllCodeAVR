@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 15:31:29 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Oct 26 15:39:40 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -60,18 +60,21 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(47): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(48): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter5.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(49): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/CountersOffMode.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/TWSI_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Init.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/USART_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_BAUD.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_MPCM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_RXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_RXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_TXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_TXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UCPOL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UCSZ.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UDREI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UMSEL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UPM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_USBS.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConstants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
@@ -84,16 +87,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCCondition.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConversion.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -157,18 +150,21 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(47): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter4.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(48): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/Counter5.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/CountersIncludes.inc(49): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/Counters/OffMode/CountersOffMode.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/TWSI_Config.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Init.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/USART_Config.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Constants.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_BAUD.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(6): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_MPCM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(7): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_RXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_RXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(9): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_TXCI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(10): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_TXEN.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UCPOL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UCSZ.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UDREI.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(14): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UMSEL.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_UPM.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_Includes.inc(16): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/USART/USART_USBS.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc(13): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConstants.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCPrescalerSelection.inc'
@@ -181,16 +177,6 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(11): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCCondition.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCIncludes.inc(12): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ADC/ADCConversion.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(15): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc(19): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(2): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Constants.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(3): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Labels.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(4): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc'
-C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Includes.inc(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2068,14 +2054,14 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  //#define ExternalInterrupts_Module
                                  //#define OneWire_Module
-                                 #define TWSI_Module
-                                 //#define USART_Module
+                                 //#define TWSI_Module
+                                 #define USART_Module
                                  .include "Configs/GadgetModules_Config.inc"
                                  
                                  //#define HD44780U_Module
                                  //#define NTC3950_100K_Module
-                                 #define PCF8574_Module
-                                 #define PCF8575_Module
+                                 //#define PCF8574_Module
+                                 //#define PCF8575_Module
                                  //#define RotaryEncoder_Module
                                  .include "Config.inc"
                                  
@@ -2331,68 +2317,68 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 01ea                 	.org 0x0000	 jmp RESET ; Reset Handler
-000002 940c 0139                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 013c                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 013f                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
-000008 940c 0142                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
-00000a 940c 0145                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
-00000c 940c 0148                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
-00000e 940c 014b                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
-000010 940c 014e                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
-000012 940c 0151                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 0154                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 0157                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 01e7                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 0184                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 0187                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 018a                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 0172                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 0175                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 0178                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 017b                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 017e                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 0169                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 016c                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 016f                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 0160                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 01bd                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 01c0                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 01c3                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
-000038 940c 0130                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
-00003a 940c 0133                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
-00003c 940c 0136                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 018d                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 0190                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 0193                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 0196                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 0199                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 01c6                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 01c9                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 01cc                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 01ba                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 0163                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+000000 940c 012f                 	.org 0x0000	 jmp RESET ; Reset Handler
+000002 940c 007e                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 0081                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 0084                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
+000008 940c 0087                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
+00000a 940c 008a                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
+00000c 940c 008d                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
+00000e 940c 0090                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
+000010 940c 0093                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
+000012 940c 0096                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
+000014 940c 0099                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 009c                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 012c                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 00c9                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 00cc                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 00cf                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 00b7                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 00ba                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 00bd                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 00c0                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 00c3                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 00ae                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 00b1                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 00b4                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 00a5                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 0102                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 0105                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 0108                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000038 940c 0075                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
+00003a 940c 0078                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
+00003c 940c 007b                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
+00003e 940c 00d2                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 00d5                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 00d8                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 00db                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 00de                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 010b                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 010e                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 0111                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 00ff                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 00a8                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000052 940c 019c                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 00e1                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 019f                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 01a2                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 01a5                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 01a8                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 00e4                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 00e7                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 00ea                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 00ed                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-00005c 940c 01ab                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 00f0                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 01ae                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 01b1                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 01b4                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 01b7                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 00f3                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 00f6                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 00f9                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 00fc                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000066 940c 01cf                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 01d2                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 01d5                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 01d8                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 01db                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 01de                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 0114                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 0117                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 011a                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 011d                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 0120                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 0123                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctrl == 1284
                                  .elif ctrl == 8515
@@ -4711,200 +4697,1338 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  
                                  #ifdef TWSI_Module
-                                 	.include "AVRModules/TWSI/TWSI_Includes.inc"
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Const.inc"
-                                 
-                                 * Константы, используемые в работе модуля TWSI
-                                 */
-                                 .dseg
-000200                           TWSI_Flags:				.byte 1
-                                 
-                                 .cseg
-                                 .equ No_ACK		=	0
-                                 
-                                 
-                                 .equ START_ACK			=	$08
-                                 .equ MT_SLA_W_ACK		=	$18
-                                 .equ MT_SLA_W_NOT_ACK	=	$20
-                                 .equ MT_SLA_R_ACK		=	$40
-                                 .equ MT_SLA_R_NOT_ACK	=	$48
-                                 .equ MT_DATA_ACK		=	$28
-                                 .equ MT_DATA_NOT_ACK	=	$30
-                                 .equ MT_NACK			=	$58
-                                 
-                                 .equ MR_DATA_ACK		=	$50
-                                 .equ MR_LASTDATA_ACK	=	$58
-                                 .include "Configs/TWSI_Config.inc"
-                                 
-                                 * Укажите на какой скорости (в Гц) будет работать ваша шина I2C
-                                 */
-                                 .equ FreqSCL = 31250	; Скорость передачи по I2C 
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Times.inc"
-                                 
-                                 * Задержка в 4,1 мс
-                                 */
-                                 
-                                 .macro TWSI_Delay_4_1ms
-                                 	_call TWSI_Delay_4_1ms_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_Delay_4_1ms_act:
-000075 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
-000076 e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
-000077 940e 0072                 	_call Time_Cycles
-000079 e2b7                      	ldi		xh, HIGH(ATmegaFREQ/1600)
-00007a e1a0                      	ldi		xl, LOW(ATmegaFREQ/1600)
-00007b 940e 0072                 	_call Time_Cycles
-00007d 9508                      ret
-                                 
-                                 
-                                 .include "AVRModules/TWSI/TWSI_Init.inc"
-                                 
-                                 * Инициализация работы модуля I2C
-                                 */
-                                 .macro TWSI_init
-                                 	ldi	r25, ((ATmegaFREQ/FreqSCL)-16)/8	;задаем частоту передачи по I2C, в формуле учитывается Регистр TWPS == 0
-                                 	WRITE_REG TWBR, r25						;записываем данные в регистр для I2C
-                                 .endm
-                                 
-                                 .include "AVRModules/TWSI/TWSI_ACK_Check.inc"
-                                 
-                                 * Проверяет состояние регистра TWI модуля I2C
-                                 */
-                                 .macro TWSI_ACK_Check
-                                 	ldi r24, @0
-                                 	ldi r23, @1
-                                 	_call TWSI_ACK_Check_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_ACK_Check_act:
-                                 	TWSI_ACK_Check_act_1:
-00007e 9190 00b9                 		READ_REG TWSR, r25					; читаем TWSR
-000080 7f98                      		andi	r25, 0xF8					; обнуляем первые три бита
-000081 1398                      		cpse	r25, r24					; сравниваем r16 и r17
-000082 c006                      		rjmp TWSI_Status_act_2				; переходим
-                                 
-                                 		// обнуляем флаг
-000083 9190 0200                 		READ_REG TWSI_Flags, r25
-000085 7f9e                      		CLRRB r25, No_ACK
-000086 9390 0200                 		WRITE_REG TWSI_Flags, r25
-                                 
-000088 c007                      		rjmp TWSI_ACK_Check_act_end			; переходим
-                                 
-                                 		TWSI_Status_act_2:
-000089 1397                      			cpse	r25, r23				; сравниваем r16 и r18
-00008a cff3                      			rjmp	TWSI_ACK_Check_act_1	; если не равны, то переходим
-                                 			// устанавливаем флаг
-00008b 9190 0200                 			READ_REG TWSI_Flags, r25
-00008d 6091                      			SETRB r25, No_ACK
-00008e 9390 0200                 			WRITE_REG TWSI_Flags, r25
-                                 	TWSI_ACK_Check_act_end:
-000090 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_TwintFlag.inc"
-                                 
-                                 * Проверяет состояние флага TWINT модуля TWSI
-                                 */
-                                 .macro TWSI_TWINT_Flag
-                                 	_call TWSI_TWINT_Flag_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_TWINT_Flag_act:
-                                 	TWSI_TWINT_Flag_act_1:
-000091 9190 00bc                 		READ_REG TWCR, r25					; записываем TWCR в R16
-000093 ff97                      		sbrs	r25, TWINT						; если бит TWINT поднят, то пропускаем след строку
-000094 cffc                      		rjmp	TWSI_TWINT_Flag_act_1					; перепрыгиваем на метку
-000095 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_ACK_Transmit.inc"
-                                 
-                                 * Чтение байта из модуля I2C
-                                 * Принимает один аргумент - регистр в который производим запись прочитанного TWDR
-                                 */
-                                 .macro TWSI_ACK_Transmit
-                                 	ldi		r25, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
-                                 	WRITE_REG TWCR, r25								; отправляем по шине
-                                 	TWSI_TWINT_Flag
-                                 .endm												; выход из подпрограммы
-                                 .include "AVRModules/TWSI/TWSI_Start.inc"
-                                 
-                                 * Запускает модуль TWSI
-                                 */
-                                 .macro TWSI_START										; макрос START
-                                 	_call TWSI_START_act
-                                 .endm													; выход из макроса
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_START_act:
-000096 ea94                      	ldi		r25, (1<<TWINT) | (1<<TWSTA) | (1<<TWEN)	; формируем сагнал START
-000097 9390 00bc                 	WRITE_REG TWCR, r25									; отправляем по шине
-000099 940e 0091                 	TWSI_TWINT_Flag
-00009b 9508                      ret
-                                 .include "AVRModules/TWSI/TWSI_Byte_Transmit.inc"
-                                 
-                                 * Устанавливает биты в TWCR
-                                 */
-                                 .macro TWSI_Byte_Transmit
-                                 	_call TWSI_Byte_Transmit_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_Byte_Transmit_act:
-00009c e894                      	ldi		r25, (1<<TWINT) | (1<<TWEN)				; формируем сигнал для передачи данных с TWDR
-00009d 9390 00bc                 	WRITE_REG TWCR, r25								; отправляем по шине
-00009f 940e 0091                 	TWSI_TWINT_Flag
-0000a1 9508                      ret													; выход из подпрограммы
-                                 .include "AVRModules/TWSI/TWSI_Sla.inc"
-                                 
-                                 * Передаем модулю TWSI адрес чипа, читать или записывать
-                                 * Принимает два аргумента
-                                 * @0 - Адрес чипа TWSI
-                                 * @1 - 'W'-запись / 'R'-чтение
-                                 
-                                 * После проверки в регистре флагов (TWSI_Flags) будет установлено соответственное 
-                                 * состояние бита (Address_No_ACK)
-                                 * 0 - все хорошо
-                                 * 1 - ответа нет
-                                 */
-                                 .macro TWSI_SLA
-                                 
-                                 	.if @1 == 'W'
-                                 		ldi	r25, @0
-                                 	.elif @1 == 'R'
-                                 		ldi	r25, @0
-                                 		sbr	r25, 1
-                                 	.endif
-                                 		
-                                 	WRITE_REG TWDR, r25						; вталкиваем в дата регистр
-                                 	TWSI_Byte_Transmit
-                                 
-                                 	.if @1 == 'W'
-                                 		TWSI_ACK_Check MT_SLA_W_ACK, MT_SLA_W_NOT_ACK					; Проверяем получен ли ответ
-                                 	.elif @1 == 'R'
-                                 		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK					; Проверяем получен ли ответ
-                                 	.endif
-                                 
-                                 .endm
-                                 .include "AVRModules/TWSI/TWSI_Stop.inc"
-                                 
-                                 * Останавливает модуль TWSI
-                                 */
-                                 .macro TWSI_STOP
-                                 	_call TWSI_STOP_act
-                                 .endm
-                                 //____________________________________________________________________________________
-                                 //____________________________________________________________________________________
-                                 TWSI_STOP_act:											; метка
-0000a2 e994                      	ldi		r25, (1<<TWINT) | (1<<TWSTO) | (1<<TWEN)	; формируем сигнал STOP
-0000a3 9390 00bc                 	WRITE_REG TWCR, r25									; отправляем по шине
-0000a5 940e 0075                 	TWSI_Delay_4_1ms
-0000a7 9508                      ret	
                                  #endif
                                  
                                  #ifdef USART_Module
+                                 	.include "AVRModules/USART/USART_Includes.inc"
+                                 
+                                 .include "Configs/USART_Config.inc"
+                                 
+                                 //=========================================================================================
+                                 //-----------------------------------------------------------------------------------------
+                                 ; Прерывания по окончанию приема и передачи байта данных можно инициализировать тут,
+                                 ; а можно влючить и отключить тогда, когда это необходимо в процессе выполнения программы.
+                                 ; Подробно узнаете из файла README.inc в папке README 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 ; USART0 или если один USART в микроконтроллере
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity0_1
+                                     
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART1
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity1_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART2
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity2_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 ; USART3
+                                 
+                                 ; Clock Polarity (used for Synchronous mode only, 0 as default)
+                                 //#define ClockPolarity3_1
+                                 
+                                 //-----------------------------------------------------------------------------------------
+                                 //-----------------------------------------------------------------------------------------
+                                 
+                                 .include "AVRModules/USART/USART_Constants.inc"
+                                 
+                                 .equ Synchron = 1
+                                 .equ MasterSPI = 2
+                                 .equ EvenParity = 3
+                                 .equ OddParity = 4
+                                 .include "AVRModules/USART/USART_BAUD.inc"
+                                 
+                                 	.if @0 == 2400
+                                 		ldi r16, 25
+                                 	.elif @0 == 4800
+                                 		ldi r16, 12
+                                 	.elif @0 == 9600
+                                 		ldi r16, 6
+                                 	.elif @0 == 14400
+                                 		ldi r16, 3
+                                 	.elif @0 == 19200
+                                 		ldi r16, 2
+                                 	.elif @0 == 28800
+                                 		ldi r16, 1
+                                 	.elif @0 == 38400
+                                 		ldi r16, 1
+                                 	.elif @0 > 57600
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR2
+                                 	.if @0 == 2400
+                                 		ldi r16, 51
+                                 	.elif @0 == 4800
+                                 		ldi r16, 25
+                                 	.elif @0 == 9600
+                                 		ldi r16, 12
+                                 	.elif @0 == 14400
+                                 		ldi r16, 8
+                                 	.elif @0 == 19200
+                                 		ldi r16, 6
+                                 	.elif @0 == 28800
+                                 		ldi r16, 3
+                                 	.elif @0 == 38400
+                                 		ldi r16, 2
+                                 	.elif @0 == 57600
+                                 		ldi r16, 1
+                                 	.elif @0 == 76800
+                                 		ldi r16, 1
+                                 	.elif @0 > 115200
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR3
+                                 	.if @0 == 2400
+                                 		ldi r16, 103
+                                 	.elif @0 == 4800
+                                 		ldi r16, 51
+                                 	.elif @0 == 9600
+                                 		ldi r16, 25
+                                 	.elif @0 == 14400
+                                 		ldi r16, 16
+                                 	.elif @0 == 19200
+                                 		ldi r16, 12
+                                 	.elif @0 == 28800
+                                 		ldi r16, 8
+                                 	.elif @0 == 38400
+                                 		ldi r16, 6
+                                 	.elif @0 == 57600
+                                 		ldi r16, 3
+                                 	.elif @0 == 76800
+                                 		ldi r16, 2
+                                 	.elif @0 == 115200
+                                 		ldi r16, 1
+                                 	.elif @0 > 250000
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR4
+                                 	.if @0 == 2400
+                                 		ldi r16, 207
+                                 	.elif @0 == 4800
+                                 		ldi r16, 103
+                                 	.elif @0 == 9600
+                                 		ldi r16, 51
+                                 	.elif @0 == 14400
+                                 		ldi r16, 34
+                                 	.elif @0 == 19200
+                                 		ldi r16, 25
+                                 	.elif @0 == 28800
+                                 		ldi r16, 16
+                                 	.elif @0 == 38400
+                                 		ldi r16, 12
+                                 	.elif @0 == 57600
+                                 		ldi r16, 8
+                                 	.elif @0 == 76800
+                                 		ldi r16, 6
+                                 	.elif @0 == 115200
+                                 		ldi r16, 3
+                                 	.elif @0 == 230400
+                                 		ldi r16, 1
+                                 	.elif @0 == 250000
+                                 		ldi r16, 1
+                                 	.elif @0 > 500000
+                                 		.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 	.endif
+                                 .endm
+                                 .macro UBBR5
+                                 	.if @0 == 2400
+                                 		ldi r16, 160
+                                 		ldi r17, 1
+                                 	.elif @0 == 4800
+                                 		ldi r16, 207
+                                 	.elif @0 == 9600
+                                 		ldi r16, 103
+                                 	.elif @0 == 14400
+                                 		ldi r16, 68
+                                 	.elif @0 == 19200
+                                 		ldi r16, 51
+                                 	.elif @0 == 28800
+                                 		ldi r16, 34
+                                 	.elif @0 == 38400
+                                 		ldi r16, 25
+                                 	.elif @0 == 57600
+                                 		ldi r16, 16
+                                 	.elif @0 == 76800
+                                 		ldi r16, 12
+                                 	.elif @0 == 115200
+                                 		ldi r16, 8
+                                 	.elif @0 == 230400
+                                 		ldi r16, 3
+                                 	.elif @0 == 250000
+                                 		ldi r16, 3
+                                 	.elif @0 == 500000
+                                 		ldi r16, 1
+                                 	.endif
+                                 .endm
+                                 .macro UBBR6
+                                 	.if @0 == 2400
+                                 		ldi r16, 64
+                                 		ldi r17, 3
+                                 	.elif @0 == 4800
+                                 		ldi r16, 160
+                                 		ldi r17, 1
+                                 	.elif @0 == 9600
+                                 		ldi r16, 207
+                                 	.elif @0 == 14400
+                                 		ldi r16, 138
+                                 	.elif @0 == 19200
+                                 		ldi r16, 103
+                                 	.elif @0 == 28800
+                                 		ldi r16, 68
+                                 	.elif @0 == 38400
+                                 		ldi r16, 51
+                                 	.elif @0 == 57600
+                                 		ldi r16, 34
+                                 	.elif @0 == 76800
+                                 		ldi r16, 25
+                                 	.elif @0 == 115200
+                                 		ldi r16, 16
+                                 	.elif @0 == 230400
+                                 		ldi r16, 8
+                                 	.elif @0 == 250000
+                                 		ldi r16, 7
+                                 	.elif @0 == 500000
+                                 		ldi r16, 3
+                                 	.elif @0 == 1000000
+                                 		ldi r16, 1
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 .macro USARTBaudRate
+                                 	
+                                 	clr r16
+                                 	clr r17
+                                 
+                                 	.if ATmegaFREQ == 1000000
+                                 		.if @1 == Normal
+                                 			UBBR1 @2
+                                 		.elif @1 == Double
+                                 			UBBR2 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 2000000
+                                 		.if @1 == Normal
+                                 			UBBR2 @2
+                                 		.elif @1 == Double
+                                 			UBBR3 @2
+                                 			.if @2 == 230400
+                                 				.error "Baud Rate not available for this ATmegaFREQ. Read DataSheet!"
+                                 			.endif
+                                 		.endif
+                                 	.elif ATmegaFREQ == 4000000
+                                 		.if @1 == Normal
+                                 			UBBR3 @2
+                                 		.elif @1 == Double
+                                 			UBBR4 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 8000000
+                                 		.if @1 == Normal
+                                 			UBBR4 @2
+                                 		.elif @1 == Double
+                                 			UBBR5 @2
+                                 		.endif
+                                 	.elif ATmegaFREQ == 16000000
+                                 		.if @1 == Normal
+                                 			UBBR5 @2
+                                 		.elif @1 == Double
+                                 			UBBR6 @2
+                                 		.endif
+                                 	.endif
+                                 
+                                 
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 			out UBRRH, r17
+                                 			out UBRRL, r16
+                                 		.endif
+                                 
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168
+                                 		.if @0 == 0
+                                 			out UBRR0H, r17
+                                 			out UBRR0L, r16
+                                 		.endif
+                                 
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 328 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
+                                 		.if @0 == 0
+                                 			sts UBRR0H, r17
+                                 			sts UBRR0L, r16
+                                 		.endif
+                                 	
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284 
+                                 		.if @0 == 0
+                                 			out UBRR0H, r17
+                                 			out UBRR0L, r16
+                                 		.elif @0 == 1
+                                 			out UBRR1H, r17
+                                 			out UBRR1L, r16
+                                 		.endif
+                                 
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 			sts UBRR0H, r17
+                                 			sts UBRR0L, r16
+                                 		.elif @0 == 1
+                                 			sts UBRR1H, r17
+                                 			sts UBRR1L, r16
+                                 		.elif @0 == 2
+                                 			sts UBRR2H, r17
+                                 			sts UBRR2L, r16
+                                 		.elif @0 == 3
+                                 			sts UBRR3H, r17
+                                 			sts UBRR3L, r16
+                                 		.endif
+                                 
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/USART/USART_MPCM.inc"
+                                 
+                                 	.if @0 == Enable
+                                 		READ_REG UCSRA, r25
+                                 		SETRB r25, MPCM
+                                 		WRITE_REG UCSRA, r25
+                                 	.elif @0 == Disable
+                                 		READ_REG UCSRA, r25
+                                 		CLRRB r25, MPCM
+                                 		WRITE_REG UCSRA, r25
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication0
+                                 	.if @0 == Enable
+                                 		READ_REG UCSR0A, r25
+                                 		SETRB r25, MPCM0
+                                 		WRITE_REG UCSR0A, r25
+                                 	.elif @0 == Disable
+                                 		READ_REG UCSR0A, r25
+                                 		CLRRB r25, MPCM0
+                                 		WRITE_REG UCSR0A, r25
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication1
+                                 	.if @0 == Enable
+                                 		READ_REG UCSR1A, r25
+                                 		SETRB r25, MPCM1
+                                 		WRITE_REG UCSR1A, r25
+                                 	.elif @0 == Disable
+                                 		READ_REG UCSR1A, r25
+                                 		CLRRB r25, MPCM1
+                                 		WRITE_REG UCSR1A, r25
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication2
+                                 	.if @0 == Enable
+                                 		SETB UCSR2A, MPCM2
+                                 	.elif @0 == Disable
+                                 		CLRB UCSR2A, MPCM2
+                                 	.endif
+                                 .endm
+                                 .macro MultiProcessorCommunication3
+                                 	.if @0 == Enable
+                                 		SETB UCSR3A, MPCM3
+                                 	.elif @0 == Disable
+                                 		CLRB UCSR3A, MPCM3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTMultiProcessorCommunicationMode
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 			MultiProcessorCommunication @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.endif
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 			MultiProcessorCommunication0 @1
+                                 		.elif @0 == 1
+                                 			MultiProcessorCommunication1 @1
+                                 		.elif @0 == 2
+                                 			MultiProcessorCommunication2 @1
+                                 		.elif @0 == 3
+                                 			MultiProcessorCommunication3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/USART/USART_RXCI.inc"
+                                 
+                                 	.if @0 == Enable
+                                 	    SETB UCSRB, RXCIE
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSRB, RXCIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0RXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR0B, RXCIE0
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR0B, RXCIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1RXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR1B, RXCIE1
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR1B, RXCIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2RXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR2B, RXCIE2
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR2B, RXCIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3RXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR3B, RXCIE3
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR3B, RXCIE3
+                                 	.endif
+                                     .endm
+                                 	
+                                     .macro RXCompleteInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		USARTRXCompleteInterr @1
+                                 	    .else
+                                 		USART0RXCompleteInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1RXCompleteInterr @1
+                                 	.elif @0 == 2
+                                 	    USART2RXCompleteInterr @1
+                                 	.elif @0 == 3
+                                 	    USART3RXCompleteInterr @1
+                                 	.endif
+                                     .endm
+                                 .include "AVRModules/USART/USART_RXEN.inc"
+                                 
+                                 	.if @0 == Enable
+                                 	    SETB UCSRB, RXEN
+                                 	.elif @0 == Disable
+                                 	    CLRB UCSRB, RXEN
+                                 	.endif
+                                     .endm
+                                     .macro USART0Receiv
+                                 	.if @0 == Enable
+                                 	    SETB UCSR0B, RXEN0
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR0B, RXEN0
+                                 	.endif
+                                     .endm
+                                     .macro USART1Receiv
+                                 	.if @0 == Enable
+                                 	    SETB UCSR1B, RXEN1
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR1B, RXEN1
+                                 	.endif
+                                     .endm
+                                     .macro USART2Receiv
+                                 	.if @0 == Enable
+                                 	    SETB UCSR2B, RXEN2
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR2B, RXEN2
+                                 	.endif
+                                     .endm
+                                     .macro USART3Receiv
+                                 	.if @0 == Enable
+                                 	    SETB UCSR3B, RXEN3
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR3B, RXEN3
+                                 	.endif
+                                     .endm
+                                     
+                                     
+                                     .macro USARTReceiver
+                                 	.if @0 == 0
+                                 	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		USARTReceiv @1
+                                 	    .else
+                                 		USART0Receiv @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1Receiv @1
+                                 	.elif @0 == 2
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART2Receiv @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART3Receiv @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 
+                                 
+                                 .include "AVRModules/USART/USART_TXCI.inc"
+                                 
+                                 	.if @0 == Enable
+                                 	    SETB UCSRB, TXCIE
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSRB, TXCIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0TXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR0B, TXCIE0
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR0B, TXCIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1TXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR1B, TXCIE1
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR1B, TXCIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2TXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR2B, TXCIE2
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR2B, TXCIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3TXCompleteInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR3B, TXCIE3
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR3B, TXCIE3
+                                 	.endif
+                                     .endm
+                                 
+                                     .macro TXCompleteInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		USARTTXCompleteInterr @1
+                                 	    .else
+                                 		USART0TXCompleteInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1TXCompleteInterr @1
+                                 	.elif @0 == 2
+                                 	    USART2TXCompleteInterr @1
+                                 	.elif @0 == 3
+                                 	    USART3TXCompleteInterr @1
+                                 	.endif
+                                     .endm
+                                 .include "AVRModules/USART/USART_TXEN.inc"
+                                 
+                                 	.if @0 == Enable
+                                 	    SETB UCSRB, TXEN
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSRB, TXEN
+                                 	.endif
+                                     .endm
+                                     .macro USART0Transmit
+                                 	.if @0 == Enable
+                                 	    SETB UCSR0B, TXEN0
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR0B, TXEN0
+                                 	.endif
+                                     .endm
+                                     .macro USART1Transmit
+                                 	.if @0 == Enable
+                                 	    SETB UCSR1B, TXEN1
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR1B, TXEN1
+                                 	.endif
+                                     .endm
+                                     .macro USART2Transmit
+                                 	.if @0 == Enable
+                                 	    SETB UCSR2B, TXEN2
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR2B, TXEN2
+                                 	.endif
+                                     .endm
+                                     .macro USART3Transmit
+                                 	.if @0 == Enable
+                                 	    SETB UCSR3B, TXEN3
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR3B, TXEN3
+                                 	.endif
+                                     .endm
+                                     
+                                     .macro USARTTransmitter
+                                 	.if @0 == 0
+                                 	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		USARTTransmit @1
+                                 	    .else
+                                 		USART0Transmit @1
+                                 		ldi r20, $ff
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1Transmit @1
+                                 	.elif @0 == 2
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART2Transmit @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART3Transmit @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 .include "AVRModules/USART/USART_UCPOL.inc"
+                                 
+                                 	.if @0 == Zero
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UCPOL
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == One
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCPOL
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolarURSEL0
+                                 	.if @0 == Zero
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UCPOL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == One
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCPOL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolarURSEL1
+                                 	.if @0 == Zero
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UCPOL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == One
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCPOL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar0
+                                 	.if @0 == Zero
+                                 		CLRB UCSR0C, UCPOL0
+                                 	.elif @0 == One
+                                 		SETB UCSR0C, UCPOL0
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar1
+                                 	.if @0 == Zero
+                                 		CLRB UCSR1C, UCPOL1
+                                 	.elif @0 == One
+                                 		SETB UCSR1C, UCPOL1
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar2
+                                 	.if @0 == Zero
+                                 		CLRB UCSR2C, UCPOL2
+                                 	.elif @0 == One
+                                 		SETB UCSR2C, UCPOL2
+                                 	.endif
+                                 .endm
+                                 .macro ClockPolar3
+                                 	.if @0 == Zero
+                                 		CLRB UCSR3C, UCPOL3
+                                 	.elif @0 == One
+                                 		SETB UCSR3C, UCPOL3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTClockPolarity
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 			ClockPolar @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.endif
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolar1 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0
+                                 			ClockPolarURSEL0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolarURSEL1 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 			ClockPolar0 @1
+                                 		.elif @0 == 1
+                                 			ClockPolar1 @1
+                                 		.elif @0 == 2
+                                 			ClockPolar2 @1
+                                 		.elif @0 == 3
+                                 			ClockPolar3 @1
+                                 		.endif
+                                 	.endif
+                                 .include "AVRModules/USART/USART_UCSZ.inc"
+                                 
+                                 	.if @0 == 6
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		CLRB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 7
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 8
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		CLRB UCSRB, UCSZ2
+                                 	.elif @0 == 9
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UCSZ0
+                                 		SETB UCSRC, UCSZ1
+                                 		CLRB UCSRC, URSEL
+                                 		SETB UCSRB, UCSZ2
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSizeURSEL0
+                                 	.if @0 == 6
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		CLRB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 7
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 8
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 9
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0C, URSEL0
+                                 		SETB UCSR0B, UCSZ02
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSizeURSEL1
+                                 	.if @0 == 6
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		CLRB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 7
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 8
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 9
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1C, URSEL1
+                                 		SETB UCSR1B, UCSZ12
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize0
+                                 	.if @0 == 6
+                                 		SETB UCSR0C, UCSZ00
+                                 		CLRB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 7
+                                 		CLRB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 8
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		CLRB UCSR0B, UCSZ02
+                                 	.elif @0 == 9
+                                 		SETB UCSR0C, UCSZ00
+                                 		SETB UCSR0C, UCSZ01
+                                 		SETB UCSR0B, UCSZ02
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize1
+                                 	.if @0 == 6
+                                 		SETB UCSR1C, UCSZ10
+                                 		CLRB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 7
+                                 		CLRB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 8
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		CLRB UCSR1B, UCSZ12
+                                 	.elif @0 == 9
+                                 		SETB UCSR1C, UCSZ10
+                                 		SETB UCSR1C, UCSZ11
+                                 		SETB UCSR1B, UCSZ12
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize2
+                                 	.if @0 == 6
+                                 		SETB UCSR2C, UCSZ20
+                                 		CLRB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 7
+                                 		CLRB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 8
+                                 		SETB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		CLRB UCSR2B, UCSZ22
+                                 	.elif @0 == 9
+                                 		SETB UCSR2C, UCSZ20
+                                 		SETB UCSR2C, UCSZ21
+                                 		SETB UCSR2B, UCSZ22
+                                 	.endif
+                                 .endm
+                                 .macro CharacterSize3
+                                 	.if @0 == 6
+                                 		SETB UCSR3C, UCSZ30
+                                 		CLRB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 7
+                                 		CLRB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 8
+                                 		SETB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		CLRB UCSR3B, UCSZ32
+                                 	.elif @0 == 9
+                                 		SETB UCSR3C, UCSZ30
+                                 		SETB UCSR3C, UCSZ31
+                                 		SETB UCSR3B, UCSZ32
+                                 	.endif
+                                 .endm
+                                 
+                                 
+                                 
+                                 .macro USARTCharacterSize
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 			CharacterSize @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.endif
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSize1 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0
+                                 			CharacterSizeURSEL0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSizeURSEL1 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 			CharacterSize0 @1
+                                 		.elif @0 == 1
+                                 			CharacterSize1 @1
+                                 		.elif @0 == 2
+                                 			CharacterSize2 @1
+                                 		.elif @0 == 3
+                                 			CharacterSize3 @1
+                                 		.endif
+                                 	.endif
+                                 .include "AVRModules/USART/USART_UDREI.inc"
+                                 
+                                 	.if @0 == Enable
+                                 	    SETB UCSRB, UDRIE
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSRB, UDRIE
+                                 	.endif
+                                     .endm
+                                     .macro USART0DataRegisterEmptyInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR0B, UDRIE0
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR0B, UDRIE0
+                                 	.endif
+                                     .endm
+                                     .macro USART1DataRegisterEmptyInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR1B, UDRIE1
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR1B, UDRIE1
+                                 	.endif
+                                     .endm
+                                     .macro USART2DataRegisterEmptyInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR2B, UDRIE2
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR2B, UDRIE2
+                                 	.endif
+                                     .endm
+                                     .macro USART3DataRegisterEmptyInterr
+                                 	.if @0 == Enable
+                                 	    SETB UCSR3B, UDRIE3
+                                 	.elif  @0 == Disable
+                                 	    CLRB UCSR3B, UDRIE3
+                                 	.endif
+                                     .endm
+                                     
+                                     .macro USARTDataRegisterEmptyInterrupt
+                                 	.if @0 == 0
+                                 	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		USARTDataRegisterEmptyInterr @1
+                                 	    .else
+                                 		USART0DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.elif @0 == 1
+                                 	    USART1DataRegisterEmptyInterr @1
+                                 	.elif @0 == 2
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART2DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.elif @0 == 3
+                                 	    .if ctrl != 1281 || ctrl != 2561
+                                 		USART3DataRegisterEmptyInterr @1
+                                 	    .endif
+                                 	.endif
+                                     .endm
+                                 .include "AVRModules/USART/USART_UMSEL.inc"
+                                 
+                                 	.if @0 == Asynchron
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UMSEL
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == Synchron
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UMSEL
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro USART0Mod2
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR0C, UMSEL0
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR0C, UMSEL0
+                                 	.endif
+                                 .endm
+                                 .macro USART0URSEL0Mod2
+                                 	.if @0 == Asynchron
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro USART0Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, UMSEL1
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR0C, UMSEL0
+                                 		CLRB UCSR0C, UMSEL1
+                                 	.elif @0 == MasterSPI
+                                 		SETB UCSR0C, UMSEL0
+                                 		SETB UCSR0C, UMSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1Mod2
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR1C, UMSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1URSEL1Mod2
+                                 	.if @0 == Asynchron
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UMSEL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UMSEL1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro USART1Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR1C, UMSEL0
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR1C, UMSEL0
+                                 		CLRB UCSR1C, UMSEL1
+                                 	.elif @0 == MasterSPI
+                                 		SETB UCSR1C, UMSEL0
+                                 		SETB UCSR1C, UMSEL1	
+                                 	.endif
+                                 .endm
+                                 .macro USART00Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR0C, UMSEL00
+                                 		CLRB UCSR0C, UMSEL01
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR0C, UMSEL00
+                                 		CLRB UCSR0C, UMSEL01
+                                 	.elif @0 == MasterSPI	
+                                 		SETB UCSR0C, UMSEL00
+                                 		SETB UCSR0C, UMSEL01
+                                 	.endif
+                                 .endm
+                                 .macro USART01Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR1C, UMSEL10
+                                 		CLRB UCSR1C, UMSEL11
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR1C, UMSEL10
+                                 		CLRB UCSR1C, UMSEL11
+                                 	.elif @0 == MasterSPI	
+                                 		SETB UCSR1C, UMSEL10
+                                 		SETB UCSR1C, UMSEL11
+                                 	.endif
+                                 .endm
+                                 .macro USART02Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR2C, UMSEL20
+                                 		CLRB UCSR2C, UMSEL21
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR2C, UMSEL20
+                                 		CLRB UCSR2C, UMSEL21
+                                 	.elif @0 == MasterSPI	
+                                 		SETB UCSR2C, UMSEL20
+                                 		SETB UCSR2C, UMSEL21
+                                 	.endif
+                                 .endm
+                                 .macro USART03Mod3
+                                 	.if @0 == Asynchron
+                                 		CLRB UCSR3C, UMSEL30
+                                 		CLRB UCSR3C, UMSEL31
+                                 	.elif @0 == Synchron
+                                 		SETB UCSR3C, UMSEL30
+                                 		CLRB UCSR3C, UMSEL31
+                                 	.elif @0 == MasterSPI	
+                                 		SETB UCSR3C, UMSEL30
+                                 		SETB UCSR3C, UMSEL31
+                                 	.endif
+                                 .endm
+                                     
+                                 .macro USARTModeSelect
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 		USARTMod2 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0    
+                                 		USART0URSEL0Mod2 @1
+                                 		.elif @0 == 1
+                                 		USART1URSEL1Mod2 @1
+                                 		.endif
+                                 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0        
+                                 		USART0Mod2 @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168 || ctrl == 328 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0     
+                                 		USART00Mod3 @1
+                                 		.elif @0 == 1
+                                 		USART01Mod3 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0     
+                                 		USART00Mod3 @1
+                                 		.elif @0 == 1
+                                 		USART01Mod3 @1
+                                 		.elif @0 == 2
+                                 		USART02Mod3 @1
+                                 		.elif @0 == 3
+                                 		USART03Mod3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/USART/USART_UPM.inc"
+                                 
+                                 	.if @0 == Disable
+                                 		SETB UCSRC, UREL
+                                 		CLRB UCSRC, UPM0
+                                 		CLRB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == EvenParity
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, UPM0
+                                 		SETB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == OddParity
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, UPM0
+                                 		SETB UCSRC, UPM1
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode0
+                                 	.if @0 == Disable
+                                 		CLRB UCSR0C, UPM00
+                                 		CLRB UCSR0C, UPM01
+                                 	.elif @0 == EvenParity
+                                 		CLRB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 	.endif
+                                 .endm
+                                 .macro ParityModeURSEL0
+                                 	.if @0 == Disable
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UPM00
+                                 		CLRB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == EvenParity
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, UPM00
+                                 		SETB UCSR0C, UPM01
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode1
+                                 	.if @0 == Disable
+                                 		CLRB UCSR1C, UPM10
+                                 		CLRB UCSR1C, UPM11
+                                 	.elif @0 == EvenParity
+                                 		CLRB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 	.endif
+                                 .endm
+                                 .macro ParityModeURSEL1
+                                 	.if @0 == Disable
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UPM10
+                                 		CLRB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == EvenParity
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, UPM10
+                                 		SETB UCSR1C, UPM11
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm
+                                 .macro ParityMode2
+                                 	.if @0 == Disable
+                                 		CLRB UCSR2C, UPM20
+                                 		CLRB UCSR2C, UPM21
+                                 	.elif @0 == EvenParity
+                                 		CLRB UCSR2C, UPM20
+                                 		SETB UCSR2C, UPM21
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR2C, UPM20
+                                 		SETB UCSR2C, UPM21
+                                 	.endif
+                                 .endm
+                                 	.macro ParityMode3
+                                 	.if @0 == Disable
+                                 		CLRB UCSR3C, UPM30
+                                 		CLRB UCSR3C, UPM31
+                                 	.elif @0 == EvenParity
+                                 		CLRB UCSR3C, UPM30
+                                 		SETB UCSR3C, UPM31
+                                 	.elif @0 == OddParity
+                                 		SETB UCSR3C, UPM30
+                                 		SETB UCSR3C, UPM31
+                                 	.endif
+                                 .endm
+                                     
+                                     
+                                 .macro USARTParityMode
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 		ParityMode @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.endif
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.elif @0 == 1
+                                 		ParityMode1 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0
+                                 			ParityModeURSEL0 @1
+                                 		.elif @0 == 1
+                                 			ParityModeURSEL1 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 		ParityMode0 @1
+                                 		.elif @0 == 1
+                                 		ParityMode1 @1
+                                 		.elif @0 == 2
+                                 		ParityMode2 @1
+                                 		.elif @0 == 3
+                                 		ParityMode3 @1
+                                 		.endif
+                                 	.endif
+                                 .endm
+                                 .include "AVRModules/USART/USART_USBS.inc"
+                                 
+                                 	.if @0 == One
+                                 		SETB UCSRC, URSEL
+                                 		CLRB UCSRC, USBS
+                                 		CLRB UCSRC, URSEL
+                                 	.elif @0 == Two
+                                 		SETB UCSRC, URSEL
+                                 		SETB UCSRC, USBS
+                                 		CLRB UCSRC, URSEL
+                                 	.endif
+                                 .endm 
+                                 .macro StopBitsURSEL0
+                                 	.if @0 == One
+                                 		SETB UCSR0C, URSEL0
+                                 		CLRB UCSR0C, USBS0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.elif @0 == Two
+                                 		SETB UCSR0C, URSEL0
+                                 		SETB UCSR0C, USBS0
+                                 		CLRB UCSR0C, URSEL0
+                                 	.endif
+                                 .endm
+                                 .macro StopBitsURSEL1
+                                 	.if @0 == One
+                                 		SETB UCSR1C, URSEL1
+                                 		CLRB UCSR1C, USBS1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.elif @0 == Two
+                                 		SETB UCSR1C, URSEL1
+                                 		SETB UCSR1C, USBS1
+                                 		CLRB UCSR1C, URSEL1
+                                 	.endif
+                                 .endm 
+                                 .macro StopBits0
+                                 	.if @0 == One
+                                 		CLRB UCSR0C, USBS0
+                                 	.elif @0 == Two
+                                 		SETB UCSR0C, USBS0
+                                 	.endif
+                                 .endm
+                                 .macro StopBits1
+                                 	.if @0 == One
+                                 		CLRB UCSR1C, USBS1
+                                 	.elif @0 == Two
+                                 		SETB UCSR1C, USBS1
+                                 	.endif
+                                 .endm
+                                 .macro StopBits2
+                                 	.if @0 == One
+                                 		CLRB UCSR2C, USBS2
+                                 	.elif @0 == Two
+                                 		SETB UCSR2C, USBS2
+                                 	.endif
+                                 .endm
+                                 .macro StopBits3
+                                 	.if @0 == One
+                                 		CLRB UCSR3C, USBS3
+                                 	.elif @0 == Two
+                                 		SETB UCSR3C, USBS3
+                                 	.endif
+                                 .endm
+                                 
+                                 .macro USARTStopBits
+                                 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+                                 		.if @0 == 0	
+                                 			StopBits @1
+                                 		.endif
+                                 	.elif ctrl == 48 || ctrl == 88 || ctrl == 165 || ctrl == 168 || ctrl == 169 || ctrl == 325 || ctrl == 328 || ctrl == 329 || ctrl == 645 || ctrl == 649 || ctrl == 3250 || ctrl == 3290 || ctrl == 6450 || ctrl == 6490
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.endif
+                                 	.elif ctrl == 64 || ctrl == 128 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.elif @0 == 1
+                                 			StopBits1 @1
+                                 		.endif
+                                 	.elif ctrl == 162
+                                 		.if @0 == 0
+                                 			StopBitsURSEL0 @1
+                                 		.elif @0 == 1
+                                 			StopBitsURSEL1 @1
+                                 		.endif
+                                 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
+                                 		.if @0 == 0
+                                 			StopBits0 @1
+                                 		.elif @0 == 1
+                                 			StopBits1 @1
+                                 		.elif @0 == 2
+                                 			StopBits2 @1
+                                 		.elif @0 == 3
+                                 			StopBits3 @1
+                                 		.endif
+                                 	.endif
                                  #endif
                                  
                                  	.include "AVRModules/ADC/ADCIncludes.inc"
@@ -6078,562 +7202,368 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  #endif
                                  
                                  #ifdef PCF8575_Module
-                                 	.include "GadgetModules/PCF8575/PCF8575_Includes.inc"
-                                 
-                                 .include "GadgetModules/PCF8575/PCF8575_Constants.inc"
-                                 
-                                 .dseg
-000201                           PCF8575Bytes:	.byte 2
-                                 
-                                 .cseg
-                                 .include "GadgetModules/PCF8575/PCF8575_Labels.inc"
-                                 
-                                 	; Ваш код ошибки
-0000a8 9508                      ret
-                                 .include "GadgetModules/PCF8575/PCF8575_Write.inc"
-                                 
-                                 * Записывает 2 байта в чип
-                                 */
-                                 
-                                 .macro PCF8575Write
-                                 
-                                 	TWSI_START										; Стартуем работу
-                                 	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
-                                 
-                                 	_call PCF8575Write_act
-                                 .endm
-                                 
-                                 PCF8575Write_act:
-                                 	
-0000a9 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
-0000ab fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000ac 940c 00ce                 	_jump gotoPCF8575WriteLabels					; Если поднят, то переходим
-                                 	
-0000ae 9190 0201                 	READ_REG PCF8575Bytes, r25
-0000b0 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-                                 
-0000b2 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-0000b4 e288
-0000b5 e370
-0000b6 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
-                                 
-0000b8 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
-0000ba fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000bb 940c 00ce                 	_jump gotoPCF8575WriteLabels							; Если поднят, то переходим
-                                 	
-0000bd 9190 0202                 	READ_REG PCF8575Bytes + 1, r25
-0000bf 9390 00bb                 	WRITE_REG TWDR, r25								; вталкиваем в дата регистр
-                                 
-0000c1 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-0000c3 e288
-0000c4 e370
-0000c5 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
-                                 
-0000c7 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
-0000c9 fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000ca 940c 00ce                 		_jump gotoPCF8575WriteLabels				; Если поднят, то переходим
-0000cc 940c 00d2                 		_jump PCF8575Write_end
-                                 
-                                 gotoPCF8575WriteLabels:
-0000ce 940e 00a2                 	TWSI_STOP
-0000d0 940e 00a8                 	_call PCF8575_NoAck
-                                 
-                                 PCF8575Write_end:
-0000d2 940e 00a2                 	TWSI_STOP
-0000d4 9508                      ret
-                                 .include "GadgetModules/PCF8575/PCF8575_Read.inc"
-                                 
-                                 
-                                 	TWSI_START									; Стартуем работу
-                                 	TWSI_SLA @0, 'R'							; Отправляем адрес и режим работы 
-                                 
-                                 	_call PCF8575Read_act
-                                 
-                                 .endm
-                                 
-                                  PCF8575Read_act:
-                                 
-                                 
-0000d5 9190 0200                 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
-0000d7 fd90                      	sbrc r25, No_ACK							; Проверяем бит 
-0000d8 940c 00f0                 	_jump gotoPCF8575ReadLabels						; Если поднят, то переходим
-                                 
-0000da ec94
-0000db 9390 00bc
-0000dd 940e 0091                 	TWSI_ACK_Transmit							; отправляем ACK
-                                 
-0000df 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
-0000e1 9390 0201                 	WRITE_REG PCF8575Bytes, r25
-                                 	
-0000e3 ec94
-0000e4 9390 00bc
-0000e6 940e 0091                 	TWSI_ACK_Transmit							; отправляем ACK
-                                 
-0000e8 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
-0000ea 9390 0202                 	WRITE_REG PCF8575Bytes + 1, r25
-                                 
-0000ec 940e 009c                 	TWSI_Byte_Transmit							; больше не принимаем байты
-                                 	
-0000ee 940c 00f7                 	_jump PCF8575Read_end
-                                 
-                                 gotoPCF8575ReadLabels:
-0000f0 940e 00a8                 	_call PCF8575_NoAck
-0000f2 2799                      	clr r25
-0000f3 9390 0201                 	WRITE_REG PCF8575Bytes, r25
-0000f5 9390 0202                 	WRITE_REG PCF8575Bytes + 1, r25
-                                 
-                                 	PCF8575Read_end:
-0000f7 940e 00a2                 	TWSI_STOP
-                                 
-0000f9 9508                       ret
-                                 
                                  #endif
                                  
                                  #ifdef PCF8574_Module
-                                 	.include "GadgetModules/PCF8574/PCF8574_Includes.inc"
-                                 
-                                 .include "GadgetModules/PCF8574/PCF8574_Constants.inc"
-                                 
-                                 .dseg
-000203                           PCF8574Bytes:	.byte 1
-                                 
-                                 .cseg
-                                 .include "GadgetModules/PCF8574/PCF8574_Labels.inc"
-                                 
-                                 	; Ваш код ошибки
-0000fa 9508                      ret
-                                 .include "GadgetModules/PCF8574/PCF8574_Write.inc"
-                                 
-                                 * Записывает байт в чип
-                                 */
-                                 
-                                 .macro PCF8574Write
-                                 	TWSI_START										; Стартуем работу
-                                 	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
-                                 
-                                 	_call PCF8574_Write_act
-                                 .endm
-                                 
-                                 PCF8574_Write_act:
-                                 	
-0000fb 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
-0000fd fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-0000fe 940c 0111                 	_jump gotoPCF8574WriteLabels					; Если поднят, то переходим
-                                 
-000100 9190 0203                 	READ_REG PCF8574Bytes, r25
-000102 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-                                 
-000104 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-000106 e288
-000107 e370
-000108 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
-                                 
-00010a 9190 0200                 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
-00010c fd90                      	sbrc r25, No_ACK								; Проверяем бит 
-00010d 940c 0111                 		_jump gotoPCF8574WriteLabels				; Если поднят, то переходим
-00010f 940c 0113                 		_jump PCF8574_Write_end
-                                 
-                                 gotoPCF8574WriteLabels:
-000111 940e 00fa                 	_call PCF8574_NoAck
-                                 
-                                 PCF8574_Write_end:
-000113 940e 00a2                 	TWSI_STOP
-000115 9508                      ret
-                                 .include "GadgetModules/PCF8574/PCF8574_Read.inc"
-                                 
-                                 	TWSI_START									; Стартуем работу
-                                 	TWSI_SLA @0, 'R'							; Отправляем адрес и режим работы 
-                                 
-                                 	_call PCF8574_Read_act
-                                 .endm
-                                 
-                                  PCF8574_Read_act:
-                                 
-                                 
-000116 9190 0200                 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
-000118 fd90                      	sbrc r25, No_ACK							; Проверяем бит 
-000119 940c 0128                 	_jump gotoPCF8574ReadLabels					; Если поднят, то переходим
-                                 
-00011b 940e 009c                 	TWSI_Byte_Transmit							; больше не принимаем байты
-                                 
-00011d 9190 00bb                 	READ_REG TWDR, r25							; читаем данные с TWDR
-00011f 9390 0203                 	WRITE_REG PCF8574Bytes, r25
-                                 	
-000121 ec94
-000122 9390 00bc
-000124 940e 0091                 	TWSI_ACK_Transmit							; отправляем ACK
-                                 		
-000126 940c 012d                 	_jump PCF8574_Read_end
-                                 
-                                 	gotoPCF8574ReadLabels:
-000128 940e 00fa                 		_call PCF8574_NoAck
-00012a 2799                      		clr r25
-00012b 9390 0203                 		WRITE_REG PCF8574Bytes, r25
-                                 
-                                 	PCF8574_Read_end:
-00012d 940e 00a2                 	TWSI_STOP
-00012f 9508                       ret
-                                 
                                  #endif
                                  
                                  
                                  .include "Interrupts.inc"
                                  
                                  ANA_COMP:
-000130 94f8                      	cli
+000075 94f8                      	cli
                                  	// Ваш код
-000131 9478                      	sei
-000132 9518                      reti
+000076 9478                      	sei
+000077 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // ADC Conversion Complete Handler
                                  ADC_Conv_Comp:
-000133 94f8                      	cli
+000078 94f8                      	cli
                                  	// Ваш код
                                  	//_call ADCINTtt
-000134 9478                      	sei
-000135 9518                      reti
+000079 9478                      	sei
+00007a 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //EEPROM Ready Handler
                                  EE_RDY:
-000136 94f8                      	cli
+00007b 94f8                      	cli
                                  	// Ваш код
-000137 9478                      	sei
-000138 9518                      reti
+00007c 9478                      	sei
+00007d 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // External Interrupts
                                  EXT_INT0:
-000139 94f8                      	cli
+00007e 94f8                      	cli
                                  	// Ваш код
-00013a 9478                      	sei
-00013b 9518                      reti
+00007f 9478                      	sei
+000080 9518                      reti
                                  EXT_INT1:
-00013c 94f8                      	cli
+000081 94f8                      	cli
                                  	// Ваш код
-00013d 9478                      	sei
-00013e 9518                      reti
+000082 9478                      	sei
+000083 9518                      reti
                                  EXT_INT2:
-00013f 94f8                      	cli
+000084 94f8                      	cli
                                  	// Ваш код
-000140 9478                      	sei
-000141 9518                      reti
+000085 9478                      	sei
+000086 9518                      reti
                                  EXT_INT3:
-000142 94f8                      	cli
+000087 94f8                      	cli
                                  	// Ваш код
-000143 9478                      	sei
-000144 9518                      reti
+000088 9478                      	sei
+000089 9518                      reti
                                  EXT_INT4:
-000145 94f8                      	cli
+00008a 94f8                      	cli
                                  	// Ваш код
                                  	//PCF8574_Read $70, PCF8574_Data
-000146 9478                      	sei
-000147 9518                      reti
+00008b 9478                      	sei
+00008c 9518                      reti
                                  EXT_INT5:
-000148 94f8                      	cli
+00008d 94f8                      	cli
                                  	// Ваш код
                                  	//Disable_INT_Interrupt INT5
                                  	//PCF8575_Read $40, PCF8575_Data, PCF8575_Data + 1
                                  	//PCF8574_Read $70, PCF8574_Data
                                  
                                  	//Enable_INT_Interrupt INT5, FallingEdge
-000149 9478                      	sei
-00014a 9518                      reti
+00008e 9478                      	sei
+00008f 9518                      reti
                                  EXT_INT6:
-00014b 94f8                      	cli
+000090 94f8                      	cli
                                  	// Ваш код
-00014c 9478                      	sei
-00014d 9518                      reti
+000091 9478                      	sei
+000092 9518                      reti
                                  EXT_INT7:
-00014e 94f8                      	cli
+000093 94f8                      	cli
                                  	// Ваш код
-00014f 9478                      	sei
-000150 9518                      reti
+000094 9478                      	sei
+000095 9518                      reti
                                  EXT_PCINT0:
-000151 94f8                      	cli
+000096 94f8                      	cli
                                  	// Ваш код
-000152 9478                      	sei
-000153 9518                      reti
+000097 9478                      	sei
+000098 9518                      reti
                                  EXT_PCINT1:
-000154 94f8                      	cli
+000099 94f8                      	cli
                                  	// Ваш код
-000155 9478                      	sei
-000156 9518                      reti
+00009a 9478                      	sei
+00009b 9518                      reti
                                  EXT_PCINT2:
-000157 94f8                      	cli
+00009c 94f8                      	cli
                                  	// Ваш код
-000158 9478                      	sei
-000159 9508                      ret
+00009d 9478                      	sei
+00009e 9508                      ret
                                  EXT_PCINT3:
-00015a 94f8                      	cli
+00009f 94f8                      	cli
                                  	// Ваш код
-00015b 9478                      	sei
-00015c 9518                      reti
+0000a0 9478                      	sei
+0000a1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // LCD_SOF
                                  LCD_SOF:
-00015d 94f8                      	cli
+0000a2 94f8                      	cli
                                  	// Ваш код
-00015e 9478                      	sei
-00015f 9518                      reti
+0000a3 9478                      	sei
+0000a4 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPI
                                  SPI_STC:
-000160 94f8                      	cli
+0000a5 94f8                      	cli
                                  	// Ваш код
-000161 9478                      	sei
-000162 9518                      reti
+0000a6 9478                      	sei
+0000a7 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPM_RDY
                                  SPM_RDY:
-000163 94f8                      	cli
+0000a8 94f8                      	cli
                                  	// Ваш код
-000164 9478                      	sei
-000165 9518                      reti
+0000a9 9478                      	sei
+0000aa 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 0
                                  TIM0_COMP:
-000166 94f8                      	cli
+0000ab 94f8                      	cli
                                  	// Ваш код
-000167 9478                      	sei
-000168 9518                      reti
+0000ac 9478                      	sei
+0000ad 9518                      reti
                                  TIM0_COMPA:
-000169 94f8                      	cli
+0000ae 94f8                      	cli
                                  	// Ваш код
-00016a 9478                      	sei
-00016b 9518                      reti
+0000af 9478                      	sei
+0000b0 9518                      reti
                                  TIM0_COMPB:
-00016c 94f8                      	cli
+0000b1 94f8                      	cli
                                  	// Ваш код
-00016d 9478                      	sei
-00016e 9518                      reti
+0000b2 9478                      	sei
+0000b3 9518                      reti
                                  TIM0_OVF:
-00016f 94f8                      	cli
+0000b4 94f8                      	cli
                                  	// Ваш код
-000170 9478                      	sei
-000171 9518                      reti
+0000b5 9478                      	sei
+0000b6 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 1
                                  TIM1_CAPT:
-000172 94f8                      	cli
+0000b7 94f8                      	cli
                                  	// Ваш код
-000173 9478                      	sei
-000174 9518                      reti
+0000b8 9478                      	sei
+0000b9 9518                      reti
                                  TIM1_COMPA:
-000175 94f8                      	cli
+0000ba 94f8                      	cli
                                  	// Ваш код
-000176 9478                      	sei
-000177 9518                      reti
+0000bb 9478                      	sei
+0000bc 9518                      reti
                                  TIM1_COMPB:
-000178 94f8                      	cli
+0000bd 94f8                      	cli
                                  	// Ваш код
-000179 9478                      	sei
-00017a 9518                      reti
+0000be 9478                      	sei
+0000bf 9518                      reti
                                  TIM1_COMPC:
-00017b 94f8                      	cli
+0000c0 94f8                      	cli
                                  	// Ваш код
-00017c 9478                      	sei
-00017d 9518                      reti
+0000c1 9478                      	sei
+0000c2 9518                      reti
                                  TIM1_OVF:
-00017e 94f8                      	cli
+0000c3 94f8                      	cli
                                  	// Ваш код
-00017f 9478                      	sei
-000180 9518                      reti
+0000c4 9478                      	sei
+0000c5 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 2
                                  TIM2_COMP:
-000181 94f8                      	cli
+0000c6 94f8                      	cli
                                  	// Ваш код
-000182 9478                      	sei
-000183 9518                      reti
+0000c7 9478                      	sei
+0000c8 9518                      reti
                                  TIM2_COMPA:
-000184 94f8                      	cli
+0000c9 94f8                      	cli
                                  	// Ваш код
-000185 9478                      	sei
-000186 9518                      reti
+0000ca 9478                      	sei
+0000cb 9518                      reti
                                  TIM2_COMPB:
-000187 94f8                      	cli
+0000cc 94f8                      	cli
                                  	// Ваш код
-000188 9478                      	sei
-000189 9518                      reti
+0000cd 9478                      	sei
+0000ce 9518                      reti
                                  TIM2_OVF:
-00018a 94f8                      	cli
+0000cf 94f8                      	cli
                                  	// Ваш код
-00018b 9478                      	sei
-00018c 9518                      reti
+0000d0 9478                      	sei
+0000d1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //Timer 3
                                  TIM3_CAPT:
-00018d 94f8                      	cli
+0000d2 94f8                      	cli
                                  	// Ваш код
-00018e 9478                      	sei
-00018f 9518                      reti
+0000d3 9478                      	sei
+0000d4 9518                      reti
                                  TIM3_COMPA:
-000190 94f8                      	cli
+0000d5 94f8                      	cli
                                  	// Ваш код
-000191 9478                      	sei
-000192 9518                      reti
+0000d6 9478                      	sei
+0000d7 9518                      reti
                                  TIM3_COMPB:
-000193 94f8                      	cli
+0000d8 94f8                      	cli
                                  	// Ваш код
-000194 9478                      	sei
-000195 9518                      reti
+0000d9 9478                      	sei
+0000da 9518                      reti
                                  TIM3_COMPC:
-000196 94f8                      	cli
+0000db 94f8                      	cli
                                  	// Ваш код
-000197 9478                      	sei
-000198 9518                      reti
+0000dc 9478                      	sei
+0000dd 9518                      reti
                                  TIM3_OVF:
-000199 94f8                      	cli
+0000de 94f8                      	cli
                                  	// Ваш код
-00019a 9478                      	sei
-00019b 9518                      reti
+0000df 9478                      	sei
+0000e0 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 4
                                  TIM4_CAPT:
-00019c 94f8                      	cli
+0000e1 94f8                      	cli
                                  	// Ваш код
-00019d 9478                      	sei
-00019e 9518                      reti
+0000e2 9478                      	sei
+0000e3 9518                      reti
                                  TIM4_COMPA:
-00019f 94f8                      	cli
+0000e4 94f8                      	cli
                                  	// Ваш код
-0001a0 9478                      	sei
-0001a1 9518                      reti
+0000e5 9478                      	sei
+0000e6 9518                      reti
                                  TIM4_COMPB:
-0001a2 94f8                      	cli
+0000e7 94f8                      	cli
                                  	// Ваш код
-0001a3 9478                      	sei
-0001a4 9518                      reti
+0000e8 9478                      	sei
+0000e9 9518                      reti
                                  TIM4_COMPC:
-0001a5 94f8                      	cli
+0000ea 94f8                      	cli
                                  	// Ваш код
-0001a6 9478                      	sei
-0001a7 9518                      reti
+0000eb 9478                      	sei
+0000ec 9518                      reti
                                  TIM4_OVF:
-0001a8 94f8                      	cli
+0000ed 94f8                      	cli
                                  	// Ваш код
-0001a9 9478                      	sei
-0001aa 9518                      reti
+0000ee 9478                      	sei
+0000ef 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 5
                                  TIM5_CAPT:
-0001ab 94f8                      	cli
+0000f0 94f8                      	cli
                                  	// Ваш код
-0001ac 9478                      	sei
-0001ad 9518                      reti
+0000f1 9478                      	sei
+0000f2 9518                      reti
                                  TIM5_COMPA:
-0001ae 94f8                      	cli
+0000f3 94f8                      	cli
                                  	// Ваш код
-0001af 9478                      	sei
-0001b0 9518                      reti
+0000f4 9478                      	sei
+0000f5 9518                      reti
                                  TIM5_COMPB:
-0001b1 94f8                      	cli
+0000f6 94f8                      	cli
                                  	// Ваш код
-0001b2 9478                      	sei
-0001b3 9518                      reti
+0000f7 9478                      	sei
+0000f8 9518                      reti
                                  TIM5_COMPC:
-0001b4 94f8                      	cli
+0000f9 94f8                      	cli
                                  	// Ваш код
-0001b5 9478                      	sei
-0001b6 9518                      reti
+0000fa 9478                      	sei
+0000fb 9518                      reti
                                  TIM5_OVF:
-0001b7 94f8                      	cli
+0000fc 94f8                      	cli
                                  	// Ваш код
-0001b8 9478                      	sei
-0001b9 9518                      reti
+0000fd 9478                      	sei
+0000fe 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // TWSI
                                  TWSI:
-0001ba 94f8                      	cli
+0000ff 94f8                      	cli
                                  	// Ваш код
-0001bb 9478                      	sei
-0001bc 9518                      reti
+000100 9478                      	sei
+000101 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // USART
                                  USART0_RXC:
-0001bd 94f8                      	cli
+000102 94f8                      	cli
                                  	// Ваш код
-0001be 9478                      	sei
-0001bf 9518                      reti
+000103 9478                      	sei
+000104 9518                      reti
                                  USART0_UDRE:
-0001c0 94f8                      	cli
+000105 94f8                      	cli
                                  	// Ваш код
-0001c1 9478                      	sei
-0001c2 9518                      reti
+000106 9478                      	sei
+000107 9518                      reti
                                  USART0_TXC:
-0001c3 94f8                      	cli
+000108 94f8                      	cli
                                  	// Ваш код
-0001c4 9478                      	sei
-0001c5 9518                      reti
+000109 9478                      	sei
+00010a 9518                      reti
                                  USART1_RXC:
-0001c6 94f8                      	cli
+00010b 94f8                      	cli
                                  	// Ваш код
-0001c7 9478                      	sei
-0001c8 9518                      reti
+00010c 9478                      	sei
+00010d 9518                      reti
                                  USART1_UDRE:
-0001c9 94f8                      	cli
+00010e 94f8                      	cli
                                  	// Ваш код
-0001ca 9478                      	sei
-0001cb 9518                      reti
+00010f 9478                      	sei
+000110 9518                      reti
                                  USART1_TXC:
-0001cc 94f8                      	cli
+000111 94f8                      	cli
                                  	// Ваш код
-0001cd 9478                      	sei
-0001ce 9518                      reti
+000112 9478                      	sei
+000113 9518                      reti
                                  USART2_RXC:
-0001cf 94f8                      	cli
+000114 94f8                      	cli
                                  	// Ваш код
-0001d0 9478                      	sei
-0001d1 9518                      reti
+000115 9478                      	sei
+000116 9518                      reti
                                  USART2_UDRE:
-0001d2 94f8                      	cli
+000117 94f8                      	cli
                                  	// Ваш код
-0001d3 9478                      	sei
-0001d4 9518                      reti
+000118 9478                      	sei
+000119 9518                      reti
                                  USART2_TXC:
-0001d5 94f8                      	cli
+00011a 94f8                      	cli
                                  	// Ваш код
-0001d6 9478                      	sei
-0001d7 9518                      reti
+00011b 9478                      	sei
+00011c 9518                      reti
                                  
                                  USART3_RXC:
-0001d8 94f8                      	cli
+00011d 94f8                      	cli
                                  	// Ваш код
-0001d9 9478                      	sei
-0001da 9518                      reti
+00011e 9478                      	sei
+00011f 9518                      reti
                                  USART3_UDRE:
-0001db 94f8                      	cli
+000120 94f8                      	cli
                                  	// Ваш код
-0001dc 9478                      	sei
-0001dd 9518                      reti
+000121 9478                      	sei
+000122 9518                      reti
                                  USART3_TXC:
-0001de 94f8                      	cli
+000123 94f8                      	cli
                                  	// Ваш код
-0001df 9478                      	sei
-0001e0 9518                      reti
+000124 9478                      	sei
+000125 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //USI
                                  USI_STRT:
-0001e1 94f8                      	cli
+000126 94f8                      	cli
                                  	// Ваш код
-0001e2 9478                      	sei
-0001e3 9518                      reti
+000127 9478                      	sei
+000128 9518                      reti
                                  USI_OVFL:
-0001e4 94f8                      	cli
+000129 94f8                      	cli
                                  	// Ваш код
-0001e5 9478                      	sei
-0001e6 9518                      reti
+00012a 9478                      	sei
+00012b 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // WDT
                                  WDT:
-0001e7 94f8                      	cli
+00012c 94f8                      	cli
                                  	// Ваш код
-0001e8 9478                      	sei
-0001e9 9518                      reti
+00012d 9478                      	sei
+00012e 9518                      reti
                                  .include "Main/Modules_Inits.inc"
                                  
                                  	
                                  	#ifdef TWSI_Module
-                                 		TWSI_init
                                  	#endif
                                  
                                  	#ifdef HD44780U_Module
@@ -6646,72 +7576,25 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-0001ea ef0f
-0001eb bf0d
-0001ec e201
-0001ed bf0e                      
-0001ee e39e
-0001ef 9390 00b8                 Modules_Inits
-0001f1 9478                      sei
+00012f ef0f
+000130 bf0d
+000131 e201
+000132 bf0e                      
+                                 Modules_Inits
+000133 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
-0001f2 930f
-0001f3 e205
-0001f4 9300 0201
-0001f6 910f                      WRITE_BYTE PCF8575Bytes, $25
-0001f7 930f
-0001f8 e00f
-0001f9 9300 0202
-0001fb 910f                      WRITE_BYTE PCF8575Bytes + 1, $0f
+                                 //WRITE_BYTE PCF8575Bytes, $25
+                                 //WRITE_BYTE PCF8575Bytes + 1, $0f
                                  
-0001fc 940e 0096
-0001fe e490
-0001ff 9390 00bb
-000201 940e 009c
-000203 e188
-000204 e270
-000205 940e 007e
-000207 940e 00a9                 PCF8575Write $40
-000209 940e 0096
-00020b e490
-00020c 6091
-00020d 9390 00bb
-00020f 940e 009c
-000211 e480
-000212 e478
-000213 940e 007e
-000215 940e 00d5                 PCF8575Read $40
-000217 940e 0096
-000219 e790
-00021a 9390 00bb
-00021c 940e 009c
-00021e e188
-00021f e270
-000220 940e 007e
-000222 940e 00fb                 PCF8574Write $70, r16
+                                 //PCF8575Write $40
+                                 //PCF8575Read $40
+                                 //PCF8574Write $70, r16
                                  
-000224 930f
-000225 e205
-000226 9300 0203
-000228 910f                      WRITE_BYTE PCF8574Bytes, $25
-000229 940e 0096
-00022b e790
-00022c 9390 00bb
-00022e 940e 009c
-000230 e188
-000231 e270
-000232 940e 007e
-000234 940e 00fb                 PCF8574Write $70
-000236 940e 0096
-000238 e790
-000239 6091
-00023a 9390 00bb
-00023c 940e 009c
-00023e e480
-00023f e478
-000240 940e 007e
-000242 940e 0116                 PCF8574Read $70
+                                 //WRITE_BYTE PCF8574Bytes, $25
+                                 //PCF8574Write $70
+                                 //PCF8574Read $70
                                  // Пример настройки счетчиков
                                  ;CountersPrescaller Counter0, Prescaller8
                                  ;CountersOffMode Counter0
@@ -6785,7 +7668,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-000244 cfff                      rjmp Proga
+000134 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -6805,39 +7688,39 @@ counted separately from r26..r31 here.
 "ATmega2560" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  16 r17:   0 r18:   0 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:   9 r24:   9 r25:  69 r26:   3 r27:   3 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:   4 r17:   0 r18:   0 r19:   0 r20:   0 
+r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   1 r27:   1 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 6 out of 35 (17.1%)
+Registers used: 3 out of 35 (8.6%)
 
 "ATmega2560" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
-andi  :   1 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :  45 cbi   :   0 cbr   :   1 
-clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   2 cls   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
+clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
+cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   0 inc   :   0 jmp   :  68 ld    :   0 ldd   :   0 ldi   :  37 
-lds   :  17 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   0 inc   :   0 jmp   :  57 ld    :   0 ldd   :   0 ldi   :   2 
+lds   :   0 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   0 out   :   2 pop   :   3 push  :   3 rcall :   0 ret   :  14 
-reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
-sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   3 sbrc  :   7 
-sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
+ori   :   0 out   :   2 pop   :   0 push  :   0 rcall :   0 ret   :   2 
+reti  :  61 rjmp  :   1 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :   0 sbrc  :   0 
+sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  26 sub   :   0 subi  :   0 swap  :   0 
+st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 22 out of 116 (19.0%)
+Instructions used: 10 out of 116 (8.6%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x00048a   1162      0   1162  262144   0.4%
-[.dseg] 0x000200 0x000204      0      4      4    8192   0.0%
+[.cseg] 0x000000 0x00026a    618      0    618  262144   0.2%
+[.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
 Assembly complete, 0 errors, 0 warnings

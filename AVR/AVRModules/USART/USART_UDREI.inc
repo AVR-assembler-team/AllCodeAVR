@@ -1,55 +1,65 @@
-    .macro USARTDataRegisterEmptyInterr
+.macro USARTDataRegisterEmptyInterr
+	READ_REG UCSRB, r25
 	.if @0 == Enable
-	    SETB UCSRB, UDRIE
+		SETRB r25, UDRIE
 	.elif  @0 == Disable
-	    CLRB UCSRB, UDRIE
+		CLRRB r25, UDRIE
 	.endif
-    .endm
-    .macro USART0DataRegisterEmptyInterr
+	WRITE_REG UCSRB, r25
+.endm
+.macro USART0DataRegisterEmptyInterr
+	READ_REG UCSR0B, r25
 	.if @0 == Enable
-	    SETB UCSR0B, UDRIE0
+		SETRB r25, UDRIE0
 	.elif  @0 == Disable
-	    CLRB UCSR0B, UDRIE0
+		CLRRB r25, UDRIE0
 	.endif
-    .endm
-    .macro USART1DataRegisterEmptyInterr
+	WRITE_REG UCSR0B, r25
+.endm
+.macro USART1DataRegisterEmptyInterr
+	READ_REG UCSR1B, r25
 	.if @0 == Enable
-	    SETB UCSR1B, UDRIE1
+		SETRB r25, UDRIE1
 	.elif  @0 == Disable
-	    CLRB UCSR1B, UDRIE1
+		CLRRB r25, UDRIE1
 	.endif
-    .endm
-    .macro USART2DataRegisterEmptyInterr
+	WRITE_REG UCSR1B, r25
+.endm
+.macro USART2DataRegisterEmptyInterr
+	READ_REG UCSR2B, r25
 	.if @0 == Enable
-	    SETB UCSR2B, UDRIE2
+		SETRB r25, UDRIE2
 	.elif  @0 == Disable
-	    CLRB UCSR2B, UDRIE2
+		CLRRB r25, UDRIE2
 	.endif
-    .endm
-    .macro USART3DataRegisterEmptyInterr
+	WRITE_REG UCSR2B, r25
+.endm
+.macro USART3DataRegisterEmptyInterr
+	READ_REG UCSR3B, r25
 	.if @0 == Enable
-	    SETB UCSR3B, UDRIE3
+		SETRB r25, UDRIE3
 	.elif  @0 == Disable
-	    CLRB UCSR3B, UDRIE3
+		CLRRB r25, UDRIE3
 	.endif
-    .endm
+	WRITE_REG UCSR3B, r25
+.endm
     
-    .macro USARTDataRegisterEmptyInterrupt
+.macro USARTDataRegisterEmptyInterrupt
 	.if @0 == 0
-	    .if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
+		.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		USARTDataRegisterEmptyInterr @1
-	    .else
+		.else
 		USART0DataRegisterEmptyInterr @1
-	    .endif
+		.endif
 	.elif @0 == 1
-	    USART1DataRegisterEmptyInterr @1
+		USART1DataRegisterEmptyInterr @1
 	.elif @0 == 2
-	    .if ctrl != 1281 || ctrl != 2561
+		.if ctrl != 1281 || ctrl != 2561
 		USART2DataRegisterEmptyInterr @1
-	    .endif
+		.endif
 	.elif @0 == 3
-	    .if ctrl != 1281 || ctrl != 2561
+		.if ctrl != 1281 || ctrl != 2561
 		USART3DataRegisterEmptyInterr @1
-	    .endif
+		.endif
 	.endif
-    .endm
+.endm
