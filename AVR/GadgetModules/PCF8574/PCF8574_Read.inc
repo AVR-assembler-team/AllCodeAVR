@@ -23,7 +23,8 @@
 
 	gotoPCF8574ReadLabels:
 		_call PCF8574_NoAck
-		WRITE_BYTE PCF8574Bytes, $00
+		clr r25
+		WRITE_REG PCF8574Bytes, r25
 
 	PCF8574_Read_end:
 	TWSI_STOP
