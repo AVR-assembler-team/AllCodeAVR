@@ -101,8 +101,7 @@
 
 		HD44780U_Delay_15ms											; ждем 15-40 ms
 		TWSI_START										; отсылаем START (рестартуем для записи)
-		ldi r16, TWSI_Address
-		TWSI_SLA r16, 'W'
+		TWSI_SLA TWSI_Address, 'W'
 
 		ldi	r16, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)		; формируем первую инструкцию инициализации	
 		HD44780U_Send_instr_byte_high		 						; передаем старшую тетраду байта инструкции

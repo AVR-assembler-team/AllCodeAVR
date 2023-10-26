@@ -2,17 +2,17 @@
 * Данные макросы вносят изменения в конфигурационные файлы дисплей
 */
 .macro HD44780U_Cursor_Blinking
-	.if @0 == enabled
+	.if @0 == Enable
 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 1, HD44780U_Bit_B
-	.elif @0 == disabled
+	.elif @0 == Disable
 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 0, HD44780U_Bit_B
 	.endif
 .endm
 ;-------------------------------------
 .macro HD44780U_Cursor_visible
-	.if @0 == enabled
+	.if @0 == Enable
 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 1, HD44780U_Bit_C
-	.elif @0 == disabled
+	.elif @0 == Disable
 		HD44780U_Change_params HD44780U_Display_On_Off_Control_byte, 0, HD44780U_Bit_C
 	.endif
 .endm

@@ -104,8 +104,8 @@
 
 		TWSI_START 										; отсылаем START (рестартуем для чтения)
 		; 
-		ldi r16, TWSI_Address
-		TWSI_SLA r16, 'R'
+		//ldi r16, TWSI_Address
+		TWSI_SLA TWSI_Address, 'R'
 
 	HD44780U_BF_Check_act_1:
 
@@ -117,8 +117,8 @@
 		
 		TWSI_STOP										; больше не принимаем байты
 		TWSI_START										; отсылаем START (рестартуем для записи)
-		ldi r16, TWSI_Address
-		TWSI_SLA r16, 'W'
+		//ldi r16, TWSI_Address
+		TWSI_SLA TWSI_Address, 'W'
 
 		ldi		r16, 0x08								; оставляем только подсветку LCD
 		WRITE_REG TWDR, r16								; Вталкиваем в дата регистр

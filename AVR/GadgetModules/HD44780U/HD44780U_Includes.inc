@@ -1,7 +1,7 @@
 
 .include "GadgetModules/HD44780U/HD44780U_Constants.inc"
 .include "GadgetModules/HD44780U/HD44780U_SetMacs.inc"
-.include "GadgetModules/Configs/HD44780U_Config.inc"
+.include "Configs/HD44780U_Config.inc"
 
 .include "GadgetModules/HD44780U/HD44780U_Times.inc"
 .include "GadgetModules/HD44780U/HD44780U_Function_set.inc"
