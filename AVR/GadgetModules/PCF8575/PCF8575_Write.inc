@@ -12,7 +12,6 @@
 
 PCF8575Write_act:
 	
-
 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 	sbrc r25, No_ACK								; Проверяем бит 
 	_jump gotoPCF8575WriteLabels					; Если поднят, то переходим

@@ -181,7 +181,6 @@
   <TWSI_START_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc</FILE><LINE>9</LINE></TWSI_START_act>
   <TWSI_Byte_Transmit_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc</FILE><LINE>9</LINE></TWSI_Byte_Transmit_act>
   <TWSI_STOP_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc</FILE><LINE>9</LINE></TWSI_STOP_act>
-<<<<<<< HEAD
   <PCF8575Bytes><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Constants.inc</FILE><LINE>3</LINE></PCF8575Bytes>
   <PCF8575_NoAck><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Labels.inc</FILE><LINE>1</LINE></PCF8575_NoAck>
   <PCF8575Write_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc</FILE><LINE>13</LINE></PCF8575Write_act>
@@ -189,17 +188,7 @@
   <PCF8575Write_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Write.inc</FILE><LINE>45</LINE></PCF8575Write_end>
   <PCF8575Read_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc</FILE><LINE>10</LINE></PCF8575Read_act>
   <gotoPCF8575ReadLabels><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc</FILE><LINE>31</LINE></gotoPCF8575ReadLabels>
-  <PCF8575Read_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc</FILE><LINE>36</LINE></PCF8575Read_end>
-=======
-  <PCF8574Bytes><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Constants.inc</FILE><LINE>3</LINE></PCF8574Bytes>
-  <PCF8574_NoAck><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Labels.inc</FILE><LINE>1</LINE></PCF8574_NoAck>
-  <PCF8574_Write_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc</FILE><LINE>12</LINE></PCF8574_Write_act>
-  <gotoPCF8574WriteLabels><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc</FILE><LINE>29</LINE></gotoPCF8574WriteLabels>
-  <PCF8574_Write_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Write.inc</FILE><LINE>32</LINE></PCF8574_Write_end>
-  <PCF8574_Read_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc</FILE><LINE>8</LINE></PCF8574_Read_act>
-  <gotoPCF8574ReadLabels><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc</FILE><LINE>24</LINE></gotoPCF8574ReadLabels>
-  <PCF8574_Read_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8574/PCF8574_Read.inc</FILE><LINE>28</LINE></PCF8574_Read_end>
->>>>>>> PCF8574
+  <PCF8575Read_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/PCF8575/PCF8575_Read.inc</FILE><LINE>37</LINE></PCF8575Read_end>
   <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>85</LINE></EXT_PCINT3>
   <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>92</LINE></LCD_SOF>
   <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>113</LINE></TIM0_COMP>

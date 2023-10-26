@@ -30,8 +30,9 @@
 
 gotoPCF8575ReadLabels:
 	_call PCF8575_NoAck
-	WRITE_BYTE PCF8575Bytes, $00
-	WRITE_BYTE PCF8575Bytes + 1, $00
+	clr r25
+	WRITE_REG PCF8575Bytes, r25
+	WRITE_REG PCF8575Bytes + 1, r25
 
 	PCF8575Read_end:
 	TWSI_STOP
