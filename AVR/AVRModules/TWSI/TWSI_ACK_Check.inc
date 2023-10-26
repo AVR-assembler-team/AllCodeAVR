@@ -14,12 +14,20 @@ TWSI_ACK_Check_act:
 		andi	r25, 0xF8					; обнуляем первые три бита
 		cpse	r25, r24					; сравниваем r16 и r17
 		rjmp TWSI_Status_act_2				; переходим
-		CLRB TWSI_Flags, No_ACK				; обнуляем флаг
+
+		// обнуляем флаг
+		READ_REG TWSI_Flags, r25
+		CLRRB r25, No_ACK
+		WRITE_REG TWSI_Flags, r25
+
 		rjmp TWSI_ACK_Check_act_end			; переходим
 
 		TWSI_Status_act_2:
 			cpse	r25, r23				; сравниваем r16 и r18
 			rjmp	TWSI_ACK_Check_act_1	; если не равны, то переходим
-			SETB TWSI_Flags, No_ACK			; устанавливаем флаг
+			// устанавливаем флаг
+			READ_REG TWSI_Flags, r25
+			SETRB r25, No_ACK
+			WRITE_REG TWSI_Flags, r25
 	TWSI_ACK_Check_act_end:
 ret
