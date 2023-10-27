@@ -10,10 +10,10 @@
 	//#endif
 	//WRITE_REG HD44780U_flags, r25
 
-	HD44780U_Function_set
-	HD44780U_Display_on_off_control
-	HD44780U_Entry_mode_set
-	HD44780U_Cursor_Display_shift
+	_call HD44780U_Function_set
+	_call HD44780U_Display_on_off_control
+	_call HD44780U_Entry_mode_set
+	_call HD44780U_Cursor_Display_shift
 
 	_call HD44780U_Initialization
 .endm

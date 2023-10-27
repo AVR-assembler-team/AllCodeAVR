@@ -12,6 +12,7 @@ HD44780U_Command:
 	cbi HD44780U_RW_PORT, HD44780U_RW_bit						; опрокидываем RW на землю (запись)
 
 	// ”станавливаем биты
+
 	sbrs r25, 7
 		cbi HD44780U_D7_PORT, HD44780U_D7_bit
 	sbrc r25, 7

@@ -1,5 +1,4 @@
 
-HD44780U_Init
 
 //HD44780U_Cursor_Blinking Disable
 //WRITE_BYTE PCF8575Bytes, $25

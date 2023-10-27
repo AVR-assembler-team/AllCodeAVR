@@ -176,7 +176,13 @@
     <Compile Include="GadgetModules\HD44780U\HD44780U_WriteSymbol.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_BFCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_Initialization.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_SendInstruction.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_BFCheck.inc">
@@ -215,7 +221,13 @@
     <Compile Include="GadgetModules\LCD\HD44780U_Times.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_BFCheck.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_Initialization.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_SendInstruction.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_Constants.inc">

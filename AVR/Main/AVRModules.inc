@@ -2,7 +2,6 @@
 	.include "AVRModules/Counters/CountersIncludes.inc"
 #endif
 
-
 #ifdef TWSI_Module
 	.include "AVRModules/TWSI/TWSI_Includes.inc"
 #endif

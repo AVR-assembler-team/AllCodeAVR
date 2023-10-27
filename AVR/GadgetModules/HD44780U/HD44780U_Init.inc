@@ -1,7 +1,7 @@
 /*
 * Инициализация дисплея
 */
-.macro HD44780U_init
+.macro HD44780U_Init
 	HD44780U_Function_set
 	HD44780U_Display_on_off_control
 	HD44780U_Entry_mode_set
@@ -28,12 +28,15 @@
 		HD44780U_Delay_15ms								; ждем более 15 мс
 		ldi	r16, $30									; устанавливаем инструкцию
 		HD44780U_instr									; скармливаем инструкцию
+
 		HD44780U_Delay_4_1ms							; ждем более 4,1 мс
 		ldi	r16, $30									; устанавливаем инструкцию
 		HD44780U_instr									; скармливаем инструкцию
+
 		HD44780U_Delay_100mks							; ждем более 100мкс
 		ldi	r16, $30									; устанавливаем инструкцию
 		HD44780U_instr									; скармливаем инструкцию
+
 		HD44780U_BF_Check								; проверяем состояние флага занятости
 												  
 		lds r16, HD44780U_Function_Set_byte				; Читаем Function Set в r16
