@@ -5,7 +5,7 @@
 	#endif
 
 	#ifdef HD44780U_Module
-		HD44780U_init
+		//HD44780U_init
 	#endif
 
 	#ifdef OneWire_Module

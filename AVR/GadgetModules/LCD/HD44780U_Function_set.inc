@@ -4,7 +4,7 @@
 */
 
 .macro HD44780U_Function_set
-	ldi r16, HD44780U_LCD_Function_Set
+	ldi r25, HD44780U_LCD_Function_Set
 	#ifdef HD44780U_8_Wires
 		SETRB r16, HD44780U_Bit_DL
 	#endif

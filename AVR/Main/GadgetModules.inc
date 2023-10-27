@@ -1,6 +1,7 @@
 
 #ifdef HD44780U_Module
-	.include "GadgetModules/HD44780U/HD44780U_Includes.inc"
+	//.include "GadgetModules/HD44780U/HD44780U_Includes.inc"
+	.include "GadgetModules/LCD/HD44780U_Includes.inc"
 #endif
 
 #ifdef RotaryEncoder_Module
