@@ -1,5 +1,7 @@
 
-
+HD44780U_Init
+HD44780U_Set_Cursor 3, 1
+//HD44780U_Set_Cursor 3, 6
 //HD44780U_Cursor_Blinking Disable
 //WRITE_BYTE PCF8575Bytes, $25
 //WRITE_BYTE PCF8575Bytes + 1, $0f

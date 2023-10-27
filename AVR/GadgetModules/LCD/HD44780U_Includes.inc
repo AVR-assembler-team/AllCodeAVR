@@ -25,3 +25,5 @@
 #endif
 
 .include "GadgetModules/LCD/HD44780U_Init.inc"
+
+.include "GadgetModules/LCD/Commands/HD44780U_SetCursor.inc"

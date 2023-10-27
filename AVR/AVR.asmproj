@@ -176,6 +176,9 @@
     <Compile Include="GadgetModules\HD44780U\HD44780U_WriteSymbol.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GadgetModules\LCD\Commands\HD44780U_SetCursor.inc">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_BFCheck.inc">
       <SubType>Code</SubType>
     </Compile>
@@ -790,6 +793,7 @@
     <Folder Include="GadgetModules\LCD\HD44780U_4_Wires" />
     <Folder Include="GadgetModules\LCD\HD44780U_8_Wires" />
     <Folder Include="GadgetModules\LCD\HD44780U_TWSI" />
+    <Folder Include="GadgetModules\LCD\Commands" />
     <Folder Include="GadgetModules\NTC3950_100K\" />
     <Folder Include="GadgetModules\PCF8574\" />
     <Folder Include="GadgetModules\PCF8575\" />

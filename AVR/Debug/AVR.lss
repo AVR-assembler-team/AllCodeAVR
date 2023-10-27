@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 27 15:01:12 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Fri Oct 27 16:15:57 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -42,6 +42,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Gad
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -87,6 +88,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Gad
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(23): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(24): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(27): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Init.inc'
+C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc(29): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(30): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc(31): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(8): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc'
@@ -2227,68 +2229,68 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 0246                 	.org 0x0000	 jmp RESET ; Reset Handler
-000002 940c 0195                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 0198                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 019b                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
-000008 940c 019e                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
-00000a 940c 01a1                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
-00000c 940c 01a4                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
-00000e 940c 01a7                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
-000010 940c 01aa                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
-000012 940c 01ad                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 01b0                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 01b3                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 0243                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 01e0                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 01e3                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 01e6                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 01ce                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 01d1                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 01d4                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 01d7                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 01da                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 01c5                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 01c8                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 01cb                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 01bc                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 0219                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 021c                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 021f                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
-000038 940c 018c                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
-00003a 940c 018f                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
-00003c 940c 0192                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 01e9                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 01ec                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 01ef                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 01f2                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 01f5                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 0222                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 0225                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 0228                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 0216                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 01bf                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+000000 940c 0273                 	.org 0x0000	 jmp RESET ; Reset Handler
+000002 940c 01c2                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 01c5                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 01c8                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
+000008 940c 01cb                 	.org 0x0008 jmp EXT_INT3 ; IRQ3 Handler
+00000a 940c 01ce                 	.org 0x000A jmp EXT_INT4 ; IRQ4 Handler
+00000c 940c 01d1                 	.org 0x000C jmp EXT_INT5 ; IRQ5 Handler
+00000e 940c 01d4                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
+000010 940c 01d7                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
+000012 940c 01da                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
+000014 940c 01dd                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 01e0                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 0270                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 020d                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 0210                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 0213                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 01fb                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 01fe                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 0201                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 0204                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 0207                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 01f2                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 01f5                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 01f8                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 01e9                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 0246                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 0249                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 024c                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000038 940c 01b9                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
+00003a 940c 01bc                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
+00003c 940c 01bf                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
+00003e 940c 0216                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 0219                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 021c                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 021f                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 0222                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 024f                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 0252                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 0255                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 0243                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 01ec                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000052 940c 01f8                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 0225                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 01fb                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 01fe                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 0201                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 0204                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 0228                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 022b                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 022e                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 0231                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-00005c 940c 0207                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 0234                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 020a                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 020d                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 0210                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 0213                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 0237                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 023a                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 023d                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 0240                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000066 940c 022b                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 022e                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 0231                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 0234                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 0237                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 023a                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 0258                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 025b                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 025e                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 0261                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 0264                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 0267                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctrl == 1284
                                  .elif ctrl == 8515
@@ -3736,22 +3738,22 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
 0000f9 e290                      	ldi	r25, (1<<HD44780U_LCD_D5)								; формируем четвертую инструкцию инициализации
 0000fa 940e 0124                 	_call HD44780U_Send_instr_byte_high								; передаем старшую тетраду байта инструкции
                                  
-0000fc 940e 0155                 	_call HD44780U_BF_Check											; проверка занятости LCD
+0000fc 940e 0159                 	_call HD44780U_BF_Check											; проверка занятости LCD
                                  
 0000fe 9190 0201                 	READ_REG HD44780U_Function_Set_byte, r25				; Читаем Function Set в r16
 000100 940e 011f                 	_call HD44780U_Send_instruction					; скармливаем инструкцию
-000102 940e 0155                 	_call HD44780U_BF_Check								; проверка занятости LCD
+000102 940e 0159                 	_call HD44780U_BF_Check								; проверка занятости LCD
                                  
 000104 9190 0202                 	READ_REG HD44780U_Display_On_Off_Control_byte, r25	; Читаем Display On/Off Control в r16
                                  		
 000106 940e 00b2                 	HD44780U_Delay_100mks							; ждем больше 100 mks
 000108 940e 011f                 	_call HD44780U_Send_instruction					; отсылаем байт инструкции
-00010a 940e 0155                 	_call HD44780U_BF_Check								; проверка занятости LCD
+00010a 940e 0159                 	_call HD44780U_BF_Check								; проверка занятости LCD
                                  
 00010c e091                      	ldi	r25, HD44780U_LCDClear						; LCD_Clear
 00010d 940e 00b2                 	HD44780U_Delay_100mks							; ждем больше 100 mks
 00010f 940e 011f                 	_call HD44780U_Send_instruction					; отсылаем байт инструкции
-000111 940e 0155                 	_call HD44780U_BF_Check								; проверка занятости LCD
+000111 940e 0159                 	_call HD44780U_BF_Check								; проверка занятости LCD
                                  
 000113 9190 0203                 	READ_REG HD44780U_Entry_Mode_Set_byte, r25			; Читаем Entry Mode Set в r16
 000115 940e 00b2                 	HD44780U_Delay_100mks							; ждем больше 100 mks
@@ -3769,7 +3771,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  */
                                  HD44780U_Send_instruction:
 00011f 940e 0124                 	_call HD44780U_Send_instr_byte_high			; переходим по метке
-000121 940e 013d                 	_call HD44780U_Send_instr_byte_low			; переходим по метке
+000121 940e 013f                 	_call HD44780U_Send_instr_byte_low			; переходим по метке
 000123 9508                      ret											; выход из подпрограммы
                                  ;----------------------------------------------------------------
                                  HD44780U_Send_instr_byte_high:			; метка
@@ -3788,38 +3790,40 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
 000131 919f                      	pop		r25										; извлекаем из стека
 000132 6098                      	SETRB r25, HD44780U_LCD_LIGHT
+000133 940e 00a8                 		HD44780U_Delay_5mks						; задержка
                                  
-000133 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-000135 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-000137 e288
-000138 e370
-000139 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
+000135 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
+000137 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+000139 e288
+00013a e370
+00013b 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
                                  			
-00013b 919f                      	pop		r25										; извлекаем из стека
-00013c 9508                      ret													; выход из подпрограммы
+00013d 919f                      	pop		r25										; извлекаем из стека
+00013e 9508                      ret													; выход из подпрограммы
                                  ;--------------------------------------------------------------
                                  HD44780U_Send_instr_byte_low:
-00013d 9592                      	swap	r25										; меняем тетрады местами
-00013e 7f90                      	andi	r25, 0xF0								; обнуляем первые 4 бита
-00013f 939f                      	push	r25										; записываем в стек
+00013f 9592                      	swap	r25										; меняем тетрады местами
+000140 7f90                      	andi	r25, 0xF0								; обнуляем первые 4 бита
+000141 939f                      	push	r25										; записываем в стек
                                  		
-000140 6094                      	SETRB r25, HD44780U_LCD_E
-000141 6098                      	SETRB r25, HD44780U_LCD_LIGHT
-000142 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-000144 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-000146 e288
-000147 e370
-000148 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
+000142 6094                      	SETRB r25, HD44780U_LCD_E
+000143 6098                      	SETRB r25, HD44780U_LCD_LIGHT
+000144 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
+000146 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+000148 e288
+000149 e370
+00014a 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
                                  
-00014a 919f                      	pop		r25										; извлекаем из стека
-00014b 6098                      	SETRB r25, HD44780U_LCD_LIGHT
+00014c 919f                      	pop		r25										; извлекаем из стека
+00014d 6098                      	SETRB r25, HD44780U_LCD_LIGHT
+00014e 940e 00a8                 		HD44780U_Delay_5mks						; задержка
                                  
-00014c 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-00014e 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-000150 e288
-000151 e370
-000152 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
-000154 9508                      ret													; выход из подпрограммы
+000150 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
+000152 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+000154 e288
+000155 e370
+000156 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ	
+000158 9508                      ret													; выход из подпрограммы
                                  	.include "GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc"
                                  
                                  * Данный макрос проверяет флаг занятости дисплея
@@ -3827,56 +3831,56 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  */
                                  HD44780U_BF_Check:								; подпрограмма проверяет флаг занятости
                                  	
-000155 939f                      	push r25										; вталкиваем r16 в STACK
-000156 938f                      	push r24										; вталкиваем r17 в STACK
+000159 939f                      	push r25										; вталкиваем r16 в STACK
+00015a 938f                      	push r24										; вталкиваем r17 в STACK
                                  
-000157 ef9a                      	ldi		r25, 0xFA								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
-000158 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
+00015b ef9a                      	ldi		r25, 0xFA								; держим подсветку LCD и RW на +5, Е и биты DB4-DB7 поднимаем на +5 (производим чтение из LCD)
+00015c 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
                                  
-00015a 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-00015c e288
-00015d e370
-00015e 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
+00015e 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+000160 e288
+000161 e370
+000162 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
                                  
-000160 940e 00a2                 	TWSI_STOP
+000164 940e 00a2                 	TWSI_STOP
                                  
-000162 940e 0096                 	TWSI_START 										; отсылаем START (рестартуем для чтения)
+000166 940e 0096                 	TWSI_START 										; отсылаем START (рестартуем для чтения)
                                  
-000164 e790
-000165 6091
-000166 9390 00bb
-000168 940e 009c
-00016a e480
-00016b e478
-00016c 940e 007e                 	TWSI_SLA HD44780U_SLA_, 'R'
+000168 e790
+000169 6091
+00016a 9390 00bb
+00016c 940e 009c
+00016e e480
+00016f e478
+000170 940e 007e                 	TWSI_SLA HD44780U_SLA_, 'R'
                                  
                                  HD44780U_BF_Check_act_1:
                                  
-00016e 9180 00bb                 	READ_REG TWDR, r24								; читаем байт из I2C в r17
-000170 fd87                      	sbrc	r24, 7									; если седьмой бит равен 0, то пропускаем след строку
-000171 940c 016e                 		_jump	HD44780U_BF_Check_act_1				; переходим по метке
+000172 9180 00bb                 	READ_REG TWDR, r24								; читаем байт из I2C в r17
+000174 fd87                      	sbrc	r24, 7									; если седьмой бит равен 0, то пропускаем след строку
+000175 940c 0172                 		_jump	HD44780U_BF_Check_act_1				; переходим по метке
                                  		
-000173 940e 00a2                 	TWSI_STOP										; больше не принимаем байты
-000175 940e 0096                 	TWSI_START										; отсылаем START (рестартуем для записи)
+000177 940e 00a2                 	TWSI_STOP										; больше не принимаем байты
+000179 940e 0096                 	TWSI_START										; отсылаем START (рестартуем для записи)
                                  
-000177 e790
-000178 9390 00bb
-00017a 940e 009c
-00017c e188
-00017d e270
-00017e 940e 007e                 	TWSI_SLA HD44780U_SLA_, 'W'
+00017b e790
+00017c 9390 00bb
+00017e 940e 009c
+000180 e188
+000181 e270
+000182 940e 007e                 	TWSI_SLA HD44780U_SLA_, 'W'
                                  
-000180 e098                      	ldi		r25, 0x08								; оставляем только подсветку LCD
-000181 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
-000183 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
-000185 e288
-000186 e370
-000187 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
+000184 e098                      	ldi		r25, 0x08								; оставляем только подсветку LCD
+000185 9390 00bb                 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
+000187 940e 009c                 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
+000189 e288
+00018a e370
+00018b 940e 007e                 	TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; Проверяем получен ли ответ
                                  
                                  
-000189 918f                      	pop r24											; выталкиваем r17 из STACK
-00018a 919f                      	pop r25											; выталкиваем r16 из STACK
-00018b 9508                      ret													; выход из подпрограммы
+00018d 918f                      	pop r24											; выталкиваем r17 из STACK
+00018e 919f                      	pop r25											; выталкиваем r16 из STACK
+00018f 9508                      ret													; выход из подпрограммы
                                  #endif
                                  
                                  .include "GadgetModules/LCD/HD44780U_Init.inc"
@@ -3899,6 +3903,77 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  
                                  	_call HD44780U_Initialization
                                  .endm
+                                 
+                                 .include "GadgetModules/LCD/Commands/HD44780U_SetCursor.inc"
+                                 
+                                 * Данный макрос используется для установки курсора в нужное положение на дисплее
+                                 */
+                                 .macro HD44780U_Set_Cursor
+                                 
+                                 	ldi	r24, @0						; записываем @0 в r24
+                                 	ldi	r25, @1						; записываем @1 в r25
+                                 
+                                 	_call HD44780U_SetCursor_act	; переходим
+                                 
+                                 .endm
+                                 //____________________________________________________________________________________
+                                 //____________________________________________________________________________________
+                                 HD44780U_SetCursor_act:
+                                 
+000190 3081                      	cpi		r24, 1								; сравниваем r24 с 1
+000191 f031                      	breq	FirstRow							; переходим если равны
+                                 												
+000192 3082                      	cpi		r24, 2								; сравниваем r24 с 2
+000193 f039                      	breq	SecondRow							; переходим если равны
+                                 												
+000194 3083                      	cpi		r24, 3								; сравниваем r24 с 3
+000195 f041                      	breq	ThirdRow							; переходим если равны
+                                 												
+000196 3084                      	cpi		r24, 4								; сравниваем r24 с 4
+000197 f049                      	breq	FourthRow							; переходим если равны
+                                 
+                                 	FirstRow:
+000198 e78f                      		ldi		r24, 128 - 1					; записываем 127 в r24
+000199 0f98                      		add		r25, r24						; суммируем r25 и r24
+00019a c008                      		rjmp	end								; перепрыгиваем
+                                 												
+                                 	SecondRow:									
+00019b eb8f                      		ldi		r24, 192 - 1					; записываем 191 в r24
+00019c 0f98                      		add		r25, r24						; суммируем r25 и r24
+00019d c005                      		rjmp	end								; перепрыгиваем
+                                 
+                                 	ThirdRow:
+00019e e983                      		ldi		r24, 128 + $14 - 1				; записываем 147 в r24
+00019f 0f98                      		add		r25, r24						; суммируем r25 и r24
+0001a0 c002                      		rjmp	end								; перепрыгиваем
+                                 
+                                 	FourthRow:
+0001a1 ed83                      		ldi		r24, 192 + $14 - 1				; записываем 211 в r24
+0001a2 0f98                      		add		r25, r24						; суммируем r25 и r24
+                                 
+                                 	end:
+0001a3 2f89                      		mov r24, r25							; копируем r25 в r24
+0001a4 5880                      		subi r24, $80							; вычитаем 128 из r24
+0001a5 9380 0206                 		WRITE_REG HD44780U_Address_DDRAM, r24	; записываем адрес курсора в HD44780U_Address_DDRAM
+                                 
+                                 	#ifdef HD44780U_TWSI
+0001a7 939f                      		push r25
+0001a8 940e 0096                 		TWSI_START								; отсылаем START (рестартуем для записи)
+0001aa e790
+0001ab 9390 00bb
+0001ad 940e 009c
+0001af e188
+0001b0 e270
+0001b1 940e 007e                 		TWSI_SLA HD44780U_SLA_, 'W'
+0001b3 919f                      		pop r25
+                                 	#endif
+                                 
+0001b4 940e 011f                 	_call HD44780U_Send_instruction				; отсылаем инструкцию
+                                 	
+                                 	#ifdef HD44780U_TWSI
+0001b6 940e 00a2                 		TWSI_STOP								; отсылаем START (рестартуем для записи)
+                                 	#endif
+0001b8 9508                      ret
                                  #endif
                                  
                                  #ifdef RotaryEncoder_Module
@@ -3917,355 +3992,355 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  .include "Interrupts.inc"
                                  
                                  ANA_COMP:
-00018c 94f8                      	cli
+0001b9 94f8                      	cli
                                  	// Ваш код
-00018d 9478                      	sei
-00018e 9518                      reti
+0001ba 9478                      	sei
+0001bb 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // ADC Conversion Complete Handler
                                  ADC_Conv_Comp:
-00018f 94f8                      	cli
+0001bc 94f8                      	cli
                                  	// Ваш код
                                  	//_call ADCINTtt
-000190 9478                      	sei
-000191 9518                      reti
+0001bd 9478                      	sei
+0001be 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //EEPROM Ready Handler
                                  EE_RDY:
-000192 94f8                      	cli
+0001bf 94f8                      	cli
                                  	// Ваш код
-000193 9478                      	sei
-000194 9518                      reti
+0001c0 9478                      	sei
+0001c1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // External Interrupts
                                  EXT_INT0:
-000195 94f8                      	cli
+0001c2 94f8                      	cli
                                  	// Ваш код
-000196 9478                      	sei
-000197 9518                      reti
+0001c3 9478                      	sei
+0001c4 9518                      reti
                                  EXT_INT1:
-000198 94f8                      	cli
+0001c5 94f8                      	cli
                                  	// Ваш код
-000199 9478                      	sei
-00019a 9518                      reti
+0001c6 9478                      	sei
+0001c7 9518                      reti
                                  EXT_INT2:
-00019b 94f8                      	cli
+0001c8 94f8                      	cli
                                  	// Ваш код
-00019c 9478                      	sei
-00019d 9518                      reti
+0001c9 9478                      	sei
+0001ca 9518                      reti
                                  EXT_INT3:
-00019e 94f8                      	cli
+0001cb 94f8                      	cli
                                  	// Ваш код
-00019f 9478                      	sei
-0001a0 9518                      reti
+0001cc 9478                      	sei
+0001cd 9518                      reti
                                  EXT_INT4:
-0001a1 94f8                      	cli
+0001ce 94f8                      	cli
                                  	// Ваш код
                                  	//PCF8574_Read $70, PCF8574_Data
-0001a2 9478                      	sei
-0001a3 9518                      reti
+0001cf 9478                      	sei
+0001d0 9518                      reti
                                  EXT_INT5:
-0001a4 94f8                      	cli
+0001d1 94f8                      	cli
                                  	// Ваш код
                                  	//Disable_INT_Interrupt INT5
                                  	//PCF8575_Read $40, PCF8575_Data, PCF8575_Data + 1
                                  	//PCF8574_Read $70, PCF8574_Data
                                  
                                  	//Enable_INT_Interrupt INT5, FallingEdge
-0001a5 9478                      	sei
-0001a6 9518                      reti
-                                 EXT_INT6:
-0001a7 94f8                      	cli
-                                 	// Ваш код
-0001a8 9478                      	sei
-0001a9 9518                      reti
-                                 EXT_INT7:
-0001aa 94f8                      	cli
-                                 	// Ваш код
-0001ab 9478                      	sei
-0001ac 9518                      reti
-                                 EXT_PCINT0:
-0001ad 94f8                      	cli
-                                 	// Ваш код
-0001ae 9478                      	sei
-0001af 9518                      reti
-                                 EXT_PCINT1:
-0001b0 94f8                      	cli
-                                 	// Ваш код
-0001b1 9478                      	sei
-0001b2 9518                      reti
-                                 EXT_PCINT2:
-0001b3 94f8                      	cli
-                                 	// Ваш код
-0001b4 9478                      	sei
-0001b5 9508                      ret
-                                 EXT_PCINT3:
-0001b6 94f8                      	cli
-                                 	// Ваш код
-0001b7 9478                      	sei
-0001b8 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // LCD_SOF
-                                 LCD_SOF:
-0001b9 94f8                      	cli
-                                 	// Ваш код
-0001ba 9478                      	sei
-0001bb 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPI
-                                 SPI_STC:
-0001bc 94f8                      	cli
-                                 	// Ваш код
-0001bd 9478                      	sei
-0001be 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // SPM_RDY
-                                 SPM_RDY:
-0001bf 94f8                      	cli
-                                 	// Ваш код
-0001c0 9478                      	sei
-0001c1 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 0
-                                 TIM0_COMP:
-0001c2 94f8                      	cli
-                                 	// Ваш код
-0001c3 9478                      	sei
-0001c4 9518                      reti
-                                 TIM0_COMPA:
-0001c5 94f8                      	cli
-                                 	// Ваш код
-0001c6 9478                      	sei
-0001c7 9518                      reti
-                                 TIM0_COMPB:
-0001c8 94f8                      	cli
-                                 	// Ваш код
-0001c9 9478                      	sei
-0001ca 9518                      reti
-                                 TIM0_OVF:
-0001cb 94f8                      	cli
-                                 	// Ваш код
-0001cc 9478                      	sei
-0001cd 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 1
-                                 TIM1_CAPT:
-0001ce 94f8                      	cli
-                                 	// Ваш код
-0001cf 9478                      	sei
-0001d0 9518                      reti
-                                 TIM1_COMPA:
-0001d1 94f8                      	cli
-                                 	// Ваш код
 0001d2 9478                      	sei
 0001d3 9518                      reti
-                                 TIM1_COMPB:
+                                 EXT_INT6:
 0001d4 94f8                      	cli
                                  	// Ваш код
 0001d5 9478                      	sei
 0001d6 9518                      reti
-                                 TIM1_COMPC:
+                                 EXT_INT7:
 0001d7 94f8                      	cli
                                  	// Ваш код
 0001d8 9478                      	sei
 0001d9 9518                      reti
-                                 TIM1_OVF:
+                                 EXT_PCINT0:
 0001da 94f8                      	cli
                                  	// Ваш код
 0001db 9478                      	sei
 0001dc 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 2
-                                 TIM2_COMP:
+                                 EXT_PCINT1:
 0001dd 94f8                      	cli
                                  	// Ваш код
 0001de 9478                      	sei
 0001df 9518                      reti
-                                 TIM2_COMPA:
+                                 EXT_PCINT2:
 0001e0 94f8                      	cli
                                  	// Ваш код
 0001e1 9478                      	sei
-0001e2 9518                      reti
-                                 TIM2_COMPB:
+0001e2 9508                      ret
+                                 EXT_PCINT3:
 0001e3 94f8                      	cli
                                  	// Ваш код
 0001e4 9478                      	sei
 0001e5 9518                      reti
-                                 TIM2_OVF:
+                                 ////////////////////////////////////////////////////////////
+                                 // LCD_SOF
+                                 LCD_SOF:
 0001e6 94f8                      	cli
                                  	// Ваш код
 0001e7 9478                      	sei
 0001e8 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 //Timer 3
-                                 TIM3_CAPT:
+                                 // SPI
+                                 SPI_STC:
 0001e9 94f8                      	cli
                                  	// Ваш код
 0001ea 9478                      	sei
 0001eb 9518                      reti
-                                 TIM3_COMPA:
+                                 ////////////////////////////////////////////////////////////
+                                 // SPM_RDY
+                                 SPM_RDY:
 0001ec 94f8                      	cli
                                  	// Ваш код
 0001ed 9478                      	sei
 0001ee 9518                      reti
-                                 TIM3_COMPB:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 0
+                                 TIM0_COMP:
 0001ef 94f8                      	cli
                                  	// Ваш код
 0001f0 9478                      	sei
 0001f1 9518                      reti
-                                 TIM3_COMPC:
+                                 TIM0_COMPA:
 0001f2 94f8                      	cli
                                  	// Ваш код
 0001f3 9478                      	sei
 0001f4 9518                      reti
-                                 TIM3_OVF:
+                                 TIM0_COMPB:
 0001f5 94f8                      	cli
                                  	// Ваш код
 0001f6 9478                      	sei
 0001f7 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 4
-                                 TIM4_CAPT:
+                                 TIM0_OVF:
 0001f8 94f8                      	cli
                                  	// Ваш код
 0001f9 9478                      	sei
 0001fa 9518                      reti
-                                 TIM4_COMPA:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 1
+                                 TIM1_CAPT:
 0001fb 94f8                      	cli
                                  	// Ваш код
 0001fc 9478                      	sei
 0001fd 9518                      reti
-                                 TIM4_COMPB:
+                                 TIM1_COMPA:
 0001fe 94f8                      	cli
                                  	// Ваш код
 0001ff 9478                      	sei
 000200 9518                      reti
-                                 TIM4_COMPC:
+                                 TIM1_COMPB:
 000201 94f8                      	cli
                                  	// Ваш код
 000202 9478                      	sei
 000203 9518                      reti
-                                 TIM4_OVF:
+                                 TIM1_COMPC:
 000204 94f8                      	cli
                                  	// Ваш код
 000205 9478                      	sei
 000206 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // Timer 5
-                                 TIM5_CAPT:
+                                 TIM1_OVF:
 000207 94f8                      	cli
                                  	// Ваш код
 000208 9478                      	sei
 000209 9518                      reti
-                                 TIM5_COMPA:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 2
+                                 TIM2_COMP:
 00020a 94f8                      	cli
                                  	// Ваш код
 00020b 9478                      	sei
 00020c 9518                      reti
-                                 TIM5_COMPB:
+                                 TIM2_COMPA:
 00020d 94f8                      	cli
                                  	// Ваш код
 00020e 9478                      	sei
 00020f 9518                      reti
-                                 TIM5_COMPC:
+                                 TIM2_COMPB:
 000210 94f8                      	cli
                                  	// Ваш код
 000211 9478                      	sei
 000212 9518                      reti
-                                 TIM5_OVF:
+                                 TIM2_OVF:
 000213 94f8                      	cli
                                  	// Ваш код
 000214 9478                      	sei
 000215 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 // TWSI
-                                 TWSI:
+                                 //Timer 3
+                                 TIM3_CAPT:
 000216 94f8                      	cli
                                  	// Ваш код
 000217 9478                      	sei
 000218 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 // USART
-                                 USART0_RXC:
+                                 TIM3_COMPA:
 000219 94f8                      	cli
                                  	// Ваш код
 00021a 9478                      	sei
 00021b 9518                      reti
-                                 USART0_UDRE:
+                                 TIM3_COMPB:
 00021c 94f8                      	cli
                                  	// Ваш код
 00021d 9478                      	sei
 00021e 9518                      reti
-                                 USART0_TXC:
+                                 TIM3_COMPC:
 00021f 94f8                      	cli
                                  	// Ваш код
 000220 9478                      	sei
 000221 9518                      reti
-                                 USART1_RXC:
+                                 TIM3_OVF:
 000222 94f8                      	cli
                                  	// Ваш код
 000223 9478                      	sei
 000224 9518                      reti
-                                 USART1_UDRE:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 4
+                                 TIM4_CAPT:
 000225 94f8                      	cli
                                  	// Ваш код
 000226 9478                      	sei
 000227 9518                      reti
-                                 USART1_TXC:
+                                 TIM4_COMPA:
 000228 94f8                      	cli
                                  	// Ваш код
 000229 9478                      	sei
 00022a 9518                      reti
-                                 USART2_RXC:
+                                 TIM4_COMPB:
 00022b 94f8                      	cli
                                  	// Ваш код
 00022c 9478                      	sei
 00022d 9518                      reti
-                                 USART2_UDRE:
+                                 TIM4_COMPC:
 00022e 94f8                      	cli
                                  	// Ваш код
 00022f 9478                      	sei
 000230 9518                      reti
-                                 USART2_TXC:
+                                 TIM4_OVF:
 000231 94f8                      	cli
                                  	// Ваш код
 000232 9478                      	sei
 000233 9518                      reti
-                                 
-                                 USART3_RXC:
+                                 ////////////////////////////////////////////////////////////
+                                 // Timer 5
+                                 TIM5_CAPT:
 000234 94f8                      	cli
                                  	// Ваш код
 000235 9478                      	sei
 000236 9518                      reti
-                                 USART3_UDRE:
+                                 TIM5_COMPA:
 000237 94f8                      	cli
                                  	// Ваш код
 000238 9478                      	sei
 000239 9518                      reti
-                                 USART3_TXC:
+                                 TIM5_COMPB:
 00023a 94f8                      	cli
                                  	// Ваш код
 00023b 9478                      	sei
 00023c 9518                      reti
-                                 ////////////////////////////////////////////////////////////
-                                 //USI
-                                 USI_STRT:
+                                 TIM5_COMPC:
 00023d 94f8                      	cli
                                  	// Ваш код
 00023e 9478                      	sei
 00023f 9518                      reti
-                                 USI_OVFL:
+                                 TIM5_OVF:
 000240 94f8                      	cli
                                  	// Ваш код
 000241 9478                      	sei
 000242 9518                      reti
                                  ////////////////////////////////////////////////////////////
-                                 // WDT
-                                 WDT:
+                                 // TWSI
+                                 TWSI:
 000243 94f8                      	cli
                                  	// Ваш код
 000244 9478                      	sei
 000245 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // USART
+                                 USART0_RXC:
+000246 94f8                      	cli
+                                 	// Ваш код
+000247 9478                      	sei
+000248 9518                      reti
+                                 USART0_UDRE:
+000249 94f8                      	cli
+                                 	// Ваш код
+00024a 9478                      	sei
+00024b 9518                      reti
+                                 USART0_TXC:
+00024c 94f8                      	cli
+                                 	// Ваш код
+00024d 9478                      	sei
+00024e 9518                      reti
+                                 USART1_RXC:
+00024f 94f8                      	cli
+                                 	// Ваш код
+000250 9478                      	sei
+000251 9518                      reti
+                                 USART1_UDRE:
+000252 94f8                      	cli
+                                 	// Ваш код
+000253 9478                      	sei
+000254 9518                      reti
+                                 USART1_TXC:
+000255 94f8                      	cli
+                                 	// Ваш код
+000256 9478                      	sei
+000257 9518                      reti
+                                 USART2_RXC:
+000258 94f8                      	cli
+                                 	// Ваш код
+000259 9478                      	sei
+00025a 9518                      reti
+                                 USART2_UDRE:
+00025b 94f8                      	cli
+                                 	// Ваш код
+00025c 9478                      	sei
+00025d 9518                      reti
+                                 USART2_TXC:
+00025e 94f8                      	cli
+                                 	// Ваш код
+00025f 9478                      	sei
+000260 9518                      reti
+                                 
+                                 USART3_RXC:
+000261 94f8                      	cli
+                                 	// Ваш код
+000262 9478                      	sei
+000263 9518                      reti
+                                 USART3_UDRE:
+000264 94f8                      	cli
+                                 	// Ваш код
+000265 9478                      	sei
+000266 9518                      reti
+                                 USART3_TXC:
+000267 94f8                      	cli
+                                 	// Ваш код
+000268 9478                      	sei
+000269 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 //USI
+                                 USI_STRT:
+00026a 94f8                      	cli
+                                 	// Ваш код
+00026b 9478                      	sei
+00026c 9518                      reti
+                                 USI_OVFL:
+00026d 94f8                      	cli
+                                 	// Ваш код
+00026e 9478                      	sei
+00026f 9518                      reti
+                                 ////////////////////////////////////////////////////////////
+                                 // WDT
+                                 WDT:
+000270 94f8                      	cli
+                                 	// Ваш код
+000271 9478                      	sei
+000272 9518                      reti
                                  .include "Main/Modules_Inits.inc"
                                  
                                  	
@@ -4274,7 +4349,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  	#endif
                                  
                                  	#ifdef HD44780U_Module
-                                 		HD44780U_Init
+                                 		//HD44780U_Init
                                  	#endif
                                  
                                  	#ifdef OneWire_Module
@@ -4284,22 +4359,25 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-000246 ef0f
-000247 bf0d
-000248 e201
-000249 bf0e                      
-00024a e39e
-00024b 9390 00b8
-00024d 940e 00c9
-00024f 940e 00ce
-000251 940e 00d5
-000253 940e 00da
-000255 940e 00df                 Modules_Inits
-000257 9478                      sei
+000273 ef0f
+000274 bf0d
+000275 e201
+000276 bf0e                      
+000277 e39e
+000278 9390 00b8                 Modules_Inits
+00027a 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
-                                 
+00027b 940e 00c9
+00027d 940e 00ce
+00027f 940e 00d5
+000281 940e 00da
+000283 940e 00df                 HD44780U_Init
+000285 e083
+000286 e091
+000287 940e 0190                 HD44780U_Set_Cursor 3, 1
+                                 //HD44780U_Set_Cursor 3, 6
                                  //HD44780U_Cursor_Blinking Disable
                                  //WRITE_BYTE PCF8575Bytes, $25
                                  //WRITE_BYTE PCF8575Bytes + 1, $0f
@@ -4384,7 +4462,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Res
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-000258 cfff                      rjmp Proga
+000289 cfff                      rjmp Proga
 
 
 RESOURCE USE INFORMATION
@@ -4405,37 +4483,37 @@ counted separately from r26..r31 here.
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
 r13:   0 r14:   0 r15:   0 r16:   4 r17:   0 r18:   0 r19:   0 r20:   0 
-r21:   0 r22:   0 r23:  10 r24:  14 r25:  75 r26:  10 r27:  10 r28:   0 
+r21:   0 r22:   0 r23:  11 r24:  31 r25:  85 r26:  10 r27:  10 r28:   0 
 r29:   0 r30:   0 r31:   0 
 Registers used: 6 out of 35 (17.1%)
 
 "ATmega2560" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   4 adiw  :   0 and   :   0 
 andi  :   3 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   4 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :  62 cbi   :   0 cbr   :   1 
+brvs  :   0 bset  :   0 bst   :   0 call  :  70 cbi   :   0 cbr   :   1 
 clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
+cpi   :   4 cpse  :   2 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
 eor   :   0 fmul  :   0 fmuls :   0 fmulsu:   0 icall :   0 ijmp  :   0 
-in    :   1 inc   :   0 jmp   :  58 ld    :   0 ldd   :   0 ldi   :  56 
-lds   :   8 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   0 movw  :   0 
+in    :   1 inc   :   0 jmp   :  58 ld    :   0 ldd   :   0 ldi   :  65 
+lds   :   8 lpm   :   0 lsl   :   0 lsr   :   0 mov   :   1 movw  :   0 
 mul   :   0 muls  :   0 mulsu :   0 neg   :   0 nop   :   0 or    :   0 
-ori   :   0 out   :   2 pop   :   5 push  :   5 rcall :   0 ret   :  22 
-reti  :  61 rjmp  :   5 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
+ori   :   0 out   :   2 pop   :   6 push  :   6 rcall :   0 ret   :  23 
+reti  :  61 rjmp  :   8 rol   :   0 ror   :   0 sbc   :   0 sbci  :   0 
 sbi   :   0 sbic  :   0 sbis  :   0 sbiw  :   1 sbr   :  14 sbrc  :   1 
 sbrs  :   1 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0 
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
-st    :   0 std   :   0 sts   :  19 sub   :   0 subi  :   0 swap  :   1 
+st    :   0 std   :   0 sts   :  21 sub   :   0 subi  :   1 swap  :   1 
 tst   :   0 wdr   :   0 
-Instructions used: 23 out of 116 (19.8%)
+Instructions used: 28 out of 116 (24.1%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0004b2   1202      0   1202  262144   0.5%
+[.cseg] 0x000000 0x000514   1300      0   1300  262144   0.5%
 [.dseg] 0x000200 0x000207      0      7      7    8192   0.1%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 

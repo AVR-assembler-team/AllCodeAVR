@@ -49,6 +49,7 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Init.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc</FILE>
@@ -153,8 +154,14 @@
   <HD44780U_Send_instr_byte_high><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE><LINE>10</LINE></HD44780U_Send_instr_byte_high>
   <HD44780U_BF_Check><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE><LINE>5</LINE></HD44780U_BF_Check>
   <HD44780U_Send_instruction><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE><LINE>5</LINE></HD44780U_Send_instruction>
-  <HD44780U_Send_instr_byte_low><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE><LINE>32</LINE></HD44780U_Send_instr_byte_low>
+  <HD44780U_Send_instr_byte_low><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE><LINE>33</LINE></HD44780U_Send_instr_byte_low>
   <HD44780U_BF_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE><LINE>22</LINE></HD44780U_BF_Check_act_1>
+  <HD44780U_SetCursor_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>14</LINE></HD44780U_SetCursor_act>
+  <FirstRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>28</LINE></FirstRow>
+  <SecondRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>33</LINE></SecondRow>
+  <ThirdRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>38</LINE></ThirdRow>
+  <FourthRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>43</LINE></FourthRow>
+  <end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>47</LINE></end>
   <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>85</LINE></EXT_PCINT3>
   <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>92</LINE></LCD_SOF>
   <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>113</LINE></TIM0_COMP>

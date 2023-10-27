@@ -21,6 +21,7 @@ HD44780U_Send_instr_byte_high:			; метка
 
 	pop		r25										; извлекаем из стека
 	SETRB r25, HD44780U_LCD_LIGHT
+		HD44780U_Delay_5mks						; задержка
 
 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
@@ -42,6 +43,7 @@ HD44780U_Send_instr_byte_low:
 
 	pop		r25										; извлекаем из стека
 	SETRB r25, HD44780U_LCD_LIGHT
+		HD44780U_Delay_5mks						; задержка
 
 	WRITE_REG TWDR, r25								; Вталкиваем в дата регистр
 	TWSI_Byte_Transmit								; Отправляем TWDR по шине
