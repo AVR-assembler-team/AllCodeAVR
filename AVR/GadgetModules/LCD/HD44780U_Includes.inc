@@ -14,6 +14,7 @@
 	.include "GadgetModules/LCD/HD44780U_8_Wires/HD44780U_Initialization.inc"
 	.include "GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendInstruction.inc"
 	.include "GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc"
+	.include "GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendData.inc"
 #elif defined HD44780U_4_Wires
 	.include "GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Initialization.inc"
 	.include "GadgetModules/LCD/HD44780U_4_Wires/HD44780U_SendInstruction.inc"
@@ -27,3 +28,5 @@
 .include "GadgetModules/LCD/HD44780U_Init.inc"
 
 .include "GadgetModules/LCD/Commands/HD44780U_SetCursor.inc"
+.include "GadgetModules/LCD/HD44780U_DDRAMincrement.inc"
+.include "GadgetModules/LCD/Commands/HD44780U_WriteSymbol.inc"

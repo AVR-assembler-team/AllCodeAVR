@@ -9,7 +9,7 @@ HD44780U_Function_set:
 	#ifdef HD44780U_8_Wires
 		SETRB r25, HD44780U_Bit_DL
 	#endif
-	#ifdef HD44780U_LCD_Size_4x20
+	#if defined HD44780U_LCD_Size_4x20 || HD44780U_LCD_2x16
 		SETRB r25, HD44780U_Bit_N
 	#endif
 	#ifdef Character_Front_5x10
