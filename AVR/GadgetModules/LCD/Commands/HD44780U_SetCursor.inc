@@ -3,10 +3,10 @@
 */
 .macro HD44780U_Set_Cursor
 
-	ldi	r24, @0						; записываем @0 в r24
-	ldi	r25, @1						; записываем @1 в r25
+	ldi	r24, @0									; записываем @0 в r24
+	ldi	r25, @1									; записываем @1 в r25
 
-	_call HD44780U_SetCursor_act	; переходим
+	_call HD44780U_SetCursor_act				; переходим
 
 .endm
 //____________________________________________________________________________________
@@ -49,16 +49,6 @@ HD44780U_SetCursor_act:
 		subi r24, $80							; вычитаем 128 из r24
 		WRITE_REG HD44780U_Address_DDRAM, r24	; записываем адрес курсора в HD44780U_Address_DDRAM
 
-	#ifdef HD44780U_TWSI
-		push r25
-		TWSI_START								; отсылаем START (рестартуем для записи)
-		TWSI_SLA HD44780U_SLA_, 'W'
-		pop r25
-	#endif
-
 	_call HD44780U_Send_instruction				; отсылаем инструкцию
 	
-	#ifdef HD44780U_TWSI
-		TWSI_STOP								; отсылаем START (рестартуем для записи)
-	#endif
 ret

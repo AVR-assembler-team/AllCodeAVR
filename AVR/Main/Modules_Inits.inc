@@ -4,10 +4,6 @@
 		TWSI_init
 	#endif
 
-	#ifdef HD44780U_Module
-		//HD44780U_Init
-	#endif
-
 	#ifdef OneWire_Module
 		OneWire_init
 	#endif
