@@ -35,24 +35,26 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ExternalInterrupts/ExtInt_Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/ExternalInterrupts/ExtInt_Set_640_1280_1281_2560_2561.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Includes.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Constants.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_SetMacs.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_SetMacs.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/HD44780U_Config.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Function_set.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Display_on_off_control.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Entry_mode_set.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Cursor_Display_shift.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_Initialization.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendInstruction.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendData.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Initialization.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_SendInstruction.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_BFCheck.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_SendData.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Command1.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Command2.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Init.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE>
-  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_WriteSymbol.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_WriteRegister.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_LcdClear.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc</FILE>
@@ -79,53 +81,53 @@
   <EXT_INT6><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>60</LINE></EXT_INT6>
   <EXT_INT7><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>65</LINE></EXT_INT7>
   <EXT_PCINT0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>70</LINE></EXT_PCINT0>
-  <EXT_PCINT1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>75</LINE></EXT_PCINT1>
-  <EXT_PCINT2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>80</LINE></EXT_PCINT2>
-  <WDT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>347</LINE></WDT>
-  <TIM2_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>167</LINE></TIM2_COMPA>
-  <TIM2_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>172</LINE></TIM2_COMPB>
-  <TIM2_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>177</LINE></TIM2_OVF>
-  <TIM1_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>135</LINE></TIM1_CAPT>
-  <TIM1_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>140</LINE></TIM1_COMPA>
-  <TIM1_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>145</LINE></TIM1_COMPB>
-  <TIM1_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>150</LINE></TIM1_COMPC>
-  <TIM1_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>155</LINE></TIM1_OVF>
-  <TIM0_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>118</LINE></TIM0_COMPA>
-  <TIM0_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>123</LINE></TIM0_COMPB>
-  <TIM0_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>128</LINE></TIM0_OVF>
-  <SPI_STC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>99</LINE></SPI_STC>
-  <USART0_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>272</LINE></USART0_RXC>
-  <USART0_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>277</LINE></USART0_UDRE>
-  <USART0_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>282</LINE></USART0_TXC>
+  <EXT_PCINT1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>76</LINE></EXT_PCINT1>
+  <EXT_PCINT2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>81</LINE></EXT_PCINT2>
+  <WDT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>348</LINE></WDT>
+  <TIM2_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>168</LINE></TIM2_COMPA>
+  <TIM2_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>173</LINE></TIM2_COMPB>
+  <TIM2_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>178</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>136</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>141</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>146</LINE></TIM1_COMPB>
+  <TIM1_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>151</LINE></TIM1_COMPC>
+  <TIM1_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>156</LINE></TIM1_OVF>
+  <TIM0_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>119</LINE></TIM0_COMPA>
+  <TIM0_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>124</LINE></TIM0_COMPB>
+  <TIM0_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>129</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>100</LINE></SPI_STC>
+  <USART0_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>273</LINE></USART0_RXC>
+  <USART0_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>278</LINE></USART0_UDRE>
+  <USART0_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>283</LINE></USART0_TXC>
   <ANA_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>2</LINE></ANA_COMP>
   <ADC_Conv_Comp><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>9</LINE></ADC_Conv_Comp>
   <EE_RDY><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>17</LINE></EE_RDY>
-  <TIM3_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>184</LINE></TIM3_CAPT>
-  <TIM3_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>189</LINE></TIM3_COMPA>
-  <TIM3_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>194</LINE></TIM3_COMPB>
-  <TIM3_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>199</LINE></TIM3_COMPC>
-  <TIM3_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>204</LINE></TIM3_OVF>
-  <USART1_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>287</LINE></USART1_RXC>
-  <USART1_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>292</LINE></USART1_UDRE>
-  <USART1_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>297</LINE></USART1_TXC>
-  <TWSI><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>265</LINE></TWSI>
-  <SPM_RDY><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>106</LINE></SPM_RDY>
-  <TIM4_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>211</LINE></TIM4_CAPT>
-  <TIM4_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>216</LINE></TIM4_COMPA>
-  <TIM4_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>221</LINE></TIM4_COMPB>
-  <TIM4_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>226</LINE></TIM4_COMPC>
-  <TIM4_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>231</LINE></TIM4_OVF>
-  <TIM5_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>238</LINE></TIM5_CAPT>
-  <TIM5_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>243</LINE></TIM5_COMPA>
-  <TIM5_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>248</LINE></TIM5_COMPB>
-  <TIM5_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>253</LINE></TIM5_COMPC>
-  <TIM5_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>258</LINE></TIM5_OVF>
-  <USART2_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>302</LINE></USART2_RXC>
-  <USART2_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>307</LINE></USART2_UDRE>
-  <USART2_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>312</LINE></USART2_TXC>
-  <USART3_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>318</LINE></USART3_RXC>
-  <USART3_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>323</LINE></USART3_UDRE>
-  <USART3_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>328</LINE></USART3_TXC>
+  <TIM3_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>185</LINE></TIM3_CAPT>
+  <TIM3_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>190</LINE></TIM3_COMPA>
+  <TIM3_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>195</LINE></TIM3_COMPB>
+  <TIM3_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>200</LINE></TIM3_COMPC>
+  <TIM3_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>205</LINE></TIM3_OVF>
+  <USART1_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>288</LINE></USART1_RXC>
+  <USART1_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>293</LINE></USART1_UDRE>
+  <USART1_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>298</LINE></USART1_TXC>
+  <TWSI><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>266</LINE></TWSI>
+  <SPM_RDY><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>107</LINE></SPM_RDY>
+  <TIM4_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>212</LINE></TIM4_CAPT>
+  <TIM4_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>217</LINE></TIM4_COMPA>
+  <TIM4_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>222</LINE></TIM4_COMPB>
+  <TIM4_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>227</LINE></TIM4_COMPC>
+  <TIM4_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>232</LINE></TIM4_OVF>
+  <TIM5_CAPT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>239</LINE></TIM5_CAPT>
+  <TIM5_COMPA><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>244</LINE></TIM5_COMPA>
+  <TIM5_COMPB><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>249</LINE></TIM5_COMPB>
+  <TIM5_COMPC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>254</LINE></TIM5_COMPC>
+  <TIM5_OVF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>259</LINE></TIM5_OVF>
+  <USART2_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>303</LINE></USART2_RXC>
+  <USART2_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>308</LINE></USART2_UDRE>
+  <USART2_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>313</LINE></USART2_TXC>
+  <USART3_RXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>319</LINE></USART3_RXC>
+  <USART3_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>324</LINE></USART3_UDRE>
+  <USART3_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>329</LINE></USART3_TXC>
   <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
   <TWSI_Flags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc</FILE><LINE>5</LINE></TWSI_Flags>
   <TWSI_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc</FILE><LINE>10</LINE></TWSI_Delay_4_1ms_act>
@@ -144,39 +146,39 @@
   <HD44780U_Cursor_or_Display_Shift_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Constants.inc</FILE><LINE>40</LINE></HD44780U_Cursor_or_Display_Shift_byte>
   <HD44780U_flags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Constants.inc</FILE><LINE>41</LINE></HD44780U_flags>
   <HD44780U_Address_DDRAM><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Constants.inc</FILE><LINE>42</LINE></HD44780U_Address_DDRAM>
-  <HD44780U_Delay_5mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>25</LINE></HD44780U_Delay_5mks_act>
-  <HD44780U_Delay_20mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>31</LINE></HD44780U_Delay_20mks_act>
-  <HD44780U_Delay_100mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>37</LINE></HD44780U_Delay_100mks_act>
-  <HD44780U_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>43</LINE></HD44780U_Delay_4_1ms_act>
-  <HD44780U_Delay_15ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>52</LINE></HD44780U_Delay_15ms_act>
-  <HD44780U_Function_set><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Function_set.inc</FILE><LINE>7</LINE></HD44780U_Function_set>
-  <HD44780U_Display_on_off_control><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Display_on_off_control.inc</FILE><LINE>7</LINE></HD44780U_Display_on_off_control>
-  <HD44780U_Entry_mode_set><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Entry_mode_set.inc</FILE><LINE>7</LINE></HD44780U_Entry_mode_set>
-  <HD44780U_Cursor_Display_shift><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Cursor_Display_shift.inc</FILE><LINE>5</LINE></HD44780U_Cursor_Display_shift>
-  <HD44780U_Initialization><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_Initialization.inc</FILE><LINE>4</LINE></HD44780U_Initialization>
-  <HD44780U_Command><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendInstruction.inc</FILE><LINE>11</LINE></HD44780U_Command>
-  <HD44780U_BF_Check><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc</FILE><LINE>6</LINE></HD44780U_BF_Check>
-  <HD44780U_Send_instruction><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendInstruction.inc</FILE><LINE>5</LINE></HD44780U_Send_instruction>
-  <HD44780U_Read_bit><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc</FILE><LINE>44</LINE></HD44780U_Read_bit>
-  <HD44780U_Busy_Flag_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc</FILE><LINE>55</LINE></HD44780U_Busy_Flag_End>
-  <HD44780U_Busy_Flag_Again><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_BFCheck.inc</FILE><LINE>50</LINE></HD44780U_Busy_Flag_Again>
-  <HD44780U_Send_data_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_8_Wires/HD44780U_SendData.inc</FILE><LINE>26</LINE></HD44780U_Send_data_act>
-  <HD44780U_SetCursor_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>35</LINE></HD44780U_SetCursor_act>
-  <FirstRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>49</LINE></FirstRow>
-  <SecondRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>54</LINE></SecondRow>
-  <ThirdRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>59</LINE></ThirdRow>
-  <FourthRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>64</LINE></FourthRow>
-  <end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>68</LINE></end>
-  <HD44780U_Address_DDRAM_Increment_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>10</LINE></HD44780U_Address_DDRAM_Increment_act>
-  <row2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>27</LINE></row2>
-  <row1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>22</LINE></row1>
-  <finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>66</LINE></finish>
-  <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>85</LINE></EXT_PCINT3>
-  <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>92</LINE></LCD_SOF>
-  <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>113</LINE></TIM0_COMP>
-  <TIM2_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>162</LINE></TIM2_COMP>
-  <USI_STRT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>335</LINE></USI_STRT>
-  <USI_OVFL><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>340</LINE></USI_OVFL>
+  <HD44780U_Delay_5mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE><LINE>25</LINE></HD44780U_Delay_5mks_act>
+  <HD44780U_Delay_20mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE><LINE>31</LINE></HD44780U_Delay_20mks_act>
+  <HD44780U_Delay_100mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE><LINE>37</LINE></HD44780U_Delay_100mks_act>
+  <HD44780U_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE><LINE>43</LINE></HD44780U_Delay_4_1ms_act>
+  <HD44780U_Delay_15ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_Times.inc</FILE><LINE>52</LINE></HD44780U_Delay_15ms_act>
+  <HD44780U_Initialization><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Initialization.inc</FILE><LINE>4</LINE></HD44780U_Initialization>
+  <HD44780U_Command1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Command1.inc</FILE><LINE>5</LINE></HD44780U_Command1>
+  <HD44780U_BF_Check><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_BFCheck.inc</FILE><LINE>6</LINE></HD44780U_BF_Check>
+  <HD44780U_Send_instruction><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_SendInstruction.inc</FILE><LINE>6</LINE></HD44780U_Send_instruction>
+  <HD44780U_Command2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_Command2.inc</FILE><LINE>5</LINE></HD44780U_Command2>
+  <HD44780U_Read_bit><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_BFCheck.inc</FILE><LINE>28</LINE></HD44780U_Read_bit>
+  <HD44780U_Busy_Flag_End><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_BFCheck.inc</FILE><LINE>39</LINE></HD44780U_Busy_Flag_End>
+  <HD44780U_Busy_Flag_Again><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_BFCheck.inc</FILE><LINE>34</LINE></HD44780U_Busy_Flag_Again>
+  <HD44780U_Send_data><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_4_Wires/HD44780U_SendData.inc</FILE><LINE>6</LINE></HD44780U_Send_data>
+  <HD44780U_SetCursor_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>36</LINE></HD44780U_SetCursor_act>
+  <FirstRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>50</LINE></FirstRow>
+  <SecondRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>55</LINE></SecondRow>
+  <ThirdRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>60</LINE></ThirdRow>
+  <FourthRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>65</LINE></FourthRow>
+  <end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/Commands/HD44780U_SetCursor.inc</FILE><LINE>69</LINE></end>
+  <HD44780U_Address_DDRAM_Increment><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>6</LINE></HD44780U_Address_DDRAM_Increment>
+  <row2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>23</LINE></row2>
+  <row1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>18</LINE></row1>
+  <finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/LCD/HD44780U_DDRAMincrement.inc</FILE><LINE>62</LINE></finish>
+  <Button0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>16</LINE></Button0>
+  <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>86</LINE></EXT_PCINT3>
+  <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>93</LINE></LCD_SOF>
+  <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>114</LINE></TIM0_COMP>
+  <TIM2_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>163</LINE></TIM2_COMP>
+  <USI_STRT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>336</LINE></USI_STRT>
+  <USI_OVFL><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>341</LINE></USI_OVFL>
   <Proga><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>10</LINE></Proga>
+  <CommandCreateAndS><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>23</LINE></CommandCreateAndS>
+  <CommandCreateAnd><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>29</LINE></CommandCreateAnd>
  </LABELS>
 </ASSEMBLER_INFO>
