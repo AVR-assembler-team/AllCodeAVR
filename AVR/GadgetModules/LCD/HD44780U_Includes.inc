@@ -28,10 +28,11 @@
 
 .include "GadgetModules/LCD/HD44780U_Init.inc"
 
-
+.include "GadgetModules/LCD/Commands/HD44780U_LCD_Led.inc"
 .include "GadgetModules/LCD/Commands/HD44780U_SetCursor.inc"
 .include "GadgetModules/LCD/Commands/HD44780U_WriteSymbol.inc"
 .include "GadgetModules/LCD/Commands/HD44780U_WriteRegister.inc"
 .include "GadgetModules/LCD/Commands/HD44780U_LcdClear.inc"
+.include "GadgetModules/LCD/Commands/HD44780U_Writestring.inc"
 
 .include "GadgetModules/LCD/HD44780U_DDRAMincrement.inc"
