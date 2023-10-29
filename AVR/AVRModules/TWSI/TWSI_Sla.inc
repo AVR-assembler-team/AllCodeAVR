@@ -8,6 +8,8 @@
 * состо€ние бита (Address_No_ACK)
 * 0 - все хорошо
 * 1 - ответа нет
+*
+* »спользует регистр r23, r24, r25
 */
 .macro TWSI_SLA
 
@@ -19,12 +21,12 @@
 	.endif
 		
 	WRITE_REG TWDR, r25						; вталкиваем в дата регистр
-	TWSI_Byte_Transmit
+	TWSI_Byte_Transmit						; r25
 
 	.if @1 == 'W'
-		TWSI_ACK_Check MT_SLA_W_ACK, MT_SLA_W_NOT_ACK					; ѕровер€ем получен ли ответ
+		TWSI_ACK_Check MT_SLA_W_ACK, MT_SLA_W_NOT_ACK	; r23, r24, r25					; ѕровер€ем получен ли ответ
 	.elif @1 == 'R'
-		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK					; ѕровер€ем получен ли ответ
+		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK	; r23, r24, r25					; ѕровер€ем получен ли ответ
 	.endif
 
 .endm

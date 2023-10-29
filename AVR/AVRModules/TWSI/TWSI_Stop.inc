@@ -1,5 +1,6 @@
 /*
 * Останавливает модуль TWSI
+* Использует регистр r25
 */
 .macro TWSI_STOP
 	_call TWSI_STOP_act

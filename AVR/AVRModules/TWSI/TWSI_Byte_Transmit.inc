@@ -1,5 +1,6 @@
 /*
 * Устанавливает биты в TWCR
+* Использует регистр r25
 */
 .macro TWSI_Byte_Transmit
 	_call TWSI_Byte_Transmit_act
@@ -9,6 +10,6 @@
 TWSI_Byte_Transmit_act:
 	ldi		r25, (1<<TWINT) | (1<<TWEN)				; формируем сигнал для передачи данных с TWDR
 	WRITE_REG TWCR, r25								; отправляем по шине
-	TWSI_TWINT_Flag
+	TWSI_TWINT_Flag									; r25
 ret													; выход из подпрограммы
  

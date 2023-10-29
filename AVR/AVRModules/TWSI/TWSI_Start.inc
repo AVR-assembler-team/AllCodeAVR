@@ -1,5 +1,6 @@
 /*
 * Запускает модуль TWSI
+* Использует регистр r25
 */
 .macro TWSI_START										; макрос START
 	_call TWSI_START_act
@@ -9,6 +10,6 @@
 TWSI_START_act:
 	ldi		r25, (1<<TWINT) | (1<<TWSTA) | (1<<TWEN)	; формируем сагнал START
 	WRITE_REG TWCR, r25									; отправляем по шине
-	TWSI_TWINT_Flag
+	TWSI_TWINT_Flag										; r25
 ret
  

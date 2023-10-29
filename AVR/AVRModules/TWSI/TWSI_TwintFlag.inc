@@ -1,5 +1,6 @@
 /*
 * ѕровер€ет состо€ние флага TWINT модул€ TWSI
+* »спользует регистр r25
 */
 .macro TWSI_TWINT_Flag
 	_call TWSI_TWINT_Flag_act
@@ -8,7 +9,7 @@
 //____________________________________________________________________________________
 TWSI_TWINT_Flag_act:
 	TWSI_TWINT_Flag_act_1:
-		READ_REG TWCR, r25					; записываем TWCR в R16
+		READ_REG TWCR, r25					; записываем TWCR в R25
 		sbrs	r25, TWINT						; если бит TWINT подн€т, то пропускаем след строку
 		rjmp	TWSI_TWINT_Flag_act_1					; перепрыгиваем на метку
 ret

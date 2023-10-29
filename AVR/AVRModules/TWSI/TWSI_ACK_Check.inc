@@ -1,5 +1,6 @@
 /*
 * ѕровер€ет состо€ние регистра TWI модул€ I2C
+* »спользует регистр r23, r24, r25
 */
 .macro TWSI_ACK_Check
 	ldi r24, @0
@@ -25,9 +26,11 @@ TWSI_ACK_Check_act:
 		TWSI_Status_act_2:
 			cpse	r25, r23				; сравниваем r16 и r18
 			rjmp	TWSI_ACK_Check_act_1	; если не равны, то переходим
+
 			// устанавливаем флаг
 			READ_REG TWSI_Flags, r25
 			SETRB r25, No_ACK
 			WRITE_REG TWSI_Flags, r25
+
 	TWSI_ACK_Check_act_end:
 ret

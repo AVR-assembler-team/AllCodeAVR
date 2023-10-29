@@ -110,91 +110,109 @@
     <Compile Include="FunctionModules\CRC\CRC_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\HD44780U\HD44780U_ChangeParams.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_Cursor_Blinking.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\HD44780U\HD44780U_SetBytes.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_Cursor_visible.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_LcdClear.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_DDRAM_Address.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_LCD_Led.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_LcdClear.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_SetCursor.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_LCD_Led.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_WriteRegister.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_SetCursor.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_Writestring.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_Shift.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\Commands\HD44780U_WriteSymbol.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_WriteRegister.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_BFCheck.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_Writestring.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_Command1.inc">
+    <Compile Include="GadgetModules\HD44780U\Commands\HD44780U_WriteSymbol.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_Command2.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_BFCheck.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_Initialization.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_Command1.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_SendData.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_Command2.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_4_Wires\HD44780U_SendInstruction.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_Initialization.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_BFCheck.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_SendData.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_Command.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_4_Wires\HD44780U_SendInstruction.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_Initialization.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_8_Wires\HD44780U_BFCheck.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_SendData.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_8_Wires\HD44780U_Command.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_8_Wires\HD44780U_SendInstruction.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_8_Wires\HD44780U_Initialization.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_Constants.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_8_Wires\HD44780U_SendData.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_DDRAMincrement.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_8_Wires\HD44780U_SendInstruction.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_Includes.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Constants.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_Init.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_DDRAMincrement.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_SetMacs.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Includes.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_Times.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Init.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_BFCheck.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_SetMacs.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_Initialization.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_Times.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_SendData.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_BFCheck.inc">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GadgetModules\LCD\HD44780U_TWSI\HD44780U_SendInstruction.inc">
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_Initialization.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_SendData.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_SendInstruction.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_Send_data_byte_high.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_Send_data_byte_low.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_Send_instr_byte_high.inc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GadgetModules\HD44780U\HD44780U_TWSI\HD44780U_Send_instr_byte_low.inc">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GadgetModules\NTC3950_100K\NTC3950_100K_Constants.inc">
@@ -749,15 +767,17 @@
     <Compile Include="Tests.inc">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tests2.inc">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FunctionModules\CRC\" />
     <Folder Include="GadgetModules\HD44780U\" />
-    <Folder Include="GadgetModules\LCD" />
-    <Folder Include="GadgetModules\LCD\HD44780U_4_Wires" />
-    <Folder Include="GadgetModules\LCD\HD44780U_8_Wires" />
-    <Folder Include="GadgetModules\LCD\HD44780U_TWSI" />
-    <Folder Include="GadgetModules\LCD\Commands" />
+    <Folder Include="GadgetModules\HD44780U\Commands\" />
+    <Folder Include="GadgetModules\HD44780U\HD44780U_4_Wires\" />
+    <Folder Include="GadgetModules\HD44780U\HD44780U_8_Wires\" />
+    <Folder Include="GadgetModules\HD44780U\HD44780U_TWSI\" />
     <Folder Include="GadgetModules\NTC3950_100K\" />
     <Folder Include="GadgetModules\PCF8574\" />
     <Folder Include="GadgetModules\PCF8575\" />
