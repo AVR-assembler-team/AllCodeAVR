@@ -70,7 +70,6 @@ reti
 EXT_PCINT0:
 	cli
 	// Ваш код
-	_call Button0
 	sei
 reti
 EXT_PCINT1:

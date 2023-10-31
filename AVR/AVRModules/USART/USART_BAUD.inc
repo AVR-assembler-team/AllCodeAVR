@@ -202,44 +202,44 @@
 
 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		.if @0 == 0	
-			out UBRRH, r17
-			out UBRRL, r16
+			WRITE_REG UBRRH, r17
+			WRITE_REG UBRRL, r16
 		.endif
 
 	.elif ctrl == 48 || ctrl == 88 || ctrl == 168
 		.if @0 == 0
-			out UBRR0H, r17
-			out UBRR0L, r16
+			WRITE_REG UBRR0H, r17
+			WRITE_REG UBRR0L, r16
 		.endif
 
 	.elif ctrl == 165 || ctrl == 169 || ctrl == 325 || ctrl == 3250 || ctrl == 645 || ctrl == 6450 || ctrl == 328 || ctrl == 329 || ctrl == 3290 || ctrl == 649 || ctrl == 6490
 		.if @0 == 0
-			sts UBRR0H, r17
-			sts UBRR0L, r16
+			WRITE_REG UBRR0H, r17
+			WRITE_REG UBRR0L, r16
 		.endif
 	
 	.elif ctrl == 64 || ctrl == 128 || ctrl == 162 || ctrl == 164 || ctrl == 324 || ctrl == 644 || ctrl == 1284 
 		.if @0 == 0
-			out UBRR0H, r17
-			out UBRR0L, r16
+			WRITE_REG UBRR0H, r17
+			WRITE_REG UBRR0L, r16
 		.elif @0 == 1
-			out UBRR1H, r17
-			out UBRR1L, r16
+			WRITE_REG UBRR1H, r17
+			WRITE_REG UBRR1L, r16
 		.endif
 
 	.elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
 		.if @0 == 0
-			sts UBRR0H, r17
-			sts UBRR0L, r16
+			WRITE_REG UBRR0H, r17
+			WRITE_REG UBRR0L, r16
 		.elif @0 == 1
-			sts UBRR1H, r17
-			sts UBRR1L, r16
+			WRITE_REG UBRR1H, r17
+			WRITE_REG UBRR1L, r16
 		.elif @0 == 2
-			sts UBRR2H, r17
-			sts UBRR2L, r16
+			WRITE_REG UBRR2H, r17
+			WRITE_REG UBRR2L, r16
 		.elif @0 == 3
-			sts UBRR3H, r17
-			sts UBRR3L, r16
+			WRITE_REG UBRR3H, r17
+			WRITE_REG UBRR3L, r16
 		.endif
 
 	.endif
