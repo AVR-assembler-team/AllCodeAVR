@@ -38,7 +38,6 @@ PCF8575Write_act:
 		_jump PCF8575Write_end
 
 gotoPCF8575WriteLabels:
-	TWSI_STOP
 	_call PCF8575_NoAck
 
 PCF8575Write_end:

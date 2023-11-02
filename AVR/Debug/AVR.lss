@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Oct 29 14:17:44 2023
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Thu Nov 02 21:02:14 2023
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc'
 C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm(5): Including file 'C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Includes.inc'
@@ -1914,6 +1914,8 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  //#define CRC_Calculate_Module
                                  .include "Configs/AVRModules_Config.inc"
                                  
+                                 //#define ADC_Module
+                                 //#define Counters_Module
                                  //#define ExternalInterrupts_Module
                                  //#define OneWire_Module
                                  //#define TWSI_Module
@@ -2179,7 +2181,7 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  .elif ctrl == 640 || ctrl == 1280 || ctrl == 1281 || ctrl == 2560 || ctrl == 2561
                                      .include "Main/Interrupts/Vectors640_1280_1281_2560_2561.inc"
                                  
-000000 940c 0131                 	.org 0x0000	 jmp RESET ; Reset Handler
+000000 940c 012f                 	.org 0x0000	 jmp RESET ; Reset Handler
 000002 940c 007e                 	.org 0x0002 jmp EXT_INT0 ; IRQ0 Handler
 000004 940c 0081                 	.org 0x0004 jmp EXT_INT1 ; IRQ1 Handler
 000006 940c 0084                 	.org 0x0006 jmp EXT_INT2 ; IRQ2 Handler
@@ -2189,58 +2191,58 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
 00000e 940c 0090                 	.org 0x000E jmp EXT_INT6 ; IRQ6 Handler
 000010 940c 0093                 	.org 0x0010 jmp EXT_INT7 ; IRQ7 Handler
 000012 940c 0096                 	.org 0x0012 jmp EXT_PCINT0 ; PCINT0 Handler
-000014 940c 009b                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
-000016 940c 009e                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
-000018 940c 012e                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
-00001a 940c 00cb                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
-00001c 940c 00ce                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
-00001e 940c 00d1                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
-000020 940c 00b9                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
-000022 940c 00bc                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
-000024 940c 00bf                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000026 940c 00c2                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
-000028 940c 00c5                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
-00002a 940c 00b0                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
-00002c 940c 00b3                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
-00002e 940c 00b6                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
-000030 940c 00a7                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
-000032 940c 0104                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
-000034 940c 0107                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
-000036 940c 010a                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
+000014 940c 0099                 	.org 0x0014 jmp EXT_PCINT1 ; PCINT1 Handler
+000016 940c 009c                 	.org 0x0016 jmp EXT_PCINT2 ; PCINT2 Handler
+000018 940c 012c                 	.org 0X0018 jmp WDT ; Watchdog Timeout Handler
+00001a 940c 00c9                 	.org 0x001A jmp TIM2_COMPA ; Timer2 CompareA Handler
+00001c 940c 00cc                 	.org 0x001C jmp TIM2_COMPB ; Timer2 CompareB Handler
+00001e 940c 00cf                 	.org 0x001E jmp TIM2_OVF ; Timer2 Overflow Handler
+000020 940c 00b7                 	.org 0x0020 jmp TIM1_CAPT ; Timer1 Capture Handler
+000022 940c 00ba                 	.org 0x0022 jmp TIM1_COMPA ; Timer1 CompareA Handler
+000024 940c 00bd                 	.org 0x0024 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000026 940c 00c0                 	.org 0x0026 jmp TIM1_COMPC ; Timer1 CompareC Handler
+000028 940c 00c3                 	.org 0x0028 jmp TIM1_OVF ; Timer1 Overflow Handler
+00002a 940c 00ae                 	.org 0x002A jmp TIM0_COMPA ; Timer0 CompareA Handler
+00002c 940c 00b1                 	.org 0x002C jmp TIM0_COMPB ; Timer0 CompareB Handler
+00002e 940c 00b4                 	.org 0x002E jmp TIM0_OVF ; Timer0 Overflow Handler
+000030 940c 00a5                 	.org 0x0030 jmp SPI_STC ; SPI Transfer Complete Handler
+000032 940c 0102                 	.org 0x0032 jmp USART0_RXC ; USART0 RX Complete Handler
+000034 940c 0105                 	.org 0x0034 jmp USART0_UDRE ; USART0,UDR Empty Handler
+000036 940c 0108                 	.org 0x0036 jmp USART0_TXC ; USART0 TX Complete Handler
 000038 940c 0075                 	.org 0x0038 jmp ANA_COMP ; Analog Comparator Handler
 00003a 940c 0078                 	.org 0x003A jmp ADC_Conv_Comp ; ADC Conversion Complete Handler
 00003c 940c 007b                 	.org 0x003C jmp EE_RDY ; EEPROM Ready Handler
-00003e 940c 00d4                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
-000040 940c 00d7                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
-000042 940c 00da                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
-000044 940c 00dd                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
-000046 940c 00e0                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
-000048 940c 010d                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
-00004a 940c 0110                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
-00004c 940c 0113                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
-00004e 940c 0101                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
-000050 940c 00aa                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
+00003e 940c 00d2                 	.org 0x003E jmp TIM3_CAPT ; Timer3 Capture Handler
+000040 940c 00d5                 	.org 0x0040 jmp TIM3_COMPA ; Timer3 CompareA Handler
+000042 940c 00d8                 	.org 0x0042 jmp TIM3_COMPB ; Timer3 CompareB Handler
+000044 940c 00db                 	.org 0x0044 jmp TIM3_COMPC ; Timer3 CompareC Handler
+000046 940c 00de                 	.org 0x0046 jmp TIM3_OVF ; Timer3 Overflow Handler
+000048 940c 010b                 	.org 0x0048 jmp USART1_RXC ; USART1 RX Complete Handler
+00004a 940c 010e                 	.org 0x004A jmp USART1_UDRE ; USART1,UDR Empty Handler
+00004c 940c 0111                 	.org 0x004C jmp USART1_TXC ; USART1 TX Complete Handler
+00004e 940c 00ff                 	.org 0x004E jmp TWSI ; 2-wire Serial Handler
+000050 940c 00a8                 	.org 0x0050 jmp SPM_RDY ; SPM Ready Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000052 940c 00e3                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
+000052 940c 00e1                 		.org 0x0052 jmp TIM4_CAPT ; Timer4 Capture Handler
                                  	.endif
-000054 940c 00e6                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
-000056 940c 00e9                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
-000058 940c 00ec                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
-00005a 940c 00ef                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
+000054 940c 00e4                 	.org 0x0054 jmp TIM4_COMPA ; Timer4 CompareA Handler
+000056 940c 00e7                 	.org 0x0056 jmp TIM4_COMPB ; Timer4 CompareB Handler
+000058 940c 00ea                 	.org 0x0058 jmp TIM4_COMPC ; Timer4 CompareC Handler
+00005a 940c 00ed                 	.org 0x005A jmp TIM4_OVF ; Timer4 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-00005c 940c 00f2                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
+00005c 940c 00f0                 		.org 0x005C jmp TIM5_CAPT ; Timer5 Capture Handler
                                  	.endif
-00005e 940c 00f5                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
-000060 940c 00f8                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
-000062 940c 00fb                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
-000064 940c 00fe                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
+00005e 940c 00f3                 	.org 0x005E jmp TIM5_COMPA ; Timer5 CompareA Handler
+000060 940c 00f6                 	.org 0x0060 jmp TIM5_COMPB ; Timer5 CompareB Handler
+000062 940c 00f9                 	.org 0x0062 jmp TIM5_COMPC ; Timer5 CompareC Handler
+000064 940c 00fc                 	.org 0x0064 jmp TIM5_OVF ; Timer5 Overflow Handler
                                  	.if ctrl == 640 || ctrl == 1280 || ctrl == 2560
-000066 940c 0116                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
-000068 940c 0119                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
-00006a 940c 011c                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
-00006c 940c 011f                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
-00006e 940c 0122                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
-000070 940c 0125                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
+000066 940c 0114                 		.org 0x0066 jmp USART2_RXC ; USART2 RX Complete Handler
+000068 940c 0117                 		.org 0x0068 jmp USART2_UDRE ; USART2,UDR Empty Handler
+00006a 940c 011a                 		.org 0x006A jmp USART2_TXC ; USART2 TX Complete Handler
+00006c 940c 011d                 		.org 0x006C jmp USART3_RXC ; USART3 RX Complete Handler
+00006e 940c 0120                 		.org 0x006E jmp USART3_UDRE ; USART3,UDR Empty Handler
+000070 940c 0123                 		.org 0x0070 jmp USART3_TXC ; USART3 TX Complete Handler
                                  	.endif
                                  .elif ctrl == 1284
                                  .elif ctrl == 8515
@@ -2642,286 +2644,285 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  EXT_PCINT0:
 000096 94f8                      	cli
                                  	// Ваш код
-000097 940e 0137                 	_call Button0
-000099 9478                      	sei
-00009a 9518                      reti
+000097 9478                      	sei
+000098 9518                      reti
                                  EXT_PCINT1:
-00009b 94f8                      	cli
+000099 94f8                      	cli
                                  	// Ваш код
-00009c 9478                      	sei
-00009d 9518                      reti
+00009a 9478                      	sei
+00009b 9518                      reti
                                  EXT_PCINT2:
-00009e 94f8                      	cli
+00009c 94f8                      	cli
                                  	// Ваш код
-00009f 9478                      	sei
-0000a0 9508                      ret
+00009d 9478                      	sei
+00009e 9508                      ret
                                  EXT_PCINT3:
-0000a1 94f8                      	cli
+00009f 94f8                      	cli
                                  	// Ваш код
-0000a2 9478                      	sei
-0000a3 9518                      reti
+0000a0 9478                      	sei
+0000a1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // LCD_SOF
                                  LCD_SOF:
-0000a4 94f8                      	cli
+0000a2 94f8                      	cli
                                  	// Ваш код
-0000a5 9478                      	sei
-0000a6 9518                      reti
+0000a3 9478                      	sei
+0000a4 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPI
                                  SPI_STC:
-0000a7 94f8                      	cli
+0000a5 94f8                      	cli
                                  	// Ваш код
-0000a8 9478                      	sei
-0000a9 9518                      reti
+0000a6 9478                      	sei
+0000a7 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // SPM_RDY
                                  SPM_RDY:
-0000aa 94f8                      	cli
+0000a8 94f8                      	cli
                                  	// Ваш код
-0000ab 9478                      	sei
-0000ac 9518                      reti
+0000a9 9478                      	sei
+0000aa 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 0
                                  TIM0_COMP:
-0000ad 94f8                      	cli
+0000ab 94f8                      	cli
                                  	// Ваш код
-0000ae 9478                      	sei
-0000af 9518                      reti
+0000ac 9478                      	sei
+0000ad 9518                      reti
                                  TIM0_COMPA:
-0000b0 94f8                      	cli
+0000ae 94f8                      	cli
                                  	// Ваш код
-0000b1 9478                      	sei
-0000b2 9518                      reti
+0000af 9478                      	sei
+0000b0 9518                      reti
                                  TIM0_COMPB:
-0000b3 94f8                      	cli
+0000b1 94f8                      	cli
                                  	// Ваш код
-0000b4 9478                      	sei
-0000b5 9518                      reti
+0000b2 9478                      	sei
+0000b3 9518                      reti
                                  TIM0_OVF:
-0000b6 94f8                      	cli
+0000b4 94f8                      	cli
                                  	// Ваш код
-0000b7 9478                      	sei
-0000b8 9518                      reti
+0000b5 9478                      	sei
+0000b6 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 1
                                  TIM1_CAPT:
-0000b9 94f8                      	cli
+0000b7 94f8                      	cli
                                  	// Ваш код
-0000ba 9478                      	sei
-0000bb 9518                      reti
+0000b8 9478                      	sei
+0000b9 9518                      reti
                                  TIM1_COMPA:
-0000bc 94f8                      	cli
+0000ba 94f8                      	cli
                                  	// Ваш код
-0000bd 9478                      	sei
-0000be 9518                      reti
+0000bb 9478                      	sei
+0000bc 9518                      reti
                                  TIM1_COMPB:
-0000bf 94f8                      	cli
+0000bd 94f8                      	cli
                                  	// Ваш код
-0000c0 9478                      	sei
-0000c1 9518                      reti
+0000be 9478                      	sei
+0000bf 9518                      reti
                                  TIM1_COMPC:
-0000c2 94f8                      	cli
+0000c0 94f8                      	cli
                                  	// Ваш код
-0000c3 9478                      	sei
-0000c4 9518                      reti
+0000c1 9478                      	sei
+0000c2 9518                      reti
                                  TIM1_OVF:
-0000c5 94f8                      	cli
+0000c3 94f8                      	cli
                                  	// Ваш код
-0000c6 9478                      	sei
-0000c7 9518                      reti
+0000c4 9478                      	sei
+0000c5 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 2
                                  TIM2_COMP:
-0000c8 94f8                      	cli
+0000c6 94f8                      	cli
                                  	// Ваш код
-0000c9 9478                      	sei
-0000ca 9518                      reti
+0000c7 9478                      	sei
+0000c8 9518                      reti
                                  TIM2_COMPA:
-0000cb 94f8                      	cli
+0000c9 94f8                      	cli
                                  	// Ваш код
-0000cc 9478                      	sei
-0000cd 9518                      reti
+0000ca 9478                      	sei
+0000cb 9518                      reti
                                  TIM2_COMPB:
-0000ce 94f8                      	cli
+0000cc 94f8                      	cli
                                  	// Ваш код
-0000cf 9478                      	sei
-0000d0 9518                      reti
+0000cd 9478                      	sei
+0000ce 9518                      reti
                                  TIM2_OVF:
-0000d1 94f8                      	cli
+0000cf 94f8                      	cli
                                  	// Ваш код
-0000d2 9478                      	sei
-0000d3 9518                      reti
+0000d0 9478                      	sei
+0000d1 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //Timer 3
                                  TIM3_CAPT:
-0000d4 94f8                      	cli
+0000d2 94f8                      	cli
                                  	// Ваш код
-0000d5 9478                      	sei
-0000d6 9518                      reti
+0000d3 9478                      	sei
+0000d4 9518                      reti
                                  TIM3_COMPA:
-0000d7 94f8                      	cli
+0000d5 94f8                      	cli
                                  	// Ваш код
-0000d8 9478                      	sei
-0000d9 9518                      reti
+0000d6 9478                      	sei
+0000d7 9518                      reti
                                  TIM3_COMPB:
-0000da 94f8                      	cli
+0000d8 94f8                      	cli
                                  	// Ваш код
-0000db 9478                      	sei
-0000dc 9518                      reti
+0000d9 9478                      	sei
+0000da 9518                      reti
                                  TIM3_COMPC:
-0000dd 94f8                      	cli
+0000db 94f8                      	cli
                                  	// Ваш код
-0000de 9478                      	sei
-0000df 9518                      reti
+0000dc 9478                      	sei
+0000dd 9518                      reti
                                  TIM3_OVF:
-0000e0 94f8                      	cli
+0000de 94f8                      	cli
                                  	// Ваш код
-0000e1 9478                      	sei
-0000e2 9518                      reti
+0000df 9478                      	sei
+0000e0 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 4
                                  TIM4_CAPT:
-0000e3 94f8                      	cli
+0000e1 94f8                      	cli
                                  	// Ваш код
-0000e4 9478                      	sei
-0000e5 9518                      reti
+0000e2 9478                      	sei
+0000e3 9518                      reti
                                  TIM4_COMPA:
-0000e6 94f8                      	cli
+0000e4 94f8                      	cli
                                  	// Ваш код
-0000e7 9478                      	sei
-0000e8 9518                      reti
+0000e5 9478                      	sei
+0000e6 9518                      reti
                                  TIM4_COMPB:
-0000e9 94f8                      	cli
+0000e7 94f8                      	cli
                                  	// Ваш код
-0000ea 9478                      	sei
-0000eb 9518                      reti
+0000e8 9478                      	sei
+0000e9 9518                      reti
                                  TIM4_COMPC:
-0000ec 94f8                      	cli
+0000ea 94f8                      	cli
                                  	// Ваш код
-0000ed 9478                      	sei
-0000ee 9518                      reti
+0000eb 9478                      	sei
+0000ec 9518                      reti
                                  TIM4_OVF:
-0000ef 94f8                      	cli
+0000ed 94f8                      	cli
                                  	// Ваш код
-0000f0 9478                      	sei
-0000f1 9518                      reti
+0000ee 9478                      	sei
+0000ef 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // Timer 5
                                  TIM5_CAPT:
-0000f2 94f8                      	cli
+0000f0 94f8                      	cli
                                  	// Ваш код
-0000f3 9478                      	sei
-0000f4 9518                      reti
+0000f1 9478                      	sei
+0000f2 9518                      reti
                                  TIM5_COMPA:
-0000f5 94f8                      	cli
+0000f3 94f8                      	cli
                                  	// Ваш код
-0000f6 9478                      	sei
-0000f7 9518                      reti
+0000f4 9478                      	sei
+0000f5 9518                      reti
                                  TIM5_COMPB:
-0000f8 94f8                      	cli
+0000f6 94f8                      	cli
                                  	// Ваш код
-0000f9 9478                      	sei
-0000fa 9518                      reti
+0000f7 9478                      	sei
+0000f8 9518                      reti
                                  TIM5_COMPC:
-0000fb 94f8                      	cli
+0000f9 94f8                      	cli
                                  	// Ваш код
-0000fc 9478                      	sei
-0000fd 9518                      reti
+0000fa 9478                      	sei
+0000fb 9518                      reti
                                  TIM5_OVF:
-0000fe 94f8                      	cli
+0000fc 94f8                      	cli
                                  	// Ваш код
-0000ff 9478                      	sei
-000100 9518                      reti
+0000fd 9478                      	sei
+0000fe 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // TWSI
                                  TWSI:
-000101 94f8                      	cli
+0000ff 94f8                      	cli
                                  	// Ваш код
-000102 9478                      	sei
-000103 9518                      reti
+000100 9478                      	sei
+000101 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // USART
                                  USART0_RXC:
-000104 94f8                      	cli
+000102 94f8                      	cli
                                  	// Ваш код
-000105 9478                      	sei
-000106 9518                      reti
+000103 9478                      	sei
+000104 9518                      reti
                                  USART0_UDRE:
-000107 94f8                      	cli
+000105 94f8                      	cli
                                  	// Ваш код
-000108 9478                      	sei
-000109 9518                      reti
+000106 9478                      	sei
+000107 9518                      reti
                                  USART0_TXC:
-00010a 94f8                      	cli
+000108 94f8                      	cli
                                  	// Ваш код
-00010b 9478                      	sei
-00010c 9518                      reti
+000109 9478                      	sei
+00010a 9518                      reti
                                  USART1_RXC:
-00010d 94f8                      	cli
+00010b 94f8                      	cli
                                  	// Ваш код
-00010e 9478                      	sei
-00010f 9518                      reti
+00010c 9478                      	sei
+00010d 9518                      reti
                                  USART1_UDRE:
-000110 94f8                      	cli
+00010e 94f8                      	cli
                                  	// Ваш код
-000111 9478                      	sei
-000112 9518                      reti
+00010f 9478                      	sei
+000110 9518                      reti
                                  USART1_TXC:
-000113 94f8                      	cli
+000111 94f8                      	cli
                                  	// Ваш код
-000114 9478                      	sei
-000115 9518                      reti
+000112 9478                      	sei
+000113 9518                      reti
                                  USART2_RXC:
-000116 94f8                      	cli
+000114 94f8                      	cli
                                  	// Ваш код
-000117 9478                      	sei
-000118 9518                      reti
+000115 9478                      	sei
+000116 9518                      reti
                                  USART2_UDRE:
-000119 94f8                      	cli
+000117 94f8                      	cli
                                  	// Ваш код
-00011a 9478                      	sei
-00011b 9518                      reti
+000118 9478                      	sei
+000119 9518                      reti
                                  USART2_TXC:
-00011c 94f8                      	cli
+00011a 94f8                      	cli
                                  	// Ваш код
-00011d 9478                      	sei
-00011e 9518                      reti
+00011b 9478                      	sei
+00011c 9518                      reti
                                  
                                  USART3_RXC:
-00011f 94f8                      	cli
+00011d 94f8                      	cli
                                  	// Ваш код
-000120 9478                      	sei
-000121 9518                      reti
+00011e 9478                      	sei
+00011f 9518                      reti
                                  USART3_UDRE:
-000122 94f8                      	cli
+000120 94f8                      	cli
                                  	// Ваш код
-000123 9478                      	sei
-000124 9518                      reti
+000121 9478                      	sei
+000122 9518                      reti
                                  USART3_TXC:
-000125 94f8                      	cli
+000123 94f8                      	cli
                                  	// Ваш код
-000126 9478                      	sei
-000127 9518                      reti
+000124 9478                      	sei
+000125 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  //USI
                                  USI_STRT:
-000128 94f8                      	cli
+000126 94f8                      	cli
                                  	// Ваш код
-000129 9478                      	sei
-00012a 9518                      reti
+000127 9478                      	sei
+000128 9518                      reti
                                  USI_OVFL:
-00012b 94f8                      	cli
+000129 94f8                      	cli
                                  	// Ваш код
-00012c 9478                      	sei
-00012d 9518                      reti
+00012a 9478                      	sei
+00012b 9518                      reti
                                  ////////////////////////////////////////////////////////////
                                  // WDT
                                  WDT:
-00012e 94f8                      	cli
+00012c 94f8                      	cli
                                  	// Ваш код
-00012f 9478                      	sei
-000130 9518                      reti
+00012d 9478                      	sei
+00012e 9518                      reti
                                  .include "Main/Modules_Inits.inc"
                                  
                                  	
@@ -2935,12 +2936,12 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  ///////////////////////////////////////////////////////////////////////
                                  Reset:
                                  .include "Reset.inc"
-000131 ef0f
-000132 bf0d
-000133 e201
-000134 bf0e                      
+00012f ef0f
+000130 bf0d
+000131 e201
+000132 bf0e                      
                                  Modules_Inits
-000135 9478                      sei
+000133 9478                      sei
                                  
                                  .include "Tests.inc"
                                  
@@ -3026,18 +3027,18 @@ C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR
                                  // Читайте README файл
                                  // Ваша программа
                                  	
-000136 cfff                      rjmp Proga
+000134 cfff                      rjmp Proga
                                  
                                  .include "Tests2.inc"
                                  
-000137 b103                      	READ_REG PINB, r16
-000138 fd02                      	sbrc r16, 2
-000139 940c 013e                 		_jump CommandCreateAndS
-00013b 940c 013f                 		_jump CommandCreateAnd
-00013d 9508                      ret
+000135 b103                      	READ_REG PINB, r16
+000136 fd02                      	sbrc r16, 2
+000137 940c 013c                 		_jump CommandCreateAndS
+000139 940c 013d                 		_jump CommandCreateAnd
+00013b 9508                      ret
                                  
                                  CommandCreateAndS:
-00013e 9508                      ret
+00013c 9508                      ret
                                  CommandCreateAnd:
 
 
@@ -3069,7 +3070,7 @@ andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   1 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   1 cbi   :   0 cbr   :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :  62 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   0 eicall:   0 eijmp :   0 elpm  :   0 
@@ -3084,12 +3085,12 @@ sbrs  :   0 sec   :   0 seh   :   0 sei   :  63 sen   :   0 ser   :   0
 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 spm   :   0 
 st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   0 swap  :   0 
 tst   :   0 wdr   :   0 
-Instructions used: 13 out of 116 (11.2%)
+Instructions used: 12 out of 116 (10.3%)
 
 "ATmega2560" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000280    640      0    640  262144   0.2%
+[.cseg] 0x000000 0x00027c    636      0    636  262144   0.2%
 [.dseg] 0x000200 0x000200      0      0      0    8192   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    4096   0.0%
 
