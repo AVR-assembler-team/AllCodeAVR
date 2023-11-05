@@ -1,6 +1,8 @@
 
 .macro HD44780U_Init
 	
+	push r25
+	
 	// Настройка байта Function Set
 	ldi r25, HD44780U_LCD_Function_Set
 	#ifdef HD44780U_8_Wires
@@ -49,4 +51,7 @@
 
 	// Запуск инизиализации дисплея
 	_call HD44780U_Initialization
+
+	pop r25
+
 .endm

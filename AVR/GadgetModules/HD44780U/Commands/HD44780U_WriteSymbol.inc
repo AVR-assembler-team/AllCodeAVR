@@ -1,12 +1,15 @@
 /*
 * Данный макрос используется для вывода на дисплей символа
 * из таблицы ASCII, заключенный в одиночные апострофы
-* Использует регистр r23, r24, r25 
 */					
 .macro HD44780U_Write_Symbol
 
+	push r25
+
 	ldi r25, @0
-	_call HD44780U_Send_data				; r23, r24, r25 отсылаем данные
-	_call HD44780U_Address_DDRAM_Increment	; r23, r24, r25 проверяем на окончание строки
+	_call HD44780U_Send_data				; отсылаем данные
+	_call HD44780U_Address_DDRAM_Increment	; проверяем на окончание строки
+
+	pop r25
 
 .endm

@@ -1,9 +1,10 @@
 /*
 * ƒанный макрос используетс€ дл€ проверки окончани€ строки диспле€
 * и если закончиласть, то перемещает курсор на начало следующей строки
-* »спользует регистр r23, r24, r25
 */
 HD44780U_Address_DDRAM_Increment:
+
+	push r25
 
 	READ_REG HD44780U_Address_DDRAM, r25		; выгружаем HD44780U_Address_DDRAM в r25
 
@@ -53,4 +54,7 @@ HD44780U_Address_DDRAM_Increment:
 
 	finish:
 		WRITE_REG HD44780U_Address_DDRAM, r25	; загружаем r16 в HD44780U_Address_DDRAM
+
+	pop r25
+
 ret												; выходим из подпрограммы 

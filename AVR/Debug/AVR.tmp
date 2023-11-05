@@ -23,7 +23,44 @@
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/FunctionModules.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/AVRModules.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/TWSI_Config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Init.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Transmit.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Sla.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/GadgetModules.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Includes.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_SetMacs.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Configs/HD44780U_Config.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Initialization.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_SendData.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_data_byte_high.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_data_byte_low.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_instr_byte_high.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_instr_byte_low.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Init.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_LCD_Led.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_WriteSymbol.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_WriteRegister.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_LcdClear.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Writestring.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Cursor_Blinking.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Cursor_visible.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Shift.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_DDRAM_Address.inc</FILE>
+  <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Modules_Inits.inc</FILE>
   <FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Reset.inc</FILE>
@@ -99,6 +136,53 @@
   <USART3_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>324</LINE></USART3_UDRE>
   <USART3_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>329</LINE></USART3_TXC>
   <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
+  <TWSI_Flags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc</FILE><LINE>5</LINE></TWSI_Flags>
+  <TWSI_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc</FILE><LINE>10</LINE></TWSI_Delay_4_1ms_act>
+  <TWSI_ACK_Check_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>12</LINE></TWSI_ACK_Check_act>
+  <TWSI_ACK_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>13</LINE></TWSI_ACK_Check_act_1>
+  <TWSI_Status_act_2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>26</LINE></TWSI_Status_act_2>
+  <TWSI_ACK_Check_act_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>35</LINE></TWSI_ACK_Check_act_end>
+  <TWSI_TWINT_Flag_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE><LINE>10</LINE></TWSI_TWINT_Flag_act>
+  <TWSI_TWINT_Flag_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE><LINE>11</LINE></TWSI_TWINT_Flag_act_1>
+  <TWSI_START_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc</FILE><LINE>10</LINE></TWSI_START_act>
+  <TWSI_Byte_Transmit_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc</FILE><LINE>10</LINE></TWSI_Byte_Transmit_act>
+  <TWSI_STOP_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc</FILE><LINE>10</LINE></TWSI_STOP_act>
+  <HD44780U_Function_Set_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>39</LINE></HD44780U_Function_Set_byte>
+  <HD44780U_Display_On_Off_Control_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>40</LINE></HD44780U_Display_On_Off_Control_byte>
+  <HD44780U_Entry_Mode_Set_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>41</LINE></HD44780U_Entry_Mode_Set_byte>
+  <HD44780U_Cursor_or_Display_Shift_byte><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>42</LINE></HD44780U_Cursor_or_Display_Shift_byte>
+  <HD44780U_flags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>43</LINE></HD44780U_flags>
+  <HD44780U_Address_DDRAM><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Constants.inc</FILE><LINE>44</LINE></HD44780U_Address_DDRAM>
+  <HD44780U_Delay_5mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>25</LINE></HD44780U_Delay_5mks_act>
+  <HD44780U_Delay_20mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>31</LINE></HD44780U_Delay_20mks_act>
+  <HD44780U_Delay_100mks_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>37</LINE></HD44780U_Delay_100mks_act>
+  <HD44780U_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>43</LINE></HD44780U_Delay_4_1ms_act>
+  <HD44780U_Delay_15ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_Times.inc</FILE><LINE>52</LINE></HD44780U_Delay_15ms_act>
+  <HD44780U_Initialization><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Initialization.inc</FILE><LINE>2</LINE></HD44780U_Initialization>
+  <HD44780U_Send_instr_byte_high><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_instr_byte_high.inc</FILE><LINE>5</LINE></HD44780U_Send_instr_byte_high>
+  <HD44780U_BF_Check><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE><LINE>4</LINE></HD44780U_BF_Check>
+  <HD44780U_Send_instr_byte_low><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_instr_byte_low.inc</FILE><LINE>5</LINE></HD44780U_Send_instr_byte_low>
+  <HD44780U_Send_instruction><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_SendInstruction.inc</FILE><LINE>5</LINE></HD44780U_Send_instruction>
+  <HD44780U_BF_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_BFCheck.inc</FILE><LINE>20</LINE></HD44780U_BF_Check_act_1>
+  <HD44780U_Send_data><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_SendData.inc</FILE><LINE>7</LINE></HD44780U_Send_data>
+  <HD44780U_Send_data_byte_high><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_data_byte_high.inc</FILE><LINE>5</LINE></HD44780U_Send_data_byte_high>
+  <HD44780U_Send_data_byte_low><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_TWSI/HD44780U_Send_data_byte_low.inc</FILE><LINE>5</LINE></HD44780U_Send_data_byte_low>
+  <HD44780U_SetCursor_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>42</LINE></HD44780U_SetCursor_act>
+  <FirstRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>56</LINE></FirstRow>
+  <SecondRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>61</LINE></SecondRow>
+  <ThirdRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>66</LINE></ThirdRow>
+  <FourthRow><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>71</LINE></FourthRow>
+  <end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_SetCursor.inc</FILE><LINE>75</LINE></end>
+  <HD44780U_Write_cseg_String_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Writestring.inc</FILE><LINE>36</LINE></HD44780U_Write_cseg_String_act>
+  <Typing_cseg_String><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Writestring.inc</FILE><LINE>43</LINE></Typing_cseg_String>
+  <HD44780U_Address_DDRAM_Increment><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>5</LINE></HD44780U_Address_DDRAM_Increment>
+  <HD44780U_Write_dseg_String_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Writestring.inc</FILE><LINE>55</LINE></HD44780U_Write_dseg_String_act>
+  <Typing_dseg_String><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/Commands/HD44780U_Writestring.inc</FILE><LINE>62</LINE></Typing_dseg_String>
+  <row2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>35</LINE></row2>
+  <row1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>31</LINE></row1>
+  <row3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>41</LINE></row3>
+  <row4><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>47</LINE></row4>
+  <finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>55</LINE></finish>
   <Button0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Tests2.inc</FILE><LINE>1</LINE></Button0>
   <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>86</LINE></EXT_PCINT3>
   <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>93</LINE></LCD_SOF>

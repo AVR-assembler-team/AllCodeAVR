@@ -1,37 +1,16 @@
-/*
-* Использует регистр r25
-*/
 
 HD44780U_Initialization:
 
+	push r25
+
 	// устанавливаем все биты рабочего регистра на выход
-	READ_REG HD44780U_D4_DDR, r25
-	SETRB r25, HD44780U_D4_bit
-	WRITE_REG HD44780U_D4_DDR, r25
-	
-	READ_REG HD44780U_D5_DDR, r25
-	SETRB r25, HD44780U_D5_bit
-	WRITE_REG HD44780U_D5_DDR, r25
-	
-	READ_REG HD44780U_D6_DDR, r25
-	SETRB r25, HD44780U_D6_bit
-	WRITE_REG HD44780U_D6_DDR, r25
-	
-	READ_REG HD44780U_D7_DDR, r25
-	SETRB r25, HD44780U_D7_bit
-	WRITE_REG HD44780U_D7_DDR, r25
-	
-	READ_REG HD44780U_RS_DDR, r25
-	SETRB r25, HD44780U_RS_bit
-	WRITE_REG HD44780U_RS_DDR, r25
-	
-	READ_REG HD44780U_RW_DDR, r25
-	SETRB r25, HD44780U_RW_bit
-	WRITE_REG HD44780U_RW_DDR, r25
-	
-	READ_REG HD44780U_E_DDR, r25
-	SETRB r25, HD44780U_E_bit
-	WRITE_REG HD44780U_E_DDR, r25
+	SETB HD44780U_D4_DDR, HD44780U_D4_bit	
+	SETB HD44780U_D5_DDR, HD44780U_D5_bit	
+	SETB HD44780U_D6_DDR, HD44780U_D6_bit	
+	SETB HD44780U_D7_DDR, HD44780U_D7_bit	
+	SETB HD44780U_RS_DDR, HD44780U_RS_bit	
+	SETB HD44780U_RW_DDR, HD44780U_RW_bit	
+	SETB HD44780U_E_DDR, HD44780U_E_bit
 												  
 	HD44780U_Delay_15ms									; ждем более 15 мс
 	ldi	r25, $30										; устанавливаем инструкцию
@@ -71,4 +50,7 @@ HD44780U_Initialization:
 
 	READ_REG HD44780U_Cursor_or_display_shift, r25		; Читаем Cursor or display shift в r16
 	_call HD44780U_Send_instruction						; r25 скармливаем инструкцию
+
+	pop r25
+
 ret

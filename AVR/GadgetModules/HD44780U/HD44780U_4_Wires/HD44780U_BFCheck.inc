@@ -1,13 +1,10 @@
 /*
 * ƒанный макрос провер€ет флаг зан€тости диспле€
-* »спользует регистр r25
 */
 
 HD44780U_BF_Check:
 
-	READ_REG HD44780U_D7_DDR, r25
-	CLRRB r25, HD44780U_D7_bit
-	WRITE_REG HD44780U_D7_DDR, r25
+	CLRB HD44780U_D7_DDR, HD44780U_D7_bit
 
 	cbi HD44780U_RS_PORT, HD44780U_RS_bit	; уставливаем на инструкции
 	sbi HD44780U_RW_PORT, HD44780U_RW_bit	; опрокидываем RW на + (чтение)
@@ -27,9 +24,7 @@ HD44780U_Busy_Flag_End:
 	cbi	HD44780U_E_PORT, HD44780U_E_bit		; заканчиваем чтение
 	cbi HD44780U_RW_PORT, HD44780U_RW_bit	; опрокидываем RW на землю (запись)
 
-	READ_REG HD44780U_D7_DDR, r25
-	SETRB r25, HD44780U_D7_bit
-	WRITE_REG HD44780U_D7_DDR, r25
+	SETB HD44780U_D7_DDR, HD44780U_D7_bit
 
 	HD44780U_Delay_4_1ms					; задержка 4,1 мс
 
