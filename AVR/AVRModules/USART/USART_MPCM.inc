@@ -1,47 +1,37 @@
 .macro MultiProcessorCommunication
-	READ_REG UCSRA, r25
 	.if @0 == Enable
-		SETRB r25, MPCM
+		SETB UCSRA, MPCM
 	.elif @0 == Disable
-		CLRRB r25, MPCM
+		CLRB UCSRA, MPCM
 	.endif
-	WRITE_REG UCSRA, r25
 .endm
 .macro MultiProcessorCommunication0
-	READ_REG UCSR0A, r25
 	.if @0 == Enable
-		SETRB r25, MPCM0
+		SETB UCSR0A, MPCM0
 	.elif @0 == Disable
-		CLRRB r25, MPCM0
+		CLRB UCSR0A, MPCM0
 	.endif
-	WRITE_REG UCSR0A, r25
 .endm
 .macro MultiProcessorCommunication1
-	READ_REG UCSR1A, r25
 	.if @0 == Enable
-		SETRB r25, MPCM1
+		SETB UCSR1A, MPCM1
 	.elif @0 == Disable
-		CLRRB r25, MPCM1
+		CLRB UCSR1A, MPCM1
 	.endif
-	WRITE_REG UCSR1A, r25
 .endm
 .macro MultiProcessorCommunication2
-	READ_REG UCSR2A, r25
 	.if @0 == Enable
-		SETRB r25, MPCM2
+		SETB UCSR2A, MPCM2
 	.elif @0 == Disable
-		CLRRB r25, MPCM2
+		CLRB UCSR2A, MPCM2
 	.endif
-	WRITE_REG UCSR2A, r25
 .endm
 .macro MultiProcessorCommunication3
-	READ_REG UCSR3A, r25
 	.if @0 == Enable
-		SETRB r25, MPCM3
+		SETB UCSR3A, MPCM3
 	.elif @0 == Disable
-		CLRRB r25, MPCM3
+		CLRB UCSR3A, MPCM3
 	.endif
-	WRITE_REG UCSR3A, r25
 .endm
 
 .macro USARTMultiProcessorCommunicationMode

@@ -1,47 +1,37 @@
 .macro USARTDataRegisterEmptyInterr
-	READ_REG UCSRB, r25
 	.if @0 == Enable
-		SETRB r25, UDRIE
+		SETB UCSRB, UDRIE
 	.elif  @0 == Disable
-		CLRRB r25, UDRIE
+		CLRB UCSRB, UDRIE
 	.endif
-	WRITE_REG UCSRB, r25
 .endm
 .macro USART0DataRegisterEmptyInterr
-	READ_REG UCSR0B, r25
 	.if @0 == Enable
-		SETRB r25, UDRIE0
+		SETB UCSR0B, UDRIE0
 	.elif  @0 == Disable
-		CLRRB r25, UDRIE0
+		CLRB UCSR0B, UDRIE0
 	.endif
-	WRITE_REG UCSR0B, r25
 .endm
 .macro USART1DataRegisterEmptyInterr
-	READ_REG UCSR1B, r25
 	.if @0 == Enable
-		SETRB r25, UDRIE1
+		SETB UCSR1B, UDRIE1
 	.elif  @0 == Disable
-		CLRRB r25, UDRIE1
+		CLRB UCSR1B, UDRIE1
 	.endif
-	WRITE_REG UCSR1B, r25
 .endm
 .macro USART2DataRegisterEmptyInterr
-	READ_REG UCSR2B, r25
 	.if @0 == Enable
-		SETRB r25, UDRIE2
+		SETB UCSR2B, UDRIE2
 	.elif  @0 == Disable
-		CLRRB r25, UDRIE2
+		CLRB UCSR2B, UDRIE2
 	.endif
-	WRITE_REG UCSR2B, r25
 .endm
 .macro USART3DataRegisterEmptyInterr
-	READ_REG UCSR3B, r25
 	.if @0 == Enable
-		SETRB r25, UDRIE3
+		SETB UCSR3B, UDRIE3
 	.elif  @0 == Disable
-		CLRRB r25, UDRIE3
+		CLRB UCSR3B, UDRIE3
 	.endif
-	WRITE_REG UCSR3B, r25
 .endm
     
 .macro USARTDataRegisterEmptyInterrupt

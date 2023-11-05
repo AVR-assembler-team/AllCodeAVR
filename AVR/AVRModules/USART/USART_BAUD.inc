@@ -161,6 +161,9 @@
 
 .macro USARTBaudRate
 	
+	push r16
+	push r17
+
 	clr r16
 	clr r17
 
@@ -243,4 +246,8 @@
 		.endif
 
 	.endif
+
+	pop r17
+	pop r16
+
 .endm

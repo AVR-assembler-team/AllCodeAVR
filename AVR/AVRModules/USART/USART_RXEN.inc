@@ -1,47 +1,37 @@
 .macro USARTReceiv
-	READ_REG UCSRB, r25
 	.if @0 == Enable
-		SETRB r25, RXEN
+		SETB UCSRB, RXEN
 	.elif @0 == Disable
-		CLRRB r25, RXEN
+		CLRB UCSRB, RXEN
 	.endif
-	WRITE_REG UCSRB, r25
 .endm
 .macro USART0Receiv
-	READ_REG UCSR0B, r25
 	.if @0 == Enable
-		SETRB r25, RXEN0
+		SETB UCSR0B, RXEN0
 	.elif  @0 == Disable
-		CLRRB r25, RXEN0
+		CLRB UCSR0B, RXEN0
 	.endif
-	WRITE_REG UCSR0B, r25
 .endm
 .macro USART1Receiv
-	READ_REG UCSR1B, r25
 	.if @0 == Enable
-		SETRB r25, RXEN1
+		SETB UCSR1B, RXEN1
 	.elif  @0 == Disable
-		CLRRB r25, RXEN1
+		CLRB UCSR1B, RXEN1
 	.endif
-	WRITE_REG UCSR1B, r25
 .endm
 .macro USART2Receiv
-	READ_REG UCSR2B, r25
 	.if @0 == Enable
-		SETRB r25, RXEN2
+		SETB UCSR2B, RXEN2
 	.elif  @0 == Disable
-		CLRRB r25, RXEN2
+		CLRB UCSR2B, RXEN2
 	.endif
-	WRITE_REG UCSR2B, r25
 .endm
 .macro USART3Receiv
-	READ_REG UCSR3B, r25
 	.if @0 == Enable
-		SETRB r25, RXEN3
+		SETB UCSR3B, RXEN3
 	.elif  @0 == Disable
-		CLRRB r25, RXEN3
+		CLRB UCSR3B, RXEN3
 	.endif
-	WRITE_REG UCSR3B, r25
 .endm
     
     

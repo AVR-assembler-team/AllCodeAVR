@@ -1,47 +1,37 @@
 .macro USARTTransmit
-	READ_REG UCSRB, r25
 	.if @0 == Enable
-		SETRB r25, TXEN
+		SETB UCSRB, TXEN
 	.elif  @0 == Disable
-		CLRRB r25, TXEN
+		CLRB UCSRB, TXEN
 	.endif
-	WRITE_REG UCSRB, r25
 .endm
 .macro USART0Transmit
-	READ_REG UCSR0B, r25
 	.if @0 == Enable
-		SETRB r25, TXEN0
+		SETB UCSR0B, TXEN0
 	.elif  @0 == Disable
-		CLRRB r25, TXEN0
+		CLRB UCSR0B, TXEN0
 	.endif
-	WRITE_REG UCSR0B, r25
 .endm
 .macro USART1Transmit
-	READ_REG UCSR1B, r25
 	.if @0 == Enable
-		SETRB r25, TXEN1
+		SETB UCSR1B, TXEN1
 	.elif  @0 == Disable
-		CLRRB r25, TXEN1
+		CLRB UCSR1B, TXEN1
 	.endif
-	WRITE_REG UCSR1B, r25
 .endm
 .macro USART2Transmit
-	READ_REG UCSR2B, r25
 	.if @0 == Enable
-		SETRB r25, TXEN2
+		SETB UCSR2B, TXEN2
 	.elif  @0 == Disable
-		CLRRB r25, TXEN2
+		CLRB UCSR2B, TXEN2
 	.endif
-	WRITE_REG UCSR2B, r25
 .endm
 .macro USART3Transmit
-	READ_REG UCSR3B, r25
 	.if @0 == Enable
-		SETRB r25, TXEN3
+		SETB UCSR3B, TXEN3
 	.elif  @0 == Disable
-		CLRRB r25, TXEN3
+		CLRB UCSR3B, TXEN3
 	.endif
-	WRITE_REG UCSR3B, r25
 .endm
     
 .macro USARTTransmitter
@@ -50,7 +40,6 @@
 		USARTTransmit @1
 	    .else
 		USART0Transmit @1
-		ldi r20, $ff
 	    .endif
 	.elif @0 == 1
 	    USART1Transmit @1

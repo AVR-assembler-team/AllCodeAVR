@@ -83,6 +83,9 @@
 .endm
 
 .macro USARTClockPolarity
+
+	push r25
+
 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		.if @0 == 0	
 			ClockPolar @1
@@ -114,4 +117,7 @@
 			ClockPolar3 @1
 		.endif
 	.endif
+
+	pop r25
+
 .endm

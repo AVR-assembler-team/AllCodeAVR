@@ -3,39 +3,39 @@
 	READ_REG UCSRB, r24
 	.if @0 == 6
 		SETRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		SETRB r25, UCSZ0
 		CLRRB r25, UCSZ1
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r24, UCSZ2
 	.elif @0 == 7
 		SETRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r25, UCSZ0
 		SETRB r25, UCSZ1
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r24, UCSZ2
 	.elif @0 == 8
 		SETRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		SETRB r25, UCSZ0
 		SETRB r25, UCSZ1
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r24, UCSZ2
 	.elif @0 == 9
 		SETRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		SETRB r25, UCSZ0
 		SETRB r25, UCSZ1
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		CLRRB r25, URSEL
-		READ_REG UCSRC, r25
+		WRITE_REG UCSRC, r25
 		SETRB r24, UCSZ2
 	.endif
 	WRITE_REG UCSRB, r24
@@ -218,6 +218,10 @@
 .endm
 
 .macro USARTCharacterSize
+
+	push r25
+	push r24
+
 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		.if @0 == 0	
 			CharacterSize @1
@@ -249,4 +253,8 @@
 			CharacterSize3 @1
 		.endif
 	.endif
+
+	pop r24
+	pop r25
+
 .endm

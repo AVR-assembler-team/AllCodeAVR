@@ -141,6 +141,9 @@
     
     
 .macro USARTParityMode
+
+	push r25
+
 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		.if @0 == 0	
 		ParityMode @1
@@ -172,4 +175,7 @@
 		ParityMode3 @1
 		.endif
 	.endif
+
+	pop r25
+
 .endm

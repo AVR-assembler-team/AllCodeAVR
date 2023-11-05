@@ -156,6 +156,9 @@
 .endm
     
 .macro USARTModeSelect
+
+	push r25
+
 	.if ctrl == 8 || ctrl == 16 || ctrl == 32 || ctrl == 8515 || ctrl == 8535
 		.if @0 == 0	
 		USARTMod2 @1
@@ -187,4 +190,7 @@
 		USART03Mod3 @1
 		.endif
 	.endif
+
+	pop r25
+
 .endm
