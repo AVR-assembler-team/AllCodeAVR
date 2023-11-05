@@ -3,13 +3,24 @@
 * Использует регистр r23, r24, r25
 */
 .macro TWSI_ACK_Check
+
+	push r24
+	push r23
+
 	ldi r24, @0
 	ldi r23, @1
 	_call TWSI_ACK_Check_act
+
+	pop r23
+	pop r24
+
 .endm
 //____________________________________________________________________________________
 //____________________________________________________________________________________
 TWSI_ACK_Check_act:
+
+	push r25
+
 	TWSI_ACK_Check_act_1:
 		READ_REG TWSR, r25					; читаем TWSR
 		andi	r25, 0xF8					; обнуляем первые три бита
@@ -17,9 +28,7 @@ TWSI_ACK_Check_act:
 		rjmp TWSI_Status_act_2				; переходим
 
 		// обнуляем флаг
-		READ_REG TWSI_Flags, r25
-		CLRRB r25, No_ACK
-		WRITE_REG TWSI_Flags, r25
+		CLRB TWSI_Flags, No_ACK
 
 		rjmp TWSI_ACK_Check_act_end			; переходим
 
@@ -28,9 +37,10 @@ TWSI_ACK_Check_act:
 			rjmp	TWSI_ACK_Check_act_1	; если не равны, то переходим
 
 			// устанавливаем флаг
-			READ_REG TWSI_Flags, r25
-			SETRB r25, No_ACK
-			WRITE_REG TWSI_Flags, r25
+			SETB TWSI_Flags, No_ACK
 
 	TWSI_ACK_Check_act_end:
+
+	pop r25
+
 ret

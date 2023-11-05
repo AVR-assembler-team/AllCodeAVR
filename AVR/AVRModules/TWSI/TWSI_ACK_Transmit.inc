@@ -4,7 +4,13 @@
 * Использует регистр r25
 */
 .macro TWSI_ACK_Transmit
+
+	push r25
+
 	ldi		r25, (1<<TWINT) | (1<<TWEN)	| (1<<TWEA)	; формируем сигнал для передачи данных с TWDR
 	WRITE_REG TWCR, r25								; отправляем по шине
 	TWSI_TWINT_Flag									; r25
+
+	pop r25
+
 .endm												; выход из подпрограммы

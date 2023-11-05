@@ -12,6 +12,8 @@
 * Использует регистр r23, r24, r25
 */
 .macro TWSI_SLA
+	
+	push r25
 
 	.if @1 == 'W'
 		ldi	r25, @0
@@ -28,5 +30,7 @@
 	.elif @1 == 'R'
 		TWSI_ACK_Check MT_SLA_R_ACK, MT_SLA_R_NOT_ACK	; r23, r24, r25					; Проверяем получен ли ответ
 	.endif
+
+	pop r25
 
 .endm

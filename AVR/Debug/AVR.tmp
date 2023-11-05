@@ -136,22 +136,14 @@
   <USART3_UDRE><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>323</LINE></USART3_UDRE>
   <USART3_TXC><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>328</LINE></USART3_TXC>
   <Time_Cycles><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Main/Time_Cycles.inc</FILE><LINE>1</LINE></Time_Cycles>
-<<<<<<< HEAD
-  <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>85</LINE></EXT_PCINT3>
-  <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>92</LINE></LCD_SOF>
-  <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>113</LINE></TIM0_COMP>
-  <TIM2_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>162</LINE></TIM2_COMP>
-  <USI_STRT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>335</LINE></USI_STRT>
-  <USI_OVFL><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>340</LINE></USI_OVFL>
-=======
   <TWSI_Flags><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Const.inc</FILE><LINE>5</LINE></TWSI_Flags>
   <TWSI_Delay_4_1ms_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Times.inc</FILE><LINE>10</LINE></TWSI_Delay_4_1ms_act>
-  <TWSI_ACK_Check_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>12</LINE></TWSI_ACK_Check_act>
-  <TWSI_ACK_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>13</LINE></TWSI_ACK_Check_act_1>
-  <TWSI_Status_act_2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>26</LINE></TWSI_Status_act_2>
-  <TWSI_ACK_Check_act_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>35</LINE></TWSI_ACK_Check_act_end>
+  <TWSI_ACK_Check_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>20</LINE></TWSI_ACK_Check_act>
+  <TWSI_ACK_Check_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>24</LINE></TWSI_ACK_Check_act_1>
+  <TWSI_Status_act_2><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>35</LINE></TWSI_Status_act_2>
+  <TWSI_ACK_Check_act_end><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_ACK_Check.inc</FILE><LINE>42</LINE></TWSI_ACK_Check_act_end>
   <TWSI_TWINT_Flag_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE><LINE>10</LINE></TWSI_TWINT_Flag_act>
-  <TWSI_TWINT_Flag_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE><LINE>11</LINE></TWSI_TWINT_Flag_act_1>
+  <TWSI_TWINT_Flag_act_1><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_TwintFlag.inc</FILE><LINE>14</LINE></TWSI_TWINT_Flag_act_1>
   <TWSI_START_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Start.inc</FILE><LINE>10</LINE></TWSI_START_act>
   <TWSI_Byte_Transmit_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Byte_Transmit.inc</FILE><LINE>10</LINE></TWSI_Byte_Transmit_act>
   <TWSI_STOP_act><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVRModules/TWSI/TWSI_Stop.inc</FILE><LINE>10</LINE></TWSI_STOP_act>
@@ -191,14 +183,12 @@
   <row3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>41</LINE></row3>
   <row4><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>47</LINE></row4>
   <finish><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\GadgetModules/HD44780U/HD44780U_DDRAMincrement.inc</FILE><LINE>55</LINE></finish>
-  <Button0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Tests2.inc</FILE><LINE>1</LINE></Button0>
-  <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>86</LINE></EXT_PCINT3>
-  <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>93</LINE></LCD_SOF>
-  <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>114</LINE></TIM0_COMP>
-  <TIM2_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>163</LINE></TIM2_COMP>
-  <USI_STRT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>336</LINE></USI_STRT>
-  <USI_OVFL><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>341</LINE></USI_OVFL>
->>>>>>> HD44780U
+  <EXT_PCINT3><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>85</LINE></EXT_PCINT3>
+  <LCD_SOF><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>92</LINE></LCD_SOF>
+  <TIM0_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>113</LINE></TIM0_COMP>
+  <TIM2_COMP><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>162</LINE></TIM2_COMP>
+  <USI_STRT><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>335</LINE></USI_STRT>
+  <USI_OVFL><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Interrupts.inc</FILE><LINE>340</LINE></USI_OVFL>
   <Proga><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm</FILE><LINE>10</LINE></Proga>
   <Button0><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Tests2.inc</FILE><LINE>1</LINE></Button0>
   <CommandCreateAndS><FILE>C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\Tests2.inc</FILE><LINE>8</LINE></CommandCreateAndS>
