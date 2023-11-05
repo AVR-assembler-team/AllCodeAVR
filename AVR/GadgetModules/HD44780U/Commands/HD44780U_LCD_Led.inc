@@ -1,6 +1,5 @@
 /*
 * ƒанный макрос используетс€ дл€ управлени€ работой подсветки диспле€
-* »спользует регистр r23, r24, r25
 */
 
 .macro HD44780U_LCD_LED
@@ -15,21 +14,26 @@
 
 	#elif defined HD44780U_TWSI
 
-		TWSI_START										; r25 отсылаем START (рестартуем дл€ записи)
-		TWSI_SLA HD44780U_SLA_, 'W'						; r23, r24, r25
+		push r25
+
+		TWSI_START										; отсылаем START (рестартуем дл€ записи)
+		TWSI_SLA HD44780U_SLA_, 'W'						; 
 	
 		.if @0 == On
-			ldi r25, (1<<HD44780U_LCD_LIGHT)			; устанавливаем в r16 бит HD44780U_LCD_LIGHT в 1
+			ldi r25, (1<<HD44780U_LCD_LIGHT)			; устанавливаем в r25 бит HD44780U_LCD_LIGHT в 1
 		.elif @0 == Off
-			clr r25										; очищаем r16
+			clr r25										; очищаем r25
 		.endif
 		
 		WRITE_REG TWDR, r25								; ¬талкиваем в дата регистр
-		TWSI_Byte_Transmit								; r25 ќтправл€ем TWDR по шине
-		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; r23, r24, r25 ѕровер€ем получен ли ответ
+		TWSI_Byte_Transmit								; ќтправл€ем TWDR по шине
+		TWSI_ACK_Check MT_DATA_ACK, MT_DATA_NOT_ACK		; ѕровер€ем получен ли ответ
 
-		TWSI_STOP										; r25
+		TWSI_STOP										; 
+
+		pop r25
 
 	#endif
+
 
 .endm
