@@ -1,9 +1,13 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Sun Nov 05 17:51:58 2023
 =======
 AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Mon Nov 06 18:53:58 2023
 >>>>>>> HD44780U
+=======
+AVRASM ver. 2.2.8  C:\Users\gridar\Documents\Atmel Studio\Projects\Microchip_studio\Library\AVR\AVR.asm Mon Nov 06 19:52:56 2023
+>>>>>>> PCF8574
 
 
 EQU  SIGNATURE_000 0000001e
@@ -1384,6 +1388,9 @@ EQU  GND          00000071
 EQU  ATmegaFREQ   00f42400
 EQU  ctrl         00000a00
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> PCF8574
 CSEG RESET        0000012f
 CSEG EXT_INT0     0000007e
 CSEG EXT_INT1     00000081
@@ -1441,6 +1448,7 @@ CSEG USART2_TXC   0000011a
 CSEG USART3_RXC   0000011d
 CSEG USART3_UDRE  00000120
 CSEG USART3_TXC   00000123
+<<<<<<< HEAD
 CSEG Time_Cycles  00000072
 CSEG EXT_PCINT3   0000009f
 CSEG LCD_SOF      000000a2
@@ -1647,3 +1655,87 @@ CSEG Button0      00000316
 CSEG CommandCreateAndS 0000031d
 CSEG CommandCreateAnd 0000031e
 >>>>>>> HD44780U
+=======
+CSEG Time_Cycles  00000072
+EQU  Counter0     00000000
+EQU  Counter1     00000001
+EQU  Counter2     00000002
+EQU  Counter3     00000003
+EQU  Counter4     00000004
+EQU  Counter5     00000005
+EQU  CaptureEvent 00000006
+EQU  Overflow     00000007
+EQU  CompareMatch 00000008
+EQU  CompareMatchA 00000009
+EQU  CompareMatchB 0000000a
+EQU  CompareMatchC 0000000b
+EQU  CompareMatchOutput 00000000
+EQU  CompareMatchOutputA 00000001
+EQU  CompareMatchOutputB 00000002
+EQU  CompareMatchOutputC 00000003
+EQU  Prescaller1  00000001
+EQU  Prescaller8  00000008
+EQU  Prescaller32 00000020
+EQU  Prescaller64 00000040
+EQU  Prescaller128 00000080
+EQU  Prescaller256 00000100
+EQU  Prescaller1024 00000400
+EQU  FreeRun      00000000
+EQU  AnComp       00000001
+EQU  ExtIntReq0   00000002
+EQU  TC0CompMatch 00000003
+EQU  TC0Overflow  00000004
+EQU  TC1CompMatchB 00000005
+EQU  TC1Overflow  00000006
+EQU  TC1CaptEvent 00000007
+EQU  SingleEndedInput 00000008
+EQU  DifferentialInput 00000009
+EQU  ADC0         0000000a
+EQU  ADC1         0000000b
+EQU  ADC2         0000000c
+EQU  ADC3         0000000d
+EQU  ADC4         0000000e
+EQU  ADC5         0000000f
+EQU  ADC6         00000010
+EQU  ADC7         00000011
+EQU  ADC8         00000012
+EQU  ADC9         00000013
+EQU  ADC10        00000014
+EQU  ADC11        00000015
+EQU  ADC12        00000016
+EQU  ADC13        00000017
+EQU  ADC14        00000018
+EQU  ADC15        00000019
+EQU  VBG          0000001a
+EQU  V0           0000001b
+EQU  V1           0000001c
+EQU  Gain1        0000001d
+EQU  Gain10       0000001e
+EQU  Gain200      0000001f
+EQU  pin0D        00000020
+EQU  pin1D        00000021
+EQU  pin2D        00000022
+EQU  pin3D        00000023
+EQU  pin4D        00000024
+EQU  pin5D        00000025
+EQU  pin6D        00000026
+EQU  pin7D        00000027
+EQU  pin8D        00000028
+EQU  pin9D        00000029
+EQU  pin10D       0000002a
+EQU  pin11D       0000002b
+EQU  pin12D       0000002c
+EQU  pin13D       0000002d
+EQU  pin14D       0000002e
+EQU  pin15D       0000002f
+EQU  AREFpin      00000030
+EQU  Internal_1_1V 00000031
+EQU  Internal_2_56V 00000032
+CSEG EXT_PCINT3   0000009f
+CSEG LCD_SOF      000000a2
+CSEG TIM0_COMP    000000ab
+CSEG TIM2_COMP    000000c6
+CSEG USI_STRT     00000126
+CSEG USI_OVFL     00000129
+CSEG Proga        00000134
+>>>>>>> PCF8574

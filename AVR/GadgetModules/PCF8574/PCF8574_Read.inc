@@ -1,12 +1,20 @@
 .macro PCF8574Read
+	
+	push r24
+	ldi r24, @0
+
 	TWSI_START									; Стартуем работу
-	TWSI_SLA @0, 'R'							; Отправляем адрес и режим работы 
+	TWSI_SLA r24, 'R'							; Отправляем адрес и режим работы 
 
 	_call PCF8574_Read_act
+
+	pop r24
+
 .endm
 
  PCF8574_Read_act:
 
+	push r25
 
 	READ_REG TWSI_Flags, r25					; Считываем регистр флагов
 	sbrc r25, No_ACK							; Проверяем бит 
@@ -28,5 +36,8 @@
 
 	PCF8574_Read_end:
 	TWSI_STOP
+
+	pop r25
+
  ret
 
