@@ -5,7 +5,7 @@ HD44780U_Initialization:
 
 	HD44780U_Delay_15ms										; ждем 15-40 ms
 	TWSI_START												; отсылаем START (рестартуем для записи)
-	TWSI_SLA HD44780U_SLA_, 'W'
+	TWSI_SLA r24, 'W'
 
 	ldi	r25, (1<<HD44780U_LCD_D4) | (1<<HD44780U_LCD_D5)	; формируем первую инструкцию инициализации	
 	_call HD44780U_Send_instr_byte_high		 				; передаем старшую тетраду байта инструкции

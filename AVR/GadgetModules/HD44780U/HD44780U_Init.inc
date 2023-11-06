@@ -2,6 +2,7 @@
 .macro HD44780U_Init
 	
 	push r25
+	push r24
 	
 	// Настройка байта Function Set
 	ldi r25, HD44780U_LCD_Function_Set
@@ -49,9 +50,15 @@
 	#endif
 	WRITE_REG HD44780U_Cursor_or_Display_Shift_byte, r25
 
+
+	#ifdef HD44780U_TWSI
+		ldi r24, @0
+	#endif
+
 	// Запуск инизиализации дисплея
 	_call HD44780U_Initialization
 
+	pop r24
 	pop r25
-
+	
 .endm

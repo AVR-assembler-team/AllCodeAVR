@@ -4,7 +4,12 @@
 .macro HD44780U_Cursor_Blinking
 	
 	push r25
-	
+	push r24
+
+	#ifdef HD44780U_TWSI
+		ldi r24, @1
+	#endif
+
 	lds r25, HD44780U_Display_On_Off_Control_byte
 
 	.if @0 == On
@@ -17,6 +22,7 @@
 
 	_call HD44780U_Send_instruction						; отправляем инструкцию
 
+	pop r24
 	pop r25
 
 .endm

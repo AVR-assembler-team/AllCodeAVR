@@ -16,9 +16,9 @@
 	push r25
 
 	.if @1 == 'W'
-		ldi	r25, @0
+		mov	r25, @0
 	.elif @1 == 'R'
-		ldi	r25, @0
+		mov	r25, @0
 		sbr	r25, 1
 	.endif
 		

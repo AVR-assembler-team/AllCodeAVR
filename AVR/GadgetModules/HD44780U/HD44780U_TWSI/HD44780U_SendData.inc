@@ -9,7 +9,7 @@ HD44780U_Send_data:
 	push r25
 
 	TWSI_START							; отсылаем START (рестартуем для записи)
-	TWSI_SLA HD44780U_SLA_, 'W'
+	TWSI_SLA r24, 'W'
 	_call HD44780U_Send_data_byte_high	; переходим по метке
 	_call HD44780U_Send_data_byte_low	; переходим по метке
 	TWSI_STOP							; отсылаем START (рестартуем для записи)

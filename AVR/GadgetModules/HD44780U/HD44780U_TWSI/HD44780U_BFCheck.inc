@@ -15,7 +15,7 @@ HD44780U_BF_Check:									; подпрограмма проверяет флаг занятости
 
 	TWSI_START 										; отсылаем START (рестартуем для чтения)
 
-	TWSI_SLA HD44780U_SLA_, 'R'
+	TWSI_SLA r24, 'R'
 
 HD44780U_BF_Check_act_1:
 
@@ -26,7 +26,7 @@ HD44780U_BF_Check_act_1:
 	TWSI_STOP										; больше не принимаем байты
 	TWSI_START										; отсылаем START (рестартуем для записи)
 
-	TWSI_SLA HD44780U_SLA_, 'W'
+	TWSI_SLA r24, 'W'
 
 	ldi		r25, 0x08								; оставляем только подсветку LCD
 	WRITE_REG TWDR, r25								; вталкиваем в дата регистр

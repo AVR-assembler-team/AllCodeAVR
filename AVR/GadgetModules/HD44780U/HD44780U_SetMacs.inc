@@ -661,7 +661,3 @@
 		.equ HD44780U_D7_bit = 7
 	.endif
 .endm
-;------------------------------------
-.macro HD44780U_SLA_Address
-	.equ HD44780U_SLA_ = @0	
-.endm
