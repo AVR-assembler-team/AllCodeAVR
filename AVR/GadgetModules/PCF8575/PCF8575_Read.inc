@@ -1,7 +1,7 @@
 .macro PCF8575Read
 	
 	push r24
-	ldi r24
+	ldi r24, @0
 
 	TWSI_START									; Стартуем работу
 	TWSI_SLA r24, 'R'							; Отправляем адрес и режим работы 
