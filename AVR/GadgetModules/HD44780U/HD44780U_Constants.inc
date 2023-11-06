@@ -42,5 +42,5 @@
 	HD44780U_Cursor_or_Display_Shift_byte:	.byte 1		; для хранения состояния настройки
 	HD44780U_flags:							.byte 1		; для хранения разных данных
 	HD44780U_Address_DDRAM:					.byte 1		; для хранения адреса DDRAM
-
+	mess:									.byte 4
 .cseg

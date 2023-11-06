@@ -15,9 +15,12 @@
 	#elif defined HD44780U_TWSI
 
 		push r25
+		push r24
+
+		ldi r24, @1
 
 		TWSI_START										; отсылаем START (рестартуем для записи)
-		TWSI_SLA HD44780U_SLA_, 'W'						; 
+		TWSI_SLA r24, 'W'						; 
 	
 		.if @0 == On
 			ldi r25, (1<<HD44780U_LCD_LIGHT)			; устанавливаем в r25 бит HD44780U_LCD_LIGHT в 1
@@ -31,6 +34,7 @@
 
 		TWSI_STOP										; 
 
+		pop r24
 		pop r25
 
 	#endif

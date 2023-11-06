@@ -6,12 +6,18 @@
 	
 	push zh
 	push zl
+	push r24
+
+	#ifdef HD44780U_TWSI
+		ldi r24, @1
+	#endif
 
 	ldi	zh, high(@0*2)						; записываем старший байт адреса @0 в zh
 	ldi	zl, low(@0*2)						; записываем младший байт адреса @0 в zl
 
 	_call HD44780U_Write_cseg_String_act	; переходим
 
+	pop r24
 	pop zl
 	pop zh
 
@@ -21,12 +27,18 @@
 	
 	push zh
 	push zl
+	push r24
+
+	#ifdef HD44780U_TWSI
+		ldi r24, @1
+	#endif
 	
 	ldi	zh, high(@0)						; записываем старший байт адреса @0 в zh
 	ldi	zl, low(@0)							; записываем младший байт адреса @0 в zl
 
 	_call HD44780U_Write_dseg_String_act	; переходим
 
+	pop r24
 	pop zl
 	pop zh
 

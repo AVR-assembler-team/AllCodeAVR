@@ -1,11 +1,15 @@
 /*
 * Данные макрос указывает увеличивать или уменьшать значение адреса положения
 * курсора после вывода символа на дисплей
-* Использует регистр r23, r24, r25
 */
 .macro HD44780U_DDRAM_Address	
 
 	push r25
+	push r24
+
+	#ifdef HD44780U_TWSI
+		ldi r24, @1
+	#endif
 
 	lds r25, HD44780U_Entry_Mode_Set_byte
 
@@ -19,6 +23,7 @@
 
 	_call HD44780U_Send_instruction						; отправляем инструкцию
 
+	pop r24
 	pop r25
 
 .endm
