@@ -3,15 +3,23 @@
 */
 
 .macro PCF8575Write
+	
+	push r24
+	ldi r24, @0
 
 	TWSI_START										; Стартуем работу
-	TWSI_SLA @0, 'W'								; Отправляем адрес и режим работы
+	TWSI_SLA r24, 'W'								; Отправляем адрес и режим работы
 
 	_call PCF8575Write_act
+
+	pop r24
+
 .endm
 
 PCF8575Write_act:
 	
+	push r25
+
 	READ_REG TWSI_Flags, r25						; Считываем регистр флагов
 	sbrc r25, No_ACK								; Проверяем бит 
 	_jump gotoPCF8575WriteLabels					; Если поднят, то переходим
@@ -42,4 +50,7 @@ gotoPCF8575WriteLabels:
 
 PCF8575Write_end:
 	TWSI_STOP
+
+	pop r25
+
 ret
